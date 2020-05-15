@@ -5,7 +5,7 @@ I got into 3D printing by building a Hypercube Evolution 300X300X300 (HEVO).  Th
 
 Well, first thing I know, I am now designing my own printer model using freshly acquired Fusion360 knowledge.  Pulling back my mecanical engineering course notes from way back then... I have designed what is now known as the HevORT (Hypercube Evolution Olivier RT).
 
-### The design phylosophy and requirements were:
+### The initial design philosophy and requirements were:
 - Stepper Motors to be out of the heat chamber and at back of printer
 - Maximized ratio between XY print area vs frame dimension
 - Triple Z motor Self-Leveling *(True term would be Auto-leveling , but the common use for Auto-leveling designates software compensation based on topographic mapping of the bed)*
