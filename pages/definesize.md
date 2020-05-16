@@ -1,6 +1,6 @@
-layout: definesize
+layout: page
 title: "Defin the size of your HevORT"
-permalink: /definesize/
+permalink: https://miragec79.github.io/HevORT/pages/
 
 # Defining the size of your HevORT
 
