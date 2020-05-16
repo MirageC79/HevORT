@@ -1,6 +1,8 @@
+---
 layout: page
 title: "Define the size of your HevORT"
 permalink: /instructions/definesize/
+---
 
 # Defining the size of your HevORT
 
