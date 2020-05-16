@@ -30,4 +30,6 @@ This page will hopefuly provide you with all of the information you need to buil
 10. Fine Tuning
 11. Mods and other add-ons
 
+Join the Facebook support group now to get latest news and more insights on the HevORT.
 
+Olivier
