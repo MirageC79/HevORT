@@ -2,11 +2,11 @@
 # Welcome to the HevORT project!
 
 ### Why the HevORT?  
-I got into 3D printing by building a Hypercube Evolution 300X300X300 (HEVO).  This was a very good learning experience for me.  After several months of printing and looking closely at the design from the HEVO i had some ideas for improving some areas based on my needs.
+I got into 3D printing by building a CreXY Hypercube Evolution 300X300X300 (HEVO).  This was a very good learning experience for me.  After several months of printing and looking closely at the design from the HEVO I had some ideas for improving some areas based on my needs.
 
 Well, first thing I know, I am now designing my own printer model using freshly acquired Fusion360 knowledge.  Pulling back my mecanical engineering course notes from way back then... I have designed what is now known as the HevORT (Hypercube Evolution Olivier RT).
 
-### The initial design philosophy and requirements were:
+### The design philosophy
 - Stepper Motors to be out of the heat chamber and at back of printer
 - Maximized ratio between XY print area vs frame dimension
 - Triple Z motor Self-Leveling *(True term would be Auto-leveling , but the common use for Auto-leveling designates software compensation based on topographic mapping of the bed)*
@@ -15,6 +15,19 @@ Well, first thing I know, I am now designing my own printer model using freshly 
 - No metal machining of parts (or limited as much as possible)
 - Open Source data
 
+### What you will find here
 This page will hopefuly provide you with all of the information you need to build the HevORT you need.
 
-You can use the [editor on GitHub](https://github.com/MirageC79/HevORT/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+1. Define the HevORT size you need
+2. Calculate the length of extrusion, rails and ball screw you need 
+3. How to Print your Parts 
+4. Hardware and other purchased components
+5. Which elctronics?
+6. Assembly Instructions
+7. Electronics configuration
+8. First run!
+9. Calibration
+10. Fine Tuning
+11. Mods and other add-ons
+
+
