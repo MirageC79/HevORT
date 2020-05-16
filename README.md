@@ -18,7 +18,7 @@ Well, first thing I know, I am now designing my own printer model using freshly 
 ### What you will find here
 This page will hopefuly provide you with all of the information you need to build the HevORT you need.
 
-1. [Define the HevORT size you need](https://miragec79.github.io/HevORT/definesize)
+1. [Define the HevORT size you need](https://miragec79.github.io/HevORT//instructions/definesize/)
 2. Calculate the length of extrusion, rails and ball screw you need 
 3. How to Print your Parts 
 4. Hardware and other purchased components
