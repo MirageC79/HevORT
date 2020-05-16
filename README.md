@@ -2,7 +2,7 @@
 # Welcome to the HevORT project!
 
 ### Why the HevORT?  
-I got into 3D printing by building a CreXY Hypercube Evolution 300X300X300 (HEVO).  This was a very good learning experience for me.  After several months of printing and looking closely at the design from the HEVO I had some ideas for improving some areas based on my needs.
+I got into 3D printing by building a CoreXY Hypercube Evolution 300X300X300 (HEVO).  This was a very good learning experience for me.  After several months of printing and looking closely at the design from the HEVO I had some ideas for improving some areas based on my needs.
 
 Well, first thing I know, I am now designing my own printer model using freshly acquired Fusion360 knowledge.  Pulling back my mecanical engineering course notes from way back then... I have designed what is now known as the HevORT (Hypercube Evolution Olivier RT).
 
@@ -30,7 +30,8 @@ This page will hopefuly provide you with all of the information you need to buil
 10. Fine Tuning
 11. Mods and other add-ons
 
-Join the Facebook support group now to get latest news and more insights on the HevORT.
+
+**Join the Facebook support group now to get latest news and more insights on the HevORT.**
 
 [![HevORT on Facebook](http://icons.iconarchive.com/icons/paomedia/small-n-flat/48/social-facebook-icon.png "Join the support group")](https://www.facebook.com/groups/hevort/) 
 
