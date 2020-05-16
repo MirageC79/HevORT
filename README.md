@@ -32,4 +32,7 @@ This page will hopefuly provide you with all of the information you need to buil
 
 Join the Facebook support group now to get latest news and more insights on the HevORT.
 
+[![HevORT on Facebook](http://icons.iconarchive.com/icons/paomedia/small-n-flat/48/social-facebook-icon.png "Join the support group")](https://www.facebook.com/groups/hevort/) 
+
+
 Olivier
