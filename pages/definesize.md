@@ -1,3 +1,7 @@
+layout: definesize
+title: "Defin the size of your HevORT"
+permalink: /definesize/
+
 # Defining the size of your HevORT
 
 Big print area always sound good and something you need, but lets figure out what size you need.
