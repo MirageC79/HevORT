@@ -21,15 +21,16 @@ This page will hopefuly provide you with all of the information you need to buil
 
 1. [Define the HevORT size you need](/definesize.md)
 2. Calculate the length of extrusion, rails and ball screw you need 
-3. How to Print your Parts 
-4. Hardware and other purchased components
-5. Which elctronics?
-6. Assembly Instructions
-7. Electronics configuration
-8. First run!
-9. Calibration
-10. Fine Tuning
-11. Mods and other add-ons
+3. Select components cconfiguration and options
+4. How to Print your Parts 
+5. Hardware and other purchased components
+6. Which elctronics?
+7. Assembly Instructions
+8. Electronics configuration
+9. First run!
+10. Calibration
+11. Fine Tuning
+12. Mods and other add-ons
 
 
 **Join the Facebook support group now to get latest news and more insights on the HevORT.**
