@@ -32,3 +32,4 @@ Bottom Line, pick only 2 of these 3 criteria:
 
 The HevORT design was created for sizes from 315mm cubic to 615mm cubic.  The sweet spot for a good printer that would be dipping in all three from the above criteria is probably sitting at 415mm cubic 
 
+[Back to main page](/README.md)
