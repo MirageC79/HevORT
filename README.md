@@ -20,7 +20,7 @@ Well, first thing I know, I am now designing my own printer model using freshly 
 This page will hopefuly provide you with all of the information you need to build the HevORT you need.
 
 1. [Define the HevORT size you need](/definesize.md)
-2. Calculate the length of extrusion, rails and ball screw you need 
+2. [Calculate the length of extrusion, rails and ball screw you need](/framecalculator.md)
 3. Select components cconfiguration and options
 4. How to Print your Parts 
 5. Hardware and other purchased components
