@@ -25,7 +25,10 @@ My personal answer to this is 2 printers:
 
 As a hobbyist, I would evaluate that a 315 X 315 X 315mm printer meets 90%+ of my print requirements.  Only few times do I have to glue pieces or use other methodes for assembling smaller parts into a larger one. 
 
----
-315mm cubic: Super Fast / Precise / Exotic Material / Cheaper / Small
-415mm cubic: Fast / Precise / 
----
+Bottom Line, pick only 2 of these 3 criteria:
+1. Big
+2. Affordable
+3. High Speed Quality
+
+The HevORT design was created for sizes from 315mm cubic to 615mm cubic.  The sweet spot for a good printer that would be dipping in all three from the above criteria is probably sitting at 415mm cubic 
+
