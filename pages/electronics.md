@@ -1,4 +1,4 @@
-### Choosing Electronic components
+# Choosing Electronic components
 
 Content
 
