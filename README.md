@@ -21,12 +21,12 @@ This page will hopefuly provide you with all of the information you need to buil
 
 1. [Define the HevORT size you need](/definesize.md)
 2. [Calculate the length of extrusion, rails and ball screw you need](/framecalculator.md)
-3. Select components cconfiguration and options
-4. How to Print your Parts 
+3. Select components configuration and options
+4. [Which electronics?](/electronics.md)
 5. Hardware and other purchased components
-6. [Which elctronics?](/electronics.md)
+6. How to Print your Parts 
 7. Assembly Instructions
-8. Electronics configuration
+8. Firmware configuration
 9. First run!
 10. Calibration
 11. Fine Tuning
