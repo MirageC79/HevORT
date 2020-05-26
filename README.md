@@ -24,7 +24,7 @@ This page will hopefuly provide you with all of the information you need to buil
 3. Select components cconfiguration and options
 4. How to Print your Parts 
 5. Hardware and other purchased components
-6. [Which elctronics?](/pages/electronics.md)
+6. [Which elctronics?](/electronics.md)
 7. Assembly Instructions
 8. Electronics configuration
 9. First run!
