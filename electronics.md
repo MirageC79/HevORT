@@ -1,6 +1,6 @@
-# Choosing Electronic components
+# Choosing Electronic Components
 
-
+## 1. The Control Board
 3D printer electronics have come a long way since the popular RAMP.  32 bit boards are now the standard and more stepper motor drivers are being added.
 The additional stepper drivers can be mapped to serve different purpose; tool changer, multiple material extruder, etc...
 
