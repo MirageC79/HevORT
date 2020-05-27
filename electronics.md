@@ -39,22 +39,36 @@ Considered by many as the Cadillac of control boards, this open source device ha
 
 #### My typical workflow using the Duet looks like:
 
-__From the office:__ 
-* Design Part in Fusion360 and export to .stl
-* Slice part using Ultimaker Cura slicer
-* Upload .gcode file to the printer directly from Cura using the Duet plugin
-* Open Duet Web Control (DWC) and start heating build plate and nozzle
-* Load selected filament configuration file _(I like to have Acceleration, Jerk, Pressure advance and temperatere targetted PID individually set per filament type.  The duet allows you to create filament profile that you can attribute to your selected tool/extruder)_
+  __From the office:__ 
+  * Design Part in Fusion360 and export to .stl
+  * Slice part using Ultimaker Cura slicer
+  * Upload .gcode file to the printer directly from Cura using the Duet plugin
+  * Open Duet Web Control (DWC) and start heating build plate and nozzle
+  * Load selected filament configuration file _(I like to have Acceleration, Jerk, Pressure advance and temperatere targetted PID   individually set per filament type.  The duet allows you to create filament profile that you can attribute to your selected tool/extruder)_
 
-__Walk to the shop:__ 
-* Ensure printer is all set and clear to print
-* Load the chosen filament 
-* Use web browser from the printer's tablet _(A cheap Amazon Fire 8)_ to access the web control and start the previously loaded job. 
-* Witness the self leveling from the bed
-* Closely look at the nozzle height during printing of the skirt/brim.  Adjust on the fly using the babystep 0.05mm + -  command from the DWC.
-* Walk away and keep looking at my web cam once in a while using my phone.
-_In case of failure, I will use my phone to log on the DWC and stop the printer_
-* Come back, pick up the part and play!
+  __Walk to the shop:__ 
+  * Ensure printer is all set and clear to print
+  * Load the chosen filament 
+  * Use web browser from the printer's tablet _(A cheap Amazon Fire 8)_ to access the web control and start the previously loaded job. 
+  * Witness the self leveling from the bed
+  * Closely look at the nozzle height during printing of the skirt/brim.  Adjust on the fly using the babystep 0.05mm + -  command from   the DWC.
+  * Walk away and keep looking at my web cam once in a while using my phone.
+  _In case of failure, I will use my phone to log on the DWC and stop the printer_
+  * Come back, pick up the part and play!
+
+## Which Duet to buy?
+Two possible configurations of Duet can serve your HevORT: _Remember, you need at least 6 stepper drivers to use the ZR Self Leveling_
+Both solutions will be similar in price if we exclude the required raspberry pi that the Duet 3 needs.  
+The Duet2 (Main Board) + Duex5 (Expansion) will provide you with more stepper drivers for the same price
+
+Components|Number of Drivers|Raspberry Pi Required?|Price|Expandability|Technology release date
+----------|-----------------|----------------------|-----|-------------|-----------------------
+Duet 2 (wifi or ethernet) + Duex5|10|NO|+++|0 Additional Stepper|2017
+Duet 3 MB 6HC|6|YES|++++|up to 24 Additional Stepper|2019
+
+
+
+## 2. The Stepper Motors
 
 ### 
 [Back to main page](/README.md)
