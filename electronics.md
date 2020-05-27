@@ -24,7 +24,7 @@ Considered by many as the Cadillac of control boards, this open source device ha
 #### What makes it so special?  a few things;
 * Integrated web interface that allows for complete control over the printer from anywhere using anything
 * Excellent stepper motor drivers:
-  * Duet 2 (wifi, Ethernet and expansion board Duex2 & 5 ) are equipped with super quiet Trinamic TMC2660 capable of delivering 2.4Amp to your motors.
+  * Duet 2 (wifi, Ethernet and expansion board Duex2 & 5 ) are equipped with super quiet [Trinamic TMC2660](https://www.trinamic.com/products/integrated-circuits/details/tmc2660-pa/) capable of delivering 2.4Amp to your motors.
   * Duet 3 (MAin board and expansion) are equipped with powerful and noiseless [Trinamic TMC5160](https://www.trinamic.com/products/integrated-circuits/details/tmc5160/) capable of providing 4.45Amp,
 * On the fly (during print) adjustements of almost all parameters:
   * Acceleration / Jerk
@@ -40,13 +40,21 @@ Considered by many as the Cadillac of control boards, this open source device ha
 #### My typical workflow using the Duet looks like:
 
 __From the office:__ 
-* Design Part in Fusion and export to .stl
+* Design Part in Fusion360 and export to .stl
 * Slice part using Ultimaker Cura slicer
-* Upload and Start the .gcode file to the printer directly from Cura using the Duet plugin
-* Open remote cam browser to watch the printer's first moves and print progress
+* Upload .gcode file to the printer directly from Cura using the Duet plugin
+* Open Duet Web Control (DWC) and start heating build plate and nozzle
+* Load selected filament configuration file _(I like to have Acceleration, Jerk, Pressure advance and temperatere targetted PID individually set per filament type.  The duet allows you to create filament profile that you can attribute to your selected tool/extruder)_
 
-__In the shop:__ 
-* Pick up the part and play!
+__Walk to the shop:__ 
+* Ensure printer is all set and clear to print
+* Load the chosen filament 
+* Use web browser from the printer's tablet _(A cheap Amazon Fire 8)_ to access the web control and start the previously loaded job. 
+* Witness the self leveling from the bed
+* Closely look at the nozzle height during printing of the skirt/brim.  Adjust on the fly using the babystep 0.05mm + -  command from the DWC.
+* Walk away and keep looking at my web cam once in a while using my phone.
+_In case of failure, I will use my phone to log on the DWC and stop the printer_
+* Coma back, pick up the part and play!
 
-
+### 
 [Back to main page](/README.md)
