@@ -14,7 +14,10 @@ The HevORT's basic requirements to use the ZR (self leveling) is that you have a
 
 At this point as I only have experience with one specific control board, the documentation from this site will only cover that board. For now...
 
-![alt text](/images/duetboard.png)
+### The Duet from [Duet3D](https://duet3d.com/)
+![alt text](/images/duetboard.png) 
 
+Considered by many as the Cadillac of control boards, this open source device has many advantages over the majority of current available boards.  A bit more expensive, but nobody ever regretted... At least that I know of...
 
+What is the Duet?  
 [Back to main page](/README.md)
