@@ -27,7 +27,7 @@ HyperCube Evolution Z Adapters|_Upcoming._ This option will let you use standard
 \
 
 ## 3. X Axis (Print Head)
-Several versions are already published, but a lot more are being created by the community.  Search for HevORT on Thingiverse to finde the latest.  This list will capture the ones I created plus the ones from members of the FB community that wish to have their work posted here.  All configuration here below include the [BLtouch from Antclabs](https://www.antclabs.com/bltouch) as a Z probe.\
+Several versions are already published, but a lot more are being created by the community.  Search for HevORT on Thingiverse to finde the latest.  This list will capture the ones I created plus the ones from members of the FB community that wish to have their work posted here.  All configuration here below include the [BLtouch from Antclabs](https://www.antclabs.com/bltouch) as a Z probe.
 
 Configuration|Description|Image|ReleaseDate|Thingiverse
 -------------|-----------|-----|-----------|-----------
