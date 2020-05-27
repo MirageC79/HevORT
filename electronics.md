@@ -4,8 +4,8 @@
 2. [Stepper Motors](/electronics.md#2-the-stepper-motors)
 
 ## 1. The Control Board
-3D printer electronics have come a long way since the popular RAMP.  32 bit boards are now the standard and more stepper motor drivers are being added.
-The additional stepper drivers can be mapped to serve different purpose; tool changer, multiple material extruder, etc...
+3D printer electronics have come a long way since the popular RAMP boards.  
+32bit control boards are now the standard and more stepper motor drivers are being added to allow for all sorts of capabilities tool changer, multiple material extruder and even Triple Z Motor Self Leveling :)
 
 The HevORT's basic requirements to use the ZR (self leveling) is that you have at least 6 intependent stepper motor drivers.
 1. X axis
