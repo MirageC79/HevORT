@@ -23,7 +23,7 @@ At this point as I only have experience with one specific control board, the doc
 Considered by many as the Cadillac of control boards, this open source device has many advantages over the majority of current available boards.  A bit more expensive, but nobody ever regretted... At least that I know of...
 
 #### What makes it so special?  a few things;
-> * Integrated web interface that allows for complete control over the printer from anywhere using anything
+> * Integrated web interface [(Duet Web Control)](https://duet3d.dozuki.com/Wiki/Duet_Web_Control_Manual) that allows for complete control over the printer from anywhere using anything
 > * Excellent stepper motor drivers:
 >   * Duet 2 (wifi, Ethernet and expansion board Duex2 & 5 ) are equipped with super quiet [Trinamic TMC2660](https://www.trinamic.com/products/integrated-circuits/details/tmc2660-pa/) capable of delivering 2.4Amp to your motors.
 >   * Duet 3 (MAin board and expansion) are equipped with powerful and noiseless [Trinamic TMC5160](https://www.trinamic.com/products/integrated-circuits/details/tmc5160/) capable of providing 4.45Amp,
@@ -34,7 +34,7 @@ Considered by many as the Cadillac of control boards, this open source device ha
 >   * Pressure advance
 >   * Z Offset (baby steps)
 >   * etc..
-> * Excellent support community with lots of knowledge
+> * Excellent [documentation](https://duet3d.dozuki.com/) and a support community with lots of knowledge
 > * Integrated heat management through PCB dissipation.  No need for additional cooling, heat sink of fan if properly mounted.
 > * and I could go on for hours.
 
