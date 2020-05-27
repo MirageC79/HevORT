@@ -7,4 +7,5 @@ You will find below the various configuration for XY Gantry.  Select one in func
 
 Configuration|Description|Image|ReleaseDate|Thingiverse
 -------------|-----------|-----|-----------|-----------
-Standard XY|This version is suited for the comonly available GT2 pulleys.  These pulleys available from china and other location are 9mm thick and have wider flanges.|![alt text](/images/XYThumb.png)|April 2019|[HevORT XY](https://www.thingiverse.com/thing:4184477{"_blank"})
+Standard XY|This version is suited for the comonly available GT2 pulleys.  These pulleys available from china and other location are 9mm thick and have wider flanges(lips).|![alt text](/images/XYThumb.png)|April 2019|[HevORT XY](https://www.thingiverse.com/thing:4184477)
+XY High Temp|The High Temp version of the XY gantry features 5mm bore pulleys.  These are slightly thicker (10mm) and have a narrower lips.  Note that due to expreme compactness of some components, transition bushings are necessary to fit the 5mm bore onto 3mm hardware.|![alt text](/images/XYHTThumb.png)|May 2020|[HevORT XYHT](https://www.thingiverse.com/thing:4402495)
