@@ -13,6 +13,8 @@ Heavy Duty XY|_Upcoming_. Featuring: 9mm Belt, Center Pulley Bore Dowell Pins, M
 
 
 ## 2. Z Axis and Build Plate
+Chose your weapon wisely ;)
+
 Configuration|Description|Image|ReleaseDate|Thingiverse
 -------------|-----------|-----|-----------|-----------
 ZR|This initial version of the Self Leveling Z axis on MGN rails from the HevORT works just fine if you are using quality Ball screws with excellent frame alignment as well as perfect tolerances printed parts... Sounds impossible to get?  look at V2 below :)||Feb 2020|[ZR](https://www.thingiverse.com/thing:4184059)
