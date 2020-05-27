@@ -27,12 +27,12 @@ Considered by many as the Cadillac of control boards, this open source device ha
 >   * Duet 2 (wifi, Ethernet and expansion board Duex2 & 5 ) are equipped with super quiet [Trinamic TMC2660](https://www.trinamic.com/products/integrated-circuits/details/tmc2660-pa/) capable of delivering 2.4Amp to your motors.
 >   * Duet 3 (MAin board and expansion) are equipped with powerful and noiseless [Trinamic TMC5160](https://www.trinamic.com/products/integrated-circuits/details/tmc5160/) capable of providing 4.45Amp,
 > * On the fly (during print) adjustements of almost all parameters:
->  * Acceleration / Jerk
->  * Motor Current
->  * Retraction
->  * Pressure advance
->  * Z Offset (baby steps)
->  * etc..
+>   * Acceleration / Jerk
+>   * Motor Current
+>   * Retraction
+>   * Pressure advance
+>   * Z Offset (baby steps)
+>   * etc..
 > * Excellent support community with lots of knowledge
 > * Integrated heat management through PCB dissipation.  No need for additional cooling, heat sink of fan if properly mounted.
 > * and I could go on for hours.
