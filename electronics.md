@@ -14,6 +14,7 @@ The HevORT's basic requirements to use the ZR (self leveling) is that you have a
 
 At this point as I only have experience with one specific control board, the documentation from this site will only cover that board. For now...
 
+![alt text](/images/duetboard.png)
 
 
 [Back to main page](/README.md)
