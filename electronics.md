@@ -1,6 +1,6 @@
 # Choosing Electronic Components
 
-[1. The Control Board](/electronics.md#1-the-control-board)
+[1. The Control Board](/electronics.md#1-the-control-board) 
 [2. Stepper Motors](/electronics.md#2-the-stepper-motors)
 
 ## 1. The Control Board
