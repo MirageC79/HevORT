@@ -22,7 +22,7 @@ _Under Construction_
 
 1. [Define the HevORT size you need](/definesize.md)
 2. [Calculate the length of extrusion, rails and ball screw you need](/framecalculator.md)
-3. Select components configuration and options
+3. [Select components configuration and options](/componentselection.md)
 4. [Which electronics?](/electronics.md)
 5. Hardware and other purchased components
 6. How to Print your Parts 
