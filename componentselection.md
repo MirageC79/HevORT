@@ -7,4 +7,4 @@ You will find below the various configuration for XY Gantry.  Select one in func
 
 Configuration|Description|Image|ReleaseDate|Thingiverse
 -------------|-----------|-----|-----------|-----------
-Standard XY|This version is suited for the comonly available GT2 pulleys.  These pulleys available from china and other location are 9mm thick and have wider flanges.|
+Standard XY|This version is suited for the comonly available GT2 pulleys.  These pulleys available from china and other location are 9mm thick and have wider flanges.|![alt text](/images/XYThumb.png)|April 2019|[HevORT XY](https://www.thingiverse.com/thing:4184477{"_blank"})
