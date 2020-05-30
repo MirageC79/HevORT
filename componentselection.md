@@ -30,6 +30,7 @@ This list will capture the ones I created plus the ones from members of the [FB 
 Configuration|Description|Image|ReleaseDate|Thingiverse
 -------------|-----------|-----|-----------|-----------
 E3D Hemera|Including configuration for E3D V6, Volcano and Super Volcano heatblocks.  Part cooling is achieved via BerAir system.  Duct STL include on the Thingiverse page.||March 2020|[Hemera](https://www.thingiverse.com/thing:4238471)
+BMG/Titan Aqua Frankenstien by RUDDFAB12|This is the all metal BMG (Right Hand) paired with a Titan Aqua cooling plate, E3D Volcano and the E3D slim stepper. BLTouch and Optical endstop sensor mounts as well.||May 2020|[BMG/Titan Aqua Frankenstien](https://www.thingiverse.com/thing:4411289)
 
 
 ## 4. Electronics mounting solution
