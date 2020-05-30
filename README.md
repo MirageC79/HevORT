@@ -11,7 +11,7 @@ Well, first thing I know, I am now designing my own printer model using freshly 
 - Stepper Motors to be out of the heat chamber and at back of printer
 - Maximized ratio between XY print area vs frame dimension
 - Triple Z motor Self-Leveling *(True term would be Auto-leveling , but the common use for Auto-leveling designates software compensation based on topographic mapping of the bed)*
-- Wide and Tall from printer opnening without extrusion member in the line of sight to the print head.
+- Wide and Tall front printer opnening without extrusion member in the line of sight to the print head.
 - Rigid Gantry for achieving high acceleration and speed using direct drive extruder
 - No metal machining of parts (or limited as much as possible)
 - Open Source data
