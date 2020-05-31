@@ -26,4 +26,4 @@ M3 X 12mm Screw|2
 
 ## Firmware configuration
 
-[Back to Add-Ons](/modsandmore)
+[Back to Add-Ons](/modsandmore.md)
