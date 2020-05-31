@@ -31,7 +31,7 @@ _Under Construction_
 9. First run!
 10. Calibration
 11. Fine Tuning
-12. [Mods and other add-ons](/modsandmore/)
+12. [Mods and other add-ons](HevORT/modsandmore/)
 
 
 **Join the Facebook support group now to get latest news and more insights on the HevORT.**
