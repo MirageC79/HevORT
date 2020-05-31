@@ -1,3 +1,7 @@
+---
+permalink: /modsandmore/
+---
+
 # Add-ons for your HevORT 
 
 Here is a selection of small devices that will ease your 3d printing experience. For 
