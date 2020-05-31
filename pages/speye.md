@@ -13,8 +13,9 @@ I also use it as a pause button :)
 [From Thingiverse](https://www.thingiverse.com/thing:4299458)
 
 ## Bill of Material
-Part|Qty
-----| :-: 
+
+Part Description|Qty
+----------------| :-: 
 623ZZ Bearings|3
 M3 X 35mm Screw|1
 Spring|2 (Can use pen spring. One needs to be stiffer)
@@ -25,6 +26,20 @@ M6 PTFE fitting|2
 M3 X 12mm Screw|2
 
 ## Print Setup:
+- SpEye_CaseV1.6.stl
+- SpEye_PlungerV1.5.stl
+
+Place the parts as it is already positionned in the STL file.  The Case needs to print standing up as shown below\
+![alt text](/images/speyecura.png)
+
+Setting|Value
+-------|-----
+Material|PLA, PETG, ABS
+Support|NO, ensure your bridging settings are good.  You may need to file a bit the roof of the plunger section.
+Layer Thickness|Try to keep it between 0.1mm and 0.2mm. Thicker layer will create friction on the filament when loding it to the SpEye
+
+
+
 
 ## Assembly and connection:
 
