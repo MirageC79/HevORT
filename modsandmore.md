@@ -1,5 +1,5 @@
 ---
-permalink: /modsandmore/
+permalink: /HevORT/modsandmore/
 ---
 
 # Add-ons for your HevORT 
