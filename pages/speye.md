@@ -16,4 +16,4 @@ https://www.thingiverse.com/thing:4299458
 
 ## Firmware configuration
 
-[Back to Add-Ons](/modsandmore.md)
+[Back to Add-Ons](modsandmore.md)
