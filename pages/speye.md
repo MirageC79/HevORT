@@ -1,11 +1,13 @@
 # The SpEye Filament and Jam Detector
+<center> <h1>The SpEye Filament and Jam Detector</h1> </center>
 
 Not only this unit will pause your print when you are out of filament, but it will also do the same if you have a spool jam.  
 Sensitivity can be adjusted to adapt to your setup.
 
 I also use it as a pause button :)  
 
-## Download: https://www.thingiverse.com/thing:4299458
+## Download: 
+https://www.thingiverse.com/thing:4299458
 
 ## Bill of Material
 
@@ -14,3 +16,4 @@ I also use it as a pause button :)
 ## Assembly and connection:
 
 ## Firmware configuration
+
