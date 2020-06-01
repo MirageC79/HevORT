@@ -11,7 +11,7 @@ Sensitivity can be adjusted to adapt to your setup.
 I also use it as a pause button :)  
 
 ## Download: 
-[From Thingiverse](https://www.thingiverse.com/thing:4299458)
+### [From Thingiverse](https://www.thingiverse.com/thing:4299458)
 
 ## Bill of Material
 
