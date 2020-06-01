@@ -40,10 +40,23 @@ Support|NO, ensure your bridging settings are good.  You may need to file a bit 
 Layer Thickness|Try to keep it between 0.1mm and 0.2mm. Thicker layer will create friction on the filament when loding it to the SpEye
 
 
+## Assembly
 
+## Connection & Firmware configuration
+_These instructions assume you are using a Duet2 (wifi or ethernet) controller board._
+### DUET2 Wifi / Ethernet
+1. Connect the SpEye optical sensor as follow:
 
-## Assembly and connection:
+SpEye Optical End Stop Pin|E0 EndStop Connector pin from DUET2
+ :----------------------: | :-------------------------------:             
+G (Ground)|GND (Ground)
+S (Signal)|E0 STOP
+V (VCC)|+3.3V
 
-## Firmware configuration
+![alt text](https://github.com/MirageC79/HevORT/blob/master/images/duetwifi_speye.png?raw=true)
+
+2. Place the following line of code within your config.g file from your Duet.\
+`M591 D0 P1 C3 S1				     ; Filament Monitoring on Extruder0 using E0 input(C3)`
+Refer to [M591](https://duet3d.dozuki.com/Wiki/Gcode#Section_M591_Configure_filament_sensing){_blank_}
 
 [Back to Add-Ons](../)
