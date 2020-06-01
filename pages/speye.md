@@ -57,6 +57,6 @@ V (VCC)|+3.3V
 
 2. Place the following line of code within your config.g file from your Duet.\
 `M591 D0 P1 C3 S1				     ; Filament Monitoring on Extruder0 using E0 input(C3)`
-Refer to [M591](https://duet3d.dozuki.com/Wiki/Gcode#Section_M591_Configure_filament_sensing){_blank_}
+Refer to [M591](https://duet3d.dozuki.com/Wiki/Gcode#Section_M591_Configure_filament_sensing){:target="_blank"}
 
 [Back to Add-Ons](../)
