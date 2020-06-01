@@ -30,7 +30,7 @@ M3 X 12mm Screw|2
 - SpEye_PlungerV1.5.stl
 
 Place the parts as it is already positionned in the STL file.  The Case needs to print standing up as shown below\
-![alt text](/images/speyecura.png)
+![alt text](https://github.com/MirageC79/HevORT/blob/master/images/speyecura.png?raw=true)
 
 Setting|Value
 -------|-----
