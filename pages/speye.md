@@ -10,10 +10,10 @@ Sensitivity can be adjusted to adapt to your setup.
 
 I also use it as a pause button :)  
 
-## Download: 
+## 1. Download: 
 ### [From Thingiverse](https://www.thingiverse.com/thing:4299458)
 
-## Bill of Material
+## 2. Bill of Material
 
 Part Description|Qty
 ----------------| :-: 
@@ -26,7 +26,7 @@ Optical End Stop sensor|1
 M6 PTFE fitting|2
 M3 X 12mm Screw|2
 
-## Print Setup:
+## 3. Print Setup:
 - SpEye_CaseV1.6.stl
 - SpEye_PlungerV1.5.stl
 
@@ -40,24 +40,25 @@ Support|NO, ensure your bridging settings are good.  You may need to file a bit 
 Layer Thickness|Try to keep it between 0.1mm and 0.2mm. Thicker layer will create friction on the filament when loding it to the SpEye
 
 
-## Assembly
+## 4. Assembly
 
-## Connection & Firmware configuration
-_These instructions assume you are using a Duet2 (wifi or ethernet) controller board._
+## 5. Connection & Firmware configuration
+_These instructions assume you are using a Duet2 (wifi or ethernet) controller board with RepRap Firmware 2.0X and up._
 ### DUET2 Wifi / Ethernet
 1. Connect the SpEye optical sensor as follow:
 
-SpEye Optical End Stop Pin|E0 EndStop Connector pin from DUET2
- :----------------------: | :-------------------------------:             
-G (Ground)|GND (Ground)
-S (Signal)|E0 STOP
-V (VCC)|+3.3V
+  SpEye Optical End Stop Pin|E0 EndStop Connector pin from DUET2
+   :----------------------: | :-------------------------------:             
+  G (Ground)|GND (Ground)
+  S (Signal)|E0 STOP
+  V (VCC)|+3.3V
 
-![alt text](https://github.com/MirageC79/HevORT/blob/master/images/duetwifi_speye.png?raw=true)
+  ![alt text](https://github.com/MirageC79/HevORT/blob/master/images/duetwifi_speye.png?raw=true)
 
 2. Place the following line of code within your config.g file from your Duet.  
-`M591 D0 P1 C3 S1				     ; Filament Monitoring on Extruder0 using E0 input(C3)`  
+  `M591 D0 P1 C3 S1				     ; Filament Monitoring on Extruder0 using E0 input(C3)`  
 
-Refer to [M591](https://duet3d.dozuki.com/Wiki/Gcode#Section_M591_Configure_filament_sensing){:target="_blank"} 
+  Refer to [M591](https://duet3d.dozuki.com/Wiki/Gcode#Section_M591_Configure_filament_sensing){:target="_blank"} 
 
+### Done!
 [Back to Add-Ons](../)
