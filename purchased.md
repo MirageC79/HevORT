@@ -1,5 +1,5 @@
 ---
-permalink: purchased
+permalink: /purchased/
 ---
 
 # Hardware and othe components
