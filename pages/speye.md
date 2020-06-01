@@ -1,6 +1,7 @@
 ---
 permalink: /modsandmore/speye/
 ---
+![alt text](https://github.com/MirageC79/HevORT/blob/master/images/spybanner.png?raw=true)
 
 # The SpEye Filament and Jam Detector
 
