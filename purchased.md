@@ -11,3 +11,4 @@ Printer Component|Selected Configuration (Option)|View BOM|Download BOM (Excel)
 XY Axis|XY Standard Gantry|[Bom_XY_STD](/bom/BOM_XY_STD.htm){:target="_blank"}|[Download](/bom/BOM_XY_STD.xlsx)
 Z axis|ZR_V2 (Wobble wings)|[Bom ZR V2](/bom/BOM_ZR_V2.htm){:target="_blank"}|[Download](/bom/BOM_ZR_V2.xlsx)
 
+[Back to Main Page](/README.md)
