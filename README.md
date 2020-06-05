@@ -3,7 +3,7 @@
 # Welcome to the HevORT project!
 
 ## Quick Navigation
-### Intro. Why the HevORT?
+### Intro. [Why the HevORT?](/intro.md)
 ### 1. [Define the HevORT size you need](/definesize.md)
 ### 2. [Calculate the length of extrusion, rails and ball screw you need](/framecalculator.md)
 ### 3. [Select components configuration and options](/componentselection.md)
@@ -17,10 +17,10 @@
 ### 11. Fine Tuning
 ### 12. [Mods and other add-ons](modsandmore)
 
+
+[![HevORT on Facebook](http://icons.iconarchive.com/icons/paomedia/small-n-flat/48/social-facebook-icon.png "Join the support group")](https://www.facebook.com/groups/hevort/)  
+
 **Join the Facebook support group now to get latest news and more insights on the HevORT.**
-
-[![HevORT on Facebook](http://icons.iconarchive.com/icons/paomedia/small-n-flat/48/social-facebook-icon.png "Join the support group")](https://www.facebook.com/groups/hevort/) 
-
 
 Olivier
 
