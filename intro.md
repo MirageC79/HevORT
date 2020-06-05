@@ -6,7 +6,7 @@ After several months of printing and looking closely at the design from the HEVO
 Well, first thing I know, I am now designing my own printer model using freshly acquired Fusion360 knowledge.  Pulling back my mecanical engineering course notes from way back then... 
 I have designed what is now known as the HevORT (Hypercube Evolution Olivier RT).
 
-### The design philosophy
+### The Design Philosophy
 - Stepper Motors to be out of the heat chamber and at back of printer
 - Maximized ratio between XY print area vs frame dimension
 - Triple Z motor Self-Leveling *(True term would be Auto-leveling , but the common use for Auto-leveling designates software compensation based on topographic mapping of the bed)*
@@ -16,3 +16,5 @@ I have designed what is now known as the HevORT (Hypercube Evolution Olivier RT)
 - Open Source data
 
 Hope you enjoy building and running this printer as much I do! 
+
+[Back to Main Page](/README.md)
