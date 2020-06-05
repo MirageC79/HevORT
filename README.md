@@ -1,6 +1,7 @@
 
 ![alt text](https://github.com/MirageC79/HevORT/blob/master/images/Coverflat.png?raw=true)
 # Welcome to the HevORT project!
+For a better experience, I recommend you build your project by following the here below sequence of event.  This will get you ordering the long lead time items first.  
 
 ## Quick Navigation
 ### Intro. [Why the HevORT?](/intro.md)
