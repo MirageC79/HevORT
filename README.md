@@ -2,37 +2,20 @@
 ![alt text](https://github.com/MirageC79/HevORT/blob/master/images/Coverflat.png?raw=true)
 # Welcome to the HevORT project!
 
-### Why the HevORT?  
-I got into 3D printing by building a CoreXY Hypercube Evolution 300X300X300 (HEVO).  This was a very good learning experience for me.  After several months of printing and looking closely at the design from the HEVO I had some ideas for improving some areas based on my needs.
-
-Well, first thing I know, I am now designing my own printer model using freshly acquired Fusion360 knowledge.  Pulling back my mecanical engineering course notes from way back then... I have designed what is now known as the HevORT (Hypercube Evolution Olivier RT).
-
-### The design philosophy
-- Stepper Motors to be out of the heat chamber and at back of printer
-- Maximized ratio between XY print area vs frame dimension
-- Triple Z motor Self-Leveling *(True term would be Auto-leveling , but the common use for Auto-leveling designates software compensation based on topographic mapping of the bed)*
-- Wide and Tall front printer opnening without extrusion member in the line of sight to the print head.
-- Rigid Gantry for achieving high acceleration and speed using direct drive extruder
-- No metal machining of parts (or limited as much as possible)
-- Open Source data
-
-### What you will find here
-This page will hopefuly provide you with all of the information you need to build the HevORT you need.
-_Under Construction_
-
-1. [Define the HevORT size you need](/definesize.md)
-2. [Calculate the length of extrusion, rails and ball screw you need](/framecalculator.md)
-3. [Select components configuration and options](/componentselection.md)
-4. [Which electronics?](/electronics.md)
-5. [Hardware and other purchased components](purchased)
-6. How to Print your Parts 
-7. Assembly Instructions
-8. Firmware configuration
-9. First run!
-10. Calibration
-11. Fine Tuning
-12. [Mods and other add-ons](modsandmore)
-
+## Quick Navigation
+### Intro. Why the HevORT?
+### 1. [Define the HevORT size you need](/definesize.md)
+### 2. [Calculate the length of extrusion, rails and ball screw you need](/framecalculator.md)
+### 3. [Select components configuration and options](/componentselection.md)
+### 4. [Which electronics?](/electronics.md)
+### 5. [Hardware and other purchased components](purchased)
+### 6. How to Print your Parts 
+### 7. Assembly Instructions
+### 8. Firmware configuration
+### 9. First run!
+### 10. Calibration
+### 11. Fine Tuning
+### 12. [Mods and other add-ons](modsandmore)
 
 **Join the Facebook support group now to get latest news and more insights on the HevORT.**
 
@@ -40,3 +23,7 @@ _Under Construction_
 
 
 Olivier
+
+
+
+
