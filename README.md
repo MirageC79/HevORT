@@ -4,8 +4,8 @@
 For a better experience, I recommend you build your project by following the here below sequence of events.  This will get you ordering the long lead time items first.  
 
 ## Quick Navigation
-Chapter|Description
- :---: |-----------
+Chapter|Content Description
+ :---: |-------------------
 Intro.|[Why the HevORT?](/intro.md)
 1.|[Define the HevORT size you need](/definesize.md)
 2.|[Calculate the length of extrusion, rails and ball screw you need](/framecalculator.md)
