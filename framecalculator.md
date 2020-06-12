@@ -8,12 +8,12 @@ Proposed sizes can be found into the Frame Calculator.
 [Frame Calculator](/FrameCalculator.xlsx)
 
 ## How to use the Frame Calculator
-## 1. Enter your desired print area dimention for **X axis and Z only**. 
+### 1. Enter your desired print area dimention for **X axis and Z only**. 
 *(Y axis will be filled in atomatically)*
 
 ![alt text](/images/framecalc1.png)
 
-## 2. Refresh the pivot table by right clicking on it and selecting *Refresh*.
+### 2. Refresh the pivot table by right clicking on it and selecting *Refresh*.
 
 ![alt text](/images/framecalc2.png)
 
