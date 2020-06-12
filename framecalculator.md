@@ -8,7 +8,8 @@ Proposed sizes can be found into the Frame Calculator.
 [Frame Calculator](/FrameCalculator.xlsx)
 
 ### How to use the Frame Calculator
-1: Enter your desired print area dimention for **X axis and Z only**. *(Ywill be filled in atomatically)*
+1. Enter your desired print area dimention for **X axis and Z only**. *(Ywill be filled in atomatically)*
+
 ![alt text](/images/framecalc1.png)
 
 
