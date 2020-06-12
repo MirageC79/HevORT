@@ -12,6 +12,11 @@ Proposed sizes can be found into the Frame Calculator.
 
 ![alt text](/images/framecalc1.png)
 
+2. Refresh the pivot table by right clicking on it and selecting *Refresh*.
+
+![alt text](/images/framecalc2.png)
+
+
 
 
 [Back to main page](/README.md)
