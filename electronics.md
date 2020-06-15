@@ -66,7 +66,7 @@ The Duet2 (Main Board) + Duex5 (Expansion) will provide you with more stepper dr
 Components|Number of Drivers|Raspberry Pi Required?|Price|Expandability|Technology release date
 ----------|-----------------|----------------------|-----|-------------|-----------------------
 Duet 2 (wifi or ethernet) + Duex5|10|NO|+++|0 Additional Stepper|2017
-Duet 3 MB 6HC|6|YES|++++|up to 24 Additional Stepper|2019
+Duet 3 MB 6HC|6|[YES](https://betrue3d.dk/rpi-and-duet-3-why-and-how/?fbclid=IwAR16IzLQhu4W4G6IMp81qFp3ousTRf1AjmVV-9iawk4osm4pF1tQDGAXfwg)|++++|up to 24 Additional Stepper|2019
 
 
 
