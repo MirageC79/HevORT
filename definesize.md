@@ -3,6 +3,7 @@
 Big print area sounds better and something important you need. But lets figure out what size you actually need.
 Here are the pros and cons about big printers that are to be considered.  When I a mean big print area i am talking about 450mm and + cubic printer.
 
+## GO Big? or not...?
 ### PRO's
 - You can print big parts in one shot.
 - You can print more small parts with all of that bed surface area
