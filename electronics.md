@@ -17,16 +17,16 @@ The HevORT's basic requirements to use the ZR (self leveling) is that you have a
 
 At this point as I only have experience with one specific control board, the documentation from this site will only cover that board. For now...
 
-### The Duet from [Duet3D](https://duet3d.com/)
+### The Duet from [Duet3D](https://duet3d.com/){:target="_blank"}
 ![alt text](/images/duetboard.png) 
 
 Considered by many as the Cadillac of control boards, this open source device has many advantages over the majority of current available boards.  A bit more expensive, but nobody ever regretted... At least that I know of...
 
 #### What makes it so special?  a few things;
-> * Integrated web interface [(Duet Web Control)](https://duet3d.dozuki.com/Wiki/Duet_Web_Control_Manual) that allows for complete control over the printer from anywhere using anything
+> * Integrated web interface [(Duet Web Control)](https://duet3d.dozuki.com/Wiki/Duet_Web_Control_Manual){:target="_blank"} that allows for complete control over the printer from anywhere using anything
 > * Excellent stepper motor drivers:
->   * Duet 2 (wifi, Ethernet and expansion board Duex2 & 5 ) are equipped with super quiet [Trinamic TMC2660](https://www.trinamic.com/products/integrated-circuits/details/tmc2660-pa/) capable of delivering 2.4Amp to your motors.
->   * Duet 3 (MAin board and expansion) are equipped with powerful and noiseless [Trinamic TMC5160](https://www.trinamic.com/products/integrated-circuits/details/tmc5160/) capable of providing 4.45Amp,
+>   * Duet 2 (wifi, Ethernet and expansion board Duex2 & 5 ) are equipped with super quiet [Trinamic TMC2660](https://www.trinamic.com/products/integrated-circuits/details/tmc2660-pa/){:target="_blank"} capable of delivering 2.4Amp to your motors.
+>   * Duet 3 (MAin board and expansion) are equipped with powerful and noiseless [Trinamic TMC5160](https://www.trinamic.com/products/integrated-circuits/details/tmc5160/){:target="_blank"} capable of providing 4.45Amp,
 > * On the fly (during print) adjustements of almost all parameters:
 >   * Acceleration / Jerk
 >   * Motor Current
@@ -59,14 +59,14 @@ Considered by many as the Cadillac of control boards, this open source device ha
 
 ## Which Duet to buy?
 Two possible configurations of Duet can serve your HevORT: _Remember, you need at least 6 stepper drivers to use the ZR Self Leveling._\
-Both solutions will be similar in price if we exclude the required raspberry pi that the Duet 3 needs.  [Read more abour Duet3 and RPI](https://betrue3d.dk/rpi-and-duet-3-why-and-how/?fbclid=IwAR16IzLQhu4W4G6IMp81qFp3ousTRf1AjmVV-9iawk4osm4pF1tQDGAXfwg)
+Both solutions will be similar in price if we exclude the required raspberry pi that the Duet 3 needs.  [Read more abour Duet3 and RPI](https://betrue3d.dk/rpi-and-duet-3-why-and-how/?fbclid=IwAR16IzLQhu4W4G6IMp81qFp3ousTRf1AjmVV-9iawk4osm4pF1tQDGAXfwg){:target="_blank"}
 
 The Duet2 (Main Board) + Duex5 (Expansion) will provide you with more stepper drivers for the same price
 
 Components|Number of Drivers|Raspberry Pi Required?|Price|Expandability|Technology release date
 ----------|-----------------|----------------------|-----|-------------|-----------------------
 Duet 2 (wifi or ethernet) + Duex5|10|NO|+++|0 Additional Stepper|2017
-Duet 3 MB 6HC|6|[YES](https://betrue3d.dk/rpi-and-duet-3-why-and-how/?fbclid=IwAR16IzLQhu4W4G6IMp81qFp3ousTRf1AjmVV-9iawk4osm4pF1tQDGAXfwg)|++++|up to 24 Additional Stepper|2019
+Duet 3 MB 6HC|6|[YES](https://betrue3d.dk/rpi-and-duet-3-why-and-how/?fbclid=IwAR16IzLQhu4W4G6IMp81qFp3ousTRf1AjmVV-9iawk4osm4pF1tQDGAXfwg){:target="_blank"}|++++|up to 24 Additional Stepper|2019
 
 
 
