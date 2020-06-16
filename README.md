@@ -13,7 +13,7 @@ Intro.|[Why the HevORT?](/intro.md)
 3.|[Select components configuration and options](/componentselection.md)
 4.|[Which electronics?](/electronics.md)
 5.|[Hardware and other purchased components](purchased)
-6.|How to Print your Parts 
+6.|[How to Print your Parts](/howtoprint.md)
 7.|Assembly Instructions
 8.|Firmware configuration
 9.|First run!
