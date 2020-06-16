@@ -1,3 +1,4 @@
+[!alt text](/images/printbanner.png)
 # How to print the HevORT STLs?
 
 ## 1. Which material?
