@@ -36,6 +36,10 @@ In this section I will assume that you have some experience with 3D printing and
 
 The following printer settings are based on [Ultimaker Cura](https://ultimaker.com/software/ultimaker-cura){:target="_blank"} setting nomenclature which may vary if you are using a different slicer.
 
+Before we start, ensure to make all settings visible by going into: ` Preferences/Configure Cura.../Settings `
+
+
+
 
 
 
