@@ -18,10 +18,10 @@ Material|Brand|Price|Rigidity|Crack Resistant|Layer Adhesion|Heat Resist|Easy to
 --------|-----|-----|--------|---------------|--------------|---------: |-------------|-----------------------|
 ASA|FormFutura ApolloX|45|++++|+++|+++|98|++++|Enclosure|
 ABS|Spool3D.ca|23|++++|+++|++++|105|+++|Enclosure|
-Nylon PA12|Filaments.ca|45|+++++|++++|+++++|110|+|SuperDry + Enclosure + Bed Adhesion compound
+[Nylon PA12](https://filaments.ca/search?options%5Bunavailable_products%5D=show&options%5Bprefix%5D=last&q=nylon+pa12){:target="_blank"}|Filaments.ca|45|+++++|++++|+++++|110|+|SuperDry + Enclosure + Bed Adhesion compound
 [Nylon HDCF](https://filaments.ca/products/heavy-duty-carbon-fiber-nylon-filament-1-75mm?_pos=7&_sid=4b8f2ed8b&_ss=r&variant=1500223668232){:target="_blank"}|Filaments.ca|98|++++|+++++|+++++|167|++|Dry + Enclosure + Bed Adhesion compound
-Nylon Alloy910|Taulman3D|60|++|+++++|+++++|82|++++|Dry|
-PETG|Filaments.ca|30|+++|+++|++++|85|+++|Dry|
+[Nylon Alloy910](https://filaments.ca/products/alloy-910-1kg-black-1-75mm?_pos=11&_sid=ed1504fe8&_ss=r&variant=40372475272){:target="_blank"}|Taulman3D|60|++|+++++|+++++|82|++++|Dry|
+[PETG](https://filaments.ca/collections/3d-filaments/diameter_1-75mm+material_petg+brand_filaments-ca){:target="_blank"}|Filaments.ca|30|+++|+++|++++|85|+++|Dry|
 PETG CF|Filaments.ca|38|++++|+++|+++|90|+++|Dry|
 PLA|Filaments.ca EcoTough|27|++++|+++|++++|65|+++++|NA|
 PLA|Generic|20|+++++|++|++++|65|+++++|NA|
