@@ -42,6 +42,7 @@ Before we start, ensure to make all settings visible by going into:
 Select `Check All` then `Close`  
 
 ![Alt text](/images/allsettings.png)  
+
 ____________________________________________________________________________________  
 
 
