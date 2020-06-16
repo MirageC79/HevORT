@@ -15,7 +15,7 @@ ABS|Spool3D.ca|$$|++++|+++|++++|105|+++|Enclosure|
 PETG|Filaments.ca|$$$|+++|+++|++++|85|+++|Dry|
 PETG CF|Filament.ca|$$$|++++|+++|+++|90|+++|Dry|
 Nylon PA12|Filaments.ca|$$$|+++++|++++|+++++|110|+|SuperDry + Enclosure + Bed Adhesion compound
-Nylon HDCF|Filaments.ca|$$$$$|++++|+++++|+++++|167|++|$$$$$|Dry + Enclosure + Bed Adhesion compound
+Nylon HDCF|Filaments.ca|$$$$$|++++|+++++|+++++|167|++|Dry + Enclosure + Bed Adhesion compound
 PLA|Filament.ca EcoTough|$$$|++++|+++|++++|65|+++++|NA|
 PLA|Generic|$$|+++++|++|++++|65|++++|NA|
 
