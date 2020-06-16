@@ -1,6 +1,6 @@
 # How to print the HevORT STLs?
 
-## 1. which material?
+## 1. Which material?
 Pretty much any common 3D printing material can be used to print the HevORT parts.  
 After trying a few materials over the years, here is how I would categorise them in a very non-scientific way:
 
@@ -25,7 +25,10 @@ PLA|Filament.ca EcoTough|$$$|++++|+++|++++|65|+++++|NA|
 PLA|Generic|$$|+++++|++|++++|65|+++++|NA|
 _PC Polycarbonate_| _Never tried yet..._
 
+I am currently running ABS on the big parts and HDCF Nylon for the more technical parts such as the Y and X carriages.
+
+## 2. Placing your parts in the slicer.
+All STL files are already properly oriented for optimal print result and optiman layer orientation.  
 
 
 
-All STL files are already properly oriented  
