@@ -41,8 +41,9 @@ Before we start, ensure to make all settings visible by going into:
 `Preferences/Configure Cura.../Settings`  
 Select `Check All` then `Close`  
 
-![Alt text](/images/allsettings.png)
-______________________________________________  
+![Alt text](/images/allsettings.png)  
+____________________________________________________________________________________  
+
 
 Note that not all settings will be detailed and explained.
 
@@ -50,11 +51,14 @@ Note that not all settings will be detailed and explained.
 
 ![alt text](/images/cura_quality.png)  
 
+
 Section|Setting|Recommended Value|Comment
 -------|-------|-----------------|-------
 Quality|Layer Height|Between 0.12 and 0.24| No structural or precision gain by going lower than 0.12. But going higher than 0.24 might create issues with small holes and other fine details.
-Quality|Line Width|0.46 (for 0.4mm nozzle)|I usually set this to be a little bit wider than the nozzle diameter.  This ensures a better pressure of the layer against the part while providing a better finish I feel.
-________________________________________
+Quality|Line Width|0.46 (for 0.4mm nozzle)|I usually set this to be a little bit wider than the nozzle diameter.  This ensures a better pressure of the layer against the part while providing a better finish I feel.  
+
+______________________________________________________________________________  
+
 
 ### SHELL
 
