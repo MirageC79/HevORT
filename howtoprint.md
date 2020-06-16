@@ -18,11 +18,11 @@ Material|Brand|Price|Rigidity|Crack Resistant|Layer Adhesion|Heat Resist|Easy to
 ASA|FormFutura ApolloX|$$$$|++++|+++|+++|98|++++|Enclosure|
 ABS|Spool3D.ca|$$|++++|+++|++++|105|+++|Enclosure|
 Nylon PA12|Filaments.ca|$$$|+++++|++++|+++++|110|+|SuperDry + Enclosure + Bed Adhesion compound
-Nylon HDCF|Filaments.ca|$$$$$ |++++|+++++|+++++|167|++|Dry + Enclosure + Bed Adhesion compound
+[Nylon HDCF](https://filaments.ca/products/heavy-duty-carbon-fiber-nylon-filament-1-75mm?_pos=7&_sid=4b8f2ed8b&_ss=r&variant=1500223668232){:target="_blank"}|Filaments.ca|$$$$$ |++++|+++++|+++++|167|++|Dry + Enclosure + Bed Adhesion compound
 Nylon Alloy910|Taulman3D|$$$$ |++|+++++|+++++|82|++++|Dry|
 PETG|Filaments.ca|$$$|+++|+++|++++|85|+++|Dry|
-PETG CF|Filament.ca|$$$|++++|+++|+++|90|+++|Dry|
-PLA|Filament.ca EcoTough|$$$|++++|+++|++++|65|+++++|NA|
+PETG CF|Filaments.ca|$$$|++++|+++|+++|90|+++|Dry|
+PLA|Filaments.ca EcoTough|$$$|++++|+++|++++|65|+++++|NA|
 PLA|Generic|$$|+++++|++|++++|65|+++++|NA|
 _PC Polycarbonate_| _Never tried yet..._
 
@@ -42,12 +42,19 @@ Select `Check All` then `Close`
 
 ![Alt text](/images/allsettings.png)
 
+### The Settings!
+
 Note that not all settings will be detailed and explained.
+
+![alt text](/images/cura_quality.png)  
 Section|Setting|Recommended Value|Comment
 -------|-------|-----------------|-------
 Quality|Layer Height|Between 0.12 and 0.24| No structural or precision gain by going lower than 0.12. But going higher than 0.24 might create issues with small holes and other fine details.
 Quality|Line width|0.46 (for 0.4mm nozzle)|I usually set this to be a little bit wider than the nozzle diameter.  This ensures a better pressure of the layer against the part while providing a better finish I feel.
+
+
 Shell|
+
 
 
 
