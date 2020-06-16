@@ -13,13 +13,13 @@ _**Rigidity**: Force required to induce deflexion.
 **Easy to print**: Level of technical knowledge or special equipment required in order to achieve good prints._  
 
 
-Material|Brand|Price|Rigidity|Crack Resistant|Layer Adhesion|Heat Resistance|Easy to Print|Special Print Condition|
---------|-----|-----|--------|--------------|-------------|--------------:  |-------------|-----------------------|
+Material|Brand|Price|Rigidity|Crack Resistant|Layer Adhesion|Heat Resist|Easy to Print|Special Print Condition|
+--------|-----|-----|--------|---------------|--------------|---------: |-------------|-----------------------|
 ASA|FormFutura ApolloX|$$$$|++++|+++|+++|98|++++|Enclosure|
 ABS|Spool3D.ca|$$|++++|+++|++++|105|+++|Enclosure|
 Nylon PA12|Filaments.ca|$$$|+++++|++++|+++++|110|+|SuperDry + Enclosure + Bed Adhesion compound
-Nylon HDCF|Filaments.ca|$$$$$|++++|+++++|+++++|167|++|Dry + Enclosure + Bed Adhesion compound
-Nylon Alloy910|Taulman3D|$$$$|++|+++++|+++++|82|++++|Dry|
+Nylon HDCF|Filaments.ca|$$$$$ |++++|+++++|+++++|167|++|Dry + Enclosure + Bed Adhesion compound
+Nylon Alloy910|Taulman3D|$$$$ |++|+++++|+++++|82|++++|Dry|
 PETG|Filaments.ca|$$$|+++|+++|++++|85|+++|Dry|
 PETG CF|Filament.ca|$$$|++++|+++|+++|90|+++|Dry|
 PLA|Filament.ca EcoTough|$$$|++++|+++|++++|65|+++++|NA|
@@ -36,7 +36,18 @@ In this section I will assume that you have some experience with 3D printing and
 
 The following printer settings are based on [Ultimaker Cura](https://ultimaker.com/software/ultimaker-cura){:target="_blank"} setting nomenclature which may vary if you are using a different slicer.
 
-Before we start, ensure to make all settings visible by going into: ` Preferences/Configure Cura.../Settings `
+Before we start, ensure to make all settings visible by going into:  
+`Preferences/Configure Cura.../Settings`  
+Select `Check All` then `Close`  
+
+![Alt text](/images/allsettings.png)
+
+Note that not all settings will be detailed and explained.
+Section|Setting|Recommended Value|Comment
+-------|-------|-----------------|-------
+Quality|Layer Height|Between 0.12 and 0.24| No structural or precision gain by going lower than 0.12. But going higher than 0.24 might create issues with small holes and other fine details.
+Quality|Line width|0.46 (for 0.4mm nozzle)|I usually set this to be a little bit wider than the nozzle diameter.  This ensures a better pressure of the layer against the part while providing a better finish I feel.
+Shell|
 
 
 
