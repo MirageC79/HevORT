@@ -14,8 +14,8 @@ _**Rigidity**: Force required to induce deflexion.
 
 
 Material|Brand|Price|Rigidity|Crack Resistant|Layer Adhesion|Heat Resistance|Easy to Print|Special Print Condition|
---------|-----|-----|--------|--------------|-------------|--------------:  |-------------|-----------------------|
-ASA|FormFutura ApolloX|$$$$ |++++|+++|+++|98|++++|Enclosure|
+--------|-----|-----|--------|---------------|--------------|-------------: |-------------|-----------------------|
+ASA|FormFutura ApolloX|$$$$|++++|+++|+++|98|++++|Enclosure|
 ABS|Spool3D.ca|$$|++++|+++|++++|105|+++|Enclosure|
 Nylon PA12|Filaments.ca|$$$|+++++|++++|+++++|110|+|SuperDry + Enclosure + Bed Adhesion compound
 Nylon HDCF|Filaments.ca|$$$$$ |++++|+++++|+++++|167|++|Dry + Enclosure + Bed Adhesion compound
@@ -36,7 +36,8 @@ In this section I will assume that you have some experience with 3D printing and
 
 The following printer settings are based on [Ultimaker Cura](https://ultimaker.com/software/ultimaker-cura){:target="_blank"} setting nomenclature which may vary if you are using a different slicer.
 
-Before we start, ensure to make all settings visible by going into: `Preferences/Configure Cura.../Settings`  
+Before we start, ensure to make all settings visible by going into:  
+`Preferences/Configure Cura.../Settings`  
 Select `Check All` then `Close`  
 
 ![Alt text](/images/allsettings.png)
