@@ -6,7 +6,7 @@ Pretty much any common 3D printing material can be used to print the HevORT part
 After trying a few materials over the years, here is how I would categorise them in a very non-scientific way:
 
 
-_**Price**: Price in USD per kilogram
+_**Price**: Price in USD per kilogram  
 **Rigidity**: Force required to induce deflexion.  
 **Crack Resistant**: Amount of deflexion before rupture. (Non-Brittleness)  
 **Layer Adhesion**: Difference between forces required to break perpendicular to layers VS parralel to layers.  
