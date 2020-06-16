@@ -42,7 +42,12 @@ Select `Check All` then `Close`
 
 ![Alt text](/images/allsettings.png)
 
-
+Note that not all settings will be detailed and explained.
+Section|Setting|Recommended Value|Comment
+-------|-------|-----------------|-------
+Quality|Layer Height|Between 0.12 and 0.24| No structural or precision gain by going lower than 0.12. But going higher than 0.24 might create issues with small holes and other fine details.
+Quality|Line width|0.46 (for 0.4mm nozzle)|I usually set this to be a little bit wider than the nozzle diameter.  This ensures a better pressure of the layer against the part while providing a better finish I feel.
+Shell|
 
 
 
