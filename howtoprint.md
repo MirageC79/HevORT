@@ -48,6 +48,7 @@ Select `Check All` then `Close`
 Note that not all settings will be detailed and explained.
 
 ![alt text](/images/cura_quality.png)  
+
 Section|Setting|Recommended Value|Comment
 -------|-------|-----------------|-------
 Quality|Layer Height|Between 0.12 and 0.24| No structural or precision gain by going lower than 0.12. But going higher than 0.24 might create issues with small holes and other fine details.
