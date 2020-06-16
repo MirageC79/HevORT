@@ -32,9 +32,9 @@ I am currently running ABS on the big parts and HDCF Nylon for the more technica
 All STL files are already properly oriented for optimal print results and optimal layer orientation.  
 
 ## 3. Slicer Settings
-In this section I will assume that you have some experience with 3D printing and that your printer is calibrated.  If you are not too sure about what I mean by calibrated, have a look at [my personal recipee for printer calibration](/printercalibration.md){"_blank"}
+In this section I will assume that you have some experience with 3D printing and that your printer is calibrated.  If you are not too sure about what I mean by calibrated, have a look at [my personal recipee for printer calibration](/printercalibration.md){:target="_blank"}
 
-The following printer settings are based on [Ultimaker Cura](https://ultimaker.com/software/ultimaker-cura){"_blank"} setting nomenclature which may vary if you are using a different slicer.
+The following printer settings are based on [Ultimaker Cura](https://ultimaker.com/software/ultimaker-cura){:target="_blank"} setting nomenclature which may vary if you are using a different slicer.
 
 
 
