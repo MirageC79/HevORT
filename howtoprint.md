@@ -1,4 +1,4 @@
-[!alt text](/images/printbanner.png)
+![alt text](/images/printbanner.png)
 # How to print the HevORT STLs?
 
 ## 1. Which material?
@@ -33,3 +33,4 @@ All STL files are already properly oriented for optimal print result and optiman
 
 
 
+[Back to Main Page](/README.md)
