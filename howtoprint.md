@@ -15,11 +15,11 @@ _**Rigidity**: Force required to induce deflexion.
 
 Material|Brand|Price|Rigidity|Crack Resistant|Layer Adhesion|Heat Resistance|Easy to Print|Special Print Condition|
 --------|-----|-----|--------|--------------|-------------|--------------:  |-------------|-----------------------|
-ASA|FormFutura ApolloX|$$$$|++++|+++|+++|98|++++|Enclosure|
+ASA|FormFutura ApolloX|$$$$ |++++|+++|+++|98|++++|Enclosure|
 ABS|Spool3D.ca|$$|++++|+++|++++|105|+++|Enclosure|
 Nylon PA12|Filaments.ca|$$$|+++++|++++|+++++|110|+|SuperDry + Enclosure + Bed Adhesion compound
-Nylon HDCF|Filaments.ca|$$$$$|++++|+++++|+++++|167|++|Dry + Enclosure + Bed Adhesion compound
-Nylon Alloy910|Taulman3D|$$$$|++|+++++|+++++|82|++++|Dry|
+Nylon HDCF|Filaments.ca|$$$$$ |++++|+++++|+++++|167|++|Dry + Enclosure + Bed Adhesion compound
+Nylon Alloy910|Taulman3D|$$$$ |++|+++++|+++++|82|++++|Dry|
 PETG|Filaments.ca|$$$|+++|+++|++++|85|+++|Dry|
 PETG CF|Filament.ca|$$$|++++|+++|+++|90|+++|Dry|
 PLA|Filament.ca EcoTough|$$$|++++|+++|++++|65|+++++|NA|
