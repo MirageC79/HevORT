@@ -6,7 +6,8 @@ Pretty much any common 3D printing material can be used to print the HevORT part
 After trying a few materials over the years, here is how I would categorise them in a very non-scientific way:
 
 
-_**Rigidity**: Force required to induce deflexion.  
+_**Price**: Price in USD per kilogram
+**Rigidity**: Force required to induce deflexion.  
 **Crack Resistant**: Amount of deflexion before rupture. (Non-Brittleness)  
 **Layer Adhesion**: Difference between forces required to break perpendicular to layers VS parralel to layers.  
 **Heat Resistance**: Temperetaure value from which material looses its rigidity in Celcius degrees.  
@@ -15,15 +16,15 @@ _**Rigidity**: Force required to induce deflexion.
 
 Material|Brand|Price|Rigidity|Crack Resistant|Layer Adhesion|Heat Resist|Easy to Print|Special Print Condition|
 --------|-----|-----|--------|---------------|--------------|---------: |-------------|-----------------------|
-ASA|FormFutura ApolloX|$$$$|++++|+++|+++|98|++++|Enclosure|
-ABS|Spool3D.ca|$$|++++|+++|++++|105|+++|Enclosure|
-Nylon PA12|Filaments.ca|$$$|+++++|++++|+++++|110|+|SuperDry + Enclosure + Bed Adhesion compound
-[Nylon HDCF](https://filaments.ca/products/heavy-duty-carbon-fiber-nylon-filament-1-75mm?_pos=7&_sid=4b8f2ed8b&_ss=r&variant=1500223668232){:target="_blank"}|Filaments.ca|$$$$$ |++++|+++++|+++++|167|++|Dry + Enclosure + Bed Adhesion compound
-Nylon Alloy910|Taulman3D|$$$$ |++|+++++|+++++|82|++++|Dry|
-PETG|Filaments.ca|$$$|+++|+++|++++|85|+++|Dry|
-PETG CF|Filaments.ca|$$$|++++|+++|+++|90|+++|Dry|
-PLA|Filaments.ca EcoTough|$$$|++++|+++|++++|65|+++++|NA|
-PLA|Generic|$$|+++++|++|++++|65|+++++|NA|
+ASA|FormFutura ApolloX|45|++++|+++|+++|98|++++|Enclosure|
+ABS|Spool3D.ca|23|++++|+++|++++|105|+++|Enclosure|
+Nylon PA12|Filaments.ca|45|+++++|++++|+++++|110|+|SuperDry + Enclosure + Bed Adhesion compound
+[Nylon HDCF](https://filaments.ca/products/heavy-duty-carbon-fiber-nylon-filament-1-75mm?_pos=7&_sid=4b8f2ed8b&_ss=r&variant=1500223668232){:target="_blank"}|Filaments.ca|98|++++|+++++|+++++|167|++|Dry + Enclosure + Bed Adhesion compound
+Nylon Alloy910|Taulman3D|60|++|+++++|+++++|82|++++|Dry|
+PETG|Filaments.ca|30|+++|+++|++++|85|+++|Dry|
+PETG CF|Filaments.ca|38|++++|+++|+++|90|+++|Dry|
+PLA|Filaments.ca EcoTough|27|++++|+++|++++|65|+++++|NA|
+PLA|Generic|20|+++++|++|++++|65|+++++|NA|
 _PC Polycarbonate_| _Never tried yet..._
 
 I am currently running ABS on the big parts and HDCF Nylon for the more technical parts such as the Y and X carriages.
