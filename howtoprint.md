@@ -1,3 +1,4 @@
+![alt text](/images/printbanner.png)
 # How to print the HevORT STLs?
 
 ## 1. Which material?
@@ -28,7 +29,19 @@ _PC Polycarbonate_| _Never tried yet..._
 I am currently running ABS on the big parts and HDCF Nylon for the more technical parts such as the Y and X carriages.
 
 ## 2. Placing your parts in the slicer.
-All STL files are already properly oriented for optimal print result and optiman layer orientation.  
+All STL files are already properly oriented for optimal print results and optimal layer orientation.  
+
+## 3. Slicer Settings
+In this section I will assume that you have some experience with 3D printing and that your printer is calibrated.  If you are not too sure about what I mean by calibrated, have a look at [my personal recipee for printer calibration](/printercalibration.md){:target="_blank"}
+
+The following printer settings are based on [Ultimaker Cura](https://ultimaker.com/software/ultimaker-cura){:target="_blank"} setting nomenclature which may vary if you are using a different slicer.
+
+Before we start, ensure to make all settings visible by going into: ` Preferences/Configure Cura.../Settings `
 
 
 
+
+
+
+
+[Back to Main Page](/README.md)
