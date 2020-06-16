@@ -13,8 +13,8 @@ _**Rigidity**: Force required to induce deflexion.
 **Easy to print**: Level of technical knowledge or special equipment required in order to achieve good prints._  
 
 
-Material|Brand|Price|Rigidity|Crack Resistant|Layer Adhesion|Heat Resistance|Easy to Print|Special Print Condition|
---------|-----|-----|--------|---------------|--------------|-------------: |-------------|-----------------------|
+Material|Brand|Price|Rigidity|Crack Resistant|Layer Adhesion|Heat Resist|Easy to Print|Special Print Condition|
+--------|-----|-----|--------|---------------|--------------|---------: |-------------|-----------------------|
 ASA|FormFutura ApolloX|$$$$|++++|+++|+++|98|++++|Enclosure|
 ABS|Spool3D.ca|$$|++++|+++|++++|105|+++|Enclosure|
 Nylon PA12|Filaments.ca|$$$|+++++|++++|+++++|110|+|SuperDry + Enclosure + Bed Adhesion compound
