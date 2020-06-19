@@ -62,7 +62,7 @@ Today, Two possible configurations of Duet can serve your HevORT: _Remember, you
 Both solutions will be similar in price if we exclude the optional raspberry pi that the Duet 3 can use.  [Read more abour Duet3 and RPI](https://betrue3d.dk/rpi-and-duet-3-why-and-how/?fbclid=IwAR16IzLQhu4W4G6IMp81qFp3ousTRf1AjmVV-9iawk4osm4pF1tQDGAXfwg){:target="_blank"}
 The Duet2 (Main Board) + Duex5 (Expansion) will provide you with more stepper drivers for the same price
 
-We learned today that a new Duet Board will see the light, look at Duet 2 Pro in the table here below.   
+We've learned today that a new Duet Board will see the light soon.  Look at Duet 2 Pro in the table here below.   
 
 Components|Number of Drivers|Raspberry Pi interface|Price|Expandability|Technology release date
 ----------|-----------------|----------------------|-----|-------------|-----------------------
