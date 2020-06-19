@@ -58,7 +58,8 @@ Considered by many as the Cadillac of control boards, this open source device ha
   * Come back, pick up the part and play!
 
 ## Which Duet to buy?
-Two possible configurations of Duet can currently serve your HevORT: _Remember, you need at least 6 stepper drivers to use the ZR Self Leveling._\
+Two possible configurations of Duet can currently serve your HevORT: _Remember, you need at least 6 stepper drivers to use the ZR Self Leveling._  
+
 Both solutions will be similar in price if we exclude the optional raspberry pi that the Duet 3 can use.  [Read more abour Duet3 and RPI](https://betrue3d.dk/rpi-and-duet-3-why-and-how/?fbclid=IwAR16IzLQhu4W4G6IMp81qFp3ousTRf1AjmVV-9iawk4osm4pF1tQDGAXfwg){:target="_blank"}
 The Duet2 (Main Board) + Duex5 (Expansion) will provide you with more stepper drivers for the same price
 
@@ -74,5 +75,4 @@ Duet 3 MB 6HC|6|[YES](https://betrue3d.dk/rpi-and-duet-3-why-and-how/?fbclid=IwA
 
 ## 2. The Stepper Motors
 
-### 
-[Back to main page](/README.md)
+### [Back to main page](/README.md)
