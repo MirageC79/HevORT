@@ -58,15 +58,17 @@ Considered by many as the Cadillac of control boards, this open source device ha
   * Come back, pick up the part and play!
 
 ## Which Duet to buy?
-Two possible configurations of Duet can serve your HevORT: _Remember, you need at least 6 stepper drivers to use the ZR Self Leveling._\
-Both solutions will be similar in price if we exclude the required raspberry pi that the Duet 3 needs.  [Read more abour Duet3 and RPI](https://betrue3d.dk/rpi-and-duet-3-why-and-how/?fbclid=IwAR16IzLQhu4W4G6IMp81qFp3ousTRf1AjmVV-9iawk4osm4pF1tQDGAXfwg){:target="_blank"}
-
+Today, Two possible configurations of Duet can serve your HevORT: _Remember, you need at least 6 stepper drivers to use the ZR Self Leveling._\
+Both solutions will be similar in price if we exclude the optional raspberry pi that the Duet 3 can use.  [Read more abour Duet3 and RPI](https://betrue3d.dk/rpi-and-duet-3-why-and-how/?fbclid=IwAR16IzLQhu4W4G6IMp81qFp3ousTRf1AjmVV-9iawk4osm4pF1tQDGAXfwg){:target="_blank"}
 The Duet2 (Main Board) + Duex5 (Expansion) will provide you with more stepper drivers for the same price
 
-Components|Number of Drivers|Raspberry Pi Required?|Price|Expandability|Technology release date
+We learned today that a new Duet Board will see the light, look at Duet 2 Pro in the table here below.   
+
+Components|Number of Drivers|Raspberry Pi interface|Price|Expandability|Technology release date
 ----------|-----------------|----------------------|-----|-------------|-----------------------
 Duet 2 (wifi or ethernet) + Duex5|10|NO|+++|0 Additional Stepper|2017
 Duet 3 MB 6HC|6|[YES](https://betrue3d.dk/rpi-and-duet-3-why-and-how/?fbclid=IwAR16IzLQhu4W4G6IMp81qFp3ousTRf1AjmVV-9iawk4osm4pF1tQDGAXfwg){:target="_blank"}|++++|up to 24 Additional Stepper|2019
+[_Duet 2 Pro_](https://forum.duet3d.com/topic/16786/duet-2-pro-4-u/10?_=1592597785623&fbclid=IwAR15hDTJ40d1xfQxxkTIBQmrbcReVolsKxkBpS4tp2ly33M-Ao8jsITXew8){:target="_blank"}|_TBA_|_Same as Duet3_|_TBA_|_TBA_|_TBA_  
 
 
 
