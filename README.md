@@ -23,8 +23,14 @@ Intro.|[Why the HevORT?](/intro.md)
 
 
 [![HevORT on Facebook](http://icons.iconarchive.com/icons/paomedia/small-n-flat/48/social-facebook-icon.png "Join the support group")](https://www.facebook.com/groups/hevort/)  
-
 **Join the Facebook support group now to get latest news and more insights on the HevORT.**
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="LYP98YKUSLXN2" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+<img alt="" border="0" src="https://www.paypal.com/en_CA/i/scr/pixel.gif" width="1" height="1" />
+</form>
 
 Olivier
 
