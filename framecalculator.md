@@ -9,7 +9,7 @@ Proposed sizes can be found into the Frame Calculator.
 
 ## How to use the Frame Calculator
 ### 1. Enter your desired print area dimention for **X axis and Z only**. 
-*(Y axis will be filled in atomatically)*
+*(Y axis will be filled in automatically)*
 
 ![alt text](/images/framecalc1.png)
 
