@@ -25,6 +25,9 @@ Intro.|[Why the HevORT?](/intro.md)
 [![HevORT on Facebook](http://icons.iconarchive.com/icons/paomedia/small-n-flat/48/social-facebook-icon.png "Join the support group")](https://www.facebook.com/groups/hevort/)  
 **Join the Facebook support group now to get latest news and more insights on the HevORT.**
 
+If you like my work and would like to help me covering the costs associated to the development and improvement of this project, <br>
+click the button here below :)
+
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick" />
 <input type="hidden" name="hosted_button_id" value="LYP98YKUSLXN2" />
