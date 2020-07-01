@@ -1,4 +1,4 @@
-# Unseful Links
+# Useful Links
 
 Subject|Topic|Link
 -------|-----|----
