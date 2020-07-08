@@ -74,5 +74,8 @@ Duet 3 MB 6HC|6|[YES](https://betrue3d.dk/rpi-and-duet-3-why-and-how/?fbclid=IwA
 
 ## 2. The Stepper Motors
 
+[Motors: Servo or Stepper](https://www.amci.com/industrial-automation-resources/plc-automation-tutorials/stepper-vs-servo/){:target="_blank"}
+
+
 ### 
 [Back to main page](/README.md)
