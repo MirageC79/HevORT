@@ -10,20 +10,20 @@
 ; X&Y Axis: XY High Temp (no impact on config.g)
 ; Z Axis: ZR_V2 Tripple Z self levelling system 
 ;	- impacting M569 additional drives direction to be specified
-	- impacting M584 additionnal drives to be mapped to Z
-	- impacting M671 define coordinates of Z lifting points compared to nozzle's position (impacted by Print head)
+;	- impacting M584 additionnal drives to be mapped to Z
+;	- impacting M671 define coordinates of Z lifting points compared to nozzle's position (impacted by Print head)
 ; X Printhead: Hemera Top Mounted 
 ;	- impacting M671 offests calculated by Firmware settings generator. See M671 here below
 ;	- impacting G31 ofset value of Z probe Bltouch
 ; Filament Sensor: SpEye 
 ;	- adding M591 Attribute filament run out sensor type to extruder E0
 ; Resume Button: Custom 
-	- adding M307 to free I/O pin for Led
-	- adding M581 to call trigger file when input is activated
+;	- adding M307 to free I/O pin for Led
+;	- adding M581 to call trigger file when input is activated
 ;Chamber Cooling: HevACS Antartic Cooling System
-	- adding M106 for more fan definition
-	- impacting M563 to map HevACS cooling fans to Tool 0   
-*************************************************
+;	- adding M106 for more fan definition
+;	- impacting M563 to map HevACS cooling fans to Tool 0   
+;*************************************************
 
 
 
