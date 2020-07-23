@@ -15,7 +15,7 @@ Intro.|[Why the HevORT?](/intro.md)
 5.|[Hardware and other purchased components](purchased)
 6.|[How to Print your Parts](/howtoprint.md)
 7.|Assembly Instructions
-8.|Firmware configuration
+8.|[Firmware configuration](/firmwaresettings.md)
 9.|First run!
 10.|Calibration
 11.|Fine Tuning
