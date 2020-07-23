@@ -1,4 +1,4 @@
-# Firmware Settings
+# Firmware Configuration
 
 You made it!  your printer is assembled!  Congratulations :)  
 Now you just need to get the Duet control board to know your HevORT. Time for Firmware Configuration!
@@ -16,6 +16,17 @@ I will be dropping things here as I am able to document them. If you feel you wo
 6. 
 
 ![alt text](https://github.com/MirageC79/HevORT/blob/master/images/Coverflat.png?raw=true)
+
+### 3. Creating your initial Config.g file
+The config.g file is the main configuration file that is run on every power up sequence.  If you change a value in this file, the system will ask for reboot when saving.  
+I have created a cleaned up example version of my config.g that you can use to create your own.  The best approach should be to generate your first draft with the online ReprapFirmware Automated tool, then have a look to it and modify it by inluding what you need from mine.
+_Note: Only RepRap Firmware 2 is being documented at this point.  RRF3 will soon follow as I start the build of a new machine._
+
+RRF version|config.g file example|date posted
+  :-----:  |---------------------|  :----:   
+2.04|/files/config_g_example.txt|Jul 23rd 2020
+
+  
 
 ### 5. Configure Triple Z Axis
 
