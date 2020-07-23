@@ -12,7 +12,7 @@ I will be dropping things here as I am able to document them. If you feel you wo
 2. Understanding the system files of your duet.
 3. Creating your initial config.g file
 4. Define your printer geometry and dimensions
-5. [Configure Triple Z Axis](https://github.com/MirageC79/HevORT/blob/master/firmwaresettings.md#5-configure-triple-z-axis)
+5. [Configure Triple Z Axis](https://miragec79.github.io/HevORT/firmwaresettings.html#5-configure-triple-z-axis)
 6. 
 
 ![alt text](https://github.com/MirageC79/HevORT/blob/master/images/Coverflat.png?raw=true)
