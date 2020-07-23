@@ -24,7 +24,7 @@ _Note: Only RepRap Firmware 2 is being documented at this point.  RRF3 will soon
 
 RRF version|config.g file example|date posted
   :-----:  |---------------------|  :----:   
-2.04|[Text File](/files/config_g_example.txt)|Jul 23rd 2020
+2.04|[Text File](/files/2.04config_g_example.txt)|Jul 23rd 2020
 
   
 
