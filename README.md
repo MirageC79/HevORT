@@ -23,8 +23,9 @@ Intro.|[Why the HevORT?](/intro.md)
 Ref.|[Useful References and Links](/usefulref.md)
 
 
-[![HevORT on Facebook](http://icons.iconarchive.com/icons/paomedia/small-n-flat/48/social-facebook-icon.png "Join the support group")](https://www.facebook.com/groups/hevort/)  
-**Join the Facebook support group now to get latest news and more insights on the HevORT.**
+
+<a href="https://forums.hevort.com/index.php"><img src="https://github.com/MirageC79/HevORT/blob/master/images/HevORT%20Logo.png?raw=true" align="left" height="48" width="48" ></a>  
+**Join the Support Discussion Forum now to get latest news and more insights on the HevORT.**  
 
 If you like my work and would like to help me covering the costs associated to the development and improvement of this project, <br>
 click the button here below :)
