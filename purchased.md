@@ -14,5 +14,7 @@ XY Axis|[![alt text](/images/XYHTThumb.png)](https://a360.co/2ZdCtjA){:target="_
 Z axis|[![alt text](/images/ZRV2Thumb.png)](https://a360.co/3gweJiw){:target="_blank"}<br> ZR_V2 (Wobble wings)|[BOM ZR V2](/bom/BOM_ZR_V2.htm){:target="_blank"}|[Download](/bom/BOM_ZR_V2.xlsx)  
 X PrintHead|[![alt text](/images/HemeraThumb.png)](https://a360.co/2U1i6ob){:target="_blank"}<br> Print Head with E3D Hemera Extruder|[BOM X Hemera](/bom/BOM_X_Hemera.htm){:target="_blank"}|[Download](/bom/BOM_X_Hemera.xlsx)  
 X PrintHead|[![alt text](/images/BMGAquaThumb.png)](https://a360.co/3fY7MFT){:target="_blank"}<br> Print Head with BMG/Aqua Extruder|[BOM X BMGAqua](/bom/BOM_BMGAqua.htm){:target="_blank"}|[Download](/bom/BOM_BMGAqua.xlsx)   
+X PrintHead|[![alt text](/images/HemeraTopMountThumb.png)](https://a360.co/39ryl4z){:target="_blank"}<br> Print Head with E3D Hemera and SuperVolcano|[Bom_HemeraTopMount](/bom/BOM_X_HemeraTopMount.htm){:target="_blank"}|[Download](/bom/BOM_X_HemeraTopMount.xlsx)  
+
 
 [Back to Main Page](/README.md)
