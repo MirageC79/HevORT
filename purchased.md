@@ -2,7 +2,8 @@
 permalink: /purchased/
 ---
 
-# Hardware and other components (BOM - Bill Of Material)
+# Hardware and other components 
+# (BOM - Bill Of Material)
 
 In this section you will find the Bill of Material for your selected configuration. you can view or download the files.
 
