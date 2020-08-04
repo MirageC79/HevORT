@@ -75,7 +75,7 @@ Duet 3 MB 6HC|6|[YES](https://betrue3d.dk/rpi-and-duet-3-why-and-how/?fbclid=IwA
 ## 2. The Stepper Motors
 ![alt text](/images/e3dhightorque.png)
 
-[Servo or Stepper?](https://www.amci.com/industrial-automation-resources/plc-automation-tutorials/stepper-vs-servo/){:target="_blank"}  Very good read on the topic.
+[Servo or Stepper?](https://www.amci.com/industrial-automation-resources/plc-automation-tutorials/stepper-vs-servo/){:target="_blank"}  Very good read on the topic.  
 [Calculate the power rating and max speed of your stepper motor:](https://www.allaboutcircuits.com/tools/stepper-motor-calculator/){:target="_blank"}
 
 
