@@ -17,6 +17,14 @@ Proposed sizes can be found into the Calculator.
 
 ![alt text](/images/framecalc2.png)
 
+### EXAMPLES:
+Here are a couple of snapshots from results of recommended sizes:
+
+Size|Frame Calculator results
+----|------------------------
+X315 Y315 Z340|![alt text](/images/315_315_340.png)
+X415 Y415 Z440|![alt text](/images/415_415_440.png)
+
 
 
 
