@@ -56,7 +56,7 @@ RepRapFirmWare_ConfigTool Section|Last Updated
  Start|*NA*
  [General](/RRF3_D3P2.htm){:target="_blank"}|August 31, 2020  
  [I/O Mapping](/RRF3_D3P3.htm){:target="_blank"}|August 31, 2020  
- [Motors](/RRF3_D3P5.htm){:target="_blank"}|August 31, 2020
+ [Motors](/RRF3_D3P4.htm){:target="_blank"}|August 31, 2020
  EndStops|NA
  Heaters|NA
  Fans|NA
