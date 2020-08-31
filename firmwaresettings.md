@@ -24,18 +24,25 @@ I have created a cleaned up example version of my config.g that you can use to c
 
 _Note: Only RepRap Firmware 2 is being documented at this point.  RRF3 will soon follow as I start the build of a new machine._  
 
-RRF version|config.g file example|date posted
+RRF version|config.g file example|Last Updated
   :-----:  |---------------------|  :----:   
 2.04|[Text File](/files/2.04config_g_example.txt){:target="_blank"}|Jul 23rd 2020
 
 
-Instructions to create initial configuration of RRF3 for Duet 3: 
+### Instructions to create initial configuration of RRF3 for Duet 3: 
 RepRapFirmWare_ConfigTool Section|Last Updated
  :-----------------------------: |  :------:  
  Start|*NA*
  [General](/RRF3_D3P2.htm){:target="_blank"}|August 31, 2020  
  [I/O Mapping](/RRF3_D3P3.htm){:target="_blank"}|August 31, 2020  
- 
+ Motors|NA
+ EndStops|NA
+ Heaters|NA
+ Fans|NA
+ Tools|NA
+ Compensation|NA
+ Network|NA
+ Finish|NA
 
   
 
