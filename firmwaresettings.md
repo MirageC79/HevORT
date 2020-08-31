@@ -27,8 +27,8 @@ RRF version|config.g file example|Last Updated
   :-----:  |---------------------|  :----:   
 2.04|[Text File](/files/2.04config_g_example.txt){:target="_blank"}|Jul 23rd 2020  
 
-&nbsp  
-&nbsp  
+<br/>
+<br/>
 
 ### 3.2 RepRap Firmware 3 on Duet 2  
 Here is an example of a config file running RRF3 on a Duet**2** control board
@@ -37,8 +37,8 @@ RRF version|config.g file example|Last Updated
   :-----:  |---------------------|  :----:   
 3|[Text File](/files/RRF3_D2_config.txt){:target="_blank"}|Jul 23rd 2020 
 
-&nbsp  
-&nbsp  
+<br/>
+<br/>
 
 ### 3.3 RepRap Firmware 3 on Duet 3  
 Here is an example of a config file running RRF3 on a Duet**3** control board
@@ -47,7 +47,7 @@ RRF version|config.g file example|Last Updated
   :-----:  |---------------------|  :----:   
 3|*NA*
 
-&nbsp  
+<br/> 
 
 # RRF Config Tool instructions for Duet 3 #
 
@@ -65,9 +65,8 @@ RepRapFirmWare_ConfigTool Section|Last Updated
  Network|NA
  Finish|NA
 
-&nbsp  
- &nbsp  
- 
+<br/>
+<br/>
 
 ### 5. Configure Triple Z Axis
 
