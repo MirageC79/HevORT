@@ -27,6 +27,7 @@ RRF version|config.g file example|Last Updated
   :-----:  |---------------------|  :----:   
 2.04|[Text File](/files/2.04config_g_example.txt){:target="_blank"}|Jul 23rd 2020  
 
+
 #### RepRap Firmware 3 on Duet 2  
 RRF version|config.g file example|Last Updated
   :-----:  |---------------------|  :----:   
@@ -47,8 +48,6 @@ RepRapFirmWare_ConfigTool Section|Last Updated
  Compensation|NA
  Network|NA
  Finish|NA
-
-
   
 
 ### 5. Configure Triple Z Axis
