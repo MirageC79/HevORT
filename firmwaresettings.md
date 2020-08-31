@@ -17,7 +17,7 @@ I will be dropping things here as I am able to document them. If you feel you wo
 
 ![alt text](https://github.com/MirageC79/HevORT/blob/master/images/Coverflat.png?raw=true)
 
-### 3. Creating your initial Config.g file
+## 3. Creating your initial Config.g file
 The config.g file is the main configuration file that is run on every power up sequence.  If you change a value in this file, the system will ask for reboot when saving.  
 
 ### 3.1 RepRap Firmware 2 On Duet 2
