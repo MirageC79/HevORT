@@ -49,7 +49,7 @@ RRF version|config.g file example|Last Updated
 
 <br/> 
 
-# RRF Config Tool instructions for Duet 3 #
+**RRF Config Tool instructions for Duet 3**
 
 RepRapFirmWare_ConfigTool Section|Last Updated
  :-----------------------------: |  :------:  
