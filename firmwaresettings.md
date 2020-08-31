@@ -28,6 +28,9 @@ RRF version|config.g file example|date posted
   :-----:  |---------------------|  :----:   
 2.04|[Text File](/files/2.04config_g_example.txt){:target="_blank"}|Jul 23rd 2020
 
+
+Instructions to create initial configuration of RRF3 for Duet 3: [RRF_Duet3](/FirmWareSettings.htm)
+
   
 
 ### 5. Configure Triple Z Axis
