@@ -29,7 +29,13 @@ RRF version|config.g file example|date posted
 2.04|[Text File](/files/2.04config_g_example.txt){:target="_blank"}|Jul 23rd 2020
 
 
-Instructions to create initial configuration of RRF3 for Duet 3: [RRF_Duet3](/FirmWareSettings.htm)
+Instructions to create initial configuration of RRF3 for Duet 3: 
+RepRapFirmWare_ConfigTool Section|Last Updated
+ :-----------------------------: |  :------:  
+ Start|*NA*
+ [General](/RRF3_D3P2.htm){:target="_blank"}|August 31, 2020  
+ [I/O Mapping](/RRF3_D3P3.htm){:target="_blank"}|August 31, 2020  
+ 
 
   
 
