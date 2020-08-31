@@ -20,16 +20,20 @@ I will be dropping things here as I am able to document them. If you feel you wo
 ### 3. Creating your initial Config.g file
 The config.g file is the main configuration file that is run on every power up sequence.  If you change a value in this file, the system will ask for reboot when saving.  
 
+#### RepRap Firmware 2  
 I have created a cleaned up example version of my config.g that you can use to create your own.  The best approach should be to generate your first draft with the online ReprapFirmware Automated tool, then have a look to it and modify it by inluding what you need from mine.  
-
-_Note: Only RepRap Firmware 2 is being documented at this point.  RRF3 will soon follow as I start the build of a new machine._  
 
 RRF version|config.g file example|Last Updated
   :-----:  |---------------------|  :----:   
-2.04|[Text File](/files/2.04config_g_example.txt){:target="_blank"}|Jul 23rd 2020
+2.04|[Text File](/files/2.04config_g_example.txt){:target="_blank"}|Jul 23rd 2020  
+
+#### RepRap Firmware 3 on Duet 2  
+RRF version|config.g file example|Last Updated
+  :-----:  |---------------------|  :----:   
+2.04|[Text File](/files/2.04config_g_example.txt){:target="_blank"}|Jul 23rd 2020 
 
 
-### Instructions to create initial configuration of RRF3 for Duet 3: 
+#### RepRap Firmware 3 on Duet 3  
 RepRapFirmWare_ConfigTool Section|Last Updated
  :-----------------------------: |  :------:  
  Start|*NA*
@@ -43,6 +47,7 @@ RepRapFirmWare_ConfigTool Section|Last Updated
  Compensation|NA
  Network|NA
  Finish|NA
+
 
   
 
