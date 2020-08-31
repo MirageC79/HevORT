@@ -26,6 +26,7 @@ I have created a cleaned up example version of my config.g that you can use to c
 RRF version|config.g file example|Last Updated
   :-----:  |---------------------|  :----:   
 2.04|[Text File](/files/2.04config_g_example.txt){:target="_blank"}|Jul 23rd 2020  
+
 &nbsp  
 &nbsp  
 
@@ -35,6 +36,7 @@ Here is an example of a config file running RRF3 on a Duet**2** control board
 RRF version|config.g file example|Last Updated
   :-----:  |---------------------|  :----:   
 3|[Text File](/files/RRF3_D2_config.txt){:target="_blank"}|Jul 23rd 2020 
+
 &nbsp  
 &nbsp  
 
@@ -44,6 +46,8 @@ Here is an example of a config file running RRF3 on a Duet**3** control board
 RRF version|config.g file example|Last Updated
   :-----:  |---------------------|  :----:   
 3|*NA*
+
+&nbsp  
 
 # RRF Config Tool instructions for Duet 3 #
 
@@ -60,7 +64,8 @@ RepRapFirmWare_ConfigTool Section|Last Updated
  Compensation|NA
  Network|NA
  Finish|NA
- &nbsp  
+
+&nbsp  
  &nbsp  
  
 
