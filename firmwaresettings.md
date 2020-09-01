@@ -74,4 +74,4 @@ The triple independent Z axis parameters will be set via [M671](https://duet3d.d
 Using the following Excel file, you will generate the adequate line of command for your configuration.
 [Firmware Settings Generator](FirmWareSettings.xlsx)
 
-[Back to Main Page](/README.md)
+## [Back to Main Page](/README.md)
