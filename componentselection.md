@@ -10,7 +10,7 @@ Configuration|Description|Image|ReleaseDate|Thingiverse
 Standard XY|This version is suited for the comonly available GT2 pulleys.  These pulleys available from china and other location are 9mm thick and have wider flanges(lips).||April 2019|[HevORT XY](https://www.thingiverse.com/thing:4184477)
 XY High Temp|The High Temp version of the XY gantry features 5mm bore pulleys.  These are slightly thicker (10mm) and have a narrower lips.  Note that due to expreme compactness of some components, transition bushings are necessary to fit the 5mm bore onto 3mm hardware.||May 2020|[HevORT XYHT](https://www.thingiverse.com/thing:4402495)
 Heavy Duty XY9|Featuring: 9mm 2GT Belt, Center Pulley Bore 5mm Dowell Pins, MGN12H instead of MGN12C and more...||Oct 2020|| 
-Heavy Duty XY12|Featuring: 12mm 2GT Belt, Center Pulley Bore 5mm Dowell Pins, MGN12H instead of MGN12C and more...||Oct 2020|[HevORT XYHD12](https://www.thingiverse.com/thing:4625509)| 
+Heavy Duty XY12|This XY Gantry will fit on the same frame as the Standard and HT version of the XY Gantry.  The XYHD gantry are meant for very large printers or for the ones with very high performance in mind. Featuring: 12mm 2GT Belt, Center Pulley Bore 5mm Dowell Pins, MGN12H instead of MGN12C and more...||Oct 2020|[HevORT XYHD12](https://www.thingiverse.com/thing:4625509)| 
 
 
 ## 2. Z Axis and Build Plate
