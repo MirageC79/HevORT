@@ -19,4 +19,4 @@ Hope you enjoy building and running this printer as much I do!
 
 [Back to Main Page](/README.md)
 
-https://youtu.be/ibsBiALMMSE
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ibsBiALMMSE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
