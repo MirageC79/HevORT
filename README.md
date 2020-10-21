@@ -12,7 +12,7 @@ Intro.|[Why the HevORT?](/intro.md)
 2.|[Calculate the length of extrusion, rails and ball screw you need](/framecalculator.md)
 3.|[Select components configuration and options](/componentselection.md)
 4.|[Which electronics?](/electronics.md)
-5.|[BOM - Hardware and other purchased components](purchased)
+5.|[*Main Data* CAD, BOM and STLs](purchased)
 6.|[How to Print your Parts](/howtoprint.md)
 7.|Assembly Instructions
 8.|[Firmware configuration](/firmwaresettings.md)
