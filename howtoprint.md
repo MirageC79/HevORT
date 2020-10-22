@@ -7,10 +7,10 @@ After trying a few materials over the years, here is how I would categorise them
 
 
 _**Price**: Price in USD per kilogram  
-**Rigidity**: Force required to induce deflexion.  
-**Crack Resistant**: Amount of deflexion before rupture. (Non-Brittleness)  
-**Layer Adhesion**: Difference between forces required to break perpendicular to layers VS parralel to layers.  
-**Heat Resistance**: Temperetaure value from which material looses its rigidity in Celcius degrees.  
+**Rigidity**: Force required to induce deflection.  
+**Crack Resistant**: Amount of deflection before rupture. (Non-Brittleness)  
+**Layer Adhesion**: Difference between forces required to break perpendicular to layers VS parallel to layers.  
+**Heat Resistance**: Temperature value from which material looses its rigidity in Celsius degrees.  
 **Easy to print**: Level of technical knowledge or special equipment required in order to achieve good prints._  
 
 
@@ -67,7 +67,7 @@ ______________________________________________________________________________
 
 Section|Setting|Recommended Value|Comment
 -------|-------|-----------------|-------
-Shell|Wall Line Count|3 to 4|I preffer setting this parameter than setting the wall thickness. 3 to 4 walls will provide solide parts.
+Shell|Wall Line Count|3 to 4|I prefer setting this parameter over setting the wall thickness. 3 to 4 walls will provide solid parts.
 
 
 

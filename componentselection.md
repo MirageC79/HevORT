@@ -7,13 +7,13 @@ You will find below the various configuration for XY Gantry.  Select one in func
 
 Configuration|Description|Image|ReleaseDate|Thingiverse
 -------------|-----------|-----|-----------|-----------
-Standard XY|This version is suited for the comonly available GT2 pulleys.  These pulleys available from china and other location are 9mm thick and have wider flanges(lips).||April 2019|[HevORT XY](https://www.thingiverse.com/thing:4184477)
-XY High Temp|The High Temp version of the XY gantry features 5mm bore pulleys.  These are slightly thicker (10mm) and have a narrower lips.  Note that due to expreme compactness of some components, transition bushings are necessary to fit the 5mm bore onto 3mm hardware.||May 2020|[HevORT XYHT](https://www.thingiverse.com/thing:4402495)
+Standard XY|This version is suited for the commonly available GT2 pulleys.  These pulleys available from china and other location are 9mm thick and have wider flanges(lips).||April 2019|[HevORT XY](https://www.thingiverse.com/thing:4184477)
+XY High Temp|The High Temp version of the XY gantry features 5mm bore pulleys.  These are slightly thicker (10mm) and have a narrower lips.  Note that due to extreme compactness of some components, transition bushings are necessary to fit the 5mm bore onto 3mm hardware.||May 2020|[HevORT XYHT](https://www.thingiverse.com/thing:4402495)
 XY Heavy Duty  HD9 & HD12|This XY Gantry will fit on the same frame as the Standard and HT version of the XY Gantry.  The XYHD gantry are meant for very large printers or for the ones with very high performance in mind. Featuring: 9mm or 12mm 2GT Belt, Center Pulley Bore 5mm Dowell Pins, MGN12H instead of MGN12C and more...||Oct 2020|[XYHD9](https://www.thingiverse.com/thing:4629715)  [XYHD12](https://www.thingiverse.com/thing:4625509)| 
 
 
 ## 2. Z Axis and Build Plate
-Chose your weapon wisely ;)
+Choose your weapon wisely ;)
 
 Configuration|Description|Image|ReleaseDate|Thingiverse
 -------------|-----------|-----|-----------|-----------
@@ -31,7 +31,7 @@ Configuration|Description|Image|ReleaseDate|Thingiverse
 -------------|-----------|-----|-----------|-----------
 E3D Hemera|Including configuration for E3D V6, Volcano and Super Volcano heatblocks.  Part cooling is achieved via BerdAir system.  Duct STL include on the Thingiverse page.||March 2020|[Hemera](https://www.thingiverse.com/thing:4238471)
 BMG/Titan Aqua Frankenstien by RUDDFAB12|This is the all metal BMG (Right Hand) paired with a Titan Aqua cooling plate, E3D Volcano and the E3D slim stepper. BLTouch and Optical endstop sensor mounts as well.||May 2020|[BMG/Titan Aqua Frankenstien](https://www.thingiverse.com/thing:4411289)
-E3D Hemera Top Mounted|This print head requires the use of E3D Super Volcano.  Part cooling is achieved by BerdAir system. Bltouch and optical sensors are used for positionning.||July 2020|[Hemera TopMount](https://www.thingiverse.com/thing:4556554)  
+E3D Hemera Top Mounted|This print head requires the use of E3D Super Volcano.  Part cooling is achieved by BerdAir system. Bltouch and optical sensors are used for positioning.||July 2020|[Hemera TopMount](https://www.thingiverse.com/thing:4556554)  
 
 
 
