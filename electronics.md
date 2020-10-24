@@ -7,7 +7,7 @@
 3D printer electronics have come a long way since the popular RAMP boards.  
 32bit control boards are now the standard and more stepper motor drivers are being added to allow for all sorts of capabilities tool changer, multiple material extruder and even Triple Z Motor Self Leveling :)
 
-The HevORT's basic requirements to use the ZR (self leveling) is that you have at least 6 intependent stepper motor drivers.
+The HevORT's basic requirements to use the ZR (self leveling) is that you have at least 6 independent stepper motor drivers.
 1. X axis
 2. Y axis
 3. Extruder
@@ -27,7 +27,7 @@ Considered by many as the Cadillac of control boards, this open source device ha
 > * Excellent stepper motor drivers:
 >   * Duet 2 (wifi, Ethernet and expansion board Duex2 & 5 ) are equipped with super quiet [Trinamic TMC2660](https://www.trinamic.com/products/integrated-circuits/details/tmc2660-pa/){:target="_blank"} capable of delivering 2.4Amp to your motors.
 >   * Duet 3 (MAin board and expansion) are equipped with powerful and noiseless [Trinamic TMC5160](https://www.trinamic.com/products/integrated-circuits/details/tmc5160/){:target="_blank"} capable of providing 4.45Amp,
-> * On the fly (during print) adjustements of almost all parameters:
+> * On the fly (during print) adjustments of almost all parameters:
 >   * Acceleration / Jerk
 >   * Motor Current
 >   * Retraction
@@ -45,7 +45,7 @@ Considered by many as the Cadillac of control boards, this open source device ha
   * Slice part using Ultimaker Cura slicer
   * Upload .gcode file to the printer directly from Cura using the Duet plugin
   * Open Duet Web Control (DWC) and start heating build plate and nozzle
-  * Load selected filament configuration file _(I like to have Acceleration, Jerk, Pressure advance and temperatere targetted PID   individually set per filament type.  The duet allows you to create filament profile that you can attribute to your selected tool/extruder)_
+  * Load selected filament configuration file _(I like to have Acceleration, Jerk, Pressure advance and temperature targeted PID   individually set per filament type.  The duet allows you to create filament profile that you can attribute to your selected tool/extruder)_
 
   __Walk to the shop:__ 
   * Ensure printer is all set and clear to print
@@ -59,7 +59,7 @@ Considered by many as the Cadillac of control boards, this open source device ha
 
 ## Which Duet to buy?
 Two possible configurations of Duet can currently serve your HevORT: _Remember, you need at least 6 stepper drivers to use the ZR Self Leveling._\
-Both solutions will be similar in price if we exclude the optional raspberry pi that the Duet 3 can use.  [Read more abour Duet3 and RPI](https://betrue3d.dk/rpi-and-duet-3-why-and-how/?fbclid=IwAR16IzLQhu4W4G6IMp81qFp3ousTRf1AjmVV-9iawk4osm4pF1tQDGAXfwg){:target="_blank"}
+Both solutions will be similar in price if we exclude the optional raspberry pi that the Duet 3 can use.  [Read more about Duet3 and RPI](https://betrue3d.dk/rpi-and-duet-3-why-and-how/?fbclid=IwAR16IzLQhu4W4G6IMp81qFp3ousTRf1AjmVV-9iawk4osm4pF1tQDGAXfwg){:target="_blank"}
 The Duet2 (Main Board) + Duex5 (Expansion) will provide you with more stepper drivers for the same price
 
 We've learned lately that a new Duet Board will see the light soon.  Look at Duet 2 Pro in the table here below.   

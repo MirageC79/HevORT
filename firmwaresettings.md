@@ -21,7 +21,7 @@ I will be dropping things here as I am able to document them. If you feel you wo
 The config.g file is the main configuration file that is run on every power up sequence.  If you change a value in this file, the system will ask for reboot when saving.  
 
 ### 3.1 RepRap Firmware 2 On Duet 2
-I have created a cleaned up example version of my config.g that you can use to create your own.  The best approach should be to generate your first draft with the online [ReprapFirmware Automated tool](https://configtool.reprapfirmware.org/Start){:target="_blank"}, then have a look to it and modify it by inluding what you need from mine.  
+I have created a cleaned up example version of my config.g that you can use to create your own.  The best approach should be to generate your first draft with the online [ReprapFirmware Automated tool](https://configtool.reprapfirmware.org/Start){:target="_blank"}, then have a look at it and modify it by including what you need from mine.  
 
 RRF version|config.g file example|Last Updated
   :-----:  |---------------------|  :----:   
