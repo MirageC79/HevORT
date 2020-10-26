@@ -18,11 +18,10 @@ Proposed sizes can be found into the Calculator.
 <img src="/images/framecalc2.png" width="200">  
 <br>
 <br>
-<br>
+
 
 ### EXAMPLES:
 Here are a couple of snapshots from results of recommended sizes:
-
 
 Size|Frame Calculator results
  :-: |------------------------
