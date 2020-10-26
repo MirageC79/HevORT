@@ -12,8 +12,8 @@ Here are the pros and cons about big printers that are to be considered.  When I
 ### CON's
 - Heavyier Y axis due to length of the X axis member requiring to be moved along the Y axis.
 - Major increase in build price:
-  - 500 X 500 heated bed assmebly will cost three times what it would for a 300 x 300 heated bed.
-  - there is a very big difference between 500mm rails or ball screw VS 700mm.
+  - 500 X 500 heated bed assembly will cost three times what it would for a 300 x 300 heated bed.
+  - there is a very big price difference between 500mm rails or ball screw VS 700mm ones.
   - ...
 - More energy required.  Even when printing small parts as the entire bed will need to be warmed up.
 - Takes more space
