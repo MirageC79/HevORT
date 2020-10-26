@@ -10,7 +10,7 @@ Proposed sizes can be found into the Calculator.
 ## How to use the Frame Calculator
 ### 1. Enter your desired print area dimension for **X axis and Z only**. 
 *(Y axis will be filled in automatically) X and Y ration as to be kept to 1:1 due to the Bed Arms angle.  They are pointing the exact center of the bed by design, changing the XY ratio will affect this center point.*  
-![alt text](/images/framecalc1.png)
+<img src="/images/framecalc1.png" width="48">
 <br>
 <br>
 <br>
