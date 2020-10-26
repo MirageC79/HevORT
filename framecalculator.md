@@ -15,7 +15,7 @@ Proposed sizes can be found into the Calculator.
 <br>
 <br>
 ### 2. Refresh the pivot table by right clicking on it and selecting *Refresh*.
-<img src="/images/framecalc2.png" width="400">
+<img src="/images/framecalc2.png" width="400">  
 <br>
 <br>
 <br>
