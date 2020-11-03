@@ -18,7 +18,7 @@ Z axis|[![alt text](/images/ZRV2Thumb.png)](https://a360.co/3gweJiw){:target="_b
 X PrintHead|[![alt text](/images/HemeraThumb.png)](https://a360.co/2U1i6ob){:target="_blank"}<br> Print Head with E3D Hemera Extruder|[STLs](https://www.thingiverse.com/thing:4238471)|[BOM X Hemera](/bom/BOM_X_Hemera.htm){:target="_blank"}<br>[Download](/bom/BOM_X_Hemera.xlsx)  
 X PrintHead|[![alt text](/images/BMGAquaThumb.png)](https://a360.co/3fY7MFT){:target="_blank"}<br> Print Head with BMG/Titan Aqua Extruder|[STLs](https://www.thingiverse.com/thing:4411289)|[BOM X BMG/TitanAqua](/bom/BOM_BMGAqua.htm){:target="_blank"}<br>[Download](/bom/BOM_BMGAqua.xlsx)   
 X PrintHead|[![alt text](/images/HemeraTopMountThumb.png)](https://a360.co/39ryl4z){:target="_blank"}<br> Print Head with E3D Hemera and SuperVolcano|[STLs](https://www.thingiverse.com/thing:4556554)|[Bom_HemeraTopMount](/bom/BOM_X_HemeraTopMount.htm){:target="_blank"}<br>[Download](/bom/BOM_X_HemeraTopMount.xlsx)
-Electronics||List of material for Power Management and Control Board<br>*Under Construction*|[Bom_Electronics](/bom/BOM_Electronics.htm){:target="_blank"}<br>[Download](/bom/BOM_Electronics.xlsx)
+Electronics|List of material for Power Management and Control Board<br>*Under Construction*|[Electronic Islands proposal](https://www.thingiverse.com/thing:3953165){:target="_blank"}|[Bom_Electronics](/bom/BOM_Electronics.htm){:target="_blank"}<br>[Download](/bom/BOM_Electronics.xlsx)
 
 
 ## [Back to Main Page](/README.md)
