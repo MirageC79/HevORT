@@ -10,12 +10,12 @@ Proposed sizes can be found into the Calculator.
 ## How to use the Frame Calculator
 ### 1. Enter your desired print area dimension for **X axis and Z only**. 
 *(Y axis will be filled in automatically) X and Y ration as to be kept to 1:1 due to the Bed Arms angle.  They are pointing the exact center of the bed by design, changing the XY ratio will affect this center point.*  
-<img src="https://github.com/MirageC79/HevORT/blob/master/images/framecalc1.png" width="800">
+<a href="https://github.com/MirageC79/HevORT/blob/master/images/framecalc1.png"><img src="https://github.com/MirageC79/HevORT/raw/master/images/framecalc1.png" width="800"></a>
 <br>
 <br>
 <br>
 ### 2. Refresh the pivot table by right clicking on it and selecting *Refresh*.
-<img src="https://github.com/MirageC79/HevORT/blob/master/images/framecalc2.png" width="200">  
+<a href="https://github.com/MirageC79/HevORT/blob/master/images/framecalc2.png"><img src="https://github.com/MirageC79/HevORT/raw/master/images/framecalc2.png" width="200"></a>
 <br>
 <br>
 
@@ -23,12 +23,14 @@ Proposed sizes can be found into the Calculator.
 ### EXAMPLES:
 Here are a couple of snapshots from results of recommended sizes:
 
-Size|Frame Calculator results
- :-: |------------------------
-X315 Y315 Z340|<img src="https://github.com/MirageC79/HevORT/blob/master/images/315_315_340.png" width="100"> 
-X415 Y415 Z440|<img src="https://github.com/MirageC79/HevORT/blob/master/images/415_415_440.png" width="100"> 
-<br>
-<br>
-<br>
+|Size|Frame Calculator results|
+| :-: |------------------------|
+|X315 Y315 Z340|<a href="https://github.com/MirageC79/HevORT/blob/master/images/315_315_340.png"><img src="https://github.com/MirageC79/HevORT/raw/master/images/315_315_340.png" width="100"></a>|
+|X415 Y415 Z440|<a href="https://github.com/MirageC79/HevORT/blob/master/images/415_415_440.png"><img src="https://github.com/MirageC79/HevORT/raw/master/images/415_415_440.png" width="100"></a>|
+
 
 ## [Back to main page](/README.md)
+
+
+
+![](./pic/pic1_50.png =100x20)
