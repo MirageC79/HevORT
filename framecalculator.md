@@ -15,7 +15,7 @@ Proposed sizes can be found into the Calculator.
 <br>
 <br>
 ### 2. Refresh the pivot table by right clicking on it and selecting *Refresh*.
-<img src="/images/framecalc2.png" width="200"/>  
+<img src="https://raw.githubusercontent.com/MirageC79/HevORT/master/images/framecalc2.png" width="200">  
 <br>
 <br>
 
@@ -25,8 +25,8 @@ Here are a couple of snapshots from results of recommended sizes:
 
 Size|Frame Calculator results
  :-: |------------------------
-X315 Y315 Z340|<img src="/images/315_315_340.png" width="100"> 
-X415 Y415 Z440|<img src="/images/415_415_440.png" width="100"> 
+X315 Y315 Z340|<img src="https://raw.githubusercontent.com/MirageC79/HevORT/master/images/315_315_340.png" width="100"> 
+X415 Y415 Z440|<img src="https://raw.githubusercontent.com/MirageC79/HevORT/master/images/415_415_440.png" width="100"> 
 <br>
 <br>
 <br>
