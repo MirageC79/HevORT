@@ -25,9 +25,10 @@ Here are a couple of snapshots from results of recommended sizes:
 
 Size|Frame Calculator results
  :----------: |------------------------
-X315 Y315 Z340| <img src="https://raw.githubusercontent.com/MirageC79/HevORT/master/images/315_315_340.png" width="100"> 
-X415 Y415 Z440| <img src="https://raw.githubusercontent.com/MirageC79/HevORT/master/images/415_415_440.png" width="100"> 
-<br>
+X315 Y315 Z340| <img src="https://raw.githubusercontent.com/MirageC79/HevORT/master/images/315_315_340.png" width="100">  
+X415 Y415 Z440| <img src="https://raw.githubusercontent.com/MirageC79/HevORT/master/images/415_415_440.png" width="100">  
+
+
 <br>
 <br>
 
