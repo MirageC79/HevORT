@@ -10,9 +10,9 @@ Proposed sizes can be found into the Calculator.
 ## How to use the Frame Calculator
 ### 1. Enter your desired print area dimension for **X axis and Z only**. 
 *(Y axis will be filled in automatically) X and Y ration as to be kept to 1:1 due to the Bed Arms angle.  They are pointing the exact center of the bed by design, changing the XY ratio will affect this center point.*  
-
-__NEW!__ Seletction box for gantry type (STD/HT or HD) will now trigger selection of certain option lines. Summary table will be reflecting this selection.
-__NOTE*__ - HD print area will be smaller due to wider Y carriages and bigger print head. around 35mm will be amputed to X and Y.
+<br>
+__NEW! Selection box for gantry type (STD/HT or HD)__ will now trigger selection of certain option lines. Summary table will be reflecting this selection.  
+__NOTE*__ - HD print area will be smaller due to wider Y carriages and bigger print head. around 35mm will be amputed to X and Y.  
 <br>
 <img src="https://raw.githubusercontent.com/MirageC79/HevORT/master/images/framecalc1.png" width="800">
 <br>
