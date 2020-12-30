@@ -31,8 +31,8 @@ Size|Frame Calculator results
 --------------|------------------------
 STD/HT <br> X315 Y315 Z340| <img src="https://raw.githubusercontent.com/MirageC79/HevORT/master/images/315_315_340.png" width="100">  
 STD/HT <br> X415 Y415 Z440| <img src="https://raw.githubusercontent.com/MirageC79/HevORT/master/images/415_415_440.png" width="100">  
-HD <br> X315 Y315 Z340*| <img src="https://raw.githubusercontent.com/MirageC79/HevORT/master/images/315_315_340HD.png" width="100">  
-HD <br> X415 Y415 Z440*| <img src="https://raw.githubusercontent.com/MirageC79/HevORT/master/images/415_415_440HD.png" width="100"> 
+HD <br> X315 Y315 Z340*| <img src="https://raw.githubusercontent.com/MirageC79/HevORT/master/images/315_315_340HD.png" width="120">  
+HD <br> X415 Y415 Z440*| <img src="https://raw.githubusercontent.com/MirageC79/HevORT/master/images/415_415_440HD.png" width="120"> 
 
 * __NOTE__ - HD print area will be smaller due to wider Y carriages and bigger print head. around 35mm will be amputed to X and Y.
 <br>
