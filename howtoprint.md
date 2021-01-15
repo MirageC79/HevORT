@@ -77,10 +77,9 @@ Shell|Top/Bottom thickness|1mm|This means between 8 and 4 top and bottom layers,
 
 Section|Setting|Recommended Value|Comment 
 -------|-------|-----------------|-------
-Infill|Infill Density|25-30%|Infill doesn't add much to part strength, but it improves quality
-Infill|Infill Pattern|Grid or Gyroid|Grid prints faster, gyroid might give slightly more rigid results
-Infill|Infill Before Walls|Off|This setting often causes infill to be visible from the outside (thus messing with accuracy)
-
+Infill|Infill Density|25-30%|Going higher than 50 % will not add significant strength for large components.
+Infill|Infill Pattern|Grid or Gyroid|The advantages of gyroid infill over the tested infill types are: high shear strength, and low weight (so less filament needed).
+Infill|Infill Before Walls|ON|With this setting enabled, infill will be printed before the walls. This results in better overhangs because the walls will stick to the already printed infill. Printing in this order can also have a disadvantage. If the infill is printed before the walls, there is a chance that the infill will be visible through the walls, resulting in a rougher surface finish.
 
 
 
