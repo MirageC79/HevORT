@@ -1,5 +1,5 @@
 ---
-permalink: /purchased/
+permalink: /purchased.md/
 ---
 
 # HevORT DATA 
