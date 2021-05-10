@@ -1,1 +1,56 @@
-theme: jekyll-theme-slate
+# Site settings
+title: HevORT Documentation
+description: Documentation of the HevORT 3D Printer
+baseurl: "/HevORT"
+url: https://miragec79.github.io
+logo: /HevORTBanner.png
+
+#Theme
+remote_theme: pmarsceill/just-the-docs
+color_scheme: dark
+
+aux_links:
+  "View on GitHub":
+    - "https://github.com/MirageC79/HevORT"
+
+exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md"]
+
+# Collections
+collections:
+  hevort:
+    output: true
+  hextrudort:
+    output: true
+
+collections_dir: docs
+
+defaults:
+  - scope:
+      path: ""
+      type: "hevort"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "hextrudort"
+    values:
+      layout: "default"
+
+
+
+just_the_docs:
+  # Define which collections are used in just-the-docs
+  collections:
+    # Reference the "docs" collection
+    hevort:
+      name: HevORT
+      # Exclude the collection from the navigation
+      # Supports true or false (default)
+      nav_exclude: false
+      # Exclude the collection from the search
+      # Supports true or false (default)
+      search_exclude: false
+    hextrudort:
+      name: HextrudORT
+      nav_exclude: false
+      search_exclude: false
