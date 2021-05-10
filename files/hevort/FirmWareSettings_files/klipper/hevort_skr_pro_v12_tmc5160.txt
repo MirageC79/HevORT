@@ -1,0 +1,650 @@
+#SKR PRO.
+
+[mcu rpi]
+serial: /tmp/klipper_host_mcu
+
+[adxl345]
+cs_pin: rpi:None
+
+[resonance_tester]
+accel_chip: adxl345
+probe_points:
+    100,100,20  # an example
+
+[mcu]
+##	MCU for X and Y steppers main MCU
+##	[X in X] - B Motor
+##	[Y in Y] - A Motor
+##	Obtain definition by "ls -l /dev/serial/by-path/" then unplug to verify
+##--------------------------------------------------------------------
+serial: /dev/serial/by-path/platform-fd500000.pcie-pci-0000:01:00.0-usb-0:1.2:1.0
+##--------------------------------------------------------------------
+
+[mcu z]
+##	MCU for Z steppers
+##	[Z in X] - Front Left
+##	[Z1 in Y] - Rear Left
+##	[Z2 in Z] - Rear Right
+##	[Z3 in E0]- Front Right
+## [E in E1]
+##	Obtain definition by "ls -l /dev/serial/by-path/" then unplug to verify
+##--------------------------------------------------------------------
+serial: /dev/serial/by-path/platform-fd500000.pcie-pci-0000:01:00.0-usb-0:1.1:1.0
+##--------------------------------------------------------------------
+
+[printer]
+kinematics: corexy
+max_velocity: 2000  
+max_accel: 45000    	
+max_accel_to_decel: 45000		
+max_z_velocity: 15 			
+max_z_accel: 350   			
+square_corner_velocity: 25  
+
+#Gcode G2/G3 Arc Support
+[gcode_arcs]
+resolution: 0.1
+
+#####################################################################
+# 	X and Y Stepper Settings
+#####################################################################
+
+[stepper_x]
+##	Connected to X on main mcu (B Motor)
+step_pin: PE9
+dir_pin: !PF1
+enable_pin: !PF2
+microsteps: 16
+rotation_distance: 40
+full_steps_per_rotation: 400
+endstop_pin: PB10
+homing_speed: 100
+position_endstop: 0
+position_max: 500
+second_homing_speed: 3.0
+homing_retract_dist: 5
+homing_positive_dir: false
+
+[tmc5160 stepper_x]
+cs_pin: PA15
+spi_bus: spi3a
+sense_resistor: 0.075
+interpolate: True
+run_current: 2.9
+hold_current: 2.0
+stealthchop_threshold: 0
+#driver_setup
+spi_speed: 1000000
+driver_IHOLDDELAY: 6
+driver_TPOWERDOWN: 10
+driver_TBL: 2
+driver_tpfd: 0
+driver_pwm_autoscale: True
+driver_pwm_autograd: True
+driver_pwm_freq: 2
+driver_PWM_GRAD: 0
+driver_PWM_OFS: 0
+driver_PWM_REG: 0
+driver_PWM_LIM: 0
+#24V setttings
+driver_TOFF: 5
+driver_HSTRT: 4
+driver_HEND: 3
+
+
+[stepper_y]
+##	Connected to Y on mcu_xy (A Motor)
+step_pin: PE11
+dir_pin: !PE8
+enable_pin: !PD7
+microsteps: 16
+rotation_distance: 40
+full_steps_per_rotation: 400
+endstop_pin: PE12
+homing_speed: 100
+position_endstop: 0
+position_max: 470
+second_homing_speed: 3.0
+homing_retract_dist: 5
+homing_positive_dir: false
+
+[tmc5160 stepper_y]
+cs_pin: PB8
+spi_bus: spi3a
+sense_resistor: 0.075
+interpolate: True
+run_current: 2.9
+hold_current: 2.0
+stealthchop_threshold: 0
+#driver_setup
+spi_speed: 1000000
+driver_IHOLDDELAY: 6
+driver_TPOWERDOWN: 10
+driver_TBL: 2
+driver_tpfd: 0
+driver_pwm_autoscale: True
+driver_pwm_autograd: True
+driver_pwm_freq: 2
+driver_PWM_GRAD: 0
+driver_PWM_OFS: 0
+driver_PWM_REG: 0
+driver_PWM_LIM: 0
+#24V setttings
+driver_TOFF: 5
+driver_HSTRT: 4
+driver_HEND: 3
+
+#####################################################################
+# 	Z Stepper Settings
+#####################################################################
+[stepper_z]
+step_pin: z:PE9
+dir_pin: z:PF1
+enable_pin: !z:PF2
+microsteps: 8
+rotation_distance: 2
+full_steps_per_rotation: 400
+endstop_pin: probe:z_virtual_endstop
+homing_speed: 50
+position_max: 470
+position_min: -5
+homing_speed: 15.0
+second_homing_speed: 3.0
+homing_retract_dist: 3.0
+
+#[tmc2209 stepper_z]
+#uart_pin: PC13
+#tx_pin: PE4
+#run_current: 1.0
+#hold_current: 0.8
+#stealthchop_threshold: 0
+
+[tmc5160 stepper_z]
+cs_pin: z:PA15
+spi_bus: spi3a
+sense_resistor: 0.075
+interpolate: True
+run_current: 0.8
+hold_current: 0.6
+stealthchop_threshold: 0
+#driver_setup
+spi_speed: 1000000
+driver_IHOLDDELAY: 6
+driver_TPOWERDOWN: 10
+driver_TBL: 2
+driver_tpfd: 0
+driver_pwm_autoscale: True
+driver_pwm_autograd: True
+driver_pwm_freq: 2
+driver_PWM_GRAD: 0
+driver_PWM_OFS: 0
+driver_PWM_REG: 0
+driver_PWM_LIM: 0
+#24V setttings
+driver_TOFF: 4
+driver_HEND: 5
+driver_HSTRT: 0
+
+##	Connected to Y on mcu z 
+##	Z1 Stepper - Rear Left
+[stepper_z1]
+step_pin: z:PE11
+dir_pin: z:PE8
+enable_pin: !z:PD7
+microsteps: 8
+rotation_distance: 2
+full_steps_per_rotation: 400
+
+#[tmc2209 stepper_z1]
+#uart_pin: PE3
+#tx_pin: PE2
+#run_current: 1.0
+#hold_current: 0.8
+#stealthchop_threshold: 0
+
+[tmc5160 stepper_z1]
+cs_pin: z:PB8
+spi_bus: spi3a
+sense_resistor: 0.075
+interpolate: True
+run_current: 0.8
+hold_current: 0.6
+stealthchop_threshold: 0
+#driver_setup
+spi_speed: 1000000
+driver_IHOLDDELAY: 6
+driver_TPOWERDOWN: 10
+driver_TBL: 2
+driver_tpfd: 0
+driver_pwm_autoscale: True
+driver_pwm_autograd: True
+driver_pwm_freq: 2
+driver_PWM_GRAD: 0
+driver_PWM_OFS: 0
+driver_PWM_REG: 0
+driver_PWM_LIM: 0
+#24V setttings
+driver_TOFF: 4
+driver_HEND: 5
+driver_HSTRT: 0
+
+##	Connected to Z on mcu z 
+##	Z2 Stepper - Rear Right
+[stepper_z2]
+step_pin: z:PE13
+dir_pin: z:PC2
+enable_pin: !z:PC0
+microsteps: 8
+rotation_distance: 2
+full_steps_per_rotation: 400
+
+#[tmc2209 stepper_z2]
+#uart_pin: PE1
+#tx_pin: PE0
+#run_current: 1.0
+#hold_current: 0.8
+#stealthchop_threshold: 0
+
+[tmc5160 stepper_z2]
+cs_pin: z:PB9
+spi_bus: spi3a
+sense_resistor: 0.075
+interpolate: True
+run_current: 0.8
+hold_current: 0.6
+stealthchop_threshold: 0
+#driver_setup
+spi_speed: 1000000
+driver_IHOLDDELAY: 6
+driver_TPOWERDOWN: 10
+driver_TBL: 2
+driver_tpfd: 0
+driver_pwm_autoscale: True
+driver_pwm_autograd: True
+driver_pwm_freq: 2
+driver_PWM_GRAD: 0
+driver_PWM_OFS: 0
+driver_PWM_REG: 0
+driver_PWM_LIM: 0
+#24V setttings
+driver_TOFF: 4
+driver_HEND: 5
+driver_HSTRT: 0
+
+##	Connected to E0 on mcu z 
+##	Z3 Stepper - Front Right
+[stepper_z3]
+step_pin: z:PE14
+dir_pin: z:PA0
+enable_pin: !z:PC3
+microsteps: 8
+rotation_distance: 2
+full_steps_per_rotation: 400
+
+#[tmc2209 stepper_z3]
+#uart_pin: PD4
+#tx_pin: PD2
+#run_current: 1.0
+#hold_current: 0.8
+#stealthchop_threshold: 0
+
+[tmc5160 stepper_z3]
+cs_pin: z:PB3
+spi_bus: spi3a
+sense_resistor: 0.075
+interpolate: True
+run_current: 0.8
+hold_current: 0.6
+stealthchop_threshold: 0
+#driver_setup
+spi_speed: 1000000
+driver_IHOLDDELAY: 6
+driver_TPOWERDOWN: 10
+driver_TBL: 2
+driver_tpfd: 0
+driver_pwm_autoscale: True
+driver_pwm_autograd: True
+driver_pwm_freq: 2
+driver_PWM_GRAD: 0
+driver_PWM_OFS: 0
+driver_PWM_REG: 0
+driver_PWM_LIM: 0
+#24V setttings
+driver_TOFF: 4
+driver_HEND: 5
+driver_HSTRT: 0
+
+#####################################################################
+# 	Extruder
+#####################################################################
+##	Connected to E1 on mcu z , heater to HEAT0, temp sensor to T1
+[extruder]
+step_pin: z:PD15
+dir_pin: z:PE7
+enable_pin: !z:PA3
+microsteps: 16
+rotation_distance: 9.30
+full_steps_per_rotation: 400
+
+nozzle_diameter: 0.400
+filament_diameter: 1.75
+max_extrude_only_distance: 1400.0
+max_extrude_only_velocity: 120.0
+max_extrude_only_accel: 15000.0
+max_extrude_cross_section: 20000.0
+
+heater_pin: z:PD14
+#sensor_type: NTC 100K beta 3950
+sensor_type: PT1000
+sensor_pin: z:PF4
+pullup_resistor: 4700
+min_temp: -273.15
+max_temp: 400
+max_power: 1.0
+min_extrude_temp: 170
+pressure_advance: 0.004
+pressure_advance_smooth_time: 0.040
+control = pid
+pid_kp = 23.444
+pid_ki = 1.193
+pid_kd = 115.169
+
+
+##	Connected to E1 on mcu z 
+[tmc5160 extruder]
+cs_pin: z:PG15
+spi_bus: spi3a
+sense_resistor: 0.075
+interpolate: True
+run_current: 1.2
+hold_current: 1.0
+stealthchop_threshold: 0
+#driver_setup
+spi_speed: 1000000
+driver_IHOLDDELAY: 6
+driver_TPOWERDOWN: 10
+driver_TBL: 2
+driver_tpfd: 0
+driver_pwm_autoscale: True
+driver_pwm_autograd: True
+driver_pwm_freq: 2
+driver_PWM_GRAD: 0
+driver_PWM_OFS: 0
+driver_PWM_REG: 0
+driver_PWM_LIM: 0
+#24V setttings
+driver_TOFF: 5
+driver_HSTRT: 4
+driver_HEND: 3
+
+
+#####################################################################
+# 	Z Probe
+#####################################################################
+[probe]
+pin: ^!z:PG8
+z_offset: 0.00
+x_offset: -0.003
+y_offset: 0
+speed: 5
+samples: 3
+samples_result: average
+samples_tolerance: 0.009
+samples_tolerance_retries: 10
+sample_retract_dist: 4.0
+activate_gcode:
+	G4 P10
+
+#[bltouch]
+#sensor_pin: !z:PG8
+#control_pin: z:PA1
+#z_offset = 0.0
+#x_offset: 0.0
+#y_offset: 0.0
+#speed: 2.0
+#samples: 3
+#samples_result: average
+#samples_tolerance: 0.009
+#samples_tolerance_retries: 10
+#sample_retract_dist: 4.0
+
+#####################################################################
+# 	Fan Control
+#####################################################################
+#[multi_pin my_fan]
+#pins: PC8, PE5
+
+
+[heater_fan hotend_fan]
+##	Hotend Fan - Z board, FAN0 (coolant pump)
+pin: z:PC8
+max_power: 1.0
+kick_start_time: 0.5
+heater: extruder
+heater_temp: 50.0
+##	If you are experiencing back flow, you can reduce fan_speed
+#fan_speed: 1.0
+
+[heater_fan controller_fan]
+##	Controller fan - Z board, FAN2
+pin: z:PE6
+kick_start_time: 0.500
+heater: heater_bed
+heater_temp: 25.0
+
+[fan]
+##	Print Cooling Fan (Vaccum pumps connected to) - XY board:FAN0 and FAN1
+pin: PB0
+kick_start_time: 0.500
+off_below: 0.10
+cycle_time: 0.001
+
+
+#####################################################################
+# 	Bed Heater
+#####################################################################
+[heater_bed]
+##	SSR Pin - Z board, BED, sensor to T0
+heater_pin: z:PB1
+sensor_type: NTC 100K MGB18-104F39050L32
+sensor_pin: z:PF3
+##	Adjust Max Power so your heater doesn't warp your bed
+max_power: 1.0
+min_temp: 0
+max_temp: 120
+control = pid
+pid_kp = 62.171
+pid_ki = 1.382
+pid_kd = 699.426
+
+[temperature_sensor Enclosure]
+sensor_type: NTC 100K MGB18-104F39050L32
+sensor_pin: z:PF5
+
+[safe_z_home]
+home_xy_position: 235,235 # center of print bed
+speed: 50
+z_hop: 15                
+z_hop_speed: 5
+
+[input_shaper]
+shaper_freq_x: 42.0
+shaper_freq_y: 28.6
+shaper_type: mzv
+
+[firmware_retraction]
+retract_length: 0.8
+retract_speed: 20
+unretract_extra_length: 0
+unretract_speed: 10
+
+#####################################################################
+# 	Gantry Adjustment Routine
+#####################################################################
+[bed_mesh]
+speed: 100
+#   The speed (in mm/s) of non-probing moves during the calibration.
+#   The default is 50.
+horizontal_move_z: 5
+#   The height (in mm) that the head should be commanded to move to
+#   just prior to starting a probe operation. The default is 5.
+mesh_min: 37,15
+#   Defines the minimum x,y coordinate of the mesh for rectangular
+#   beds. This coordinate is relative to the probe's location. This
+#   will be the first point probed, nearest to the origin. This
+#   parameter must be provided for rectangular beds.
+mesh_max: 470,439
+#   Defines the maximum x,y coordinate of the mesh for rectangular
+#   beds. Adheres to the same principle as mesh_min, however this will
+#   be the furthest point probed from the bed's origin. This parameter
+#   must be provided for rectangular beds.
+probe_count: 6,6
+#   For rectangular beds, this is a comma separate pair of integer
+#   values (X,Y) defining the number of points to probe along each
+#   axis. A single value is also valid, in which case that value will
+#   be applied to both axes. Default is 3,3.
+#
+fade_start: 1.0
+#   The gcode z position in which to start phasing out z-adjustment
+#   when fade is enabled. Default is 1.0.
+fade_end: 10
+#   The gcode z position in which phasing out completes. When set to a
+#   value below fade_start, fade is disabled. It should be noted that
+#   fade may add unwanted scaling along the z-axis of a print. If a
+#   user wishes to enable fade, a value of 10.0 is recommended.
+#   Default is 0.0, which disables fade.
+#fade_target:
+#   The z position in which fade should converge. When this value is
+#   set to a non-zero value it must be within the range of z-values in
+#   the mesh. Users that wish to converge to the z homing position
+#   should set this to 0. Default is the average z value of the mesh.
+split_delta_z: .025
+#   The amount of Z difference (in mm) along a move that will trigger
+#   a split. Default is .025.
+move_check_distance: 5.0
+#   The distance (in mm) along a move to check for split_delta_z.
+#   This is also the minimum length that a move can be split. Default
+#   is 5.0.
+mesh_pps: 2,2
+#   A comma separated pair of integers (X,Y) defining the number of
+#   points per segment to interpolate in the mesh along each axis. A
+#   "segment" can be defined as the space between each probed point.
+#   The user may enter a single value which will be applied to both
+#   axes. Default is 2,2.
+algorithm: lagrange
+#   The interpolation algorithm to use. May be either "lagrange" or
+#   "bicubic". This option will not affect 3x3 grids, which are forced
+#   to use lagrange sampling. Default is lagrange.
+#bicubic_tension: .2
+#   When using the bicubic algorithm the tension parameter above may
+#   be applied to change the amount of slope interpolated. Larger
+#   numbers will increase the amount of slope, which results in more
+#   curvature in the mesh. Default is .2.
+relative_reference_index: 14
+#   A point index in the mesh to reference all z values to. Enabling
+#   this parameter produces a mesh relative to the probed z position
+#   at the provided index.
+
+
+[idle_timeout]
+timeout: 1800
+
+[z_tilt]
+z_positions: 
+	-30,-6
+	-30,497
+	531,497
+	531,-6
+
+points:
+	0,0
+	0,400
+	500,400
+	500,0
+	
+speed: 100
+horizontal_move_z: 10
+retries: 3
+retry_tolerance: 0.08
+
+
+#####################################################################
+# 	Macros
+#####################################################################
+[delayed_gcode my_delayed_gcode]
+gcode:
+    SET_VELOCITY_LIMIT VELOCITY=1000 ACCEL=3000 ACCEL_TO_DECEL=2000 SQUARE_CORNER_VELOCITY=5
+    SET_PRESSURE_ADVANCE ADVANCE=0.006 SMOOTH_TIME=0.040
+#   A list of G-Code commands to execute when the delay duration has
+#   elapsed. G-Code templates are supported. This parameter must be
+#   provided.
+initial_duration: 20.0
+#   The duration of the initial delay (in seconds). If set to a
+#   non-zero value the delayed_gcode will execute the specified number
+#   of seconds after the printer enters the "ready" state. This can be
+#   useful for initialization procedures or a repeating delayed_gcode.
+#   If set to 0 the delayed_gcode will not execute on startup.
+#   Default is 0.
+ 
+[gcode_macro PRINT_START]
+#   Use PRINT_START for the slicer starting script - please customise for your slicer of choice
+gcode:
+    #G28                            ; home all axes
+    prime_line
+    BED_MESH_PROFILE LOAD="100"
+    G1 Z20 F3000                   ; move nozzle away from bed
+   
+
+[gcode_macro PRINT_END]
+#   Use PRINT_END for the slicer ending script - please customise for your slicer of choice
+gcode:
+    M400                           ; wait for buffer to clear
+    G92 E0                         ; zero the extruder
+    G1 E-10.0 F3600                ; retract filament
+    G91                            ; relative positioning
+    G0 Z1.00 X20.0 Y20.0 F20000    ; move nozzle to remove stringing
+    TURN_OFF_HEATERS
+    M107                           ; turn off fan
+    G1 Z2 F3000                    ; move nozzle up 2mm
+    G90                            ; absolute positioning
+    G0  X10 Y10 F3600              ; park nozzle at front
+    #BED_MESH_CLEAR
+    
+[gcode_macro CANCEL_PRINT]
+rename_existing: BASE_CANCEL_PRINT
+gcode:
+  TURN_OFF_HEATERS
+  CLEAR_PAUSE
+  SDCARD_RESET_FILE
+  BASE_CANCEL_PRINT
+
+
+[gcode_macro prime_line]
+gcode:
+    G92 E0.0
+	G1 Z20 F6000
+	G1 X5 Y5 F12000
+	G1 Z0.5
+	G1 Y250 E35 F500
+	G1 Z4 F3000
+	G92 E0.0             ;set extruder to Zero   
+
+## 	Thermistor Types
+##   "EPCOS 100K B57560G104F"
+##   "ATC Semitec 104GT-2"
+##   "NTC 100K beta 3950"
+##   "Honeywell 100K 135-104LAG-J01"
+##   "NTC 100K MGB18-104F39050L32" (Keenovo Heater Pad)
+##   "AD595"
+##   "PT100 INA826"
+
+# Virtual SD Card
+[virtual_sdcard]
+path: ~/gcode_files
+
+# Pause/Resume Functionality
+[pause_resume]
+
+[display_status]
+
+
