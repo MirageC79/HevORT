@@ -1,3 +1,5 @@
+![alt text](https://github.com/MirageC79/HevORT/blob/master/files/STL/Enclosure/AcidBee_Enclosure/OctopusProCasing/Octopus_casing_acidbee_render.jpg?raw=true)
+
 **STLs:**
 https://github.com/.../AcidBee_Enclosure/OctopusProCasing
 
