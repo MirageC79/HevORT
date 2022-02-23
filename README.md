@@ -15,7 +15,7 @@ Intro.|[Why the HevORT?](/intro.md)
 4.|[Which electronics?](/electronics.md)
 5.|[**Main Data**: CAD, BOM and STLs](/purchased.md)
 6.|[How to Print your Parts](/howtoprint.md)
-7.|Assembly Instructions
+7.|[Assembly Instructions](/assembly.md)
 8.|[Firmware configuration](/firmwaresettings.md)
 9.|First run!
 10.|Calibration
