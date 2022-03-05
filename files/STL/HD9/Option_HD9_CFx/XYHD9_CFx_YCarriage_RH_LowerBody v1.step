@@ -11,8 +11,8 @@ FILE_DESCRIPTION(
 FILE_NAME(
 /* name */ 
 'C:/Users/olivi/OneDrive/Documents/GitHub/HevORT/files/STL/HD9/Option_
-HD9_CFx/XYHD9_HD_YCarriage_RH_LowerBody Beta.1.step',
-/* time_stamp */ '2022-03-03T17:40:45-05:00',
+HD9_CFx/XYHD9_CFx_YCarriage_RH_LowerBody v1.step',
+/* time_stamp */ '2022-03-04T19:35:36-05:00',
 /* author */ (''),
 /* organization */ (''),
 /* preprocessor_version */ 'ST-DEVELOPER v18.1',
@@ -8631,19 +8631,20 @@ SOLID_ANGLE_UNIT()
 #8046=PRODUCT_DEFINITION_SHAPE('',$,#8049);
 #8047=SHAPE_REPRESENTATION('',(#4440),#8039);
 #8048=PRODUCT_DEFINITION_CONTEXT('part definition',#8053,'design');
-#8049=PRODUCT_DEFINITION('XYHD9_HD_YCarriage_RH_LowerBody',
-'XYHD9_HD_YCarriage_RH_LowerBody v1',#8050,#8048);
+#8049=PRODUCT_DEFINITION('XYHD9_CFx_YCarriage_RH_LowerBody v1',
+'XYHD9_CFx_YCarriage_RH_LowerBody v1 v2',#8050,#8048);
 #8050=PRODUCT_DEFINITION_FORMATION('',$,#8055);
 #8051=PRODUCT_RELATED_PRODUCT_CATEGORY(
-'XYHD9_HD_YCarriage_RH_LowerBody v1',
-'XYHD9_HD_YCarriage_RH_LowerBody v1',(#8055));
+'XYHD9_CFx_YCarriage_RH_LowerBody v1 v2',
+'XYHD9_CFx_YCarriage_RH_LowerBody v1 v2',(#8055));
 #8052=APPLICATION_PROTOCOL_DEFINITION('international standard',
 'automotive_design',2009,#8053);
 #8053=APPLICATION_CONTEXT(
 'Core Data for Automotive Mechanical Design Process');
 #8054=PRODUCT_CONTEXT('part definition',#8053,'mechanical');
-#8055=PRODUCT('XYHD9_HD_YCarriage_RH_LowerBody',
-'XYHD9_HD_YCarriage_RH_LowerBody v1',$,(#8054));
+#8055=PRODUCT('XYHD9_CFx_YCarriage_RH_LowerBody v1',
+'XYHD9_CFx_YCarriage_RH_LowerBody v1 v2',
+'HD9_CFx_YCarriage_RH_LowerBody',(#8054));
 #8056=PRESENTATION_STYLE_ASSIGNMENT((#8058));
 #8057=PRESENTATION_STYLE_ASSIGNMENT((#8059));
 #8058=SURFACE_STYLE_USAGE(.BOTH.,#8060);

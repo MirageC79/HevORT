@@ -11,8 +11,8 @@ FILE_DESCRIPTION(
 FILE_NAME(
 /* name */ 
 'C:/Users/olivi/OneDrive/Documents/GitHub/HevORT/files/STL/HD9/Option_
-HD9_CFx/XYHD9_CFx_YCarriage_LH_UpperBody Beta.1.step',
-/* time_stamp */ '2022-02-26T13:22:56-05:00',
+HD9_CFx/XYHD9_CFx_YCarriage_LH_UpperBody v1.step',
+/* time_stamp */ '2022-03-04T19:35:07-05:00',
 /* author */ (''),
 /* organization */ (''),
 /* preprocessor_version */ 'ST-DEVELOPER v18.1',
@@ -1877,19 +1877,20 @@ SOLID_ANGLE_UNIT()
 #1810=PRODUCT_DEFINITION_SHAPE('',$,#1813);
 #1811=SHAPE_REPRESENTATION('',(#1076),#1803);
 #1812=PRODUCT_DEFINITION_CONTEXT('part definition',#1817,'design');
-#1813=PRODUCT_DEFINITION('XYHD9_CFx_YCarriage_LH_UpperBody',
-'XYHD9_CFx_YCarriage_LH_UpperBody v1',#1814,#1812);
+#1813=PRODUCT_DEFINITION('XYHD9_CFx_YCarriage_LH_UpperBody v1',
+'XYHD9_CFx_YCarriage_LH_UpperBody v1 v2',#1814,#1812);
 #1814=PRODUCT_DEFINITION_FORMATION('',$,#1819);
 #1815=PRODUCT_RELATED_PRODUCT_CATEGORY(
-'XYHD9_CFx_YCarriage_LH_UpperBody v1',
-'XYHD9_CFx_YCarriage_LH_UpperBody v1',(#1819));
+'XYHD9_CFx_YCarriage_LH_UpperBody v1 v2',
+'XYHD9_CFx_YCarriage_LH_UpperBody v1 v2',(#1819));
 #1816=APPLICATION_PROTOCOL_DEFINITION('international standard',
 'automotive_design',2009,#1817);
 #1817=APPLICATION_CONTEXT(
 'Core Data for Automotive Mechanical Design Process');
 #1818=PRODUCT_CONTEXT('part definition',#1817,'mechanical');
-#1819=PRODUCT('XYHD9_CFx_YCarriage_LH_UpperBody',
-'XYHD9_CFx_YCarriage_LH_UpperBody v1',$,(#1818));
+#1819=PRODUCT('XYHD9_CFx_YCarriage_LH_UpperBody v1',
+'XYHD9_CFx_YCarriage_LH_UpperBody v1 v2',
+'HD9_CFx_YCarriage_LH_UpperBody ',(#1818));
 #1820=PRESENTATION_STYLE_ASSIGNMENT((#1821));
 #1821=SURFACE_STYLE_USAGE(.BOTH.,#1822);
 #1822=SURFACE_SIDE_STYLE('',(#1823));
