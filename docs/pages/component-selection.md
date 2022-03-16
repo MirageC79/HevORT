@@ -6,6 +6,38 @@ The HevORT project has been designed to be modular. This means you can select fr
 new Vue({
   el: "grid:nth-of-type(1)",
   data: {
+    config: {
+        gridTemplateColumns: "1fr 1fr",
+    },
+    items: [
+        {
+            title: "Frame",
+            image: "../assets/images/components/FrameThumb.png",
+            description: `The bare base frame with a side electronics bay`,
+            buttons: [
+                {title: "Frame Hardware Map", link: "https://a360.co/3dCjsfY"},
+                {title: "BOM - Web", link: "https://miragec79.github.io/HevORT/bom/BOM_Frame_ElecExt.htm"},
+                {title: "BOM - Download", link: "https://miragec79.github.io/HevORT/bom/BOM_Frame_ElecExt.xlsx"},
+            ],
+            customContent: "<span class='component-active-status'>Active</span>",
+        },
+        {
+            title: "Enclosure",
+            image: "../assets/images/components/AcidBeeThumb.png",
+            description: `The  Acid Bee Enclosure`,
+            buttons: [
+                {title: "Thingiverse", link: "https://www.thingiverse.com/thing:5188673"},
+                {title: "BOM - Web", link: "https://miragec79.github.io/HevORT/bom/BOM_Enclosure_AcidBee.htm"},
+                {title: "BOM - Download", link: "https://miragec79.github.io/HevORT/bom/BOM_Enclosure_AcidBee.xlsx"},
+            ],
+            customContent: "<span class='component-active-status'>Active</span>",
+        },
+    ]
+  }
+});
+new Vue({
+  el: "grid:nth-of-type(2)",
+  data: {
     config: {},
     items: [
         {
@@ -65,7 +97,7 @@ new Vue({
   }
 });
 new Vue({
-  el: "grid:nth-of-type(2)",
+  el: "grid:nth-of-type(3)",
   data: {
     config: {},
     items: [
@@ -119,7 +151,7 @@ new Vue({
   }
 });
 new Vue({
-  el: "grid:nth-of-type(3)",
+  el: "grid:nth-of-type(4)",
   data: {
     config: {},
     items: [
@@ -166,7 +198,7 @@ new Vue({
   }
 });
 new Vue({
-  el: "grid:nth-of-type(4)",
+  el: "grid:nth-of-type(5)",
   data: {
     config: {
         gridTemplateColumns: "1fr 1fr",
@@ -186,7 +218,7 @@ new Vue({
 });
 
 new Vue({
-  el: "grid:nth-of-type(5)",
+  el: "grid:nth-of-type(6)",
   data: {
     config: {
         gridTemplateColumns: "1fr 1fr",
@@ -208,18 +240,22 @@ new Vue({
 });
 </script>
 
+## 1. Frame/Enclosure
+This is the base of the HevORT
 
-## 1. XY Gantry
+[frame-template](../assets/templates/grid-template.md ':include')
+
+## 2. XY Gantry
 You will find below the various configuration for XY Gantry.  Select one in function of your needs:
 
 [xy-gantry-template](../assets/templates/grid-template.md ':include')
 
-## 2. Z Axis and Build Plate
+## 3. Z Axis and Build Plate
 Choose your weapon wisely ;)
 
 [z-axis-template](../assets/templates/grid-template.md ':include')
 
-## 3. Print Head
+## 4. Print Head
 Several versions are already published, but a lot more are being created by the community.  
 Search for HevORT on [Thingiverse](https://www.thingiverse.com/) to find the latest.  
 This list will capture the ones I created plus the ones from members of the [FB community](https://www.facebook.com/groups/hevort/) that wish to have their work posted here.  
