@@ -88,13 +88,15 @@ h1 {
 }
 
 .grid-item-description {
-
+    padding-bottom: 1rem;
 }
 
 .grid-item-custom-content {
+    padding-bottom: 1rem;
     margin-top: auto;
-    padding-top: 1rem;
 }
+
+
 
 .grid-item-credits {
     border: 2px solid #d1ff2a;
@@ -130,4 +132,18 @@ h1 {
 
 .grid-item-credit-list-item-description {
     font-size: 1.1rem;
+}
+
+.component-active-status-retired {
+    border: 2px solid red;
+}
+
+.component-active-status {
+    display: flex;
+    justify-content: center;
+    border: 2px solid #d1ff2a;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    font-weight: bold;
+    font-size: large;
 }
