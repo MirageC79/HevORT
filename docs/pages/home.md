@@ -28,3 +28,5 @@ click the button here below :)
 
 Thank you!
 Olivier
+
+<p style="font-size: 3rem; text-align: center;">:fa-solid fa-heart: Happy Printing :fa-solid fa-heart:</p>
