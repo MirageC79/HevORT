@@ -28,7 +28,7 @@ Here are a couple of snapshots from results of recommended sizes:
 
 <script>
 new Vue({
-  el: ".grid",
+  el: "grid:nth-of-type(1)",
   data: {
     config: {
       gridTemplateColumns: "1fr 1fr 1fr 1fr"
@@ -52,7 +52,8 @@ new Vue({
         },
     ]
   }
-})
+});
 </script>
 
 [grid-template](../assets/templates/grid-template.md ':include')
+

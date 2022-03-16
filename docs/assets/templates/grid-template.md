@@ -1,4 +1,4 @@
-<div class="grid" :style="[config.gridTemplateColumns ? {'gridTemplateColumns': config.gridTemplateColumns} : {'gridTemplateColumns': '1fr 1fr 1fr'}]">
+<grid class="grid" :style="[config.gridTemplateColumns ? {'gridTemplateColumns': config.gridTemplateColumns} : {'gridTemplateColumns': '1fr 1fr 1fr'}]">
     <div class="grid-item" v-if="!item.hide" v-for="item in items">
         <span class="grid-item-title" v-html=item.title></span>
         <img alt="IMAGE" v-if="item.image" class="grid-item-image" :src=item.image />
@@ -18,4 +18,4 @@
             <a class="download-button-btn" v-if="item.download" :href=item.download target="_blank" rel="noopener"><span class="download-button-text">Download</span><i class="fa fa-download download-button-icon" aria-hidden="true"></i></a>
         </div>
     </div>
-</div>
+</grid>
