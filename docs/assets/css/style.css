@@ -72,6 +72,13 @@ h1 {
     padding: 1rem;
     display: flex;
     flex-direction: column;
+    box-shadow:
+            3.7px 6.1px 1.9px rgba(0, 0, 0, 0.004),
+            7.5px 12.2px 4.8px rgba(0, 0, 0, 0.009),
+            11.2px 18.3px 9.6px rgba(0, 0, 0, 0.014),
+            14.9px 24.3px 17.6px rgba(0, 0, 0, 0.019),
+            18.5px 30.2px 32.6px rgba(0, 0, 0, 0.027),
+            22px 36px 73px rgba(0, 0, 0, 0.05);
 }
 
 .grid-item-image {
