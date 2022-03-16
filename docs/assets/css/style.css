@@ -1,0 +1,132 @@
+:root {
+    --sidebar-nav-pagelink-background-image: none;
+    --sidebar-nav-link-before-content: '';
+    --sidebar-width: 25rem;
+    --content-max-width: 80rem;
+    --mark-background: white;
+    --heading-h1-color: #d1ff2a;
+    --heading-h1-font-size: 3rem;
+    --heading-h1-padding: 0 0 2rem 0;
+    --cover-button-primary-background: #d1ff2a;
+    --cover-button-primary-color: black;
+    --cover-button-padding: 0.5rem;
+}
+
+.cover-button {
+    font-size: larger;
+    font-weight: 700;
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.sidebar-nav ul > li.folder {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7' height='11.2' viewBox='0 0 7 11.2'%3E%3Cpath d='M1.5 1.5l4 4.1 -4 4.1' stroke-width='1.5' stroke='rgb%28179, 179, 179%29' fill='none' stroke-linecap='square' stroke-linejoin='miter' vector-effect='non-scaling-stroke'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: left calc(1em - 8px);
+    padding-left: 16px;
+}
+
+.sidebar-nav ul > li.folder.open {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='11.2' height='7' viewBox='0 0 11.2 7'%3E%3Cpath d='M1.5 1.5l4.1 4 4.1-4' stroke-width='1.5' stroke='rgb%2811, 135, 218%29' fill='none' stroke-linecap='square' stroke-linejoin='miter' vector-effect='non-scaling-stroke'/%3E%3C/svg%3E");
+    background-position: left calc(1em - 6px);
+}
+
+.sidebar-nav li.folder > ul {
+    margin-left: 16px;
+}
+
+.sidebar-nav li.folder li.file > a {
+    padding-left: 16px;
+}
+
+
+.sidebar-nav > ul > li > ul > li > ul > li > a:before {
+    content: "" !important;
+}
+
+.sidebar-item {
+    color: #d1ff2a;
+    font-size: larger;
+    font-weight: bolder
+}
+
+.hevort {
+    color: #d1ff2a;
+    font-size: larger;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.grid-item {
+    border: solid 3px #d1ff2a;
+    border-radius: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.grid-item-image {
+    border-radius: 1rem;
+}
+
+.grid-item-title {
+    padding: 1rem;
+    font-size: large;
+    font-weight: bolder;
+    align-self: center;
+    text-align: center;
+}
+
+.grid-item-description {
+
+}
+
+.grid-item-custom-content {
+    margin-top: auto;
+    padding-top: 1rem;
+}
+
+.grid-item-credits {
+    border: 2px solid #d1ff2a;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.grid-item-credit-header {
+    display: flex;
+    justify-content: center;
+    color: #d1ff2a;
+    font-size: 1.5rem;
+    font-weight: bolder;
+
+}
+
+.grid-item-credit-list {
+    margin: 0 !important;
+}
+
+.grid-item-credit-list-item-name {
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.grid-item-credit-list-item-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.grid-item-credit-list-item-description {
+    font-size: 1.1rem;
+}

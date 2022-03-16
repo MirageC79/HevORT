@@ -1,0 +1,28 @@
+.download-button-btn {
+    display: flex;
+    align-items: center;
+    border: 2px solid #d1ff2a !important;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    text-decoration: none !important;
+    background: #2d2d2d;
+    color: white !important;
+    font-weight: bolder;
+    justify-content: center;
+}
+
+.download-button-btn:hover {
+    background-color: #0021c9;
+}
+
+.download-button-btn:active {
+    transform: translateY(4px);
+}
+
+.download-button-text {
+    padding-right: 0.5rem;
+}
+
+.download-button-icon {
+
+}
