@@ -2,3 +2,4 @@
 * [Intro](pages/intro.md)
 * [Printer Size](pages/printer-size.md)
 * [Frame Calculation](pages/frame-calculation.md)
+* [Component Selection](pages/component-selection.md)
