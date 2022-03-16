@@ -1,4 +1,4 @@
-<div class="grid">
+<div class="grid" :style="[config.gridTemplateColumns ? {'gridTemplateColumns': config.gridTemplateColumns} : {'gridTemplateColumns': '1fr 1fr 1fr'}]">
     <div class="grid-item" v-if="!item.hide" v-for="item in items">
         <span class="grid-item-title" v-html=item.title></span>
         <img alt="IMAGE" v-if="item.image" class="grid-item-image" :src=item.image />
