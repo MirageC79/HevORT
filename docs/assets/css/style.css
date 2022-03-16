@@ -76,6 +76,7 @@ h1 {
 
 .grid-item-image {
     border-radius: 1rem;
+    margin-bottom: 1rem;
 }
 
 .grid-item-title {
