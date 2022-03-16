@@ -15,6 +15,8 @@
                     </li>
                 </ul>
         </div>
-        <a class="download-button-btn" :style="[item.customContent ? {'marginTop': 'unset'} : {'marginTop': 'auto'}]" v-if="item.download" :href=item.download target="_blank" rel="noopener"><span class="download-button-text">Download</span><i class="fa fa-download download-button-icon" aria-hidden="true"></i></a>
+        <div class="grid-item-button-container" v-if="item.buttons" :style="[item.customContent ? {'marginTop': 'unset'} : {'marginTop': 'auto'}]">
+            <a class="download-button-btn" v-for="button in item.buttons" v-if="button.link" :href="button.link" :target="[button.target ? button.target : '_blank']"><span class="download-button-text">{{ button.title }}</span><i v-if="button.icon" :class="button.icon"></i></a>
+        </div>
     </div>
 </grid>

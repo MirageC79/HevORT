@@ -134,6 +134,11 @@ h1 {
     font-size: 1.1rem;
 }
 
+.grid-item-button-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .component-active-status-retired {
     border: 2px solid red !important;
 }
