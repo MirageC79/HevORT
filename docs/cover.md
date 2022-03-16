@@ -1,4 +1,4 @@
-> A collection of modifications for the <span class="hevort">HevORT</span> 3D-Printer
+><span class="hevort">HevORT</span> DIY 3D-Printer Documentation
 
 [Dive into the Project](pages/home.md ':class=cover-button')
 
