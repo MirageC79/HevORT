@@ -165,6 +165,47 @@ new Vue({
     ]
   }
 });
+new Vue({
+  el: "grid:nth-of-type(4)",
+  data: {
+    config: {
+        gridTemplateColumns: "1fr 1fr",
+    },
+    items: [
+        {
+            title: "HextrudORT",
+            image: "../assets/images/components/HextrudORT_CoverThumb.jpg",
+            description: `Collection of multiple print heads based on the HextrudORT (Extruder + Hotend) carriage`,
+            buttons: [
+                {title: "HextrudORT GitHub Page", link: "https://miragec79.github.io/HextrudORT/"},
+            ],
+            customContent: "<span class='component-active-status'>Active</span>",
+        },
+    ]
+  }
+});
+
+new Vue({
+  el: "grid:nth-of-type(5)",
+  data: {
+    config: {
+        gridTemplateColumns: "1fr 1fr",
+    },
+    items: [
+        {
+            title: "Electronics",
+            image: "../assets/images/components/ElectronicsThumb.jpg",
+            description: `Electronics List of material for Power Management and Control Board`,
+            buttons: [
+                {title: "Electronics Island proposal", link: "https://www.thingiverse.com/thing:3953165"},
+                {title: "BOM - Web", link: "https://miragec79.github.io/HevORT/bom/BOM_Electronics.htm"},
+                {title: "BOM - Download", link: "https://miragec79.github.io/HevORT/bom/BOM_Electronics.xlsx"},
+            ],
+            customContent: "<span class='component-active-status'>Active</span>",
+        },
+    ]
+  }
+});
 </script>
 
 
@@ -183,5 +224,22 @@ Several versions are already published, but a lot more are being created by the 
 Search for HevORT on [Thingiverse](https://www.thingiverse.com/) to find the latest.  
 This list will capture the ones I created plus the ones from members of the [FB community](https://www.facebook.com/groups/hevort/) that wish to have their work posted here.  
 All configuration here below include the [BLtouch from Antclabs](https://www.antclabs.com/bltouch) as a Z probe.
+
+[print-head-template](../assets/templates/grid-template.md ':include')
+
+### HextrudORT
+
+The HextrudORT is a special print head because it is not just one print head but multiple.  
+It starts with a generic carriage and allows different Print heads to be mounted to that carriage.  
+Supported print heads include (as of now):  
+* Nova
+* Dragon
+* Mosquito
+* E3D V6 (+Volcano)
+* Rapido (+UHF setup)
+
+[print-head-template](../assets/templates/grid-template.md ':include')
+
+## 4. Electronics
 
 [print-head-template](../assets/templates/grid-template.md ':include')
