@@ -18,6 +18,7 @@ new Vue({
                 {title: "Frame Hardware Map", link: "https://a360.co/3dCjsfY"},
                 {title: "BOM - Web", link: "https://miragec79.github.io/HevORT/bom/BOM_Frame_ElecExt.htm"},
                 {title: "BOM - Download", link: "https://miragec79.github.io/HevORT/bom/BOM_Frame_ElecExt.xlsx"},
+                {title: "CAD File", link: "https://a360.co/2xUD9B9"},
             ],
             customContent: "<span class='component-active-status'>Active</span>",
         },
@@ -29,6 +30,7 @@ new Vue({
                 {title: "Thingiverse", link: "https://www.thingiverse.com/thing:5188673"},
                 {title: "BOM - Web", link: "https://miragec79.github.io/HevORT/bom/BOM_Enclosure_AcidBee.htm"},
                 {title: "BOM - Download", link: "https://miragec79.github.io/HevORT/bom/BOM_Enclosure_AcidBee.xlsx"},
+                {title: "CAD File", link: "https://a360.co/3HD6rlY"},
             ],
             customContent: "<span class='component-active-status'>Active</span>",
         },
@@ -46,8 +48,8 @@ new Vue({
             description: `This version is suited for the commonly available GT2 pulleys.
                         <br>These pulleys available from china and other location are 9mm thick and have wider flanges(lips).`,
             buttons: [
-                {title: "CAD File", link: ""},
-                {title: "Thingiverse", link: "https://www.thingiverse.com/thing:4184477"}
+                {title: "Thingiverse", link: "https://www.thingiverse.com/thing:4184477"},
+                {title: "CAD File", link: "https://a360.co/2UEaOHa"},
             ],
             customContent: "<span class='component-active-status'>Since April 2019</span>",
         },
@@ -58,8 +60,8 @@ new Vue({
                         <br>Note that due to extreme compactness of some components,
                         <br>transition bushings are necessary to fit the 5mm bore onto 3mm hardware.`,
             buttons: [
-                {title: "CAD File", link: ""},
-                {title: "Thingiverse", link: "https://www.thingiverse.com/thing:4402495"}
+                {title: "Thingiverse", link: "https://www.thingiverse.com/thing:4402495"},
+                {title: "CAD File", link: "https://a360.co/3ABEubX"},
             ],
             customContent: "<span class='component-active-status'>Since May 2020</span>",
         },
@@ -73,8 +75,8 @@ new Vue({
                         <br>Center Pulley Bore 5mm Dowell Pins,
                         <br>MGN12H instead of MGN12C and more...`,
             buttons: [
-                {title: "CAD File", link: ""},
-                {title: "Thingiverse", link: "https://www.thingiverse.com/thing:4629715"}
+                {title: "Thingiverse", link: "https://www.thingiverse.com/thing:4629715"},
+                {title: "CAD File", link: "https://a360.co/35p2MH0"},
             ],
             customContent: "<span class='component-active-status'>Since Oct 2020</span>",
         },
@@ -88,8 +90,8 @@ new Vue({
                         <br>Center Pulley Bore 5mm Dowell Pins,
                         <br>MGN12H instead of MGN12C and more...`,
             buttons: [
-                {title: "CAD File", link: ""},
-                {title: "Thingiverse", link: "https://www.thingiverse.com/thing:4625509"}
+                {title: "Thingiverse", link: "https://www.thingiverse.com/thing:4625509"},
+                {title: "CAD File", link: "https://a360.co/3dxzysP"},
             ],
             customContent: "<span class='component-active-status'>Since Oct 2020</span>",
         },
@@ -153,8 +155,8 @@ new Vue({
                         <br>Sounds impossible to get?
                         <br></br>look at V2 below :)`,
             buttons: [
-                {title: "CAD File", link: ""},
-                {title: "Thingiverse", link: "https://www.thingiverse.com/thing:4184059"}
+                {title: "Thingiverse", link: "https://www.thingiverse.com/thing:4184059"},
+                {title: "CAD File", link: "https://a360.co/3gweJiw"},
             ],
             customContent: "<span class='component-active-status component-active-status-retired'>Feb 2020 - RETIRED</span>",
         },
@@ -168,8 +170,8 @@ new Vue({
                         <br><br>this version of ZR system introduces Z wobble management using magnets and ball bearings.
                         <br>Also a second thrust bearing was added to allow the use of a M10X1.00 nut to secure the ball screw better.`,
             buttons: [
-                {title: "CAD File", link: ""},
-                {title: "Thingiverse", link: "https://www.thingiverse.com/thing:4387638"}
+                {title: "Thingiverse", link: "https://www.thingiverse.com/thing:4387638"},
+                {title: "CAD File", link: "https://a360.co/3bSwQzF"},
             ],
             customContent: "<span class='component-active-status'>Since May 2020</span>",
         },
@@ -181,7 +183,8 @@ new Vue({
                         <br><br>Second, a quality shaft collar from Ruland is providing a better resting shoulder to the thrust bearing than the poor half lip of a thread the SFU1204 usually offers.`,
             buttons: [
                 {title: "CAD File", link: ""},
-                {title: "Thingiverse", link: "https://www.thingiverse.com/thing:4723500"}
+                {title: "Thingiverse", link: "https://www.thingiverse.com/thing:4723500"},
+                {title: "CAD File", link: "https://a360.co/3bSwQzF"},
             ],            
             customContent: "<span class='component-active-status'>Since Jan 2021</span>",
         },
@@ -208,21 +211,21 @@ new Vue({
                         <br><br>Part cooling is achieved via BerdAir system
                         .<br><br>Duct STL include on the Thingiverse page.`,
             buttons: [
-                {title: "CAD File", link: ""},
-                {title: "Thingiverse", link: "https://www.thingiverse.com/thing:4238471"}
+                {title: "Thingiverse", link: "https://www.thingiverse.com/thing:4238471"},
+                {title: "CAD File", link: "https://a360.co/2U1i6ob"},
             ],
             customContent: "<span class='component-active-status'>Since March 2020</span>",
         },
         {
-            title: "BMG/Titan Aqua Frankenstien by RUDDFAB12",
+            title: "BMG/Titan Aqua",
             image: "../assets/images/components/BMGAquaThumb.png",
             description: `This is the all metal BMG (Right Hand) paired with a Titan Aqua cooling plate,
                         <br>E3D Volcano
                         <br>and the E3D slim stepper.
                         <br><br>BLTouch and Optical endstop sensor mounts as well.`,
             buttons: [
-                {title: "CAD File", link: ""},
-                {title: "Thingiverse", link: "https://www.thingiverse.com/thing:4411289"}
+                {title: "Thingiverse", link: "https://www.thingiverse.com/thing:4411289"},
+                {title: "CAD File", link: "https://a360.co/3fY7MFT"},
             ],
             customContent: "<span class='component-active-status'>Since May 2020</span>",
         },
@@ -233,8 +236,8 @@ new Vue({
                         <br><br>Part cooling is achieved by BerdAir system.
                         <br><br>Bltouch and optical sensors are used for positioning.`,
             buttons: [
-                {title: "CAD File", link: "#"},
-                {title: "Thingiverse", link: "https://www.thingiverse.com/thing:4556554"}
+                {title: "Thingiverse", link: "https://www.thingiverse.com/thing:4556554"},
+                {title: "CAD File", link: "https://a360.co/39ryl4z"},
             ],
             customContent: "<span class='component-active-status'>Since July 2020</span>",
         },
