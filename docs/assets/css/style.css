@@ -142,8 +142,9 @@ h1 {
 }
 
 .grid-item-button-container {
-    display: flex;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
 }
 
 .component-active-status-retired {
