@@ -160,3 +160,22 @@ h1 {
     font-weight: bold;
     font-size: large;
 }
+
+.hevort-message {
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+}
+
+.hevort-message > img {
+    max-height: 100%;
+}
+
+.hevort-message > span {
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
