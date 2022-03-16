@@ -135,7 +135,7 @@ h1 {
 }
 
 .component-active-status-retired {
-    border: 2px solid red;
+    border: 2px solid red !important;
 }
 
 .component-active-status {
