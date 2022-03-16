@@ -1,7 +1,7 @@
 <div class="grid">
     <div class="grid-item" v-if="!item.hide" v-for="item in items">
-        <img alt="IMAGE" v-if="item.image" class="grid-item-image" :src=item.image />
         <span class="grid-item-title" v-html=item.title></span>
+        <img alt="IMAGE" v-if="item.image" class="grid-item-image" :src=item.image />
         <div class="grid-item-description" v-html=item.description></div>
         <div class="grid-item-custom-content">
             <div class="grid-item-credits" v-if="item.credits">
