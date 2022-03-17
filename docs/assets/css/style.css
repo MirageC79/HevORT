@@ -12,9 +12,22 @@
     --base-background-color: var(--primary-background-color);
     --sidebar-background: var(--secondary-background-color);
     --theme-color: var(--primary-color);
+    --search-input-border-color: var(--primary-color);
+    --search-input-placeholder-color: white;
+    --search-input-background-color: var(--primary-background-color);
+    --base-color: white;
+
+
+
     --primary-color: #d1ff2a;
     --primary-background-color: #2d2d2d;
     --secondary-background-color: #343434;
+}
+
+.search .clear-button.show {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .cover-button {
