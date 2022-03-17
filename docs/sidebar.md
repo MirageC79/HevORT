@@ -4,3 +4,4 @@
 * [Frame Calculation](pages/frame-calculation.md)
 * [Component Selection](pages/component-selection.md)
 * [Electronics Selection](pages/electronics-selection.md)
+* [How to print the Parts](pages/how-to-print-parts.md)
