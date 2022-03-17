@@ -2,7 +2,16 @@
     <div class="grid-item" v-if="!item.hide" v-for="item in items">
         <span class="grid-item-title" v-html=item.title></span>
         <img alt="IMAGE" v-if="item.image" class="grid-item-image" :src=item.image />
-        <div class="grid-item-description" v-html=item.description></div>
+        <div class="grid-item-description-container">
+          <button class="grid-item-description-button hevort-btn" @click="(e) => toggleDescription(e, item)">
+            <span class="grid-item-description-button-text" v-text="item.descriptionExpanded ? 'Hide Description' : 'Show Description'"></span>
+            <i class="grid-item-description-button-icon" :class="item.descriptionExpanded ? 'fa-solid fa-angle-up' : 'fa-solid fa-angle-down'"></i>
+          </button>
+          <div class="grid-item-description"
+               :class="(item.descriptionExpanded) ? 'grid-item-description-expanded' : ''"
+               v-html=item.description>
+          </div>
+        </div>
         <div class="grid-item-custom-content" v-if="item.customContent" v-html="item.customContent"></div>
         <div class="grid-item-credits" v-if="item.credits">
             <span class="grid-item-credit-header">Credits</span>

@@ -91,8 +91,9 @@ h1 {
 }
 
 .grid-item-image {
-    border-radius: 1rem;
-    margin-bottom: 1rem;
+    border: 1px solid #d1ff2a !important;
+    border-bottom: 0 !important;
+    border-radius: 1rem 1rem 0 0;
 }
 
 .grid-item-title {
@@ -101,10 +102,6 @@ h1 {
     font-weight: bolder;
     align-self: center;
     text-align: center;
-}
-
-.grid-item-description {
-    padding-bottom: 1rem;
 }
 
 .grid-item-custom-content {
@@ -187,4 +184,47 @@ h1 {
 .hevort-message > span {
     font-weight: bolder;
     font-size: 1.2rem;
+}
+
+.grid-item-description {
+    transition: all 0.2s ease-in-out;
+    opacity: 0;
+    height: auto;
+    max-height: 0;
+    overflow: hidden;
+}
+
+.grid-item-description-expanded {
+    opacity: 1;
+    height: auto;
+    max-height: 500px;
+    padding-bottom: 1rem;
+}
+
+
+.grid-item-description-button {
+    border: 1px solid #d1ff2a !important;
+    padding: 0 1rem;
+    background: #2d2d2d;
+    color: white;
+    border-radius: 0 0 0.5rem 0.5rem;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.grid-item-description-button:active {
+    transform: unset;
+}
+
+.grid-item-description-button-text {
+    padding: 0.4rem 0;
+}
+
+.grid-item-description-button-icon {
+    line-height: normal;
+    font-size: 1.4rem;
 }
