@@ -3,13 +3,7 @@
 The HevORT project has been designed to be modular. This means you can select from multiple components configuration and assemble the one that will suit your needs.
 
 <script>
-new Vue({
-  el: "grid:nth-of-type(1)",
-  data: {
-    config: {
-        gridTemplateColumns: "1fr 1fr",
-    },
-    items: [
+    createGridData(1, [
         {
             title: "Frame",
             image: "../assets/images/components/FrameThumb.png",
@@ -34,14 +28,8 @@ new Vue({
             ],
             customContent: "<span class='component-active-status'>Active</span>",
         },
-    ]
-  }
-});
-new Vue({
-  el: "grid:nth-of-type(2)",
-  data: {
-    config: {},
-    items: [
+    ], {gridTemplateColumns: "1fr 1fr"});
+    createGridData(2, [
         {
             title: "Standard XY",
             image: "../assets/images/components/XYThumb.png",
@@ -95,14 +83,8 @@ new Vue({
             ],
             customContent: "<span class='component-active-status'>Since Oct 2020</span>",
         },
-    ]
-  }
-});
-new Vue({
-  el: "grid:nth-of-type(3)",
-  data: {
-    config: {},
-    items: [
+    ]);
+    createGridData(3, [
         {
             title: "(XYHT) MGN9 Carbon Fiber X-Axis",
             image: "../assets/images/components/OPTION_XYHT_CFX_MGN9_Thumb.jpg",
@@ -139,14 +121,8 @@ new Vue({
             ],
             customContent: "<span class='component-active-status'>Active</span>",
         },
-    ]
-  }
-});
-new Vue({
-  el: "grid:nth-of-type(4)",
-  data: {
-    config: {},
-    items: [
+    ]);
+    createGridData(4, [
         {
             title: "ZR",
             image: "../assets/images/components/ZRThumb.png",
@@ -194,14 +170,8 @@ new Vue({
             description: `_Upcoming._ This option will let you use standard <a href="https://www.thingiverse.com/thing:2254103">Hypercube Evolution from SCOTT_3D</a> Z installation to your HevORT printer.`,
             customContent: "<span class='component-active-status'>TBD</span>",
         },
-    ]
-  }
-});
-new Vue({
-  el: "grid:nth-of-type(5)",
-  data: {
-    config: {},
-    items: [
+    ]);
+    createGridData(5, [
         {
             title: "E3D Hemera",
             image: "../assets/images/components/HemeraThumb.png",
@@ -241,16 +211,8 @@ new Vue({
             ],
             customContent: "<span class='component-active-status'>Since July 2020</span>",
         },
-    ]
-  }
-});
-new Vue({
-  el: "grid:nth-of-type(6)",
-  data: {
-    config: {
-        gridTemplateColumns: "1fr 1fr",
-    },
-    items: [
+    ]);
+    createGridData(6, [
         {
             title: "HextrudORT",
             image: "../assets/images/components/HextrudORT_CoverThumb.jpg",
@@ -260,17 +222,8 @@ new Vue({
             ],
             customContent: "<span class='component-active-status'>Active</span>",
         },
-    ]
-  }
-});
-
-new Vue({
-  el: "grid:nth-of-type(7)",
-  data: {
-    config: {
-        gridTemplateColumns: "1fr 1fr",
-    },
-    items: [
+    ], {gridTemplateColumns: "1fr 1fr"});
+    createGridData(7, [
         {
             title: "Electronics",
             image: "../assets/images/components/ElectronicsThumb.jpg",
@@ -282,9 +235,7 @@ new Vue({
             ],
             customContent: "<span class='component-active-status'>Active</span>",
         },
-    ]
-  }
-});
+    ], {gridTemplateColumns: "1fr 1fr"});
 </script>
 
 ## 1. Frame/Enclosure
