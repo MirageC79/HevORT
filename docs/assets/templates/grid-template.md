@@ -16,7 +16,7 @@
                 </ul>
         </div>
         <div class="grid-item-button-container" v-if="item.buttons" :style="[item.customContent ? {'marginTop': 'unset'} : {'marginTop': 'auto'}]">
-            <a class="download-button-btn" v-for="button in item.buttons" v-if="button.link" :href="button.link" :target="[button.target ? button.target : '_blank']"><span class="download-button-text">{{ button.title }}</span><i v-if="button.icon" :class="button.icon"></i></a>
+            <a class="hevort-btn" v-for="button in item.buttons" v-if="button.link" :href="button.link" :target="[button.target ? button.target : '_blank']"><span class="hevort-btn-text">{{ button.title }}</span><i v-if="button.icon" :class="button.icon"></i></a>
         </div>
     </div>
 </grid>

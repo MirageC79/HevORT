@@ -1,4 +1,4 @@
-.download-button-btn {
+.hevort-btn {
     display: flex;
     align-items: center;
     border: 2px solid #d1ff2a !important;
@@ -11,18 +11,18 @@
     justify-content: center;
 }
 
-.download-button-btn:hover {
+.hevort-btn:hover {
     background-color: #0021c9;
 }
 
-.download-button-btn:active {
+.hevort-btn:active {
     transform: translateY(4px);
 }
 
-.download-button-text {
+.hevort-btn-text {
 
 }
 
-.download-button-icon {
+.hevort-button-icon {
     padding-left: 1rem;
 }
