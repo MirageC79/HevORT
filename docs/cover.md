@@ -2,4 +2,4 @@
 
 [Dive into the Project](pages/home.md ':class=cover-button')
 
-![](../images/cover-background.jpg)
+![](/assets/images/cover-background.png)

@@ -16,6 +16,8 @@
     --search-input-placeholder-color: white;
     --search-input-background-color: var(--primary-background-color);
     --base-color: white;
+    --cover-background-color: unset;
+    --cover-background-mask-opacity: 0.3;
 
 
 
