@@ -19,41 +19,14 @@ __NOTE*__ - HD print area will be smaller due to wider Y carriages and bigger pr
 <br>
 ![Frame Calculation Example 1](../assets/images/frame/framecalc1.png)
 
-### 2. Refresh the pivot table by right clicking on it and selecting *Refresh*.
+### 2. Refresh the pivot table by right-clicking on it and selecting *Refresh*.
 
 ![Frame Calculation Example 2](../assets/images/frame/framecalc2.png)
 
 ### EXAMPLES
 Here are a couple of snapshots from results of recommended sizes:
 
-<script>
-new Vue({
-  el: "grid:nth-of-type(1)",
-  data: {
-    config: {
-      gridTemplateColumns: "1fr 1fr 1fr 1fr"
-    },
-    items: [
-        {
-            title: "STD/HT <br> X315 Y315 Z340",
-            image: "../assets/images/frame/size-examples/315_315_340.png",
-        },
-        {
-            title: "STD/HT <br> X415 Y415 Z440",
-            image: "../assets/images/frame/size-examples/415_415_440.png",
-        },
-        {
-            title: "HD <br> X315 Y315 Z340",
-            image: "../assets/images/frame/size-examples/315_315_340HD.png",
-        },
-        {
-            title: "HD <br> X415 Y415 Z440",
-            image: "../assets/images/frame/size-examples/415_415_440HD.png",
-        },
-    ]
-  }
-});
-</script>
 
-[grid-template](../assets/templates/grid-template.md ':include')
-
+| STD/HT X315 Y315 Z340                                     | STD/HT X415 Y415 Z440                                     | HD X315 Y315 Z340                                           | HD X415 Y415 Z440                                           |
+|-----------------------------------------------------------|-----------------------------------------------------------|-------------------------------------------------------------|-------------------------------------------------------------|
+| ![](../assets/images/frame/size-examples/315_315_340.png) | ![](../assets/images/frame/size-examples/415_415_440.png) | ![](../assets/images/frame/size-examples/315_315_340HD.png) | ![](../assets/images/frame/size-examples/415_415_440HD.png) |
