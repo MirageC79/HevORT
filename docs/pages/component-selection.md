@@ -1,4 +1,4 @@
-# Which STLs do I need?
+# Which Components do I need?
 
 The HevORT project has been designed to be modular. This means you can select from multiple components configuration and assemble the one that will suit your needs.
 

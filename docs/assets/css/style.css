@@ -69,6 +69,12 @@ h1 {
     justify-content: center;
 }
 
+@media screen and (max-width: 768px) {
+    .grid {
+        grid-template-columns: 1fr !important;
+    }
+}
+
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -168,7 +174,8 @@ h1 {
 }
 
 .hevort-message {
-    height: 4rem;
+    max-height: 6rem;
+    min-height: 1rem;
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -177,13 +184,20 @@ h1 {
     padding: 0.5rem 1rem;
 }
 
+@media screen and (max-width: 768px) {
+    .hevort-message > span {
+        font-size: 0.6rem !important;
+        font-weight: normal;
+    }
+}
+
 .hevort-message > img {
-    max-height: 100%;
+    max-height: inherit;
+    padding: 1rem 0;
 }
 
 .hevort-message > span {
-    font-weight: bolder;
-    font-size: 1.2rem;
+    font-weight: bold;
 }
 
 .grid-item-description {
