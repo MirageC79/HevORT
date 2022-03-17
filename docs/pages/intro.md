@@ -17,6 +17,4 @@ I have designed what is now known as the HevORT (Hypercube Evolution Olivier RT)
 
 Hope you enjoy building and running this printer as much I do!
 
-[>Back to Main Page<](/README.md)
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ibsBiALMMSE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
