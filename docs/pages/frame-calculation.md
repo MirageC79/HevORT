@@ -2,12 +2,12 @@
 
 ## Ordering Extrusion Profiles, Rails and Ball Screws.
 
-The [_Frame & Friends Calculator_](../assets/references/FrameCalculator.xlsx) Excel sheet will help you to figure out the exact dimensions and quantity of extrusion you need to order.
+The [_Frame & Friends Calculator_](../assets/references/frame/FrameCalculator.xlsx) Excel sheet will help you to figure out the exact dimensions and quantity of extrusion you need to order.
 It will also define the rails, ballscrews, bed plate and heater pad size you need for that size.  
 Since rails and ballscrew can only be ordered into preset dimensions, please ensure that the print size you select will give you standard rail and screw size.
 
 Proposed sizes can be found into the Calculator.
-## [Frame & Friends Calculator](../assets/references/FrameCalculator.xlsx)
+## [Frame & Friends Calculator](../assets/references/frame/FrameCalculator.xlsx)
 
 ## How to use the Frame Calculator
 
