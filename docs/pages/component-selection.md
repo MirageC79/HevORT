@@ -108,7 +108,7 @@ new Vue({
             image: "../assets/images/components/OPTION_XYHT_CFX_MGN9_Thumb.jpg",
             description: `A 2020 Carbon Fiber Tube is replacing X extrusion for huge weight saving.`,
             buttons: [
-                {title: "STLs", link: "https://www.thingiverse.com/thing:4880808"},
+                {title: "Thingiverse", link: "https://www.thingiverse.com/thing:4880808"},
                 {title: "BOM - Web", link: "https://miragec79.github.io/HevORT/bom/Option_XYHT_CFX_MGN9.htm"},
                 {title: "BOM - Download", link: "https://miragec79.github.io/HevORT/bom/Option_XYHT_CFX_MGN9.xlsx"},
                 {title: "CAD File", link: "https://a360.co/3z3ofD8"},
@@ -120,7 +120,7 @@ new Vue({
             image: "../assets/images/components/OPTION_HD9_CFX_MGN9_Thumb.jpg",
             description: `A 2020 Carbon Fiber Tube is replacing X extrusion for huge weight saving.`,
             buttons: [
-                {title: "STLs", link: "https://github.com/MirageC79/HevORT/tree/master/files/STL/HD9/Option_HD9_CFx"},
+                {title: "Thingiverse", link: "https://github.com/MirageC79/HevORT/tree/master/files/STL/HD9/Option_HD9_CFx"},
                 {title: "BOM - Web", link: "https://miragec79.github.io/HevORT/bom/Option_HD9_CFx_MGN9.htm"},
                 {title: "BOM - Download", link: "https://miragec79.github.io/HevORT/bom/Option_HD9_CFx_MGN9.xlsx"},
                 {title: "CAD File", link: "https://a360.co/3ttC8sp"},
@@ -132,7 +132,7 @@ new Vue({
             image: "../assets/images/components/OPTION_HD12_CFX_MGN9_Thumb.jpg",
             description: `A 2020 Carbon Fiber Tube is replacing X extrusion for huge weight saving.`,
             buttons: [
-                {title: "STLs", link: "https://www.thingiverse.com/thing:4886459"},
+                {title: "Thingiverse", link: "https://www.thingiverse.com/thing:4886459"},
                 {title: "BOM - Web", link: "https://miragec79.github.io/HevORT/bom/Option_HD12_CFx_MGN9.htm"},
                 {title: "BOM - Download", link: "https://miragec79.github.io/HevORT/bom/Option_HD12_CFx_MGN9.xlsx"},
                 {title: "CAD File", link: "https://a360.co/3gqVqt4"},
