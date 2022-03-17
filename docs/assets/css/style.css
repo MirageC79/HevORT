@@ -4,12 +4,17 @@
     --sidebar-width: 25rem;
     --content-max-width: 80rem;
     --mark-background: white;
-    --heading-h1-color: #d1ff2a;
+    --heading-h1-color: var(--primary-color);
     --heading-h1-font-size: 3rem;
     --heading-h1-padding: 0 0 2rem 0;
-    --cover-button-primary-background: #d1ff2a;
     --cover-button-primary-color: black;
     --cover-button-padding: 0.5rem;
+    --base-background-color: var(--primary-background-color);
+    --sidebar-background: var(--secondary-background-color);
+    --theme-color: var(--primary-color);
+    --primary-color: #d1ff2a;
+    --primary-background-color: #2d2d2d;
+    --secondary-background-color: #343434;
 }
 
 .cover-button {
@@ -53,13 +58,13 @@
 }
 
 .sidebar-item {
-    color: #d1ff2a;
+    color: var(--primary-color);
     font-size: larger;
     font-weight: bolder
 }
 
 .hevort {
-    color: #d1ff2a;
+    color: var(--primary-color);
     font-size: larger;
 }
 
@@ -81,7 +86,7 @@ h1 {
 }
 
 .grid-item {
-    border: solid 3px #d1ff2a;
+    border: solid 3px var(--primary-color);
     border-radius: 1rem;
     padding: 1rem;
     display: flex;
@@ -95,7 +100,7 @@ h1 {
 }
 
 .grid-item-image {
-    border: 1px solid #d1ff2a !important;
+    border: 1px solid var(--primary-color) !important;
     border-bottom: 0 !important;
     border-radius: 1rem 1rem 0 0;
 }
@@ -115,7 +120,7 @@ h1 {
 
 
 .grid-item-credits {
-    border: 2px solid #d1ff2a;
+    border: 2px solid var(--primary-color);
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
@@ -126,7 +131,7 @@ h1 {
 .grid-item-credit-header {
     display: flex;
     justify-content: center;
-    color: #d1ff2a;
+    color: var(--primary-color);
     font-size: 1.5rem;
     font-weight: bolder;
 
@@ -163,7 +168,7 @@ h1 {
 .component-active-status {
     display: flex;
     justify-content: center;
-    border: 2px solid #d1ff2a;
+    border: 2px solid var(--primary-color);
     border-radius: 1rem;
     padding: 0.5rem;
     font-weight: bold;
@@ -213,7 +218,7 @@ h1 {
 
 
 .grid-item-description-button {
-    border: 1px solid #d1ff2a !important;
+    border: 1px solid var(--primary-color) !important;
     padding: 0 1rem;
     background: #2d2d2d;
     color: white;

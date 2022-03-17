@@ -1,7 +1,7 @@
 .hevort-btn {
     display: flex;
     align-items: center;
-    border: 2px solid #d1ff2a !important;
+    border: 2px solid var(--primary-color) !important;
     padding: 0.5rem;
     border-radius: 1rem;
     text-decoration: none !important;
