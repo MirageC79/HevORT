@@ -125,7 +125,7 @@ The HevORT project has been designed to be modular. This means you can select fr
                 {title: "Thingiverse", link: "https://www.thingiverse.com/thing:4184059"},
                 {title: "CAD File", link: "https://a360.co/3gweJiw"},
             ],
-            state: "Retired"
+            status: "Retired"
         },
         {
             title: "ZR V2 (Wobble wings)",
@@ -157,6 +157,7 @@ The HevORT project has been designed to be modular. This means you can select fr
             title: "HyperCube Evolution Z Adapters",
             image: "",
             description: `_Upcoming._ This option will let you use standard <a href="https://www.thingiverse.com/thing:2254103">Hypercube Evolution from SCOTT_3D</a> Z installation to your HevORT printer.`,
+            status: "TBD",
         },
     ]);
     createGridData(5, [
