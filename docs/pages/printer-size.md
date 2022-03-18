@@ -20,7 +20,8 @@ Here are the pros and cons about big printers that are to be considered.  When I
 - Takes more space
 - More belt ringing due to longer unsupported belt lengths
 
-### So what size do you need might turn into what size can you afford?
+### So what size do you need?
+
 My personal answer to this is 2 printers:
 - One smaller with heated chamber for quality prints, high speed and technical material
 - And a bigger one for big batches or big parts
