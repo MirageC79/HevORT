@@ -35,7 +35,6 @@
     --sidebar-padding: 1rem;
 
 
-
     --primary-color: #d1ff2a;
     --secondary-color: #2d2650;
     --alternative-secondary-color: #1f1c33;
@@ -376,4 +375,20 @@ h1 {
     gap: 1rem;
     margin-top: auto;
     margin-bottom: 0 !important;
+}
+
+blockquote {
+    padding: 1rem !important;
+    margin: 0.5rem 0 !important;
+    border-width: 1px 1px 1px 0.5rem !important;
+    border-radius: 1rem !important;
+    background-color: var(--secondary-background-color) !important;
+}
+
+blockquote > blockquote {
+    background-color: var(--primary-background-color) !important;
+}
+
+blockquote > blockquote > blockquote {
+    background-color: var(--secondary-background-color) !important;
 }
