@@ -5,7 +5,7 @@
     --mark-background: white;
     --heading-h1-color: var(--primary-color);
     --heading-h1-font-size: 3rem;
-    --heading-h1-padding: 0 0 2rem 0;
+    --heading-h1-padding: 0 0 1rem 0;
     --cover-button-primary-color: black;
     --cover-button-padding: 0.5rem;
     --base-background-color: var(--primary-background-color);
@@ -21,10 +21,32 @@
     --sidebar-toggle-background: var(--secondary-background-color);
     --sidebar-toggle-icon-color: var(--primary-color);
     --sidebar-toggle-border-color: var(--primary-color);
+    --table-cell-border-color: var(--primary-color);
+    --table-cell-padding: 0.5rem 1rem;
+    --table-row-odd-background : var(--secondary-color);
 
     --primary-color: #d1ff2a;
+    --secondary-color: #2d2650;
     --primary-background-color: #2d2d2d;
     --secondary-background-color: #343434;
+}
+
+.table-wrapper {
+    border: 1px solid var(--primary-color);
+    padding: 0;
+    border-radius: 0.5rem;
+}
+
+.table-wrapper > table {
+    margin: 0;
+}
+
+.table-wrapper > table > thead > tr > th {
+    padding-top: 1rem;
+}
+
+.table-wrapper > table > tbody > tr > td {
+    border-bottom: unset;
 }
 
 .app-name-link {

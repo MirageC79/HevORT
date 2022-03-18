@@ -12,7 +12,7 @@
 }
 
 .hevort-btn:hover {
-    background-color: #0021c9;
+    background-color: var(--secondary-color);
 }
 
 .hevort-btn:active {
