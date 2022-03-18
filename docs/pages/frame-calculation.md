@@ -40,7 +40,7 @@ around 35mm will be amputed to X and Y.
 
 ![Frame Calculation Example 2](../assets/images/frame/framecalc2.png)
 
-### EXAMPLES
+### Examples
 Here are a couple of snapshots from results of recommended sizes:
 
 
