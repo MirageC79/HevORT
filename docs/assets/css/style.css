@@ -142,32 +142,10 @@ h1 {
     gap: 2rem;
 }
 
-.grid-item {
-    border: solid 3px var(--primary-color);
-    border-radius: 1rem;
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    box-shadow: 3.7px 6.1px 1.9px rgba(0, 0, 0, 0.004),
-    7.5px 12.2px 4.8px rgba(0, 0, 0, 0.009),
-    11.2px 18.3px 9.6px rgba(0, 0, 0, 0.014),
-    14.9px 24.3px 17.6px rgba(0, 0, 0, 0.019),
-    18.5px 30.2px 32.6px rgba(0, 0, 0, 0.027),
-    22px 36px 73px rgba(0, 0, 0, 0.05);
-}
-
 .grid-item-image {
     border: 1px solid var(--primary-color) !important;
     border-bottom: 0 !important;
     border-radius: 1rem 1rem 0 0;
-}
-
-.grid-item-title {
-    padding-bottom: 1rem;
-    font-size: large;
-    font-weight: bolder;
-    align-self: center;
-    text-align: center;
 }
 
 .grid-item-custom-content {
@@ -328,4 +306,45 @@ h1 {
 
 .social-btn-icon {
     font-size: 2rem;
+}
+
+.grid-item-title-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1rem;
+}
+
+.grid-item-title {
+    font-size: large;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.grid-item-container {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.grid-item {
+    border: solid 3px var(--primary-color);
+    border-radius: 1rem;
+    box-shadow: 3.7px 6.1px 1.9px rgba(0, 0, 0, 0.004),
+    7.5px 12.2px 4.8px rgba(0, 0, 0, 0.009),
+    11.2px 18.3px 9.6px rgba(0, 0, 0, 0.014),
+    14.9px 24.3px 17.6px rgba(0, 0, 0, 0.019),
+    18.5px 30.2px 32.6px rgba(0, 0, 0, 0.027),
+    22px 36px 73px rgba(0, 0, 0, 0.05);
+}
+
+.grid-item-state {
+    height: fit-content;
+    border: 3px solid var(--primary-color);
+    border-right: unset;
+    border-top: unset;
+    border-bottom-left-radius: 1rem;
+    padding: 0.5rem;
+    font-weight: bold;
+    margin-left: 1rem;
 }
