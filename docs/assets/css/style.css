@@ -1,7 +1,6 @@
 :root {
     --sidebar-nav-pagelink-background-image: none;
     --sidebar-nav-link-before-content: '';
-    --sidebar-width: 25rem;
     --content-max-width: 80rem;
     --mark-background: white;
     --heading-h1-color: var(--primary-color);
@@ -18,12 +17,31 @@
     --base-color: white;
     --cover-background-color: unset;
     --cover-background-mask-opacity: 0.3;
-
-
+    --sidebar-border-color: var(--primary-color);
+    --sidebar-toggle-background: var(--secondary-background-color);
+    --sidebar-toggle-icon-color: var(--primary-color);
+    --sidebar-toggle-border-color: var(--primary-color);
 
     --primary-color: #d1ff2a;
     --primary-background-color: #2d2d2d;
     --secondary-background-color: #343434;
+}
+
+.app-name-link {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.sidebar-toggle .sidebar-toggle-button {
+    padding: 1.2rem;
+
+    border: 1px solid var(--primary-color);
+    border-left: unset;
+    border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.sidebar-toggle {
+    padding: 1.2rem;
 }
 
 .search .clear-button.show {
@@ -257,4 +275,33 @@ h1 {
 .grid-item-description-button-icon {
     line-height: normal;
     font-size: 1.4rem;
+}
+
+.social-btn-container {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    padding: 1rem;
+    padding-top: 2rem;
+}
+
+.social-btn {
+    all: unset !important;
+    height: max-content;
+    width: max-content;
+}
+
+.social-btn-icon:hover {
+    color: var(--primary-color);
+}
+
+.social-btn-icon:active {
+    transform: translateY(4px);
+}
+
+.social-btn-icon {
+    font-size: 2rem;
 }
