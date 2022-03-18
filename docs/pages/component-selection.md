@@ -14,7 +14,6 @@ The HevORT project has been designed to be modular. This means you can select fr
                 {title: "BOM - Download", link: "https://miragec79.github.io/HevORT/bom/BOM_Frame_ElecExt.xlsx"},
                 {title: "CAD File", link: "https://a360.co/2xUD9B9"},
             ],
-            customContent: "<span class='component-active-status'>Active</span>",
         },
         {
             title: "Enclosure",
@@ -26,7 +25,6 @@ The HevORT project has been designed to be modular. This means you can select fr
                 {title: "BOM - Download", link: "https://miragec79.github.io/HevORT/bom/BOM_Enclosure_AcidBee.xlsx"},
                 {title: "CAD File", link: "https://a360.co/3HD6rlY"},
             ],
-            customContent: "<span class='component-active-status'>Active</span>",
         },
     ], {gridTemplateColumns: "1fr 1fr"});
     createGridData(2, [
@@ -39,7 +37,6 @@ The HevORT project has been designed to be modular. This means you can select fr
                 {title: "Thingiverse", link: "https://www.thingiverse.com/thing:4184477"},
                 {title: "CAD File", link: "https://a360.co/2UEaOHa"},
             ],
-            customContent: "<span class='component-active-status'>Since April 2019</span>",
         },
         {
             title: "(HT) XY High Temp",
@@ -51,7 +48,6 @@ The HevORT project has been designed to be modular. This means you can select fr
                 {title: "Thingiverse", link: "https://www.thingiverse.com/thing:4402495"},
                 {title: "CAD File", link: "https://a360.co/3ABEubX"},
             ],
-            customContent: "<span class='component-active-status'>Since May 2020</span>",
         },
         {
             title: "(HD9) XY Heavy Duty 9mm",
@@ -66,7 +62,6 @@ The HevORT project has been designed to be modular. This means you can select fr
                 {title: "Thingiverse", link: "https://www.thingiverse.com/thing:4629715"},
                 {title: "CAD File", link: "https://a360.co/35p2MH0"},
             ],
-            customContent: "<span class='component-active-status'>Since Oct 2020</span>",
         },
         {
             title: "(HD12) XY Heavy Duty 12mm",
@@ -81,7 +76,6 @@ The HevORT project has been designed to be modular. This means you can select fr
                 {title: "Thingiverse", link: "https://www.thingiverse.com/thing:4625509"},
                 {title: "CAD File", link: "https://a360.co/3dxzysP"},
             ],
-            customContent: "<span class='component-active-status'>Since Oct 2020</span>",
         },
     ]);
     createGridData(3, [
@@ -95,7 +89,6 @@ The HevORT project has been designed to be modular. This means you can select fr
                 {title: "BOM - Download", link: "https://miragec79.github.io/HevORT/bom/Option_XYHT_CFX_MGN9.xlsx"},
                 {title: "CAD File", link: "https://a360.co/3z3ofD8"},
             ],
-            customContent: "<span class='component-active-status'>Active</span>",
         },
         {
             title: "(HD9) MGN9 Carbon Fiber X-Axis",
@@ -107,7 +100,6 @@ The HevORT project has been designed to be modular. This means you can select fr
                 {title: "BOM - Download", link: "https://miragec79.github.io/HevORT/bom/Option_HD9_CFx_MGN9.xlsx"},
                 {title: "CAD File", link: "https://a360.co/3ttC8sp"},
             ],
-            customContent: "<span class='component-active-status'>Active</span>",
         },
         {
             title: "(HD12) MGN9 Carbon Fiber X-Axis",
@@ -119,7 +111,6 @@ The HevORT project has been designed to be modular. This means you can select fr
                 {title: "BOM - Download", link: "https://miragec79.github.io/HevORT/bom/Option_HD12_CFx_MGN9.xlsx"},
                 {title: "CAD File", link: "https://a360.co/3gqVqt4"},
             ],
-            customContent: "<span class='component-active-status'>Active</span>",
         },
     ]);
     createGridData(4, [
@@ -134,7 +125,7 @@ The HevORT project has been designed to be modular. This means you can select fr
                 {title: "Thingiverse", link: "https://www.thingiverse.com/thing:4184059"},
                 {title: "CAD File", link: "https://a360.co/3gweJiw"},
             ],
-            customContent: "<span class='component-active-status component-active-status-retired'>Feb 2020 - RETIRED</span>",
+            state: "Retired"
         },
         {
             title: "ZR V2 (Wobble wings)",
@@ -149,7 +140,6 @@ The HevORT project has been designed to be modular. This means you can select fr
                 {title: "Thingiverse", link: "https://www.thingiverse.com/thing:4387638"},
                 {title: "CAD File", link: "https://a360.co/3bSwQzF"},
             ],
-            customContent: "<span class='component-active-status'>Since May 2020</span>",
         },
         {
             title: "ZR V2.5",
@@ -162,13 +152,11 @@ The HevORT project has been designed to be modular. This means you can select fr
                 {title: "Thingiverse", link: "https://www.thingiverse.com/thing:4723500"},
                 {title: "CAD File", link: "https://a360.co/3bSwQzF"},
             ],            
-            customContent: "<span class='component-active-status'>Since Jan 2021</span>",
         },
         {
             title: "HyperCube Evolution Z Adapters",
             image: "",
             description: `_Upcoming._ This option will let you use standard <a href="https://www.thingiverse.com/thing:2254103">Hypercube Evolution from SCOTT_3D</a> Z installation to your HevORT printer.`,
-            customContent: "<span class='component-active-status'>TBD</span>",
         },
     ]);
     createGridData(5, [
@@ -184,7 +172,6 @@ The HevORT project has been designed to be modular. This means you can select fr
                 {title: "Thingiverse", link: "https://www.thingiverse.com/thing:4238471"},
                 {title: "CAD File", link: "https://a360.co/2U1i6ob"},
             ],
-            customContent: "<span class='component-active-status'>Since March 2020</span>",
         },
         {
             title: "BMG/Titan Aqua",
@@ -197,7 +184,6 @@ The HevORT project has been designed to be modular. This means you can select fr
                 {title: "Thingiverse", link: "https://www.thingiverse.com/thing:4411289"},
                 {title: "CAD File", link: "https://a360.co/3fY7MFT"},
             ],
-            customContent: "<span class='component-active-status'>Since May 2020</span>",
         },
         {
             title: "E3D Hemera Top Mounted and SuperVolcano",
@@ -209,7 +195,6 @@ The HevORT project has been designed to be modular. This means you can select fr
                 {title: "Thingiverse", link: "https://www.thingiverse.com/thing:4556554"},
                 {title: "CAD File", link: "https://a360.co/39ryl4z"},
             ],
-            customContent: "<span class='component-active-status'>Since July 2020</span>",
         },
     ]);
     createGridData(6, [
@@ -220,7 +205,6 @@ The HevORT project has been designed to be modular. This means you can select fr
             buttons: [
                 {title: "HextrudORT GitHub Page", link: "https://miragec79.github.io/HextrudORT/"},
             ],
-            customContent: "<span class='component-active-status'>Active</span>",
         },
     ], {gridTemplateColumns: "1fr 1fr"});
     createGridData(7, [
@@ -233,7 +217,6 @@ The HevORT project has been designed to be modular. This means you can select fr
                 {title: "BOM - Web", link: "https://miragec79.github.io/HevORT/bom/BOM_Electronics.htm"},
                 {title: "BOM - Download", link: "https://miragec79.github.io/HevORT/bom/BOM_Electronics.xlsx"},
             ],
-            customContent: "<span class='component-active-status'>Active</span>",
         },
     ], {gridTemplateColumns: "1fr 1fr"});
 </script>
