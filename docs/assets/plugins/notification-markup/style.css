@@ -1,0 +1,44 @@
+.notification-markup-container {
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5rem;
+    background-color: var(--secondary-color);
+    border-style: solid;
+    border-width: 3px;
+}
+
+.notification-markup-title {
+    border-color: inherit;
+    width: fit-content;
+    padding: 0.2rem 0.8rem;
+    display: flex;
+    font-size: large;
+    border-style: inherit;
+    border-width: inherit;
+    border-top: unset;
+    border-left: unset;
+    border-bottom-right-radius: 0.5rem;
+    font-weight: bold;
+}
+
+.notification-markup-message {
+    padding: 0.5rem 1rem;
+}
+
+.warning {
+    border-color: orange;
+}
+
+.info {
+    border-color: lightblue;
+
+}
+
+.danger {
+    border-color: red;
+}
+
+.success {
+    border-color: greenyellow;
+}
