@@ -23,10 +23,12 @@
     --sidebar-toggle-border-color: var(--primary-color);
     --table-cell-border-color: var(--primary-color);
     --table-cell-padding: 0.5rem 1rem;
-    --table-row-odd-background : var(--secondary-color);
+    --table-row-odd-background : var(--alternative-secondary-color);
+    --heading-h2-border-color: var(--primary-color);
 
     --primary-color: #d1ff2a;
     --secondary-color: #2d2650;
+    --alternative-secondary-color: #1f1c33;
     --primary-background-color: #2d2d2d;
     --secondary-background-color: #343434;
 }

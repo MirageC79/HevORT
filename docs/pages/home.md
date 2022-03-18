@@ -1,6 +1,6 @@
 # Welcome to the HevORT project!
 
-![Cover Image Flat](https://github.com/MirageC79/HevORT/blob/master/images/Coverflat.png?raw=true)
+![Cover Image Flat](../assets/images/cover-flat.png)
 
 ## What is the HevORT?
 
