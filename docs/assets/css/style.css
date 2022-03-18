@@ -1,3 +1,9 @@
+@media screen and (max-width: 768px) {
+    :root {
+        --sidebar-width: 100%;
+    }
+}
+
 :root {
     --sidebar-nav-pagelink-background-image: none;
     --sidebar-nav-link-before-content: '';
