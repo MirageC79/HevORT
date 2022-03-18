@@ -6,3 +6,4 @@
 * [Electronics Selection](pages/electronics-selection.md)
 * [How to print the Parts](pages/how-to-print-parts.md)
 * [Firmware Configuration](pages/firmware-configuration.md)
+* [Useful Links](pages/useful-links.md)
