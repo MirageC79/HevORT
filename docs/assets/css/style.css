@@ -1,6 +1,6 @@
 @media screen and (max-width: 768px) {
     :root {
-        --sidebar-width: 100%;
+        --sidebar-width: 100% !important;
     }
 }
 
@@ -9,6 +9,7 @@
     --sidebar-nav-link-before-content: '';
     --content-max-width: 80rem;
     --mark-background: white;
+    --sidebar-width: 25rem;
     --heading-h1-color: var(--primary-color);
     --heading-h1-font-size: 3rem;
     --heading-h1-padding: 0 0 1rem 0;
@@ -31,6 +32,9 @@
     --table-cell-padding: 0.5rem 1rem;
     --table-row-odd-background : var(--alternative-secondary-color);
     --heading-h2-border-color: var(--primary-color);
+    --sidebar-padding: 1rem;
+
+
 
     --primary-color: #d1ff2a;
     --secondary-color: #2d2650;
@@ -129,6 +133,7 @@
 .hevort {
     color: var(--primary-color);
     font-size: larger;
+    font-weight: 500;
 }
 
 h1 {
@@ -289,11 +294,8 @@ h1 {
     display: flex;
     gap: 2rem;
     justify-content: center;
-    position: absolute;
-    left: 0;
     width: 100%;
-    padding: 1rem;
-    padding-top: 2rem;
+    padding: 2rem 1rem 1rem;
 }
 
 .social-btn {
@@ -356,4 +358,22 @@ h1 {
     padding: 0.5rem;
     font-weight: bold;
     margin-left: 1rem;
+}
+
+.sidebar {
+    padding: 1rem;
+}
+
+.sidebar-nav {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+.sidebar-credit-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: auto;
+    margin-bottom: 0 !important;
 }

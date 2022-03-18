@@ -14,3 +14,9 @@
     <a class="social-btn" href="https://discord.gg/nCYRQAZPWV" target="_blank" rel="noopener"><i class="social-btn-icon fa-brands fa-discord"></i></a>
     <a class="social-btn" href="https://forums.hevort.com/index.php" target="_blank" rel="noopener"><i class="social-btn-icon fa-brands fa-php"></i></a>
 </div>
+
+<div class="sidebar-credit-container">
+<span><span class="hevort">HevORT</span> project by <span class="hevort">MirageC</span></span>
+<span><span class="hevort">Documentation</span> rework by <span class="hevort">DonnerPlays</span></span>
+
+</div>
