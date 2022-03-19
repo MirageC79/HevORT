@@ -393,3 +393,7 @@ blockquote > blockquote > blockquote {
     background-color: var(--secondary-background-color) !important;
 }
 
+code {
+    background-color: var(--secondary-background-color) !important;
+    border: 2px solid var(--primary-color);
+}
