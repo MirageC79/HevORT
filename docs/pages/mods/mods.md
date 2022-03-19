@@ -203,7 +203,7 @@ If you need help, the best place to ask is the Discord server
             description: `Not only an empty filament detector.
                         <br>The SpEye can detect a spool jam and pause your print.`,
             credits: [
-                    {name: "MirageC", description: "Initial work"},
+                    {name: "MirageC"},
             ],
             buttons: [
                 {title: "SpyEye page", link: "#/pages/mods/spy-eye.md"},
@@ -217,7 +217,7 @@ If you need help, the best place to ask is the Discord server
                         <br>(tested with a 20mm thick fan)
                         <br><br>Requires: 3.5mm longer screws`,
             credits: [
-                    {name: "DonnerPlays", description: "Initial work"},
+                    {name: "DonnerPlays"},
             ],
             buttons: [
                 {title: "CAD File", link: "https://hevort-mods.donnerplays.de/cad/ADXL345_40mm_Fan_Mount.step", icon: "fa fa-download"},
