@@ -396,4 +396,5 @@ blockquote > blockquote > blockquote {
 code {
     background-color: var(--secondary-background-color) !important;
     border: 2px solid var(--primary-color);
+    border-radius: 0.5rem;
 }
