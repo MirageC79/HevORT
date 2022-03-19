@@ -33,7 +33,7 @@
     --table-row-odd-background : var(--alternative-secondary-color);
     --heading-h2-border-color: var(--primary-color);
     --sidebar-padding: 1rem;
-
+    --link-color: var(--primary-color);
 
     --primary-color: #d1ff2a;
     --secondary-color: #2d2650;
@@ -392,3 +392,4 @@ blockquote > blockquote {
 blockquote > blockquote > blockquote {
     background-color: var(--secondary-background-color) !important;
 }
+
