@@ -33,7 +33,7 @@ If you need help, the best place to ask is the Discord server
                     {name: "DonnerPlays", description: "Modification to use M3 nuts instead of threading into the plastic"}
             ],
             buttons: [
-                {title: "CAD File", link: "https://hevort-mods.donnerplays.de/cad/BL_Touch_Rapido_Hotend_UHF_Bracket.step"},
+                {title: "CAD File", link: "https://hevort-mods.donnerplays.de/cad/BL_Touch_Rapido_Hotend_UHF_Bracket.step", icon: "fa fa-download"},
             ],
         },
     ]);
@@ -52,7 +52,7 @@ If you need help, the best place to ask is the Discord server
                     {name: "DonnerPlays", description: "Modification to fit HD12/MGN12"}
             ],
             buttons: [
-                {title: "CAD File", link: "https://hevort-mods.donnerplays.de/cad/HD12_MGN12_Rapido_Duct.step"},
+                {title: "CAD File", link: "https://hevort-mods.donnerplays.de/cad/HD12_MGN12_Rapido_Duct.step", icon: "fa fa-download"},
             ],
         },
         {
@@ -65,7 +65,7 @@ If you need help, the best place to ask is the Discord server
                     {name: "DonnerPlays", description: "Modification to fit HD12/MGN12"}
             ],
             buttons: [
-                {title: "CAD File", link: "https://hevort-mods.donnerplays.de/cad/HD12_MGN12_Rapido_UHF_Spacer.step"},
+                {title: "CAD File", link: "https://hevort-mods.donnerplays.de/cad/HD12_MGN12_Rapido_UHF_Spacer.step", icon: "fa fa-download"},
             ],
         },
         {
@@ -84,7 +84,7 @@ If you need help, the best place to ask is the Discord server
                     {name: "DonnerPlays", description: "Modification to allow 40mm fan to be used"}
             ],
             buttons: [
-                {title: "CAD File", link: "https://hevort-mods.donnerplays.de/cad/MGN12_HD12_Rapido_Fan_Shroud_40mm.step"},
+                {title: "CAD File", link: "https://hevort-mods.donnerplays.de/cad/MGN12_HD12_Rapido_Fan_Shroud_40mm.step", icon: "fa fa-download"},
             ],
         },
     ]);
@@ -100,7 +100,7 @@ If you need help, the best place to ask is the Discord server
                     {name: "DonnerPlays", description: "Initial work"},
             ],
             buttons: [
-                {title: "CAD File", link: "https://hevort-mods.donnerplays.de/cad/ADXL345_40mm_Fan_Mount.step"},
+                {title: "CAD File", link: "https://hevort-mods.donnerplays.de/cad/ADXL345_40mm_Fan_Mount.step", icon: "fa fa-download"},
             ],
         },
     ]);
