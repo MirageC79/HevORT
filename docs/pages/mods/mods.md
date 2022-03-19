@@ -133,6 +133,17 @@ If you need help, the best place to ask is the Discord server
                 {title: "CAD File", link: "https://hevort-mods.donnerplays.de/cad/BL_Touch_Rapido_Hotend_UHF_Bracket.step", icon: "fa fa-download"},
             ],
         },
+        {
+            title: "LGX Lite HextrudORT Carriage Mount (HD12/MGN9)",
+            image: "../../assets/images/mods/serbitar_lgx-lite_hextrudort_carriage.webp",
+            description: `Mounts an LGX Lite and Dragon hotend to the HevORT HextrudORT HD12/MGN9 carriage.`,
+            credits: [
+                    {name: "Serbitar"},
+            ],
+            buttons: [
+                {title: "PrusaPrinters", link: "https://www.prusaprinters.org/prints/151944-hevort-lgx-lite-hextrudort-carriage-mount-hd12mgn9"},
+            ],
+        },
     ]);
     createGridData(4, [
         {
