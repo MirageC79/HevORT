@@ -1,8 +1,8 @@
 <grid class="grid" :style="[config.gridTemplateColumns ? {'gridTemplateColumns': config.gridTemplateColumns} : {'gridTemplateColumns': '1fr 1fr 1fr'}]">
     <div class="grid-item" v-if="!item.hide" v-for="item in items">
-        <span class="grid-item-title-wrapper">
+        <span class="grid-item-title-wrapper" :style="[item.status ? {'padding-right': '0'} : {'padding-right': '1rem'}]">
           <span class="grid-item-title" v-html=item.title></span>
-          <span class="grid-item-state" v-text="item.status ? item.status : 'Active'"></span>
+          <span class="grid-item-state" v-if="item.status" v-text="item.status"></span>
         </span>
         <div class="grid-item-container">
           <img alt="IMAGE" v-if="item.image" class="grid-item-image" :src=item.image />
