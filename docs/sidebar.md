@@ -8,8 +8,8 @@
 * Firmware Configuration
   * [RepRapFirmware](pages/firmware-configuration/repRapFirmware.md)
   * [Klipper](pages/firmware-configuration/klipper.md)
+* [Mods](pages/mods.md)
 * [Useful Links](pages/useful-links.md)
-
 <div class="social-btn-container">
     <a class="social-btn" href="https://www.youtube.com/c/MirageC" target="_blank" rel="noopener"><i class="social-btn-icon fa-brands fa-youtube"></i></a>
     <a class="social-btn" href="https://www.facebook.com/groups/hevort" target="_blank" rel="noopener"><i class="social-btn-icon fa-brands fa-facebook"></i></a>
