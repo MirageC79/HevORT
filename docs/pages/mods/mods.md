@@ -77,6 +77,28 @@ If you need help, the best place to ask is the Discord server
                 {title: "Thingiverse", link: "https://www.thingiverse.com/thing:4785945"},
             ],
         },
+        {
+            title: "Z-Axis 2:1 reduction",
+            image: "../../assets/images/mods/m3nt8l_z-axis_reduction.jpg",
+            description: `2:1 reduction for the HevORT's ZR V2.5 Z-Axis
+                        <br>This mod increases holding torque.
+                        <br>It will also allow you to use 50mm longer ballscrews bringing you 50mm more Z-Travel.
+                        <br><br>Requires (for all 3):
+                        <br>3x 154 mm (77 tooth) 2GT closed loop belt
+                        <br>3x 40 tooth pulley with 5mm bore
+                        <br>3x Roland Coupler (as seen in standard HevORT Z 2.5)
+                        <br>3x 5200-2RS double row angular contact bearing (as seen in standard HevORT Z 2.5)
+                        <br>3x Coupler (as seen in standard HevORT Z 2.5)
+                        <br>3x 5mm shaft pins
+                        <br>3x 20 tooth pulley for the motor shaft (5mm) (as seen in standard HevORT Z 2.5)
+                        <br>9x 625RS 5mm bore x 16mm OD x 5mm wide bearings`,
+            credits: [
+                    {name: "M3NT8L"},
+            ],
+            buttons: [
+                {title: "Thingiverse", link: "https://www.thingiverse.com/thing:4880007"},
+            ],
+        },
     ]);
     createGridData(3, [
         {
