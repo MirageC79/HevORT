@@ -5,7 +5,9 @@
 * [Component Selection](pages/component-selection.md)
 * [Electronics Selection](pages/electronics-selection.md)
 * [How to print the Parts](pages/how-to-print-parts.md)
-* [Firmware Configuration](pages/firmware-configuration.md)
+* Firmware Configuration
+  * [RepRapFirmware](pages/firmware-configuration/repRapFirmware.md)
+  * [Klipper](pages/firmware-configuration/klipper.md)
 * [Useful Links](pages/useful-links.md)
 
 <div class="social-btn-container">
