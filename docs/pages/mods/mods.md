@@ -90,6 +90,18 @@ If you need help, the best place to ask is the Discord server
     ]);
     createGridData(3, [
         {
+            title: "SpEye",
+            image: "../assets/images/mods/spy-eye/spy-eye-printed.jpg",
+            description: `Not only an empty filament detector.
+                        <br>The SpEye can detect a spool jam and pause your print.`,
+            credits: [
+                    {name: "MirageC", description: "Initial work"},
+            ],
+            buttons: [
+                {title: "SpyEye page", link: "#/pages/mods/spy-eye.md"},
+            ],
+        },
+        {
             title: "ADXL345 mounting bracket on 40mm fan",
             image: "https://hevort-mods.donnerplays.de/images/ADXL345_40mm_Fan_Mount.png",
             description: `Allows you to easily mount an ADXL345 accelerometer to your print head.
@@ -108,12 +120,12 @@ If you need help, the best place to ask is the Discord server
 
 ## Extruder
 
-[frame-template](../assets/templates/grid-template.md ':include')
+[frame-template](../../assets/templates/grid-template.md ':include')
 
 ## Cooling
 
-[frame-template](../assets/templates/grid-template.md ':include')
+[frame-template](../../assets/templates/grid-template.md ':include')
 
 ## Other
 
-[frame-template](../assets/templates/grid-template.md ':include')
+[frame-template](../../assets/templates/grid-template.md ':include')
