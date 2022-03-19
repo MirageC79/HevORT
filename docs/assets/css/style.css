@@ -30,7 +30,7 @@
     --sidebar-toggle-border-color: var(--primary-color);
     --table-cell-border-color: var(--primary-color);
     --table-cell-padding: 0.5rem 1rem;
-    --table-row-odd-background : var(--alternative-secondary-color);
+    --table-row-odd-background: var(--alternative-secondary-color);
     --heading-h2-border-color: var(--primary-color);
     --sidebar-padding: 1rem;
     --link-color: var(--primary-color);
@@ -258,8 +258,9 @@ h1 {
 .grid-item-description-expanded {
     opacity: 1;
     height: auto;
-    max-height: 500px;
-    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    overflow-y: auto;
+    max-height: 20rem;
 }
 
 
@@ -398,4 +399,13 @@ code {
     background-color: var(--secondary-background-color) !important;
     border: 2px solid var(--primary-color);
     border-radius: 0.5rem;
+}
+
+body:not([data-platform^="Mac"]) * ::-webkit-scrollbar-track {
+    background: var(--primary-color) !important;
+    padding: 1rem !important;
+}
+
+body:not([data-platform^="Mac"]) * ::-webkit-scrollbar-thumb {
+    background: var(--secondary-color) !important;
 }
