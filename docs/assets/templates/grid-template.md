@@ -28,7 +28,7 @@
                     </li>
                 </ul>
         </div>
-        <div class="grid-item-button-container" v-if="item.buttons" :style="[item.customContent ? {'marginTop': 'unset'} : {'marginTop': 'auto'}, item.buttons.length === 1 ? {'grid-template-columns': '1fr'} : {'grid-template-columns': '1fr 1fr'}]" :style>
+        <div class="grid-item-button-container" v-if="item.buttons" :style="[item.customContent || item.credits ? {'marginTop': 'unset'} : {'marginTop': 'auto'}, item.buttons.length === 1 ? {'grid-template-columns': '1fr'} : {'grid-template-columns': '1fr 1fr'}]" :style>
             <a class="hevort-btn" v-for="button in item.buttons" v-if="button.link" :href="button.link" :target="[button.target ? button.target : '_blank']"><span class="hevort-btn-text">{{ button.title }}</span><i v-if="button.icon" :class="button.icon" :style="{'marginLeft': 'auto'}"></i></a>
         </div>
         </div>

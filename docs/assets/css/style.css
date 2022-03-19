@@ -171,6 +171,7 @@ h1 {
     flex-direction: column;
     padding: 1rem;
     margin-bottom: 1rem;
+    margin-top: auto;
 }
 
 .grid-item-credit-header {
