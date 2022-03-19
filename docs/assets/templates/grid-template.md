@@ -23,7 +23,7 @@
                     <li class="grid-item-credit-list-item" v-for="credit in item.credits">
                         <div class="grid-item-credit-list-item-wrapper">
                             <span class="grid-item-credit-list-item-name">{{ credit.name }}</span>
-                            <span v-if="credit.description">{{ credit.description }}</span>
+                            <span v-if="credit.description" v-html="credit.description"></span>
                         </div>
                     </li>
                 </ul>
