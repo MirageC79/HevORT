@@ -50,6 +50,20 @@ If you need help, the best place to ask is the Discord server
                 {title: "Thingiverse", link: "https://www.thingiverse.com/thing:4815859"},
             ],
         },
+        {
+            title: "Hans Hanson HD12 AWD",
+            image: "../../assets/images/mods/hans-hanson_awd_hd12.jpg",
+            description: `Almost the same number and length of shafts are required as with the opposite Motor Mount and Pulley mount
+                        <br><br>(except for the two Dowel Pin 5x40mm for the belt binder).
+                        <br>The same goes for the idler and pulley.`,
+            credits: [
+                    {name: "Hans Hanson"},
+            ],
+            buttons: [
+                {title: "Thingiverse", link: "https://www.thingiverse.com/thing:4946002"},
+                {title: "CAD File", link: "https://a360.co/3lwUEMv"}
+            ],
+        },
     ]);
     createGridData(2, [
         {
@@ -196,6 +210,33 @@ If you need help, the best place to ask is the Discord server
             ],
             buttons: [
                 {title: "CAD File", link: "https://hevort-mods.donnerplays.de/cad/ADXL345_40mm_Fan_Mount.step", icon: "fa fa-download"},
+            ],
+        },
+        {
+            title: "Hans Hanson FumesORT",
+            image: "../assets/images/mods/hans-hanson_fumes-ort.jpg",
+            description: `Fume filter mounted under the HevORT's print bed.
+                        <br><br>Filter basket volume is approx. 313ml.
+                        <br>Using activated charcoal pellets with a diameter of approx. 4mm
+                        <br><br>Uses 4x 40x40x20 Sunon MF40202VX-1000U-A99
+                        <br>Circulates 37m³/h with empty filter basked
+                        <br>11m³/h with full filter at 24V or 6m³/h at 12V
+                        <br><br>Requires:
+                        <br>20x M3x8mm or M3x10
+                        <br>16x M3x25mm (for 40x40x20 mm Fans)
+                        <br>2x wago 221-413
+                        <br>8x M5x8mm Socket Head Screws
+                        <br>8x Hammer nut M5 for 2020 profile
+                        <br>4x Hammer nut M3 for 2020 profile
+                        <br>1x 295mm 2040 profile
+                        <br>4x 40x40x20 Fans
+                        <br>1x activated charcoal pellets`,
+            credits: [
+                    {name: "Hans Hanson"},
+            ],
+            buttons: [
+                {title: "Thingiverse", link: "https://www.thingiverse.com/thing:5197675"},
+                {title: "CAD File", link: "https://a360.co/3lwUEMv"}
             ],
         },
     ]);
