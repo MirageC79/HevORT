@@ -19,6 +19,67 @@ If you need help, the best place to ask is the Discord server
 <script>
     createGridData(1, [
         {
+            title: "EvoMoto HD12 AWD",
+            image: "../../assets/images/mods/evomoto_awd_hd12.png",
+            description: `This mod adds two more steppers to the HevORT.
+                        <br>They replace the pulley mounts on the front for even more power.
+                        <br><br>Requires (not including existing parts from the pulley mounts):
+                        <br>-2 more steppers
+                        <br>-2 driving pulleys for the stepper (20teeth)
+                        <br>-6x M5 100mm screws (replaces existing M5 90mm)
+                        <br>-2x M5 55mm screws (replaces existing M5 45mm)`,
+            credits: [
+                    {name: "EvoMoto"},
+            ],
+            buttons: [
+                {title: "Thingiverse", link: "https://www.thingiverse.com/thing:5171980"},
+            ],
+        },
+        {
+            title: "EvoMoto STD/HT AWD",
+            image: "../../assets/images/mods/evomoto_awd_std-ht.png",
+            description: `This mod adds two more steppers to the HevORT.
+                        <br>They replace the pulley mounts on the front for even more power.
+                        <br><br>Requires (not including existing parts from the pulley mounts):
+                        <br>-2 more steppers
+                        <br>-2 driving pulleys for the stepper (20teeth)`,
+            credits: [
+                    {name: "EvoMoto"},
+            ],
+            buttons: [
+                {title: "Thingiverse", link: "https://www.thingiverse.com/thing:4815859"},
+            ],
+        },
+    ]);
+    createGridData(2, [
+        {
+            title: "Wobble Rings for SFU1204",
+            image: "../../assets/images/mods/evomoto_sfu1204_wobble_rings.jpg",
+            description: `Alternative version of the original Wobble Rings for the ZR V2.5
+                        <br>These do a better job at eliminating bad quality ballscrews
+                        <br><br>Cheap ballscrews never run smooth, these wobble rings will eliminate any wobble
+                        <br>the ballscrew would have induced into the print bed movement`,
+            credits: [
+                    {name: "EvoMoto"},
+            ],
+            buttons: [
+                {title: "Thingiverse", link: "https://www.thingiverse.com/thing:4781610"},
+            ],
+        },
+        {
+            title: "Wobble Rings for SFU1604",
+            image: "../../assets/images/mods/evomoto_sfu1604_wobble_rings.png",
+            description: `Same as the SFU1204 version but for SFU1604`,
+            credits: [
+                    {name: "EvoMoto"},
+            ],
+            buttons: [
+                {title: "Thingiverse", link: "https://www.thingiverse.com/thing:4785945"},
+            ],
+        },
+    ]);
+    createGridData(3, [
+        {
             title: "BL-Touch Rapido UHF Hotend bracket",
             image: "https://hevort-mods.donnerplays.de/images/BL_Touch_Rapido_Hotend_UHF_Bracket.png",
             description: `Mounting bracket for the BL-Touch when used on a Rapido UHF hotend.
@@ -37,7 +98,7 @@ If you need help, the best place to ask is the Discord server
             ],
         },
     ]);
-    createGridData(2, [
+    createGridData(4, [
         {
             title: "HD12/MGN12 CPAP Rapido Duct",
             image: "https://hevort-mods.donnerplays.de/images/HD12_MGN12_Rapido_Duct.png",
@@ -88,7 +149,7 @@ If you need help, the best place to ask is the Discord server
             ],
         },
     ]);
-    createGridData(3, [
+    createGridData(5, [
         {
             title: "SpEye",
             image: "../assets/images/mods/spy-eye/spy-eye-printed.jpg",
@@ -118,14 +179,23 @@ If you need help, the best place to ask is the Discord server
     ]);
 </script>
 
+## XY Gantry
+
+[xy-gantry-template](../../assets/templates/grid-template.md ':include')
+
+## Z-Axis
+
+[z-axis-template](../../assets/templates/grid-template.md ':include')
+
+
 ## Extruder
 
-[frame-template](../../assets/templates/grid-template.md ':include')
+[extruder-template](../../assets/templates/grid-template.md ':include')
 
 ## Cooling
 
-[frame-template](../../assets/templates/grid-template.md ':include')
+[cooling-template](../../assets/templates/grid-template.md ':include')
 
 ## Other
 
-[frame-template](../../assets/templates/grid-template.md ':include')
+[other-template](../../assets/templates/grid-template.md ':include')
