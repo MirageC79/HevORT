@@ -20,7 +20,7 @@ If you need help, the best place to ask is the Discord server
     createGridData(1, [
         {
             title: "EvoMoto HD12 AWD",
-            image: "../../assets/images/mods/evomoto_awd_hd12.png",
+            image: "docs/assets/images/mods/evomoto_awd_hd12.png",
             description: `This mod adds two more steppers to the HevORT.
                         <br>They replace the pulley mounts on the front for even more power.
                         <br><br>Requires (not including existing parts from the pulley mounts):
@@ -37,7 +37,7 @@ If you need help, the best place to ask is the Discord server
         },
         {
             title: "EvoMoto STD/HT AWD",
-            image: "../../assets/images/mods/evomoto_awd_std-ht.png",
+            image: "docs/assets/images/mods/evomoto_awd_std-ht.png",
             description: `This mod adds two more steppers to the HevORT.
                         <br>They replace the pulley mounts on the front for even more power.
                         <br><br>Requires (not including existing parts from the pulley mounts):
@@ -52,7 +52,7 @@ If you need help, the best place to ask is the Discord server
         },
         {
             title: "Hans Hanson HD12 AWD",
-            image: "../../assets/images/mods/hans-hanson_awd_hd12.jpg",
+            image: "docs/assets/images/mods/hans-hanson_awd_hd12.jpg",
             description: `Almost the same number and length of shafts are required as with the opposite Motor Mount and Pulley mount
                         <br><br>(except for the two Dowel Pin 5x40mm for the belt binder).
                         <br>The same goes for the idler and pulley.`,
@@ -68,7 +68,7 @@ If you need help, the best place to ask is the Discord server
     createGridData(2, [
         {
             title: "Wobble Rings for SFU1204",
-            image: "../../assets/images/mods/evomoto_sfu1204_wobble_rings.jpg",
+            image: "docs/assets/images/mods/evomoto_sfu1204_wobble_rings.jpg",
             description: `Alternative version of the original Wobble Rings for the ZR V2.5
                         <br>These do a better job at eliminating bad quality ballscrews
                         <br><br>Cheap ballscrews never run smooth, these wobble rings will eliminate any wobble
@@ -82,7 +82,7 @@ If you need help, the best place to ask is the Discord server
         },
         {
             title: "Wobble Rings for SFU1604",
-            image: "../../assets/images/mods/evomoto_sfu1604_wobble_rings.png",
+            image: "docs/assets/images/mods/evomoto_sfu1604_wobble_rings.png",
             description: `Same as the SFU1204 version but for SFU1604`,
             credits: [
                     {name: "EvoMoto"},
@@ -93,7 +93,7 @@ If you need help, the best place to ask is the Discord server
         },
         {
             title: "Z-Axis 2:1 reduction",
-            image: "../../assets/images/mods/m3nt8l_z-axis_reduction.jpg",
+            image: "docs/assets/images/mods/m3nt8l_z-axis_reduction.jpg",
             description: `2:1 reduction for the HevORT's ZR V2.5 Z-Axis
                         <br>This mod increases holding torque.
                         <br>It will also allow you to use 50mm longer ballscrews bringing you 50mm more Z-Travel.
@@ -135,7 +135,7 @@ If you need help, the best place to ask is the Discord server
         },
         {
             title: "LGX Lite HextrudORT Carriage Mount (HD12/MGN9)",
-            image: "../../assets/images/mods/serbitar_lgx-lite_hextrudort_carriage.webp",
+            image: "docs/assets/images/mods/serbitar_lgx-lite_hextrudort_carriage.webp",
             description: `Mounts an LGX Lite and Dragon hotend to the HevORT HextrudORT HD12/MGN9 carriage.`,
             credits: [
                     {name: "Serbitar"},
@@ -199,7 +199,7 @@ If you need help, the best place to ask is the Discord server
     createGridData(5, [
         {
             title: "SpEye",
-            image: "../assets/images/mods/spy-eye/spy-eye-printed.jpg",
+            image: "docs/assets/images/mods/spy-eye/spy-eye-printed.jpg",
             description: `Not only an empty filament detector.
                         <br>The SpEye can detect a spool jam and pause your print.`,
             credits: [
@@ -225,7 +225,7 @@ If you need help, the best place to ask is the Discord server
         },
         {
             title: "Hans Hanson FumesORT",
-            image: "../assets/images/mods/hans-hanson_fumes-ort.jpg",
+            image: "docs/assets/images/mods/hans-hanson_fumes-ort.jpg",
             description: `Fume filter mounted under the HevORT's print bed.
                         <br><br>Filter basket volume is approx. 313ml.
                         <br>Using activated charcoal pellets with a diameter of approx. 4mm

@@ -6,7 +6,7 @@ The HevORT project has been designed to be modular. This means you can select fr
     createGridData(1, [
         {
             title: "Frame",
-            image: "../assets/images/components/FrameThumb.png",
+            image: "docs/assets/images/components/FrameThumb.png",
             description: `The bare base frame with a side electronics bay`,
             buttons: [
                 {title: "Frame Hardware Map", link: "https://a360.co/3dCjsfY"},
@@ -17,7 +17,7 @@ The HevORT project has been designed to be modular. This means you can select fr
         },
         {
             title: "Enclosure",
-            image: "../assets/images/components/AcidBeeThumb.png",
+            image: "docs/assets/images/components/AcidBeeThumb.png",
             description: `The  Acid Bee Enclosure`,
             buttons: [
                 {title: "Thingiverse", link: "https://www.thingiverse.com/thing:5188673"},
@@ -30,7 +30,7 @@ The HevORT project has been designed to be modular. This means you can select fr
     createGridData(2, [
         {
             title: "Standard XY",
-            image: "../assets/images/components/XYThumb.png",
+            image: "docs/assets/images/components/XYThumb.png",
             description: `This version is suited for the commonly available GT2 pulleys.
                         <br>These pulleys available from china and other location are 9mm thick and have wider flanges(lips).`,
             buttons: [
@@ -40,7 +40,7 @@ The HevORT project has been designed to be modular. This means you can select fr
         },
         {
             title: "(HT) XY High Temp",
-            image: "../assets/images/components/XYHTThumb.png",
+            image: "docs/assets/images/components/XYHTThumb.png",
             description: `The High Temp version of the XY gantry features 5mm bore pulleys.  These are slightly thicker (10mm) and have a narrower lips.
                         <br>Note that due to extreme compactness of some components,
                         <br>transition bushings are necessary to fit the 5mm bore onto 3mm hardware.`,
@@ -51,7 +51,7 @@ The HevORT project has been designed to be modular. This means you can select fr
         },
         {
             title: "(HD9) XY Heavy Duty 9mm",
-            image: "../assets/images/components/XYHD9Thumb.png",
+            image: "docs/assets/images/components/XYHD9Thumb.png",
             description: `This XY Gantry will fit on the same frame as the Standard and HT version of the XY Gantry.
                         <br>The XYHD gantry are meant for very large printers or for the ones with very high performance in mind.
                         <br><br>Featuring:
@@ -65,7 +65,7 @@ The HevORT project has been designed to be modular. This means you can select fr
         },
         {
             title: "(HD12) XY Heavy Duty 12mm",
-            image: "../assets/images/components/XYHD12Thumb.png",
+            image: "docs/assets/images/components/XYHD12Thumb.png",
             description: `This XY Gantry will fit on the same frame as the Standard and HT version of the XY Gantry.
                         <br>The XYHD gantry are meant for very large printers or for the ones with very high performance in mind.
                         <br><br>Featuring:
@@ -81,7 +81,7 @@ The HevORT project has been designed to be modular. This means you can select fr
     createGridData(3, [
         {
             title: "(XYHT) MGN9 Carbon Fiber X-Axis",
-            image: "../assets/images/components/OPTION_XYHT_CFX_MGN9_Thumb.jpg",
+            image: "docs/assets/images/components/OPTION_XYHT_CFX_MGN9_Thumb.jpg",
             description: `A 2020 Carbon Fiber Tube is replacing X extrusion for huge weight saving.`,
             buttons: [
                 {title: "Thingiverse", link: "https://www.thingiverse.com/thing:4880808"},
@@ -92,7 +92,7 @@ The HevORT project has been designed to be modular. This means you can select fr
         },
         {
             title: "(HD9) MGN9 Carbon Fiber X-Axis",
-            image: "../assets/images/components/OPTION_HD9_CFX_MGN9_Thumb.jpg",
+            image: "docs/assets/images/components/OPTION_HD9_CFX_MGN9_Thumb.jpg",
             description: `A 2020 Carbon Fiber Tube is replacing X extrusion for huge weight saving.`,
             buttons: [
                 {title: "Thingiverse", link: "https://github.com/MirageC79/HevORT/tree/master/files/STL/HD9/Option_HD9_CFx"},
@@ -103,7 +103,7 @@ The HevORT project has been designed to be modular. This means you can select fr
         },
         {
             title: "(HD12) MGN9 Carbon Fiber X-Axis",
-            image: "../assets/images/components/OPTION_HD12_CFX_MGN9_Thumb.jpg",
+            image: "docs/assets/images/components/OPTION_HD12_CFX_MGN9_Thumb.jpg",
             description: `A 2020 Carbon Fiber Tube is replacing X extrusion for huge weight saving.`,
             buttons: [
                 {title: "Thingiverse", link: "https://www.thingiverse.com/thing:4886459"},
@@ -116,7 +116,7 @@ The HevORT project has been designed to be modular. This means you can select fr
     createGridData(4, [
         {
             title: "ZR",
-            image: "../assets/images/components/ZRThumb.png",
+            image: "docs/assets/images/components/ZRThumb.png",
             description: `This initial version of the Self Leveling Z axis on MGN rails from the HevORT
                         <br>works just fine if you are using quality Ball screws with excellent frame alignment as well as perfect tolerances printed parts...
                         <br>Sounds impossible to get?
@@ -129,7 +129,7 @@ The HevORT project has been designed to be modular. This means you can select fr
         },
         {
             title: "ZR V2 (Wobble wings)",
-            image: "../assets/images/components/ZRV2Thumb.png",
+            image: "docs/assets/images/components/ZRV2Thumb.png",
             description: `Some may say, get proper alignment, get quality parts, go back to lead screw... Well
                         <br<brThe size of the bed on that printer makes it quite heavy.
                         <br>Moving it down and up in a non planar printing mode will get standards lead screw to wear out pretty quick.
@@ -143,7 +143,7 @@ The HevORT project has been designed to be modular. This means you can select fr
         },
         {
             title: "ZR V2.5",
-            image: "../assets/images/components/ZR_V2.5_Thumb.jpg",
+            image: "docs/assets/images/components/ZR_V2.5_Thumb.jpg",
             description: `Using the same Z wobble management as V2, this new version integrates
                         <br><br>2 new features:<br>First, A double row angular contact bearing is now offering better axial load support to the ball screw.
                         <br><br>Second, a quality shaft collar from Ruland is providing a better resting shoulder to the thrust bearing than the poor half lip of a thread the SFU1204 usually offers.`,
@@ -163,7 +163,7 @@ The HevORT project has been designed to be modular. This means you can select fr
     createGridData(5, [
         {
             title: "E3D Hemera",
-            image: "../assets/images/components/HemeraThumb.png",
+            image: "docs/assets/images/components/HemeraThumb.png",
             description: `Including configuration for E3D V6,
                         <br>Volcano
                         <br>and Super Volcano heatblocks.
@@ -176,7 +176,7 @@ The HevORT project has been designed to be modular. This means you can select fr
         },
         {
             title: "BMG/Titan Aqua",
-            image: "../assets/images/components/BMGAquaThumb.png",
+            image: "docs/assets/images/components/BMGAquaThumb.png",
             description: `This is the all metal BMG (Right Hand) paired with a Titan Aqua cooling plate,
                         <br>E3D Volcano
                         <br>and the E3D slim stepper.
@@ -188,7 +188,7 @@ The HevORT project has been designed to be modular. This means you can select fr
         },
         {
             title: "E3D Hemera Top Mounted and SuperVolcano",
-            image: "../assets/images/components/HemeraTopMountThumb.png",
+            image: "docs/assets/images/components/HemeraTopMountThumb.png",
             description: `This print head requires the use of E3D Super Volcano.
                         <br><br>Part cooling is achieved by BerdAir system.
                         <br><br>Bltouch and optical sensors are used for positioning.`,
@@ -201,7 +201,7 @@ The HevORT project has been designed to be modular. This means you can select fr
     createGridData(6, [
         {
             title: "HextrudORT",
-            image: "../assets/images/components/HextrudORT_CoverThumb.jpg",
+            image: "docs/assets/images/components/HextrudORT_CoverThumb.jpg",
             description: `Collection of multiple print heads based on the HextrudORT (Extruder + Hotend) carriage`,
             buttons: [
                 {title: "HextrudORT GitHub Page", link: "https://miragec79.github.io/HextrudORT/"},
@@ -211,7 +211,7 @@ The HevORT project has been designed to be modular. This means you can select fr
     createGridData(7, [
         {
             title: "Electronics",
-            image: "../assets/images/components/ElectronicsThumb.jpg",
+            image: "docs/assets/images/components/ElectronicsThumb.jpg",
             description: `Electronics List of material for Power Management and Control Board`,
             buttons: [
                 {title: "Electronics Island proposal", link: "https://www.thingiverse.com/thing:3953165"},

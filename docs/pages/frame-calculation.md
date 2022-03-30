@@ -8,7 +8,7 @@ Since rails and ballscrew can only be ordered into preset dimensions, please ens
 
 Proposed sizes can be found into the Calculator.
 
-[>Frame & Friends Calculator<](../assets/references/frame/FrameCalculator.xlsx)
+[>Frame & Friends Calculator<](docs/assets/references/frame/FrameCalculator.xlsx)
 
 ## How to use the Frame Calculator
 

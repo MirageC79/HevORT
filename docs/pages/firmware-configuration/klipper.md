@@ -25,7 +25,7 @@ Z_TILT_ADJUST is used to even the height of all 3 Z-Axis on the HevORT
 
 ### 1. Get the Firmware Settings Generator
 
-[>Firmware Settings Generator<](../../assets/references/firmware-settings/FirmWareSettings.xlsx)
+[>Firmware Settings Generator<](docs/assets/references/firmware-settings/FirmWareSettings.xlsx)
 
 1. Open  the Calculator page
 2. Enter your PRINT_AREA XY

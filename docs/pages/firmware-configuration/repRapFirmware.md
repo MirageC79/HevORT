@@ -26,7 +26,7 @@ I have created a cleaned up example version of my config.g that you can use to c
 
 | RRF version | config.g file example                                                             | Last Updated  |
 |:-----------:|-----------------------------------------------------------------------------------|:-------------:|
-|    2.04     | [>Text File<](../../assets/references/firmware-settings/2.04config_g_example.txt) | Jul 23rd 2020 |
+|    2.04     | [>Text File<](docs/assets/references/firmware-settings/2.04config_g_example.txt) | Jul 23rd 2020 |
 
 ### RepRap Firmware 3 on Duet 2
 
@@ -34,7 +34,7 @@ Here is an example of a config file running RRF3 on a Duet**2** control board
 
 | RRF version | config.g file example                                                       | Last Updated  |
 |:-----------:|-----------------------------------------------------------------------------|:-------------:|
-|      3      | [>Text File<](../../assets/references/firmware-settings/RRF3_D2_config.txt) | Jul 23rd 2020 |
+|      3      | [>Text File<](docs/assets/references/firmware-settings/RRF3_D2_config.txt) | Jul 23rd 2020 |
 
 ### RepRap Firmware 3 on Duet 3
 
@@ -43,9 +43,9 @@ Here is an example of a config file running RRF3 on a Duet**2** control board
 |                    RepRapFirmWare_ConfigTool Section                     |  Last Updated   |
 |:------------------------------------------------------------------------:|:---------------:|
 |                                  Start                                   |      *NA*       |
-|   [>General<](../../assets/references/firmware-settings/RRF3_D3P2.htm)   | August 31, 2020 |
-| [>I/O Mapping<](../../assets/references/firmware-settings/RRF3_D3P3.htm) | August 31, 2020 |
-|   [>Motors<](../../assets/references/firmware-settings/RRF3_D3P4.htm)    | August 31, 2020 |
+|   [>General<](docs/assets/references/firmware-settings/RRF3_D3P2.htm)   | August 31, 2020 |
+| [>I/O Mapping<](docs/assets/references/firmware-settings/RRF3_D3P3.htm) | August 31, 2020 |
+|   [>Motors<](docs/assets/references/firmware-settings/RRF3_D3P4.htm)    | August 31, 2020 |
 |                                 EndStops                                 |       NA        |
 |                                 Heaters                                  |       NA        |
 |                                   Fans                                   |       NA        |
@@ -60,4 +60,4 @@ The triple independent Z axis parameters will be set via
 [M671](https://duet3d.dozuki.com/Wiki/Gcode#Section_M671_Define_positions_of_Z_leadscrews_or_bed_levelling_screws) command in your config.g file  
 Using the following Excel file, you will generate the adequate line of command for your configuration.
 
-[>Firmware Settings Generator<](../../assets/references/firmware-settings/FirmWareSettings.xlsx)
+[>Firmware Settings Generator<](docs/assets/references/firmware-settings/FirmWareSettings.xlsx)

@@ -2,10 +2,10 @@
 
 ## Local Links
 
-| Name/Link                                                                                            | Description                                                                                                                                          |
-|------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [>Frame Calculator<](../assets/references/frame/FrameCalculator.xlsx)                                | The HevORT Frame Calculator will tell you what sizes of<br>aluminium extrusions, ballscrews, print-bed, ...<br>you will need to get for your config  |
-| [>Firmware Settings Guide/Calculator<](../assets/references/firmware-settings/FirmWareSettings.xlsx) | A useful document mainly for configuration RRF<br>but also includes a calculator for the Z-Axis Adjustment configuration for both<br>RRF and Klipper |
+| Name/Link                                                                                              | Description                                                                                                                                          |
+|--------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [>Frame Calculator<](docs/assets/references/frame/FrameCalculator.xlsx)                                | The HevORT Frame Calculator will tell you what sizes of<br>aluminium extrusions, ballscrews, print-bed, ...<br>you will need to get for your config  |
+| [>Firmware Settings Guide/Calculator<](docs/assets/references/firmware-settings/FirmWareSettings.xlsx) | A useful document mainly for configuration RRF<br>but also includes a calculator for the Z-Axis Adjustment configuration for both<br>RRF and Klipper |
 
 ## External Links
 
