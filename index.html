@@ -50,6 +50,167 @@
       readyTransition: true,
       responsiveTables: true
     },
+    vueComponents: {
+      'grid': {
+        template: `
+           <div class="grid" :style="[config.gridTemplateColumns ? {'gridTemplateColumns': config.gridTemplateColumns} : {'gridTemplateColumns': '1fr 1fr 1fr'}]">
+           <slot></slot>
+           </div>
+        `,
+        props: {
+          config: {
+            type: Object,
+            default: () => {
+              return {gridTemplateColumns: '1fr 1fr 1fr'}
+            }
+          }
+        }
+      },
+      'item-image': {
+        props: {
+          url: String,
+        },
+
+        template: `
+
+        `
+      },
+      'credits': {
+        template: `
+          <div class="grid-item-credits">
+            <span class="grid-item-credit-header">Credits</span>
+            <ul class="grid-item-credit-list">
+                <slot></slot>
+            </ul>
+          </div>
+        `,
+      },
+      'credit': {
+        props: {
+          name: String,
+        },
+        template: `
+          <li class="grid-item-credit-list-item">
+            <div class="grid-item-credit-list-item-wrapper">
+              <span class="grid-item-credit-list-item-name">{{ name }}</span>
+              <span>
+                <slot></slot>
+              </span>
+            </div>
+          </li>
+        `,
+      },
+      'buttons': {
+        data: () => {
+          return {
+            childs: []
+          }
+        },
+        mounted: function() {
+          this.childs = this.$refs?.buttons?.children;
+        },
+        computed: {
+          childCount: function () {
+            return this.childs.length;
+          }
+        },
+        template: `
+          <div class="grid-item-button-container" ref="buttons" :style="[childCount === 1 ? {'grid-template-columns': '1fr'} : {'grid-template-columns': '1fr 1fr'}]">
+            <slot></slot>
+          </div>
+        `,
+      },
+      'item-button': {
+        props: {
+          target: {
+            type: String,
+            default: () => "_blank"
+          },
+          icon: String,
+          url: String,
+        },
+        template: `
+           <a class="hevort-btn" :href="url" :target="target">
+             <span class="hevort-btn-text">
+               <slot></slot>
+             </span>
+             <i v-if="icon" :class="icon" :style="{'marginLeft': 'auto'}"></i>
+           </a>
+        `
+      },
+      'description': {
+        template: `
+          <div class="grid-item-description-container">
+            <button class="grid-item-description-button hevort-btn" @click="(e) => toggleDescription(e)">
+              <span class="grid-item-description-button-text" v-text="descriptionExpanded ? 'Hide Description' : 'Show Description'"></span>
+              <i class="grid-item-description-button-icon" :class="descriptionExpanded ? 'fa-solid fa-angle-up' : 'fa-solid fa-angle-down'"></i>
+            </button>
+            <div class="grid-item-description" :class="(descriptionExpanded) ? 'grid-item-description-expanded' : ''">
+              <slot></slot>
+            </div>
+          </div>
+        `,
+        data: () => {
+          return {
+            descriptionExpanded: false
+          }
+        },
+        methods: {
+          toggleDescription: function (buttonEvent) {
+            let descriptionElement = buttonEvent.target.parentElement.parentElement.querySelector(".grid-item-description");
+
+            if(descriptionElement.style.maxHeight) {
+              descriptionElement.classList.remove("grid-item-description-expanded");
+            } else {
+              descriptionElement.classList.add("grid-item-description-expanded");
+            }
+
+            Vue.set(this, "descriptionExpanded", !this.descriptionExpanded);
+          },
+        },
+      },
+      'item': {
+        props: {
+          title: String,
+          hide: {
+            type: Boolean,
+            default: () => false
+          },
+          status: String,
+          image: {
+            type: String,
+            default: () => "https://via.placeholder.com/400.png/FF0000/000000?text=Placeholder+Image"
+          },
+        },
+        data: () => {
+          return {
+            descriptionElement: null
+          }
+        },
+        mounted: function() {
+          this.descriptionElement = this.$refs?.image?.parentNode.querySelector(".grid-item-description-container");
+        },
+        computed: {
+          descriptionElmExists: function () {
+            return this.descriptionElement !== null;
+          }
+        },
+        template: `
+            <div class="grid-item" v-if="!hide">
+                <span class="grid-item-title-wrapper" :style="[status ? {'padding-right': '0'} : {'padding-right': '1rem'}]">
+                  <span class="grid-item-title" v-html=title></span>
+                  <span class="grid-item-state" v-if="status" v-text="status"></span>
+                </span>
+                <div class="grid-item-container">
+                  <img v-if="image" alt="IMAGE" ref="image" :style="[descriptionElmExists ? {} :{'border': '1px solid var(--primary-color) !important', 'borderRadius': '1rem'}]" class="grid-item-image" :src=image />
+                  <slot name="description"><span style="margin-bottom: 1rem"></span></slot>
+                  <slot name="credits"><div style="margin-top: auto"></div></slot>
+                  <slot name="buttons"></slot>
+                </div>
+            </div>
+        `
+      }
+    },
   }
 </script>
 <!-- Docsify v4 -->
