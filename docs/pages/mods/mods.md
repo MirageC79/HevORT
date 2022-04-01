@@ -4,17 +4,24 @@
 >
 > It showcases all the modification's people from the community have created and published
 
+## Contribution rules
+
 |INFO|
 If you have created a mod for the HevORT too.
 Please create a merge request to have it added
 
 [GitHub/HevORT - Pull Request](https://github.com/MirageC79/HevORT/pulls)
 
-
 If you need help, the best place to ask is the Discord server
 
 [Discord/HevORT](https://discord.gg/nCYRQAZPWV)
 |INFO|
+
+<details>
+<summary>Rules</summary>
+
+[contribution-rules](../../mod-contribution-rules.md ':include')
+</details>
 
 ## XY Gantry
 
@@ -32,7 +39,7 @@ If you need help, the best place to ask is the Discord server
     <buttons slot="buttons">
       <item-button url="https://www.thingiverse.com/thing:5171980">Thingiverse</item-button>
     </buttons>
-    <credits>
+    <credits slot="credits">
       <credit name="EvoMoto"/>
     </credits>
   </item>
@@ -48,7 +55,7 @@ If you need help, the best place to ask is the Discord server
       <item-button url="https://www.thingiverse.com/thing:4815859">Thingiverse</item-button>
       <item-button url="">CAD File</item-button>
     </buttons>
-    <credits>
+    <credits slot="credits">
       <credit name="EvoMoto"/>
     </credits>
   </item>
@@ -62,7 +69,7 @@ If you need help, the best place to ask is the Discord server
       <item-button url="https://www.thingiverse.com/thing:4946002">Thingiverse</item-button>
       <item-button url="https://a360.co/3lwUEMv">CAD File</item-button>
     </buttons>
-    <credits>
+    <credits slot="credits">
       <credit name="Hans Hanson"/>
     </credits>
   </item>
@@ -81,7 +88,7 @@ If you need help, the best place to ask is the Discord server
     <buttons slot="buttons">
       <item-button url="https://www.thingiverse.com/thing:4781610">Thingiverse</item-button>
     </buttons>
-    <credits>
+    <credits slot="credits">
       <credit name="EvoMoto"/>
     </credits>
   </item>
@@ -92,7 +99,7 @@ If you need help, the best place to ask is the Discord server
     <buttons slot="buttons">
       <item-button url="https://www.thingiverse.com/thing:4785945">Thingiverse</item-button>
     </buttons>
-    <credits>
+    <credits slot="credits">
       <credit name="EvoMoto"/>
     </credits>
   </item>
@@ -114,7 +121,7 @@ If you need help, the best place to ask is the Discord server
     <buttons slot="buttons">
       <item-button url="https://www.thingiverse.com/thing:4880007">Thingiverse</item-button>
     </buttons>
-    <credits>
+    <credits slot="credits">
       <credit name="M3NT8L"/>
     </credits>
   </item>
@@ -140,7 +147,7 @@ If you need help, the best place to ask is the Discord server
                    url="https://hevort-mods.donnerplays.de/cad/BL_Touch_Rapido_Hotend_UHF_Bracket.step">CAD File
       </item-button>
     </buttons>
-    <credits>
+    <credits slot="credits">
       <credit name="MirageC">Initial work/version</credit>
       <credit name="DonnerPlays">Modification to use M3 nuts instead of threading into the plastic</credit>
     </credits>
@@ -156,7 +163,7 @@ If you need help, the best place to ask is the Discord server
       </item-button>
       <item-button url="">CAD File</item-button>
     </buttons>
-    <credits>
+    <credits slot="credits">
       <credit name="Serbitar"/>
     </credits>
   </item>
@@ -179,7 +186,7 @@ If you need help, the best place to ask is the Discord server
         File
       </item-button>
     </buttons>
-    <credits>
+    <credits slot="credits">
       <credit name="MirageC">Initial work of MGN9 version</credit>
       <credit name="DonnerPlays">Modification to fit HD12/MGN12</credit>
     </credits>
@@ -195,7 +202,7 @@ If you need help, the best place to ask is the Discord server
         CAD File
       </item-button>
     </buttons>
-    <credits>
+    <credits slot="credits">
       <credit name="MirageC">Initial work of MGN9 version</credit>
       <credit name="DonnerPlays">Modification to fit HD12/MGN12</credit>
     </credits>
@@ -217,7 +224,7 @@ If you need help, the best place to ask is the Discord server
                    url="https://hevort-mods.donnerplays.de/cad/MGN12_HD12_Rapido_Fan_Shroud_40mm.step">CAD File
       </item-button>
     </buttons>
-    <credits>
+    <credits slot="credits">
       <credit name="MirageC">Initial work on version for Rapido with 25mm fan</credit>
       <credit name="DonnerPlays">Modification to allow 40mm fan to be used</credit>
     </credits>
@@ -233,9 +240,9 @@ If you need help, the best place to ask is the Discord server
       <br>The SpEye can detect a spool jam and pause your print.
     </description>
     <buttons slot="buttons">
-      <item-button url="#/pages/mods/spy-eye.md">SpyEye page</item-button>
+      <item-button url="#/pages/mods/spy-eye.md">SpEye page</item-button>
     </buttons>
-    <credits>
+    <credits slot="credits">
       <credit name="MirageC"/>
     </credits>
   </item>
@@ -252,7 +259,7 @@ If you need help, the best place to ask is the Discord server
         File
       </item-button>
     </buttons>
-    <credits>
+    <credits slot="credits">
       <credit name="DonnerPlays"/>
     </credits>
   </item>
@@ -279,7 +286,7 @@ If you need help, the best place to ask is the Discord server
       <item-button url="https://www.thingiverse.com/thing:5197675">Thingiverse</item-button>
       <item-button url="https://a360.co/3lwUEMv">CAD File</item-button>
     </buttons>
-    <credits>
+    <credits slot="credits">
       <credit name="Hans Hanson"/>
     </credits>
   </item>
