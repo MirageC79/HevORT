@@ -12,10 +12,8 @@ This is the base of the HevORT
     </description>
     <buttons slot="buttons">
       <item-button url="https://a360.co/3dCjsfY">Frame Hardware Map</item-button>
-      <item-button url="https://miragec79.github.io/HevORT/bom/BOM_Frame_ElecExt.htm">BOM - Web</item-button>
-      <item-button icon="fa fa-download"
-                   url="https://miragec79.github.io/HevORT/bom/BOM_Frame_ElecExt.xlsx">BOM - Download
-      </item-button>
+      <item-button url="bom/BOM_Frame_ElecExt.htm">BOM - Web</item-button>
+      <item-button icon="fa fa-download" url="bom/BOM_Frame_ElecExt.xlsx">BOM - Download</item-button>
       <item-button url="https://a360.co/2xUD9B9">CAD File</item-button>
     </buttons>
   </item>
@@ -25,10 +23,8 @@ This is the base of the HevORT
     </description>
     <buttons slot="buttons">
       <item-button url="https://www.thingiverse.com/thing:5188673">Thingiverse</item-button>
-      <item-button url="https://miragec79.github.io/HevORT/bom/BOM_Enclosure_AcidBee.htm">BOM - Web</item-button>
-      <item-button icon="fa fa-download"
-                   url="https://miragec79.github.io/HevORT/bom/BOM_Enclosure_AcidBee.xlsx">BOM - Download
-      </item-button>
+      <item-button url="bom/BOM_Enclosure_AcidBee.htm">BOM - Web</item-button>
+      <item-button icon="fa fa-download" url="bom/BOM_Enclosure_AcidBee.xlsx">BOM - Download</item-button>
       <item-button url="https://a360.co/3HD6rlY">CAD File</item-button>
     </buttons>
   </item>
@@ -100,10 +96,8 @@ Alternative version/improvements to the above Gantry parts (like Carbon fibre)
     </description>
     <buttons slot="buttons">
       <item-button url="https://www.thingiverse.com/thing:4880808">Thingiverse</item-button>
-      <item-button url="https://miragec79.github.io/HevORT/bom/Option_XYHT_CFX_MGN9.htm">BOM - Web</item-button>
-      <item-button icon="fa fa-download"
-                   url="https://miragec79.github.io/HevORT/bom/Option_XYHT_CFX_MGN9.xlsx">BOM - Download
-      </item-button>
+      <item-button url="bom/Option_XYHT_CFX_MGN9.htm">BOM - Web</item-button>
+      <item-button icon="fa fa-download" url="bom/Option_XYHT_CFX_MGN9.xlsx">BOM - Download</item-button>
       <item-button url="https://a360.co/3z3ofD8">CAD File</item-button>
     </buttons>
   </item>
@@ -112,12 +106,9 @@ Alternative version/improvements to the above Gantry parts (like Carbon fibre)
       A 2020 Carbon Fiber Tube is replacing X extrusion for huge weight saving.
     </description>
     <buttons slot="buttons">
-      <item-button url="https://github.com/MirageC79/HevORT/tree/master/files/STL/HD9/Option_HD9_CFx">Thingiverse
-      </item-button>
-      <item-button url="https://miragec79.github.io/HevORT/bom/Option_HD9_CFx_MGN9.htm">BOM - Web</item-button>
-      <item-button icon="fa fa-download"
-                   url="https://miragec79.github.io/HevORT/bom/Option_HD9_CFx_MGN9.xlsx">BOM - Download
-      </item-button>
+      <item-button url="files/STL/HD9/Option_HD9_CFx">Thingiverse</item-button>
+      <item-button url="bom/Option_HD9_CFx_MGN9.htm">BOM - Web</item-button>
+      <item-button icon="fa fa-download" url="bom/Option_HD9_CFx_MGN9.xlsx">BOM - Download</item-button>
       <item-button url="https://a360.co/3ttC8sp">CAD File</item-button>
     </buttons>
   </item>
@@ -127,10 +118,8 @@ Alternative version/improvements to the above Gantry parts (like Carbon fibre)
     </description>
     <buttons slot="buttons">
       <item-button url="https://www.thingiverse.com/thing:4886459">Thingiverse</item-button>
-      <item-button url="https://miragec79.github.io/HevORT/bom/Option_HD12_CFx_MGN9.htm">BOM - Web</item-button>
-      <item-button icon="fa fa-download"
-                   url="https://miragec79.github.io/HevORT/bom/Option_HD12_CFx_MGN9.xlsx">BOM - Download
-      </item-button>
+      <item-button url="bom/Option_HD12_CFx_MGN9.htm">BOM - Web</item-button>
+      <item-button icon="fa fa-download" url="bom/Option_HD12_CFx_MGN9.xlsx">BOM - Download</item-button>
       <item-button url="https://a360.co/3gqVqt4">CAD File</item-button>
     </buttons>
   </item>
@@ -270,10 +259,8 @@ Supported print heads include (as of now):
     </description>
     <buttons slot="buttons">
       <item-button url="https://www.thingiverse.com/thing:3953165">Electronics Island proposal</item-button>
-      <item-button icon="fa fa-download"
-                   url="https://miragec79.github.io/HevORT/bom/BOM_Electronics.htm">BOM - Web
-      </item-button>
-      <item-button url="https://miragec79.github.io/HevORT/bom/BOM_Electronics.xlsx">BOM - Download</item-button>
+      <item-button icon="fa fa-download" url="bom/BOM_Electronics.htm">BOM - Web</item-button>
+      <item-button url="bom/BOM_Electronics.xlsx">BOM - Download</item-button>
     </buttons>
   </item>
 </grid>
