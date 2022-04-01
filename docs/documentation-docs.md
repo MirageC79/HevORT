@@ -10,6 +10,39 @@ This documentation uses [docsify](https://docsify.js.org/), a documentation "gen
 
 **docsify** itself has a detailed documentation, explaining every available feature.
 
+## Work on docsify documentation locally
+
+With docsify it is possible to host a local webserver.  
+This way you don't have to push it to GitHub and wait for the changes to be refreshed.
+
+1. you will need to have [Node.js](https://nodejs.org/en/download/) installed.
+   - Make sure it is added to your **PATH** environment
+2. Open a new terminal and execute
+````shell
+npm -v
+````
+It should return the current **npm** version installed.
+3. Install the **docsify-cli** by executing the following command
+````shell
+npm i docsify-cli -g
+````
+This will install the docsify utility globally on your computer
+4. Install git on your computer: [git](https://git-scm.com/downloads)
+5. Navigate to a directory on your computer where you want to download the **HevORT** git repository to
+6. Clone the **HevORT** git repository by executing the following command in your terminal
+````shell
+git clone https://github.com/MirageC79/HevORT.git
+````
+7. Navigate into the created **HevORT** folder (where the **index.html** file is located). Example:
+````shell
+cd HevORT
+````
+8. Execute the following command to start the local **docsify** webserver
+````shell
+docsify serve
+````
+9. The documentation should now be available at **https://localhost:3000**
+
 ## Grid view
 
 To have a unified way of showing a large amount of related parts we use the grid view implementation.
