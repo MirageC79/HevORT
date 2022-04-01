@@ -49,7 +49,7 @@ To have a unified way of showing a large amount of related parts we use the grid
 
 ### Usage
 ````vue
-<grid v-bind:config="{gridTemplateColumns: '1fr 1fr'}">
+<grid v-bind:config="{gridTemplateColumns: '1fr 1fr 1fr'}">
   <item title="Item title" image="https://via.placeholder.com/400.png/FF0000/000000?text=Placeholder+Image" status="I'm active">
     <description slot="description">
       Full html support description text
@@ -73,6 +73,7 @@ To have a unified way of showing a large amount of related parts we use the grid
   - v-bind:config="{}"
     - **OPTIONAL**
     - configuration for this grid item goes in between the ``{}``
+    - default: {gridTemplateColumns: '1fr 1fr 1fr'}
     - options:
       - gridTemplateColumns
         - example: {gridTemplateColumns: '1fr 1fr'} = results in a 2 column grid
@@ -124,7 +125,7 @@ To have a unified way of showing a large amount of related parts we use the grid
     - Shown below name
 ### Result
 
-<grid v-bind:config="{gridTemplateColumns: '1fr 1fr'}">
+<grid v-bind:config="{gridTemplateColumns: '1fr 1fr 1fr'}">
   <item title="Item title" image="https://via.placeholder.com/400.png/FF0000/000000?text=Placeholder+Image" status="I'm active">
     <description slot="description">
       Full html support description text
