@@ -24,4 +24,9 @@ click the button here below :)
 Thank you!
 Olivier
 
-<p style="font-size: 3rem; text-align: center;">:fa-solid fa-heart: Happy Printing :fa-solid fa-heart:</p>
+<br>
+<p style="font-size: 3rem; text-align: center; display: flex; flex-direction: column">
+:fa-solid fa-heart:
+Happy Printing
+:fa-solid fa-heart:
+</p>
