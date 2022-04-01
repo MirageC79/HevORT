@@ -4,7 +4,7 @@
 >
 > It showcases all the modification's people from the community have created and published
 
-## Contribution rules
+## Contribution
 
 |INFO|
 If you have created a mod for the HevORT too.
@@ -20,7 +20,11 @@ If you need help, the best place to ask is the Discord server
 <details>
 <summary>Rules</summary>
 
+<div class="mod-contribution-rules-container">
+
 [contribution-rules](../../mod-contribution-rules.md ':include')
+
+</div>
 </details>
 
 ## XY Gantry

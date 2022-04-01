@@ -410,3 +410,10 @@ body:not([data-platform^="Mac"]) * ::-webkit-scrollbar-track {
 body:not([data-platform^="Mac"]) * ::-webkit-scrollbar-thumb {
     background: var(--secondary-color) !important;
 }
+
+.mod-contribution-rules-container {
+    border: 2px solid var(--primary-color);
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+}

@@ -1,4 +1,3 @@
-```
 If you want to have your **mod** added to this site it needs to conform to some **rules**
 that are supposed to keep **everything clean & organized**.
 
@@ -26,4 +25,3 @@ that are supposed to keep **everything clean & organized**.
   - Program specific cad files are not allowed. The files should be usable by anyone!
 6. Hardware needed have to be in the description, this also includes any special software required.
 7. If the mod requires specific configuration in the firmware. An example with explanations is desired.
-```
