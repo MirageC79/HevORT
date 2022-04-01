@@ -15,11 +15,14 @@
 
 
 
-<div class="social-btn-container">
-    <a class="social-btn" href="https://www.youtube.com/c/MirageC" target="_blank" rel="noopener"><i class="social-btn-icon fa-brands fa-youtube"></i></a>
-    <a class="social-btn" href="https://www.facebook.com/groups/hevort" target="_blank" rel="noopener"><i class="social-btn-icon fa-brands fa-facebook"></i></a>
-    <a class="social-btn" href="https://discord.gg/nCYRQAZPWV" target="_blank" rel="noopener"><i class="social-btn-icon fa-brands fa-discord"></i></a>
-    <a class="social-btn" href="https://forums.hevort.com/index.php" target="_blank" rel="noopener"><i class="social-btn-icon fa-brands fa-php"></i></a>
+<div class="socials">
+    <span><span>Socials</span></span>
+    <div class="socials-container">
+      <a class="social-btn" href="https://www.youtube.com/c/MirageC" target="_blank" rel="noopener"><i class="social-btn-icon fa-brands fa-youtube"></i></a>
+      <a class="social-btn" href="https://www.facebook.com/groups/hevort" target="_blank" rel="noopener"><i class="social-btn-icon fa-brands fa-facebook"></i></a>
+      <a class="social-btn" href="https://discord.gg/nCYRQAZPWV" target="_blank" rel="noopener"><i class="social-btn-icon fa-brands fa-discord"></i></a>
+      <a class="social-btn" href="https://forums.hevort.com/index.php" target="_blank" rel="noopener"><i class="social-btn-icon fa-brands fa-php"></i></a>
+    </div>
 </div>
 
 <div class="sidebar-credit-container">
