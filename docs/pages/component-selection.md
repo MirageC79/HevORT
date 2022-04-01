@@ -1,4 +1,4 @@
-# Which Components do I need?
+# Component Selection
 
 The HevORT project has been designed to be modular. This means you can select from multiple components configuration and assemble the one that will suit your needs.
 
