@@ -84,6 +84,10 @@
     align-items: center;
 }
 
+.cover blockquote {
+    border: 1px solid var(--primary-color)
+}
+
 .cover-button {
     font-size: larger;
     font-weight: 700;
