@@ -2,6 +2,13 @@
 
 This file explains how to **use, expand or modify** the existing documentation.
 
+|INFO|
+Some files may not work when downloaded when using the local docsify server<br>
+as they get corrupted for some reason.   
+
+Once the documentation is pushed to github they work again (on github pages).
+
+|INFO|
 
 ## Foundation
 
