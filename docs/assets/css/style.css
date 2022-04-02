@@ -369,6 +369,7 @@ h1 {
 }
 
 .grid-item {
+    background: var(--primary-background-color);
     border: solid 3px var(--primary-color);
     border-radius: 1rem;
     box-shadow: 3.7px 6.1px 1.9px rgba(0, 0, 0, 0.004),
