@@ -35,6 +35,9 @@
     --sidebar-padding: 1rem;
     --link-color: var(--primary-color);
     --strong-color: var(--primary-color);
+    --sidebar-name-margin: 0;
+    --search-margin: 1rem 0 0 0;
+    --sidebar-nav-margin: 0.5rem 0 0 0;
 
     --primary-color: #d1ff2a;
     --secondary-color: #2d2650;
@@ -110,10 +113,6 @@
     padding-left: 16px;
 }
 
-li .active {
-    border-right: 3px solid var(--primary-color);
-}
-
 .sidebar-nav ul > li.folder.open {
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='11.2' height='7' viewBox='0 0 11.2 7'%3E%3Cpath d='M1.5 1.5l4.1 4 4.1-4' stroke-width='1.5' stroke='rgb%2811, 135, 218%29' fill='none' stroke-linecap='square' stroke-linejoin='miter' vector-effect='non-scaling-stroke'/%3E%3C/svg%3E");
     background-position: left calc(1em - 6px);
@@ -127,6 +126,9 @@ li .active {
     padding-left: 16px;
 }
 
+.sidebar-nav > ul {
+    padding-right: 1rem;
+}
 
 .sidebar-nav > ul > li > ul > li > ul > li > a:before {
     content: "" !important;
@@ -181,17 +183,17 @@ h1 {
     flex-direction: column;
     width: 100%;
     margin-top: auto;
-    padding: 1rem;
+    padding: 0 1rem 1rem 1rem;
 }
 
 .socials > span {
+    transform: translateY(50%);
     text-align: center;
     position: relative;
 }
 
 .socials > span > span {
     position: relative;
-    top: 12px;
     padding: 0 1rem;
     background: var(--secondary-background-color);
 }
