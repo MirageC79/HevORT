@@ -9,7 +9,8 @@
   * [RepRapFirmware](pages/firmware-configuration/repRapFirmware.md)
   * [Klipper](pages/firmware-configuration/klipper.md)
 * [Mods](pages/mods/mods.md)
-* [Useful Links](pages/useful-links.md)
+* Useful stuff
+  * [Links](pages/useful-stuff/links.md)
 * Documentation specific
   * [Documentation docs](pages/documentation-docs.md)
 
