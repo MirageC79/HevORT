@@ -41,6 +41,7 @@
     --code-inline-padding: 0.3rem;
     --code-inline-border-radius: 0.5rem;
     --code-inline-margin: 0.3rem;
+    --search-input-font-size: 1.2rem;
 
     --primary-color: #d1ff2a;
     --secondary-color: #2d2650;
@@ -131,6 +132,7 @@
 
 .sidebar-nav > ul {
     padding-right: 1rem;
+    font-size: 1.2rem;
 }
 
 .sidebar-nav > ul > li > ul > li > ul > li > a:before {
