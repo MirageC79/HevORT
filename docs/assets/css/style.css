@@ -38,6 +38,9 @@
     --sidebar-name-margin: 0;
     --search-margin: 1rem 0 0 0;
     --sidebar-nav-margin: 0.5rem 0 0 0;
+    --code-inline-padding: 0.3rem;
+    --code-inline-border-radius: 0.5rem;
+    --code-inline-margin: 0.3rem;
 
     --primary-color: #d1ff2a;
     --secondary-color: #2d2650;
@@ -263,6 +266,7 @@ code {
     background-color: var(--secondary-background-color) !important;
     border: 2px solid var(--primary-color);
     border-radius: 0.5rem;
+    padding: 1rem;
 }
 
 body:not([data-platform^="Mac"]) * ::-webkit-scrollbar-track {
