@@ -6,6 +6,9 @@
 
 :root {
     --sidebar-nav-pagelink-background-image: none;
+    --sidebar-nav-pagelink-background-image--collapse: var(--folder-closed);
+    --sidebar-nav-pagelink-background-image--active: var(--folder-open);
+    --sidebar-nav-pagelink-background-image--loaded: var(--folder-open);
     --sidebar-nav-link-before-content: '';
     --content-max-width: 80rem;
     --mark-background: white;
@@ -48,6 +51,8 @@
     --alternative-secondary-color: #1f1c33;
     --primary-background-color: #2d2d2d;
     --secondary-background-color: #343434;
+    --folder-open: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='11.2' height='7' viewBox='0 0 11.2 7'%3E%3Cpath d='M1.5 1.5l4.1 4 4.1-4' stroke-width='1.5' stroke='rgb%28209, 255, 42%29' fill='none' stroke-linecap='square' stroke-linejoin='miter' vector-effect='non-scaling-stroke'/%3E%3C/svg%3E");
+    --folder-closed: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7' height='11.2' viewBox='0 0 7 11.2'%3E%3Cpath d='M1.5 1.5l4 4.1 -4 4.1' stroke-width='1.5' stroke='rgb%28209, 255, 42%29' fill='none' stroke-linecap='square' stroke-linejoin='miter' vector-effect='non-scaling-stroke'/%3E%3C/svg%3E");
 }
 
 .table-wrapper {
@@ -111,14 +116,14 @@
 }
 
 .sidebar-nav ul > li.folder {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7' height='11.2' viewBox='0 0 7 11.2'%3E%3Cpath d='M1.5 1.5l4 4.1 -4 4.1' stroke-width='1.5' stroke='rgb%28209, 255, 42%29' fill='none' stroke-linecap='square' stroke-linejoin='miter' vector-effect='non-scaling-stroke'/%3E%3C/svg%3E");
+    background-image: var(--folder-closed);
     background-repeat: no-repeat;
     background-position: left calc(1em - 8px);
     padding-left: 16px;
 }
 
 .sidebar-nav ul > li.folder.open {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='11.2' height='7' viewBox='0 0 11.2 7'%3E%3Cpath d='M1.5 1.5l4.1 4 4.1-4' stroke-width='1.5' stroke='rgb%28209, 255, 42%29' fill='none' stroke-linecap='square' stroke-linejoin='miter' vector-effect='non-scaling-stroke'/%3E%3C/svg%3E");
+    background-image: var(--folder-open);
     background-position: left calc(1em - 6px);
 }
 
