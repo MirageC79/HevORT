@@ -1,0 +1,28 @@
+.hevort-btn {
+    display: flex;
+    align-items: center;
+    border: 2px solid var(--primary-color) !important;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    text-decoration: none !important;
+    background: #2d2d2d;
+    color: white !important;
+    font-weight: bolder;
+    justify-content: center;
+}
+
+.hevort-btn:hover {
+    background-color: var(--secondary-color);
+}
+
+.hevort-btn:active {
+    transform: translateY(4px);
+}
+
+.hevort-btn-text {
+
+}
+
+.hevort-button-icon {
+    margin-left: auto;
+}
