@@ -129,10 +129,10 @@
         },
         template: `
            <a class="hevort-btn" :href="url" :target="target">
-             <span class="hevort-btn-text">
+             <span class="hevort-btn-text" :style="[icon ? {'textAlign': 'center', 'marginLeft': 'auto'} : {}]">
                <slot></slot>
              </span>
-             <i v-if="icon" :class="icon" :style="{'marginLeft': 'auto'}"></i>
+             <i v-if="icon" :class="icon" :style="{'marginLeft': 'auto', 'paddingLeft': '0.5rem'}"></i>
            </a>
         `
       },

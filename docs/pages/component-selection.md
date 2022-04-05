@@ -12,9 +12,9 @@ This is the base of the HevORT
     </description>
     <buttons slot="buttons">
       <item-button url="https://a360.co/3dCjsfY">Frame Hardware Map</item-button>
-      <item-button url="bom/BOM_Frame_ElecExt.htm">BOM - Web</item-button>
-      <item-button icon="fa fa-download" url="bom/BOM_Frame_ElecExt.xlsx">BOM - Download</item-button>
       <item-button url="https://a360.co/2xUD9B9">CAD File</item-button>
+      <item-button url="bom/BOM_Frame_ElecExt.htm">BOM - Web</item-button>
+      <item-button icon="fa fa-download" url="bom/BOM_Frame_ElecExt.xlsx">BOM<br>Download</item-button>
     </buttons>
   </item>
   <item title="Enclosure" image="docs/assets/images/components/AcidBeeThumb.png">
@@ -23,9 +23,9 @@ This is the base of the HevORT
     </description>
     <buttons slot="buttons">
       <item-button url="https://www.thingiverse.com/thing:5188673">Thingiverse</item-button>
-      <item-button url="bom/BOM_Enclosure_AcidBee.htm">BOM - Web</item-button>
-      <item-button icon="fa fa-download" url="bom/BOM_Enclosure_AcidBee.xlsx">BOM - Download</item-button>
       <item-button url="https://a360.co/3HD6rlY">CAD File</item-button>
+      <item-button url="bom/BOM_Enclosure_AcidBee.htm">BOM - Web</item-button>
+      <item-button icon="fa fa-download" url="bom/BOM_Enclosure_AcidBee.xlsx">BOM<br>Download</item-button>
     </buttons>
   </item>
 </grid>
@@ -42,6 +42,8 @@ You will find below the various configuration for XY Gantry.  Select one in func
     <buttons slot="buttons">
       <item-button url="https://www.thingiverse.com/thing:4184477">Thingiverse</item-button>
       <item-button url="https://a360.co/2UEaOHa">CAD File</item-button>
+      <item-button url="bom/BOM_XY_STD.htm">BOM - Web</item-button>
+      <item-button icon="fa fa-download" url="bom/BOM_XY_STD.xlsx">BOM<br>Download</item-button>
     </buttons>
   </item>
   <item title="(HT) XY High Temp" image="docs/assets/images/components/XYHTThumb.png">
@@ -54,6 +56,8 @@ You will find below the various configuration for XY Gantry.  Select one in func
     <buttons slot="buttons">
       <item-button url="https://www.thingiverse.com/thing:4402495">Thingiverse</item-button>
       <item-button url="https://a360.co/3ABEubX">CAD File</item-button>
+      <item-button url="bom/BOM_XYHT.htm">BOM - Web</item-button>
+      <item-button icon="fa fa-download" url="bom/BOM_XYHT.xlsx">BOM<br>Download</item-button>
     </buttons>
   </item>
   <item title="(HD9) XY Heavy Duty 9mm" image="docs/assets/images/components/XYHD9Thumb.png">
@@ -68,6 +72,8 @@ You will find below the various configuration for XY Gantry.  Select one in func
     <buttons slot="buttons">
       <item-button url="https://www.thingiverse.com/thing:4629715">Thingiverse</item-button>
       <item-button url="https://a360.co/35p2MH0">CAD File</item-button>
+      <item-button url="bom/BOM_XYHD9.htm">BOM - Web</item-button>
+      <item-button icon="fa fa-download" url="bom/BOM_XYHD9.xlsx">BOM<br>Download</item-button>
     </buttons>
   </item>
   <item title="(HD12) XY Heavy Duty 12mm" image="docs/assets/images/components/XYHD12Thumb.png">
@@ -82,6 +88,8 @@ You will find below the various configuration for XY Gantry.  Select one in func
     <buttons slot="buttons">
       <item-button url="https://www.thingiverse.com/thing:4625509">Thingiverse</item-button>
       <item-button url="https://a360.co/3dxzysP">CAD File</item-button>
+      <item-button url="bom/BOM_XYHD12.htm">BOM - Web</item-button>
+      <item-button icon="fa fa-download" url="bom/BOM_XYHD12.xlsx">BOM<br>Download</item-button>
     </buttons>
   </item>
 </grid>
@@ -96,9 +104,9 @@ Alternative version/improvements to the above Gantry parts (like Carbon fibre)
     </description>
     <buttons slot="buttons">
       <item-button url="https://www.thingiverse.com/thing:4880808">Thingiverse</item-button>
-      <item-button url="bom/Option_XYHT_CFX_MGN9.htm">BOM - Web</item-button>
-      <item-button icon="fa fa-download" url="bom/Option_XYHT_CFX_MGN9.xlsx">BOM - Download</item-button>
       <item-button url="https://a360.co/3z3ofD8">CAD File</item-button>
+      <item-button url="bom/Option_XYHT_CFX_MGN9.htm">BOM - Web</item-button>
+      <item-button icon="fa fa-download" url="bom/Option_XYHT_CFX_MGN9.xlsx">BOM<br>Download</item-button>
     </buttons>
   </item>
   <item title="(HD9) MGN9 Carbon Fiber X-Axis" image="docs/assets/images/components/OPTION_HD9_CFX_MGN9_Thumb.jpg">
@@ -106,10 +114,10 @@ Alternative version/improvements to the above Gantry parts (like Carbon fibre)
       A 2020 Carbon Fiber Tube is replacing X extrusion for huge weight saving.
     </description>
     <buttons slot="buttons">
-      <item-button url="files/STL/HD9/Option_HD9_CFx">Thingiverse</item-button>
-      <item-button url="bom/Option_HD9_CFx_MGN9.htm">BOM - Web</item-button>
-      <item-button icon="fa fa-download" url="bom/Option_HD9_CFx_MGN9.xlsx">BOM - Download</item-button>
+      <item-button url="https://github.com/MirageC79/HevORT/tree/master/files/STL/HD9/Option_HD9_CFx">STLs</item-button>
       <item-button url="https://a360.co/3ttC8sp">CAD File</item-button>
+      <item-button url="bom/Option_HD9_CFx_MGN9.htm">BOM - Web</item-button>
+      <item-button icon="fa fa-download" url="bom/Option_HD9_CFx_MGN9.xlsx">BOM<br>Download</item-button>
     </buttons>
   </item>
   <item title="(HD12) MGN9 Carbon Fiber X-Axis" image="docs/assets/images/components/OPTION_HD12_CFX_MGN9_Thumb.jpg">
@@ -118,9 +126,9 @@ Alternative version/improvements to the above Gantry parts (like Carbon fibre)
     </description>
     <buttons slot="buttons">
       <item-button url="https://www.thingiverse.com/thing:4886459">Thingiverse</item-button>
-      <item-button url="bom/Option_HD12_CFx_MGN9.htm">BOM - Web</item-button>
-      <item-button icon="fa fa-download" url="bom/Option_HD12_CFx_MGN9.xlsx">BOM - Download</item-button>
       <item-button url="https://a360.co/3gqVqt4">CAD File</item-button>
+      <item-button url="bom/Option_HD12_CFx_MGN9.htm">BOM - Web</item-button>
+      <item-button icon="fa fa-download" url="bom/Option_HD12_CFx_MGN9.xlsx">BOM<br>Download</item-button>
     </buttons>
   </item>
 </grid>
@@ -153,7 +161,9 @@ Choose your weapon wisely ;)
     </description>
     <buttons slot="buttons">
       <item-button url="https://www.thingiverse.com/thing:4387638">Thingiverse</item-button>
-      <item-button url="https://a360.co/3bSwQzF">CAD File</item-button>
+      <item-button url="https://a360.co/3gweJiw">CAD File</item-button>
+      <item-button url="bom/BOM_ZR_V2.htm">BOM - Web</item-button>
+      <item-button icon="fa fa-download" url="bom/BOM_ZR_V2.xlsx">BOM<br>Download</item-button>
     </buttons>
   </item>
   <item title="ZR V2.5" image="docs/assets/images/components/ZR_V2.5_Thumb.jpg">
@@ -167,6 +177,8 @@ Choose your weapon wisely ;)
     <buttons slot="buttons">
       <item-button url="https://www.thingiverse.com/thing:4723500">Thingiverse</item-button>
       <item-button url="https://a360.co/3bSwQzF">CAD File</item-button>
+      <item-button url="bom/BOM_ZR_V2.5.htm">BOM - Web</item-button>
+      <item-button icon="fa fa-download" url="bom/BOM_ZR_V2.5.xlsx">BOM<br>Download</item-button>
     </buttons>
   </item>
   <item title="HyperCube Evolution Z Adapters" image="" status="TBD">
@@ -176,10 +188,6 @@ Choose your weapon wisely ;)
       from SCOTT_3D</a>
       <br>Z installation to your HevORT printer.
     </description>
-    <buttons slot="buttons">
-      <item-button url="">Thingiverse</item-button>
-      <item-button url="">CAD File</item-button>
-    </buttons>
   </item>
 </grid>
 
@@ -201,6 +209,8 @@ All configuration here below include the [BLtouch from Antclabs](https://www.ant
     <buttons slot="buttons">
       <item-button url="https://www.thingiverse.com/thing:4238471">Thingiverse</item-button>
       <item-button url="https://a360.co/2U1i6ob">CAD File</item-button>
+      <item-button url="bom/BOM_X_Hemera.htm">BOM - Web</item-button>
+      <item-button icon="fa fa-download" url="bom/BOM_X_Hemera.xlsx">BOM<br>Download</item-button>
     </buttons>
   </item>
   <item title="BMG/Titan Aqua" image="docs/assets/images/components/BMGAquaThumb.png">
@@ -213,6 +223,8 @@ All configuration here below include the [BLtouch from Antclabs](https://www.ant
     <buttons slot="buttons">
       <item-button url="https://www.thingiverse.com/thing:4411289">Thingiverse</item-button>
       <item-button url="https://a360.co/3fY7MFT">CAD File</item-button>
+      <item-button url="bom/BOM_BMGAqua.htm">BOM - Web</item-button>
+      <item-button icon="fa fa-download" url="bom/BOM_BMGAqua.xlsx">BOM<br>Download</item-button>
     </buttons>
   </item>
   <item title="E3D Hemera Top Mounted and SuperVolcano" image="docs/assets/images/components/HemeraTopMountThumb.png">
@@ -224,6 +236,8 @@ All configuration here below include the [BLtouch from Antclabs](https://www.ant
     <buttons slot="buttons">
       <item-button url="https://www.thingiverse.com/thing:4556554">Thingiverse</item-button>
       <item-button url="https://a360.co/39ryl4z">CAD File</item-button>
+      <item-button url="bom/BOM_X_HemeraTopMount.htm">BOM - Web</item-button>
+      <item-button icon="fa fa-download" url="bom/BOM_X_HemeraTopMount.xlsx">BOM<br>Download</item-button>
     </buttons>
   </item>
 </grid>
@@ -260,7 +274,7 @@ Supported print heads include (as of now):
     <buttons slot="buttons">
       <item-button url="https://www.thingiverse.com/thing:3953165">Electronics Island proposal</item-button>
       <item-button icon="fa fa-download" url="bom/BOM_Electronics.htm">BOM - Web</item-button>
-      <item-button url="bom/BOM_Electronics.xlsx">BOM - Download</item-button>
+      <item-button url="bom/BOM_Electronics.xlsx">BOM<br>Download</item-button>
     </buttons>
   </item>
 </grid>
