@@ -41,6 +41,8 @@ You will find below the various configuration for XY Gantry.  Select one in func
     </description>
     <buttons slot="buttons">
       <item-button url="https://www.thingiverse.com/thing:4184477">Thingiverse</item-button>
+      <item-button url="bom/BOM_XY_STD.htm">BOM - Web</item-button>
+      <item-button icon="fa fa-download" url="bom/BOM_XY_STD.xlsx">BOM - Download</item-button>
       <item-button url="https://a360.co/2UEaOHa">CAD File</item-button>
     </buttons>
   </item>
@@ -53,6 +55,8 @@ You will find below the various configuration for XY Gantry.  Select one in func
     </description>
     <buttons slot="buttons">
       <item-button url="https://www.thingiverse.com/thing:4402495">Thingiverse</item-button>
+      <item-button url="bom/BOM_XYHT.htm">BOM - Web</item-button>
+      <item-button icon="fa fa-download" url="bom/BOM_XYHT.xlsx">BOM - Download</item-button>
       <item-button url="https://a360.co/3ABEubX">CAD File</item-button>
     </buttons>
   </item>
@@ -67,6 +71,8 @@ You will find below the various configuration for XY Gantry.  Select one in func
     </description>
     <buttons slot="buttons">
       <item-button url="https://www.thingiverse.com/thing:4629715">Thingiverse</item-button>
+      <item-button url="bom/BOM_XYHD9.htm">BOM - Web</item-button>
+      <item-button icon="fa fa-download" url="bom/BOM_XYHD9.xlsx">BOM - Download</item-button>
       <item-button url="https://a360.co/35p2MH0">CAD File</item-button>
     </buttons>
   </item>
@@ -81,6 +87,8 @@ You will find below the various configuration for XY Gantry.  Select one in func
     </description>
     <buttons slot="buttons">
       <item-button url="https://www.thingiverse.com/thing:4625509">Thingiverse</item-button>
+      <item-button url="bom/BOM_XYHD12.htm">BOM - Web</item-button>
+      <item-button icon="fa fa-download" url="bom/BOM_XYHD12.xlsx">BOM - Download</item-button>
       <item-button url="https://a360.co/3dxzysP">CAD File</item-button>
     </buttons>
   </item>
@@ -153,6 +161,8 @@ Choose your weapon wisely ;)
     </description>
     <buttons slot="buttons">
       <item-button url="https://www.thingiverse.com/thing:4387638">Thingiverse</item-button>
+      <item-button url="bom/BOM_ZR_V2.htm">BOM - Web</item-button>
+      <item-button icon="fa fa-download" url="bom/BOM_ZR_V2.xlsx">BOM - Download</item-button>
       <item-button url="https://a360.co/3bSwQzF">CAD File</item-button>
     </buttons>
   </item>
@@ -166,6 +176,8 @@ Choose your weapon wisely ;)
     </description>
     <buttons slot="buttons">
       <item-button url="https://www.thingiverse.com/thing:4723500">Thingiverse</item-button>
+      <item-button url="bom/BOM_ZR_V2.5.htm">BOM - Web</item-button>
+      <item-button icon="fa fa-download" url="bom/BOM_ZR_V2.5.xlsx">BOM - Download</item-button>
       <item-button url="https://a360.co/3bSwQzF">CAD File</item-button>
     </buttons>
   </item>
@@ -176,10 +188,6 @@ Choose your weapon wisely ;)
       from SCOTT_3D</a>
       <br>Z installation to your HevORT printer.
     </description>
-    <buttons slot="buttons">
-      <item-button url="">Thingiverse</item-button>
-      <item-button url="">CAD File</item-button>
-    </buttons>
   </item>
 </grid>
 
@@ -200,6 +208,8 @@ All configuration here below include the [BLtouch from Antclabs](https://www.ant
     </description>
     <buttons slot="buttons">
       <item-button url="https://www.thingiverse.com/thing:4238471">Thingiverse</item-button>
+      <item-button url="bom/BOM_X_Hemera.htm">BOM - Web</item-button>
+      <item-button icon="fa fa-download" url="bom/BOM_X_Hemera.xlsx">BOM - Download</item-button>
       <item-button url="https://a360.co/2U1i6ob">CAD File</item-button>
     </buttons>
   </item>
@@ -212,6 +222,8 @@ All configuration here below include the [BLtouch from Antclabs](https://www.ant
     </description>
     <buttons slot="buttons">
       <item-button url="https://www.thingiverse.com/thing:4411289">Thingiverse</item-button>
+      <item-button url="bom/BOM_BMGAqua.htm">BOM - Web</item-button>
+      <item-button icon="fa fa-download" url="bom/BOM_BMGAqua.xlsx">BOM - Download</item-button>
       <item-button url="https://a360.co/3fY7MFT">CAD File</item-button>
     </buttons>
   </item>
@@ -223,6 +235,8 @@ All configuration here below include the [BLtouch from Antclabs](https://www.ant
     </description>
     <buttons slot="buttons">
       <item-button url="https://www.thingiverse.com/thing:4556554">Thingiverse</item-button>
+      <item-button url="bom/BOM_X_HemeraTopMount.htm">BOM - Web</item-button>
+      <item-button icon="fa fa-download" url="bom/BOM_X_HemeraTopMount.xlsx">BOM - Download</item-button>
       <item-button url="https://a360.co/39ryl4z">CAD File</item-button>
     </buttons>
   </item>
