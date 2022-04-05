@@ -114,7 +114,7 @@ Alternative version/improvements to the above Gantry parts (like Carbon fibre)
       A 2020 Carbon Fiber Tube is replacing X extrusion for huge weight saving.
     </description>
     <buttons slot="buttons">
-      <item-button url="files/STL/HD9/Option_HD9_CFx">Thingiverse</item-button>
+      <item-button url="https://github.com/MirageC79/HevORT/tree/master/files/STL/HD9/Option_HD9_CFx">STLs</item-button>
       <item-button url="https://a360.co/3ttC8sp">CAD File</item-button>
       <item-button url="bom/Option_HD9_CFx_MGN9.htm">BOM - Web</item-button>
       <item-button icon="fa fa-download" url="bom/Option_HD9_CFx_MGN9.xlsx">BOM<br>Download</item-button>
