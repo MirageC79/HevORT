@@ -161,7 +161,7 @@ Choose your weapon wisely ;)
     </description>
     <buttons slot="buttons">
       <item-button url="https://www.thingiverse.com/thing:4387638">Thingiverse</item-button>
-      <item-button url="https://a360.co/3bSwQzF">CAD File</item-button>
+      <item-button url="https://a360.co/3gweJiw">CAD File</item-button>
       <item-button url="bom/BOM_ZR_V2.htm">BOM - Web</item-button>
       <item-button icon="fa fa-download" url="bom/BOM_ZR_V2.xlsx">BOM<br>Download</item-button>
     </buttons>
