@@ -136,7 +136,7 @@ If you need help, the best place to ask is the Discord server
 
 <grid>
   <item title="BL-Touch Rapido UHF Hotend bracket"
-        image="https://hevort-mods.donnerplays.de/images/BL_Touch_Rapido_Hotend_UHF_Bracket.png">
+        image="https://hevort-mods.donnerplays.de/docs/assets/images/BL_Touch_Rapido_Hotend_UHF_Bracket.png">
     <description slot="description">
       Mounting bracket for the BL-Touch when used on a Rapido UHF hotend.
       <br>- Adds a lip on the top that prevents the support from rotating.
@@ -176,7 +176,7 @@ If you need help, the best place to ask is the Discord server
 ## Cooling
 
 <grid>
-  <item title="HD12/MGN12 CPAP Rapido Duct" image="https://hevort-mods.donnerplays.de/images/HD12_MGN12_Rapido_Duct.png">
+  <item title="HD12/MGN12 CPAP Rapido Duct" image="https://hevort-mods.donnerplays.de/docs/assets/images/HD12_MGN12_Rapido_Duct.png">
     <description slot="description">
       Fan duct for CPAP fan hose
       <br>(15mm inner diameter)
@@ -196,7 +196,7 @@ If you need help, the best place to ask is the Discord server
     </credits>
   </item>
   <item title="HD12/MGN12H Rapido UHF Spacer"
-        image="https://hevort-mods.donnerplays.de/images/HD12_MGN12_Rapido_UHF_Spacer.png">
+        image="https://hevort-mods.donnerplays.de/docs/assets/images/HD12_MGN12_Rapido_UHF_Spacer.png">
     <description slot="description">
       Spacer for the CPAP Rapido Duct
       <br>when the rapido is used with a volcano nozzle (UHF)
@@ -212,7 +212,7 @@ If you need help, the best place to ask is the Discord server
     </credits>
   </item>
   <item title="HD12/MGN12 40mm fan mount (tested with Rapido hotend)"
-        image="https://hevort-mods.donnerplays.de/images/MGN12_HD12_Rapido_Fan_Shroud_40mm.png">
+        image="https://hevort-mods.donnerplays.de/docs/assets/images/MGN12_HD12_Rapido_Fan_Shroud_40mm.png">
     <description slot="description">
       This bracket allows you to use a 40mm fan for
       <br>hotend cooling on the
@@ -251,7 +251,7 @@ If you need help, the best place to ask is the Discord server
     </credits>
   </item>
   <item title="ADXL345 mounting bracket on 40mm fan"
-        image="https://hevort-mods.donnerplays.de/images/ADXL345_40mm_Fan_Mount.png">
+        image="https://hevort-mods.donnerplays.de/docs/assets/images/ADXL345_40mm_Fan_Mount.png">
     <description slot="description">
       Allows you to easily mount an ADXL345 accelerometer to your print head.
       <br><br>Mounts to the front of a 40mm fan.
