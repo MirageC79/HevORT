@@ -162,10 +162,7 @@ If you need help, the best place to ask is the Discord server
       Mounts an LGX Lite and Dragon hotend to the HevORT HextrudORT HD12/MGN9 carriage.
     </description>
     <buttons slot="buttons">
-      <item-button url="https://www.printables.com/de/model/151944-hevort-lgx-lite-hextrudort-carriage-mount-hd12mgn9">
-        Printables
-      </item-button>
-      <item-button url="">CAD File</item-button>
+      <item-button url="https://www.printables.com/de/model/151944-hevort-lgx-lite-hextrudort-carriage-mount-hd12mgn9">Printables</item-button>
     </buttons>
     <credits slot="credits">
       <credit name="Serbitar"/>
