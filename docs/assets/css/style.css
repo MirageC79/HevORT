@@ -45,6 +45,7 @@
     --code-inline-border-radius: 0.5rem;
     --code-inline-margin: 0.3rem;
     --search-input-font-size: 1.2rem;
+    --sidebar-nav-link-text-decoration-color: var(--primary-color);
 
     --primary-color: #d1ff2a;
     --secondary-color: #2d2650;
@@ -120,6 +121,15 @@
     background-repeat: no-repeat;
     background-position: left calc(1em - 8px);
     padding-left: 16px;
+}
+
+.sidebar-nav ul > li.folder:hover {
+    cursor: pointer;
+}
+
+.sidebar-nav ul > li.folder.collapse:hover {
+    text-decoration: var(--sidebar-nav-link-text-decoration--hover);
+    text-decoration-color: var(--sidebar-nav-link-text-decoration-color);
 }
 
 .sidebar-nav ul > li.folder.open {
