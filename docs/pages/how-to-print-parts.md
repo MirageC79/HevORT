@@ -1,6 +1,6 @@
 # How to print the HevORT parts?
 
-![Print Banner](../assets/images/how-to-print-parts/printbanner.png)
+![Print Banner](docs/assets/images/how-to-print-parts/printbanner.png)
 
 ## 1. Which material?
 Pretty much any common 3D printing material can be used to print the HevORT parts.  
@@ -42,7 +42,7 @@ Before we start, ensure to make all settings visible by going into:
 `Preferences/Configure Cura.../Settings`  
 Select `Check All` then `Close`
 
-![All Settings](../assets/images/how-to-print-parts/allsettings.png)
+![All Settings](docs/assets/images/how-to-print-parts/allsettings.png)
 
 ____________________________________________________________________________________  
 
@@ -51,7 +51,7 @@ Note that not all settings will be detailed and explained.
 
 ### Quality
 
-![Cura Quality](../assets/images/how-to-print-parts/cura_quality.png)
+![Cura Quality](docs/assets/images/how-to-print-parts/cura_quality.png)
 
 
 | Section | Setting      | Recommended Value       | Comment                                                                                                                                                                     |
@@ -63,7 +63,7 @@ ______________________________________________________________________________
 
 ### Shell
 
-![Cura Shell 1](../assets/images/how-to-print-parts/cura_shell1.png) ![Cura Shell 2](../assets/images/how-to-print-parts/cura_shell2.png)
+![Cura Shell 1](docs/assets/images/how-to-print-parts/cura_shell1.png) ![Cura Shell 2](docs/assets/images/how-to-print-parts/cura_shell2.png)
 
 | Section | Setting              | Recommended Value | Comment                                                                                                 |
 |---------|----------------------|-------------------|---------------------------------------------------------------------------------------------------------|
@@ -72,7 +72,7 @@ ______________________________________________________________________________
 
 ### Infill
 
-![Cura Infill Settings](../assets/images/how-to-print-parts/cura_infill1.png)
+![Cura Infill Settings](docs/assets/images/how-to-print-parts/cura_infill1.png)
 
 | Section | Setting             | Recommended Value | Comment                                                                                                                                                                                                                                                                                                                                                                      |
 |---------|---------------------|-------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
