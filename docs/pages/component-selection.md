@@ -274,7 +274,7 @@ Supported print heads include (as of now):
     <buttons slot="buttons">
       <item-button url="https://www.thingiverse.com/thing:3953165">Electronics Island proposal</item-button>
       <item-button icon="fa fa-download" url="bom/BOM_Electronics.htm">BOM - Web</item-button>
-      <item-button url="bom/BOM_Electronics.xlsx">BOM<br>Download</item-button>
+      <item-button icon="fa fa-download" url="bom/BOM_Electronics.xlsx">BOM<br>Download</item-button>
     </buttons>
   </item>
 </grid>
