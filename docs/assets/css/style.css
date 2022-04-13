@@ -97,6 +97,10 @@
     align-items: center;
 }
 
+body > section.cover {
+    background: url("/docs/assets/images/cover-background.png") center center / cover !important;
+}
+
 .cover blockquote {
     border: 1px solid var(--primary-color)
 }

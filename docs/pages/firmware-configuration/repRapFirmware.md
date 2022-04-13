@@ -1,6 +1,6 @@
 # RepRapFirmware Configuration
 
-![Cover Flat](../../assets/images/cover-flat.png)
+![Cover Flat](docs/assets/images/cover-flat.png)
 
 You made it!  your printer is assembled!  Congratulations :)  
 Now you just need to get the Duet control board to know your HevORT. Time for Firmware Configuration!

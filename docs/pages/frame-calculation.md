@@ -32,18 +32,18 @@ HD print area will be smaller due to wider Y carriages and bigger print head.
 around 35mm will be amputed to X and Y.
 |WARNING|
 
-![Frame Calculation Example 1](../assets/images/frame/framecalc1.png)
+![Frame Calculation Example 1](docs/assets/images/frame/framecalc1.png)
 
 ### 2. Refresh the pivot table
 
 #### Right-Click on the pivot table and select *Refresh*.
 
-![Frame Calculation Example 2](../assets/images/frame/framecalc2.png)
+![Frame Calculation Example 2](docs/assets/images/frame/framecalc2.png)
 
 ### Examples
 Here are a couple of snapshots from results of recommended sizes:
 
 
-| STD/HT X315 Y315 Z340                                     | STD/HT X415 Y415 Z440                                     | HD X315 Y315 Z340                                           | HD X415 Y415 Z440                                           |
-|-----------------------------------------------------------|-----------------------------------------------------------|-------------------------------------------------------------|-------------------------------------------------------------|
-| ![](../assets/images/frame/size-examples/315_315_340.png) | ![](../assets/images/frame/size-examples/415_415_440.png) | ![](../assets/images/frame/size-examples/315_315_340HD.png) | ![](../assets/images/frame/size-examples/415_415_440HD.png) |
+| STD/HT X315 Y315 Z340                                       | STD/HT X415 Y415 Z440                                       | HD X315 Y315 Z340                                             | HD X415 Y415 Z440                                             |
+|-------------------------------------------------------------|-------------------------------------------------------------|---------------------------------------------------------------|---------------------------------------------------------------|
+| ![](docs/assets/images/frame/size-examples/315_315_340.png) | ![](docs/assets/images/frame/size-examples/415_415_440.png) | ![](docs/assets/images/frame/size-examples/315_315_340HD.png) | ![](docs/assets/images/frame/size-examples/415_415_440HD.png) |

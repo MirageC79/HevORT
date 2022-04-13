@@ -1,6 +1,6 @@
 # Welcome to the HevORT project!
 
-![Cover Image Flat](../assets/images/cover-flat.png)
+![Cover Image Flat](docs/assets/images/cover-flat.png)
 
 ## What is the HevORT?
 

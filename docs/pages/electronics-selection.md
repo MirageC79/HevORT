@@ -16,7 +16,7 @@ At this point as I only have experience with one specific control board, the doc
 
 ### The Duet from [Duet3D](https://duet3d.com/)
 
-![Duet MCU](../assets/images/components/duetboard.png)
+![Duet MCU](docs/assets/images/components/duetboard.png)
 
 Considered by many as the Cadillac of control boards,  
 this open source device has many advantages over the majority of current available boards.   
@@ -72,7 +72,7 @@ We've learned lately that a new Duet Board will see the light soon.  Look at Due
 | [_Duet 2 Pro_](https://forum.duet3d.com/topic/16786/duet-2-pro-4-u/10?_=1592597785623&fbclid=IwAR15hDTJ40d1xfQxxkTIBQmrbcReVolsKxkBpS4tp2ly33M-Ao8jsITXew8) | _TBA_             | _Same as Duet3_                                                                                                             | _TBA_ | _TBA_                       | _TBA_                   |
 
 ## 2. The Stepper Motors
-![E3D High Torque Stepper](../assets/images/components/e3dhightorque.png)
+![E3D High Torque Stepper](docs/assets/images/components/e3dhightorque.png)
 
 [Servo or Stepper?](https://www.amci.com/industrial-automation-resources/plc-automation-tutorials/stepper-vs-servo/)  Very good read on the topic.  
 [Calculate the power rating and max speed of your stepper motor:](https://www.allaboutcircuits.com/tools/stepper-motor-calculator/)
