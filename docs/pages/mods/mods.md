@@ -230,6 +230,16 @@ If you need help, the best place to ask is the Discord server
       <credit name="DonnerPlays">Modification to allow 40mm fan to be used</credit>
     </credits>
   </item>
+  <item title="CPAP 7040 part cooling solution" image="https://hevort-mods.donnerplays.de/docs/assets/images/cpap_7040_solution/main.png">
+    <description slot="description">
+      Ability to mount a CPAP 7040 blower.
+      <br><br>
+      Also adds ability to change inlet direction using servo
+    </description>
+    <buttons slot="buttons">
+      <item-button url="https://hevort-mods.donnerplays.de/#/pages/mods/cpap_7040_solution.md">GitHub Page</item-button>
+    </buttons>
+  </item>
 </grid>
 
 ## Other
