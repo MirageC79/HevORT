@@ -57,7 +57,6 @@ If you need help, the best place to ask is the Discord server
     </description>
     <buttons slot="buttons">
       <item-button url="https://www.thingiverse.com/thing:4815859">Thingiverse</item-button>
-      <item-button url="">CAD File</item-button>
     </buttons>
     <credits slot="credits">
       <credit name="EvoMoto"/>
@@ -75,6 +74,24 @@ If you need help, the best place to ask is the Discord server
     </buttons>
     <credits slot="credits">
       <credit name="Hans Hanson"/>
+    </credits>
+  </item>
+</grid>
+
+### Further options
+Smaller changes that may not fit into the bigger mods in the main [XY Gantry](#xy-gantry) section.
+
+<grid>
+  <item title="XYHT v2.5 1515 extrusions" image="docs/assets/images/mods/rockzo_xyht_1515_extrusion_mod.png">
+    <description slot="description">
+      A simple mod for 1515 extrusion for the XYHT v2.5.
+      <br>Recommended: Misumi 1515 extrusion
+    </description>
+    <buttons slot="buttons">
+      <item-button url="files/Mods/rockzo_xyht_1515_extrusion_mod.step">CAD File</item-button>
+    </buttons>
+    <credits slot="credits">
+      <credit name="Rockzo"/>
     </credits>
   </item>
 </grid>
