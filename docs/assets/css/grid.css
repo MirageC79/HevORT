@@ -128,13 +128,39 @@
     display: flex;
     justify-content: space-between;
     padding-left: 1rem;
+    position: relative;
+}
+
+.grid-item-title-inner-wrapper {
+    padding-top: 1rem;
+}
+
+.grid-item-link-button {
+    background: transparent;
+    border: none;
+    margin: 0;
+    padding: 0 0.5rem 0 0;
+    fill: var(--primary-color);
+}
+
+.grid-item-link-button:hover {
+    cursor: pointer;
+    fill: var(--base-color);
+}
+
+.grid-item-link-button > svg:active {
+    transform: translateY(4px);
+
 }
 
 .grid-item-title {
     font-size: large;
     font-weight: bolder;
     text-align: center;
-    padding-top: 1rem;
+}
+
+.link-selected-anchor {
+    border-color: red !important;
 }
 
 .grid-item-container {
