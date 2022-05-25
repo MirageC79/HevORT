@@ -1,7 +1,7 @@
 window.$docsify = window.$docsify || {};
 window.$docsify.plugins = (window.$docsify.plugins || []).concat((hook) => {
-    const downloadRegEx = /\[>(.+)<\]\((.+?)\)/gm;
-    const normalRegEx = /\[>>(.+)<<\]\((.+?)\)/gm;
+    const downloadRegEx = /\[>(.+?)<\]\((.+?)\)/gm;
+    const normalRegEx = /\[>>(.+?)<<\]\((.+?)\)/gm;
 
     hook.beforeEach(content => {
         return content
