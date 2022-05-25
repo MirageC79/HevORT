@@ -15,7 +15,7 @@
     --sidebar-width: 25rem;
     --heading-h1-color: var(--primary-color);
     --heading-h1-font-size: 3rem;
-    --heading-h1-padding: 0 0 1rem 0;
+    --heading-h1-padding: 0 0 0.5rem 0;
     --cover-button-primary-color: black;
     --cover-button-padding: 0.5rem;
     --base-background-color: var(--primary-background-color);
@@ -35,6 +35,7 @@
     --table-cell-padding: 0.5rem 1rem;
     --table-row-odd-background: var(--alternative-secondary-color);
     --heading-h2-border-color: var(--primary-color);
+    --heading-h2-padding: 0 0 0.5rem 0;
     --sidebar-padding: 1rem;
     --link-color: var(--primary-color);
     --strong-color: var(--primary-color);
