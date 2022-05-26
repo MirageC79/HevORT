@@ -128,13 +128,61 @@
     display: flex;
     justify-content: space-between;
     padding-left: 1rem;
+    position: relative;
+}
+
+.grid-item-title-inner-wrapper {
+    padding-top: 1rem;
 }
 
 .grid-item-title {
     font-size: large;
     font-weight: bolder;
     text-align: center;
-    padding-top: 1rem;
+    color: var(--base-color) !important;
+    text-decoration: none !important;
+}
+
+.grid-item-title:hover {
+    cursor: pointer;
+    text-decoration: underline !important;
+    color: var(--primary-color) !important;
+}
+
+.grid-item-title:active {
+    transform: translateY(4px) !important;
+}
+
+.link-selected-anchor {
+    position: relative;
+    border: unset !important;
+
+}
+.link-selected-anchor:after {
+    content: '';
+    position: absolute;
+    top: calc(-1 * var(--grid-item-border-width) * 2);
+    left: calc(-1 * var(--grid-item-border-width) * 2);
+    height: calc(100% + var(--grid-item-border-width) * 2 * 2);
+    width: calc(100% + var(--grid-item-border-width) * 2 * 2);
+    background: linear-gradient(60deg, var(--primary-color), #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+    border-radius: var(--grid-item-border-radius);
+    animation: grid-item-anchor-selected-animation 1s ease alternate infinite;
+    z-index: -1;
+    background-size: 300% 300%;
+}
+
+
+@keyframes grid-item-anchor-selected-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 .grid-item-container {
@@ -145,9 +193,11 @@
 }
 
 .grid-item {
+    --grid-item-border-width: 3px;
+    --grid-item-border-radius: 1rem;
     background: var(--primary-background-color);
-    border: solid 3px var(--primary-color);
-    border-radius: 1rem;
+    border: solid var(--grid-item-border-width) var(--primary-color);
+    border-radius: var(--grid-item-border-radius);
     box-shadow: 3.7px 6.1px 1.9px rgba(0, 0, 0, 0.004),
     7.5px 12.2px 4.8px rgba(0, 0, 0, 0.009),
     11.2px 18.3px 9.6px rgba(0, 0, 0, 0.014),

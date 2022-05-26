@@ -51,7 +51,7 @@
     markdown: {
       // https://marked.js.org/#/USING_PRO.md#renderer
       renderer: {
-        image: function(href, extra, title) {
+        image: function (href, extra, title) {
           let attrs = [];
           let config = {};
           if (extra) {
@@ -94,12 +94,46 @@
         }
       }
     },
+    vueGlobalOptions: {
+      mounted: function () {
+        this.$nextTick(() => {
+          let currentLocationHref = window.location.href;
+
+          let currentAnchorId = currentLocationHref.match(/\?id=(.+)$/);
+          if (!currentAnchorId) {
+            return;
+          }
+          if (!currentAnchorId) {
+            return;
+          }
+          currentAnchorId = currentAnchorId[1];
+
+          if (!currentAnchorId) {
+            return;
+          }
+
+          let currentAnchoredElement = document.querySelector(`#${currentAnchorId}`);
+
+          if (!currentAnchoredElement) {
+            return;
+          }
+
+          if (currentAnchoredElement.classList.contains("grid-item") && !currentAnchoredElement.classList.contains("link-selected-anchor")) {
+            currentAnchoredElement.classList.add("link-selected-anchor");
+          }
+
+          setTimeout(() => {
+            currentAnchoredElement.scrollIntoView();
+          }, 2000);
+        });
+      }
+    },
     vueComponents: {
       'grid': {
         template: `
-           <div class="grid" :style="[config.gridTemplateColumns ? {'gridTemplateColumns': config.gridTemplateColumns} : {'gridTemplateColumns': '1fr 1fr 1fr'}]">
-           <slot></slot>
-           </div>
+          <div class="grid" :style="[config.gridTemplateColumns ? {'gridTemplateColumns': config.gridTemplateColumns} : {'gridTemplateColumns': '1fr 1fr 1fr'}]">
+          <slot></slot>
+          </div>
         `,
         props: {
           config: {
@@ -135,12 +169,12 @@
         },
         template: `
           <li class="grid-item-credit-list-item">
-            <div class="grid-item-credit-list-item-wrapper">
-              <span class="grid-item-credit-list-item-name">{{ name }}</span>
-              <span>
+          <div class="grid-item-credit-list-item-wrapper">
+            <span class="grid-item-credit-list-item-name">{{ name }}</span>
+            <span>
                 <slot></slot>
               </span>
-            </div>
+          </div>
           </li>
         `,
       },
@@ -150,7 +184,7 @@
             childs: []
           }
         },
-        mounted: function() {
+        mounted: function () {
           this.childs = this.$refs?.buttons?.children;
         },
         computed: {
@@ -160,7 +194,7 @@
         },
         template: `
           <div class="grid-item-button-container" ref="buttons" :style="[childCount === 1 ? {'grid-template-columns': '1fr'} : {'grid-template-columns': '1fr 1fr'}]">
-            <slot></slot>
+          <slot></slot>
           </div>
         `,
       },
@@ -174,24 +208,24 @@
           url: String,
         },
         template: `
-           <a class="hevort-btn" :href="url" :target="target">
-             <span class="hevort-btn-text" :style="[icon ? {'textAlign': 'center', 'marginLeft': 'auto'} : {}]">
+          <a class="hevort-btn" :href="url" :target="target">
+          <span class="hevort-btn-text" :style="[icon ? {'textAlign': 'center', 'marginLeft': 'auto'} : {}]">
                <slot></slot>
              </span>
-             <i v-if="icon" :class="icon" :style="{'marginLeft': 'auto', 'paddingLeft': '0.5rem'}"></i>
-           </a>
+          <i v-if="icon" :class="icon" :style="{'marginLeft': 'auto', 'paddingLeft': '0.5rem'}"></i>
+          </a>
         `
       },
       'description': {
         template: `
           <div class="grid-item-description-container">
-            <button class="grid-item-description-button hevort-btn" @click="(e) => toggleDescription(e)">
-              <span class="grid-item-description-button-text" v-text="descriptionExpanded ? 'Hide Description' : 'Show Description'"></span>
-              <i class="grid-item-description-button-icon" :class="descriptionExpanded ? 'fa-solid fa-angle-up' : 'fa-solid fa-angle-down'"></i>
-            </button>
-            <div class="grid-item-description" :class="(descriptionExpanded) ? 'grid-item-description-expanded' : ''">
-              <slot></slot>
-            </div>
+          <button class="grid-item-description-button hevort-btn" @click="(e) => toggleDescription(e)">
+            <span class="grid-item-description-button-text" v-text="descriptionExpanded ? 'Hide Description' : 'Show Description'"></span>
+            <i class="grid-item-description-button-icon" :class="descriptionExpanded ? 'fa-solid fa-angle-up' : 'fa-solid fa-angle-down'"></i>
+          </button>
+          <div class="grid-item-description" :class="(descriptionExpanded) ? 'grid-item-description-expanded' : ''">
+            <slot></slot>
+          </div>
           </div>
         `,
         data: () => {
@@ -228,21 +262,55 @@
         },
         data: () => {
           return {
-            descriptionElement: null
+            descriptionElement: null,
           }
         },
-        mounted: function() {
+        mounted: function () {
           this.descriptionElement = this.$refs?.image?.parentNode.querySelector(".grid-item-description-container");
         },
         computed: {
           descriptionElmExists: function () {
             return this.descriptionElement !== null;
+          },
+        },
+        methods: {
+          createAnchorLinkHref: function (anchorId) {
+            let currentLocation = window.location.href;
+            let match = currentLocation.match(/\/(#\/pages\/.+)\?id=.+$/m);
+            if (!match) {
+              match = currentLocation.match(/\/(#\/pages\/.+)$/m);
+            }
+
+            if (!match) {
+              return currentLocation;
+            }
+
+            let pageBase = match[1];
+
+            return `${pageBase}?id=${anchorId}`;
+          },
+          createAnchorId: function () {
+            return "a-"
+                    + this.title.toLowerCase()
+                            .replaceAll(" ", "-")
+                            .replaceAll(/[\\\/\[\]\(\)]/g, "_");
+          },
+            titleClick: function () {
+            document.querySelectorAll(".grid-item").forEach((item) => {
+              if (item.classList.contains("link-selected-anchor")) {
+                item.classList.remove("link-selected-anchor");
+              }
+            });
+            this.$el.classList.add("link-selected-anchor");
+            this.$el.scrollIntoView({behavior: "smooth"});
           }
         },
         template: `
-            <div class="grid-item" v-if="!hide">
+            <div class="grid-item" :id="createAnchorId()" v-if="!hide">
                 <span class="grid-item-title-wrapper" :style="[status ? {'padding-right': '0'} : {'padding-right': '1rem'}]">
-                  <span class="grid-item-title" v-html=title></span>
+                  <span class="grid-item-title-inner-wrapper">
+                    <a class="grid-item-title" :href="createAnchorLinkHref(createAnchorId())" @click="titleClick" v-html=title></a>
+                  </span>
                   <span class="grid-item-state" v-if="status" v-text="status"></span>
                 </span>
                 <div class="grid-item-container">
