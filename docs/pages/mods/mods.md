@@ -27,6 +27,22 @@ If you need help, the best place to ask is the Discord server
 </div>
 </details>
 
+## Enclosure
+
+<grid>
+  <item title="Serbitar AcidBee Enclosure extras" image="docs/assets/images/mods/serbitar-acidbee-enclosure-extras.webp">
+    <description slot="description">
+      A collection of different modifications (extras) for the <a href="#/pages/component-selection?id=a-enclosure">AcidBee Enclosure</a>.
+    </description>
+    <buttons slot="buttons">
+      <item-button url="https://www.printables.com/de/model/216056-hevort-acidbee-enclosure-extras">Printables</item-button>
+    </buttons>
+    <credits slot="credits">
+      <credit name="Serbitar"/>
+    </credits>
+  </item>
+</grid>
+
 ## XY Gantry
 
 <grid>
