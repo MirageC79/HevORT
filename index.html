@@ -204,11 +204,38 @@
             type: String,
             default: () => "_blank"
           },
+          hint: String,
           icon: String,
           url: String,
         },
+        data: () => {
+          return {
+            hintText: null
+          }
+        },
+        computed: {
+          getHint: function () {
+            if (this.hint) {
+              if (this.hint === "null") {
+                return null;
+              }
+              return this.hint;
+            }
+
+            if (/^https:\/\/a360\./m.test(this.url)) {
+              return "f360";
+            }
+
+            if (/\.step$/m.test(this.url)) {
+              return "step";
+            }
+
+            return null;
+          },
+        },
         template: `
           <a class="hevort-btn" :href="url" :target="target">
+          <span v-if="getHint" class="hevort-btn-hint" v-html="getHint" />
           <span class="hevort-btn-text" :style="[icon ? {'textAlign': 'center', 'marginLeft': 'auto'} : {}]">
                <slot></slot>
              </span>
