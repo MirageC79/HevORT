@@ -10,7 +10,7 @@
     --sidebar-nav-pagelink-background-image--active: var(--folder-open);
     --sidebar-nav-pagelink-background-image--loaded: var(--folder-open);
     --sidebar-nav-link-before-content: '';
-    --content-max-width: 80rem;
+    --content-max-width: 95%;
     --mark-background: white;
     --sidebar-width: 25rem;
     --heading-h1-color: var(--primary-color);
