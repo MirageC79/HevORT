@@ -9,6 +9,22 @@
     color: white !important;
     font-weight: bolder;
     justify-content: center;
+    position: relative;
+}
+
+.hevort-btn-hint {
+    position: absolute;
+    bottom: -0.4rem;
+    left: 0.25rem;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1rem;
+    background: var(--primary-background-color);
+    padding: 0 0.2rem;
+    border-radius: 0.5rem;
+    font-weight: initial;
 }
 
 .hevort-btn:hover {

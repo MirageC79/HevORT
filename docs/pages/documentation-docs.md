@@ -118,6 +118,14 @@ To have a unified way of showing a large amount of related parts we use the grid
   - icon
     - **OPTIONAL**
     - css class added to ``<i>`` element. See [FontAwesome](https://fontawesome.com/icons)
+  - hint
+    - **OPTIONAL**
+    - a small hint text displayed at the bottom left of the button (placed on the border)
+    - some hint texts are automatically generated. These can be overridden by manually defining the **hint** prop
+      - setting it to the text "null" will hide it.
+      - Automatically generated hints are:
+        - **url** starts with `https://a360.` results in ``f360`` text
+        - **url** ends with `.step` results in ``step`` text
 - credits
   - **OPTIONAL**
   - content
