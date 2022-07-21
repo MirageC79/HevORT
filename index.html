@@ -293,7 +293,7 @@
             return "a-"
                     + this.title.toLowerCase()
                             .replaceAll(" ", "-")
-                            .replaceAll(/[\\\/\[\]\(\)\:\?]/g, "_");
+                            .replaceAll(/[\\\/\[\]\(\)\:\?\.]/g, "_");
           },
             titleClick: function () {
             document.querySelectorAll(".grid-item").forEach((item) => {
