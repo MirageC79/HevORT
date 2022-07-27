@@ -16,6 +16,10 @@ This is the base of the HevORT
       <item-button url="bom/BOM_Frame_ElecExt.htm">BOM - Web</item-button>
       <item-button icon="fa fa-download" url="bom/BOM_Frame_ElecExt.xlsx">BOM<br>Download</item-button>
     </buttons>
+    <tags slot="tags">
+        <item-tag>Hallo</item-tag>
+        <item-tag>Test</item-tag>
+    </tags>
   </item>
   <item title="Enclosure" image="docs/assets/images/components/AcidBeeThumb.png">
     <description slot="description">
