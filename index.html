@@ -248,7 +248,6 @@
                   gridItemsData.forEach((gridItemData) => {
 
                     if (!gridItemData[propKey].includes(matchedAdvanced)) {
-                      console.log(gridItemData[propKey], matchedAdvanced);
                       const index = gridItemsData.indexOf(gridItemData);
                       if (index > -1) {
                         indexesToRemove.push(index);
@@ -264,8 +263,6 @@
                 }
               });
               unmatchedItems = gridItemsData.filter(x => !matchedItems.includes(x));
-              console.log(unmatchedItems);
-
             }
 
 
@@ -334,9 +331,6 @@
         `,
       },
       'tags': {
-        data: () => {
-
-        },
         template: `
           <div class="grid-item-tag-container">
             <slot></slot>
@@ -344,9 +338,6 @@
         `,
       },
       'item-tag': {
-        data: () => {
-
-        },
         template: `
           <span class="grid-item-tag">
             <slot></slot>
