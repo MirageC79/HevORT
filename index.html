@@ -144,7 +144,7 @@
           element.querySelectorAll(".grid-item-container > .grid-item-credits > .grid-item-credit-list > .grid-item-credit-list-item").forEach((creditElement) => {
             credits.push({
               name: creditElement.querySelector(".grid-item-credit-list-item-name").innerText,
-              description: creditElement.querySelector(".grid-item-credit-list-item-description").innerHTML
+              description: creditElement.querySelector(".grid-item-credit-list-item-description")?.innerHTML ?? ""
             });
           });
 
@@ -165,7 +165,7 @@
             state: titleWrapper.querySelector(".grid-item-state")?.innerHTML ?? "active",
             image:  element.querySelector(".grid-item-container > img").src,
             description:  element.querySelector(".grid-item-container > .grid-item-description-container > .grid-item-description").innerHTML,
-            tags: tags,
+            tag: tags,
             buttons: buttons,
             credits: credits
           }
@@ -178,7 +178,8 @@
           <div class="grid" :style="[config.gridTemplateColumns ? {'gridTemplateColumns': config.gridTemplateColumns} : {'gridTemplateColumns': '1fr 1fr 1fr'}]">
           <span class="grid-search">
             <label class="grid-search-label">Search component</label>
-            <input class="grid-search-input" @input="(e) => filterGridItems(e.target.value)" />
+            <input class="grid-search-input" placeholder="Start typing to search..." @input="(e) => filterGridItems(e.target.value)" />
+            <span class="grid-search-info" v-html="getAvailableFiltersInfoText()" />
           </span>
           <span ref="emptySearchItem" class="grid-data-container-empty-search" style="display: none"><i class="hevort-color fa-regular fa-face-frown hevort"></i> looks like there is nothing here <i class="hevort-color fa-regular fa-face-frown hevort"></span>
           <div ref="gridDataContainer" class="grid-data-container">
@@ -192,7 +193,7 @@
                     "id",
                     "description",
                     "title",
-                    "tags",
+                    "tag",
                     "state"
             ],
             gridItems: []
@@ -203,50 +204,124 @@
           this.emptySearchItem = this.$refs?.emptySearchItem;
         },
         methods: {
-          filterGridItems: function (text) {
-            let matchedData = {
+          getAvailableFiltersInfoText: function () {
+            let text = "Available filters: ";
+            this.availableFilters.forEach((availableFilter, index) => {
+
+              let filterHtml = `<span class="grid-search-info-filter">${availableFilter}</span>`
+              text += `${filterHtml}=""`;
+              if (index !== this.availableFilters.length - 1) {
+                text += ", ";
+              }
+            });
+
+            return text;
+          },
+          isAnyAdvancedFilter: function (text) {
+            for(let i = 0; i < this.availableFilters.length; i++) {
+              let filterName = this.availableFilters[i];
+              let regEx = new RegExp(`${filterName}="(.*?)"`, "g");
+              let match;
+              while (match = regEx.exec(text)) {
+                return true;
+              }
+            }
+            return false;
+          },
+          getAdvancedFilterData: function(text) {
+            let advancedFilterData = {
               id: [],
               description: [],
               title: [],
-              tags: [],
+              tag: [],
               state: [],
             };
 
-            let anyAdvancedFilter = false;
             this.availableFilters.forEach((filterName) => {
               let regEx = new RegExp(`${filterName}="(.*?)"`, "g");
               let match;
               while (match = regEx.exec(text)) {
-                matchedData[filterName].push(match[1]);
-                anyAdvancedFilter = true;
+                advancedFilterData[filterName].push(match[1]);
               }
-            })
-
-
-            let matchedItems = [];
-            let unmatchedItems = [];
+            });
+            return advancedFilterData;
+          },
+          filterGridItems: function (text) {
+            let advancedFilterData = this.getAdvancedFilterData(text);
             let gridItemsData = [];
             Array.from(this.gridItems).forEach((gridItem) => {
               gridItemsData.push(this.$root.getGridItemData(gridItem.id));
             })
 
+            if (!this.isAnyAdvancedFilter(text)) {
+              this.handleFilterItemsNormal(advancedFilterData, text);
+            } else {
+              this.handleFilterItemsAdvanced(advancedFilterData, text);
+            }
+          },
+          getGridItemData: function ()
+          {
+            let gridItemsData = [];
+            Array.from(this.gridItems).forEach((gridItem) => {
+              gridItemsData.push(this.$root.getGridItemData(gridItem.id));
+            })
+            return gridItemsData;
+          },
+          handleFilterItemsNormal: function (advancedFilterData, text) {
+            let itemsToShow = [];
+            let gridItemsData = this.getGridItemData();
 
-            if (!anyAdvancedFilter) {
-              Object.keys(matchedData).forEach((propKey) => {
-                gridItemsData.forEach((gridItemData) => {
-                  if (gridItemData[propKey].includes(text) && !matchedItems.includes(gridItemData)) {
-                    matchedItems.push(gridItemData);
+            Object.keys(advancedFilterData).forEach((propKey) => {
+              gridItemsData.forEach((gridItemData) => {
+                let found = false;
+                if (propKey === "tag") {
+                  gridItemData[propKey].forEach((tag) => {
+                    if (tag.includes(text) && !itemsToShow.includes(gridItemData)) {
+                      found = true;
+                    }
+                  })
+                } else if (gridItemData[propKey].includes(text) && !itemsToShow.includes(gridItemData)) {
+                  found = true;
+                }
+
+                if (found) {
+                  itemsToShow.push(gridItemData);
+                }
+              });
+            });
+
+            this.handleItemVisibility(itemsToShow, gridItemsData.filter(x => !itemsToShow.includes(x)));
+          },
+          handleFilterItemsAdvanced: function (advancedFilterData, text) {
+            let indexesToRemove = [];
+            let itemsToShow = [];
+            let gridItemsData = this.getGridItemData();
+
+            let tagFilterData = advancedFilterData.tag;
+            gridItemsData.forEach((gridItemData) => {
+              let matchingCount = 0;
+              tagFilterData.forEach((tagFilter) => {
+                gridItemData.tag.forEach((tag) => {
+                  if (tag.includes(tagFilter)) {
+                    matchingCount++;
                   }
                 })
-              });
 
-              unmatchedItems = gridItemsData.filter(x => !matchedItems.includes(x));
-            } else {
-              let indexesToRemove = [];
-              Object.keys(matchedData).forEach((propKey) => {
-                matchedData[propKey].forEach((matchedAdvanced) => {
+              })
+
+              if (matchingCount !== tagFilterData.length) {
+                const index = gridItemsData.indexOf(gridItemData);
+                if (index > -1) {
+                  indexesToRemove.push(index);
+                }
+              }
+            });
+
+
+            Object.keys(advancedFilterData).forEach((propKey) => {
+              if (propKey !== "tag") {
+                advancedFilterData[propKey].forEach((matchedAdvanced) => {
                   gridItemsData.forEach((gridItemData) => {
-
                     if (!gridItemData[propKey].includes(matchedAdvanced)) {
                       const index = gridItemsData.indexOf(gridItemData);
                       if (index > -1) {
@@ -255,22 +330,23 @@
                     }
                   })
                 });
-              });
+              }
+            });
 
-              gridItemsData.forEach((gridItemData, index) => {
-                if (!indexesToRemove.includes(index)) {
-                  matchedItems.push(gridItemData);
-                }
-              });
-              unmatchedItems = gridItemsData.filter(x => !matchedItems.includes(x));
-            }
+            gridItemsData.forEach((gridItemData, index) => {
+              if (!indexesToRemove.includes(index)) {
+                itemsToShow.push(gridItemData);
+              }
+            });
 
-
-            if (matchedItems.length === 0) {
+            this.handleItemVisibility(itemsToShow, gridItemsData.filter(x => !itemsToShow.includes(x)))
+          },
+          handleItemVisibility: function (itemsToShow, itemsToHide) {
+            if (itemsToShow.length === 0) {
               this.emptySearchItem.style.removeProperty("display");
             }
 
-            matchedItems.forEach((matchedItem) => {
+            itemsToShow.forEach((matchedItem) => {
               let element = document.querySelector(`#${matchedItem.id}`);
               if (element) {
                 element.style.removeProperty("display");
@@ -279,7 +355,7 @@
                 }
               }
             });
-            unmatchedItems.forEach((matchedItem) => {
+            itemsToHide.forEach((matchedItem) => {
               let element = document.querySelector(`#${matchedItem.id}`);
               if (element) {
                 element.style.display = "none";
@@ -332,14 +408,33 @@
       },
       'tags': {
         template: `
-          <div class="grid-item-tag-container">
+          <div class="grid-item-tag-container" slot="tags">
             <slot></slot>
           </div>
         `,
       },
       'item-tag': {
+        methods: {
+          onClick: function (text) {
+            let searchInput = this.$parent.$parent.$parent.$el.querySelector(".grid-search > input.grid-search-input");
+            if (!searchInput) {
+              return;
+            }
+
+            let value = searchInput.value;
+            if (!value.endsWith(" ")) {
+              searchInput.value += " ";
+            }
+
+            searchInput.value += `tag="${text}"`;
+
+            let event = new Event('input');
+
+            searchInput.dispatchEvent(event);
+          }
+        },
         template: `
-          <span class="grid-item-tag">
+          <span @click="(event) => onClick(event.target.innerText)" class="grid-item-tag">
             <slot></slot>
           </span>
         `,

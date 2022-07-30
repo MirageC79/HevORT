@@ -57,10 +57,6 @@
     --folder-closed: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7' height='11.2' viewBox='0 0 7 11.2'%3E%3Cpath d='M1.5 1.5l4 4.1 -4 4.1' stroke-width='1.5' stroke='rgb%28209, 255, 42%29' fill='none' stroke-linecap='square' stroke-linejoin='miter' vector-effect='non-scaling-stroke'/%3E%3C/svg%3E");
 }
 
-.hevort-color {
-    color: var(--primary-color);
-}
-
 .table-wrapper {
     border: 1px solid var(--primary-color);
     padding: 0;

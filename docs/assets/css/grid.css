@@ -23,13 +23,26 @@
     outline-color: var(--primary-color) !important;
 }
 
+.grid-search-input:focus, input:focus{
+    outline: solid 1px var(--primary-color);
+}
+
 .grid-search-input {
     width: 100%;
     background: var(--primary-background-color);
     border-radius: 2rem;
-    border: 2px solid var(--primary-color);
+    border: 1.5px solid var(--primary-color);
     color: var(--base-color);
     padding: 0.25rem 1rem;
+}
+
+.grid-search-info {
+    font-size: small;
+    padding: 0 1rem;
+}
+
+.grid-search-info-filter {
+    color: var(--primary-color);
 }
 
 .grid-data-container {
