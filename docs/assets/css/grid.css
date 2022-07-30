@@ -261,17 +261,40 @@
 }
 
 .grid-item-tag-container {
-    padding: 0 0.5rem;
     display: flex;
-    gap: 0.5rem
+    flex-direction: column;
+    padding: 0 0.5rem;
+    margin-bottom: 0.5rem;
+    border-bottom: 2px solid var(--primary-color);
+}
+
+.grid-item-tag-inner-container {
+    flex-wrap: wrap;
+    display: flex;
+    gap: 0.5rem 0.5rem;
+    padding: 0.5rem 0;
 }
 
 .grid-item-tag {
+    background: var(--secondary-background-color);
+    border: solid 2px var(--primary-color);
+    border-radius: 0.5rem;
+    padding: 0 0.5rem;
+    font-size: 0.8rem;
+    color: white;
+}
 
+.grid-item-tag-inner-container > .grid-item-tag-remove:hover {
+    background: red;
+    color: white;
+}
+
+.grid-item-tag:active {
+    transform: translateY(4px) !important;
 }
 
 .grid-item-tag:hover {
-    color: var(--link-color);
+    background: var(--link-color);
+    color: black;
     cursor: pointer;
-    text-decoration: underline;
 }

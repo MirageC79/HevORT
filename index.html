@@ -152,11 +152,9 @@
 
           let tags = [];
 
-          element.querySelectorAll(".grid-item-container > .grid-item-tag-container > .grid-item-tag").forEach((gridItemTagElement) => {
+          element.querySelectorAll(".grid-item-container > .grid-item-tag-container > .grid-item-tag-inner-container > .grid-item-tag").forEach((gridItemTagElement) => {
             tags.push(gridItemTagElement.innerText);
           })
-
-
 
           return {
             id: elementId,
@@ -317,7 +315,6 @@
               }
             });
 
-
             Object.keys(advancedFilterData).forEach((propKey) => {
               if (propKey !== "tag") {
                 advancedFilterData[propKey].forEach((matchedAdvanced) => {
@@ -407,34 +404,68 @@
         `,
       },
       'tags': {
+        data: () => {
+          return {
+            childs: []
+          }
+        },
+        mounted: function () {
+          this.childs = this.$refs?.tags?.children;
+        },
+        computed: {
+          childCount: function () {
+            return this.childs.length;
+          }
+        },
         template: `
-          <div class="grid-item-tag-container" slot="tags">
-            <slot></slot>
+          <div class="grid-item-tag-container" :style="[childCount === 0 ? {'display': 'none'} : {}]" slot="tags" >
+            <span class="grid-item-tag-title">Tags:</span>
+            <div class="grid-item-tag-inner-container" ref="tags">
+                <slot></slot>
+            </div>
           </div>
         `,
       },
       'item-tag': {
         methods: {
-          onClick: function (text) {
+          onClick: function (event) {
+            let tagElement = event.target;
+            let text = tagElement.innerText;
+
             let searchInput = this.$parent.$parent.$parent.$el.querySelector(".grid-search > input.grid-search-input");
             if (!searchInput) {
               return;
             }
 
-            let value = searchInput.value;
-            if (!value.endsWith(" ")) {
-              searchInput.value += " ";
+            let tagText = `tag="${text}"`;
+
+            if (tagElement.classList.contains("grid-item-tag-remove")) {
+              tagElement.classList.remove("grid-item-tag-remove");
+              searchInput.value = searchInput.value
+                      .replaceAll(tagText, "")
+                      .replaceAll("  ", " ");
+              if (searchInput.value === " ") {
+                searchInput.value = searchInput.value.replaceAll(" ", "");
+              }
+            } else {
+              if (searchInput.value.includes(tagText)) {
+                tagElement.classList.add("grid-item-tag-remove");
+              } else {
+                if (!searchInput.value.endsWith(" ")) {
+                  searchInput.value += " ";
+                }
+                searchInput.value += tagText;
+              }
+
+
+              tagElement.classList.add("grid-item-tag-remove");
             }
 
-            searchInput.value += `tag="${text}"`;
-
-            let event = new Event('input');
-
-            searchInput.dispatchEvent(event);
+            searchInput.dispatchEvent(new Event('input'));
           }
         },
         template: `
-          <span @click="(event) => onClick(event.target.innerText)" class="grid-item-tag">
+          <span @click="onClick" class="grid-item-tag">
             <slot></slot>
           </span>
         `,
