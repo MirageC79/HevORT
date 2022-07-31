@@ -112,7 +112,13 @@
             return;
           }
 
-          let currentAnchoredElement = document.querySelector(`#${currentAnchorId}`);
+          let currentAnchoredElement = null;
+
+          try {
+            currentAnchoredElement = document.querySelector(`#${currentAnchorId}`);
+          } catch (e) {
+            return;
+          }
 
           if (!currentAnchoredElement) {
             return;
@@ -317,10 +323,25 @@
             return `${pageBase}?id=${anchorId}`;
           },
           createAnchorId: function () {
-            return "a-"
-                    + this.title.toLowerCase()
-                            .replaceAll(" ", "-")
-                            .replaceAll(/[\\\/\[\]\(\)]/g, "_");
+            let anchorId = "a-";
+            let whiteList = ["[a-zA-Z]", "\\d", "-", "_"];
+            [...this.title.toLowerCase()].forEach((char) => {
+              let matchedAtLeastOnce = false;
+              whiteList.forEach((allowedRegEx) => {
+                let regEx = new RegExp(allowedRegEx);
+                let result = regEx.exec(char);
+                matchedAtLeastOnce = result !== null ? true : matchedAtLeastOnce;
+              });
+
+              if (char === " ") {
+                anchorId += "-";
+              } else if (matchedAtLeastOnce) {
+                anchorId += char;
+              } else {
+                anchorId += "_";
+              }
+            });
+            return anchorId;
           },
             titleClick: function () {
             document.querySelectorAll(".grid-item").forEach((item) => {
