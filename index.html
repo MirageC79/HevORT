@@ -132,15 +132,240 @@
             currentAnchoredElement.scrollIntoView();
           }, 2000);
         });
-      }
+      },
+      methods: {
+        getGridItemData: function (elementId) {
+          let element = document.querySelector(`#${elementId}`);
+
+          if (!element) {
+            return null;
+          }
+
+          let buttons = [];
+          element.querySelectorAll(".grid-item-container > .grid-item-button-container > a.hevort-btn").forEach((buttonElement) => {
+            buttons.push({title: buttonElement.querySelector(".hevort-btn-text").innerText, link: buttonElement.href})
+          });
+
+          let credits = [];
+          element.querySelectorAll(".grid-item-container > .grid-item-credits > .grid-item-credit-list > .grid-item-credit-list-item").forEach((creditElement) => {
+            credits.push({
+              name: creditElement.querySelector(".grid-item-credit-list-item-name").innerText,
+              description: creditElement.querySelector(".grid-item-credit-list-item-description")?.innerHTML ?? ""
+            });
+          });
+
+          let titleWrapper = element.querySelector(".grid-item-title-wrapper > .grid-item-title-inner-wrapper");
+
+          let tags = [];
+
+          element.querySelectorAll(".grid-item-container > .grid-item-tag-container > .grid-item-tag-inner-container > .grid-item-tag").forEach((gridItemTagElement) => {
+            tags.push(gridItemTagElement.innerText);
+          })
+
+          return {
+            id: elementId,
+            title: titleWrapper.querySelector(".grid-item-title").innerHTML,
+            link: titleWrapper.querySelector(".grid-item-title").href,
+            state: titleWrapper.querySelector(".grid-item-state")?.innerHTML ?? "active",
+            image:  element.querySelector(".grid-item-container > img").src,
+            description:  element.querySelector(".grid-item-container > .grid-item-description-container > .grid-item-description").innerHTML,
+            tag: tags,
+            buttons: buttons,
+            credits: credits
+          }
+        },
+      },
     },
     vueComponents: {
       'grid': {
         template: `
           <div class="grid" :style="[config.gridTemplateColumns ? {'gridTemplateColumns': config.gridTemplateColumns} : {'gridTemplateColumns': '1fr 1fr 1fr'}]">
-          <slot></slot>
+          <span class="grid-search">
+            <label class="grid-search-label">Search component</label>
+            <input class="grid-search-input" placeholder="Start typing to search..." @input="(e) => filterGridItems(e.target.value)" />
+            <span class="grid-search-info" v-html="getAvailableFiltersInfoText()" />
+          </span>
+          <span ref="emptySearchItem" class="grid-data-container-empty-search" style="display: none"><i class="hevort-color fa-regular fa-face-frown hevort"></i> looks like there is nothing here <i class="hevort-color fa-regular fa-face-frown hevort"></span>
+          <div ref="gridDataContainer" class="grid-data-container">
+            <slot></slot>
+          </div>
           </div>
         `,
+        data: () => {
+          return {
+            availableFilters: [
+                    "id",
+                    "description",
+                    "title",
+                    "tag",
+                    "state"
+            ],
+            gridItems: []
+          }
+        },
+        mounted: function () {
+          this.gridItems = this.$refs?.gridDataContainer?.children;
+          this.emptySearchItem = this.$refs?.emptySearchItem;
+        },
+        methods: {
+          getAvailableFiltersInfoText: function () {
+            let text = "Available filters: ";
+            this.availableFilters.forEach((availableFilter, index) => {
+
+              let filterHtml = `<span class="grid-search-info-filter">${availableFilter}</span>`
+              text += `${filterHtml}=""`;
+              if (index !== this.availableFilters.length - 1) {
+                text += ", ";
+              }
+            });
+
+            return text;
+          },
+          isAnyAdvancedFilter: function (text) {
+            for(let i = 0; i < this.availableFilters.length; i++) {
+              let filterName = this.availableFilters[i];
+              let regEx = new RegExp(`${filterName}="(.*?)"`, "g");
+              let match;
+              while (match = regEx.exec(text)) {
+                return true;
+              }
+            }
+            return false;
+          },
+          getAdvancedFilterData: function(text) {
+            let advancedFilterData = {
+              id: [],
+              description: [],
+              title: [],
+              tag: [],
+              state: [],
+            };
+
+            this.availableFilters.forEach((filterName) => {
+              let regEx = new RegExp(`${filterName}="(.*?)"`, "g");
+              let match;
+              while (match = regEx.exec(text)) {
+                advancedFilterData[filterName].push(match[1]);
+              }
+            });
+            return advancedFilterData;
+          },
+          filterGridItems: function (text) {
+            let advancedFilterData = this.getAdvancedFilterData(text);
+            let gridItemsData = [];
+            Array.from(this.gridItems).forEach((gridItem) => {
+              gridItemsData.push(this.$root.getGridItemData(gridItem.id));
+            })
+
+            if (!this.isAnyAdvancedFilter(text)) {
+              this.handleFilterItemsNormal(advancedFilterData, text);
+            } else {
+              this.handleFilterItemsAdvanced(advancedFilterData, text);
+            }
+          },
+          getGridItemData: function ()
+          {
+            let gridItemsData = [];
+            Array.from(this.gridItems).forEach((gridItem) => {
+              gridItemsData.push(this.$root.getGridItemData(gridItem.id));
+            })
+            return gridItemsData;
+          },
+          handleFilterItemsNormal: function (advancedFilterData, text) {
+            let itemsToShow = [];
+            let gridItemsData = this.getGridItemData();
+
+            Object.keys(advancedFilterData).forEach((propKey) => {
+              gridItemsData.forEach((gridItemData) => {
+                let found = false;
+                if (propKey === "tag") {
+                  gridItemData[propKey].forEach((tag) => {
+                    if (tag.includes(text) && !itemsToShow.includes(gridItemData)) {
+                      found = true;
+                    }
+                  })
+                } else if (gridItemData[propKey].includes(text) && !itemsToShow.includes(gridItemData)) {
+                  found = true;
+                }
+
+                if (found) {
+                  itemsToShow.push(gridItemData);
+                }
+              });
+            });
+
+            this.handleItemVisibility(itemsToShow, gridItemsData.filter(x => !itemsToShow.includes(x)));
+          },
+          handleFilterItemsAdvanced: function (advancedFilterData, text) {
+            let indexesToRemove = [];
+            let itemsToShow = [];
+            let gridItemsData = this.getGridItemData();
+
+            let tagFilterData = advancedFilterData.tag;
+            gridItemsData.forEach((gridItemData) => {
+              let matchingCount = 0;
+              tagFilterData.forEach((tagFilter) => {
+                gridItemData.tag.forEach((tag) => {
+                  if (tag.includes(tagFilter)) {
+                    matchingCount++;
+                  }
+                })
+
+              })
+
+              if (matchingCount !== tagFilterData.length) {
+                const index = gridItemsData.indexOf(gridItemData);
+                if (index > -1) {
+                  indexesToRemove.push(index);
+                }
+              }
+            });
+
+            Object.keys(advancedFilterData).forEach((propKey) => {
+              if (propKey !== "tag") {
+                advancedFilterData[propKey].forEach((matchedAdvanced) => {
+                  gridItemsData.forEach((gridItemData) => {
+                    if (!gridItemData[propKey].includes(matchedAdvanced)) {
+                      const index = gridItemsData.indexOf(gridItemData);
+                      if (index > -1) {
+                        indexesToRemove.push(index);
+                      }
+                    }
+                  })
+                });
+              }
+            });
+
+            gridItemsData.forEach((gridItemData, index) => {
+              if (!indexesToRemove.includes(index)) {
+                itemsToShow.push(gridItemData);
+              }
+            });
+
+            this.handleItemVisibility(itemsToShow, gridItemsData.filter(x => !itemsToShow.includes(x)))
+          },
+          handleItemVisibility: function (itemsToShow, itemsToHide) {
+            if (itemsToShow.length === 0) {
+              this.emptySearchItem.style.removeProperty("display");
+            }
+
+            itemsToShow.forEach((matchedItem) => {
+              let element = document.querySelector(`#${matchedItem.id}`);
+              if (element) {
+                element.style.removeProperty("display");
+                if (this.emptySearchItem.style.display !== "none") {
+                  this.emptySearchItem.style.display = "none";
+                }
+              }
+            });
+            itemsToHide.forEach((matchedItem) => {
+              let element = document.querySelector(`#${matchedItem.id}`);
+              if (element) {
+                element.style.display = "none";
+              }
+            });
+          },
+        },
         props: {
           config: {
             type: Object,
@@ -182,6 +407,73 @@
               </span>
           </div>
           </li>
+        `,
+      },
+      'tags': {
+        data: () => {
+          return {
+            childs: []
+          }
+        },
+        mounted: function () {
+          this.childs = this.$refs?.tags?.children;
+        },
+        computed: {
+          childCount: function () {
+            return this.childs.length;
+          }
+        },
+        template: `
+          <div class="grid-item-tag-container" :style="[childCount === 0 ? {'display': 'none'} : {}]" slot="tags" >
+            <span class="grid-item-tag-title">Tags:</span>
+            <div class="grid-item-tag-inner-container" ref="tags">
+                <slot></slot>
+            </div>
+          </div>
+        `,
+      },
+      'item-tag': {
+        methods: {
+          onClick: function (event) {
+            let tagElement = event.target;
+            let text = tagElement.innerText;
+
+            let searchInput = this.$parent.$parent.$parent.$el.querySelector(".grid-search > input.grid-search-input");
+            if (!searchInput) {
+              return;
+            }
+
+            let tagText = `tag="${text}"`;
+
+            if (tagElement.classList.contains("grid-item-tag-remove")) {
+              tagElement.classList.remove("grid-item-tag-remove");
+              searchInput.value = searchInput.value
+                      .replaceAll(tagText, "")
+                      .replaceAll("  ", " ");
+              if (searchInput.value === " ") {
+                searchInput.value = searchInput.value.replaceAll(" ", "");
+              }
+            } else {
+              if (searchInput.value.includes(tagText)) {
+                tagElement.classList.add("grid-item-tag-remove");
+              } else {
+                if (!searchInput.value.endsWith(" ")) {
+                  searchInput.value += " ";
+                }
+                searchInput.value += tagText;
+              }
+
+
+              tagElement.classList.add("grid-item-tag-remove");
+            }
+
+            searchInput.dispatchEvent(new Event('input'));
+          }
+        },
+        template: `
+          <span @click="onClick" class="grid-item-tag">
+            <slot></slot>
+          </span>
         `,
       },
       'buttons': {
@@ -362,6 +654,7 @@
                   <span class="grid-item-state" v-if="status" v-text="status"></span>
                 </span>
                 <div class="grid-item-container">
+                  <slot name="tags"></slot>
                   <img v-if="image" alt="IMAGE" ref="image" :style="[descriptionElmExists ? {} :{'border': '1px solid var(--primary-color) !important', 'borderRadius': '1rem'}]" class="grid-item-image" :src=image />
                   <slot name="description"><span style="margin-bottom: 1rem"></span></slot>
                   <slot name="credits"><div style="margin-top: auto"></div></slot>
