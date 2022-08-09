@@ -37,6 +37,9 @@ If you need help, the best place to ask is the Discord server
     <buttons slot="buttons">
       <item-button url="https://www.printables.com/de/model/216056-hevort-acidbee-enclosure-extras">Printables</item-button>
     </buttons>
+    <tags slot="tags">
+      <item-tag>Enclosure</item-tag>
+    </tags>
     <credits slot="credits">
       <credit name="Serbitar"/>
     </credits>
@@ -59,6 +62,10 @@ If you need help, the best place to ask is the Discord server
     <buttons slot="buttons">
       <item-button url="https://www.thingiverse.com/thing:5171980">Thingiverse</item-button>
     </buttons>
+    <tags slot="tags">
+      <item-tag>12mm belt</item-tag>
+      <item-tag>AWD</item-tag>
+    </tags>
     <credits slot="credits">
       <credit name="EvoMoto"/>
     </credits>
@@ -74,6 +81,10 @@ If you need help, the best place to ask is the Discord server
     <buttons slot="buttons">
       <item-button url="https://www.thingiverse.com/thing:4815859">Thingiverse</item-button>
     </buttons>
+    <tags slot="tags">
+      <item-tag>6mm belt</item-tag>
+      <item-tag>AWD</item-tag>
+    </tags>
     <credits slot="credits">
       <credit name="EvoMoto"/>
     </credits>
@@ -88,6 +99,10 @@ If you need help, the best place to ask is the Discord server
       <item-button url="https://www.thingiverse.com/thing:4946002">Thingiverse</item-button>
       <item-button url="https://a360.co/3lwUEMv">CAD File</item-button>
     </buttons>
+    <tags slot="tags">
+      <item-tag>12mm belt</item-tag>
+      <item-tag>AWD</item-tag>
+    </tags>
     <credits slot="credits">
       <credit name="Hans Hanson"/>
     </credits>
@@ -106,6 +121,9 @@ Smaller changes that may not fit into the bigger mods in the main [XY Gantry](#x
     <buttons slot="buttons">
       <item-button url="files/Mods/rockzo_xyht_1515_extrusion_mod.step">CAD File</item-button>
     </buttons>
+    <tags slot="tags">
+      <item-tag>6mm belt</item-tag>
+    </tags>
     <credits slot="credits">
       <credit name="Rockzo"/>
     </credits>
@@ -125,6 +143,10 @@ Smaller changes that may not fit into the bigger mods in the main [XY Gantry](#x
     <buttons slot="buttons">
       <item-button url="https://www.thingiverse.com/thing:4781610">Thingiverse</item-button>
     </buttons>
+    <tags slot="tags">
+      <item-tag>SFU1204</item-tag>
+      <item-tag>Wobble prevention</item-tag>
+    </tags>
     <credits slot="credits">
       <credit name="EvoMoto"/>
     </credits>
@@ -136,6 +158,10 @@ Smaller changes that may not fit into the bigger mods in the main [XY Gantry](#x
     <buttons slot="buttons">
       <item-button url="https://www.thingiverse.com/thing:4785945">Thingiverse</item-button>
     </buttons>
+    <tags slot="tags">
+      <item-tag>SFU1604</item-tag>
+      <item-tag>Wobble prevention</item-tag>
+    </tags>
     <credits slot="credits">
       <credit name="EvoMoto"/>
     </credits>
@@ -158,6 +184,10 @@ Smaller changes that may not fit into the bigger mods in the main [XY Gantry](#x
     <buttons slot="buttons">
       <item-button url="https://www.thingiverse.com/thing:4880007">Thingiverse</item-button>
     </buttons>
+    <tags slot="tags">
+      <item-tag>Torque</item-tag>
+      <item-tag>increased travel</item-tag>
+    </tags>
     <credits slot="credits">
       <credit name="M3NT8L"/>
     </credits>
@@ -184,6 +214,11 @@ Smaller changes that may not fit into the bigger mods in the main [XY Gantry](#x
                    url="https://hevort-mods.donnerplays.de/cad/BL_Touch_Rapido_Hotend_UHF_Bracket.step">CAD File
       </item-button>
     </buttons>
+    <tags slot="tags">
+      <item-tag>Bl-Touch</item-tag>
+      <item-tag>Rapido UHF</item-tag>
+      <item-tag>HextrudORT</item-tag>
+    </tags>
     <credits slot="credits">
       <credit name="MirageC">Initial work/version</credit>
       <credit name="DonnerPlays">Modification to use M3 nuts instead of threading into the plastic</credit>
@@ -197,6 +232,12 @@ Smaller changes that may not fit into the bigger mods in the main [XY Gantry](#x
     <buttons slot="buttons">
       <item-button url="https://www.printables.com/de/model/151944-hevort-lgx-lite-hextrudort-carriage-mount-hd12mgn9">Printables</item-button>
     </buttons>
+    <tags slot="tags">
+      <item-tag>9mm belt</item-tag>
+      <item-tag>12mm belt</item-tag>
+      <item-tag>lgx lite</item-tag>
+      <item-tag>HextrudORT</item-tag>
+    </tags>
     <credits slot="credits">
       <credit name="Serbitar"/>
     </credits>
@@ -220,6 +261,12 @@ Smaller changes that may not fit into the bigger mods in the main [XY Gantry](#x
         File
       </item-button>
     </buttons>
+    <tags slot="tags">
+      <item-tag>CPAP</item-tag>
+      <item-tag>12mm belt</item-tag>
+      <item-tag>Rapido UHF</item-tag>
+      <item-tag>MGN12H</item-tag>
+    </tags>
     <credits slot="credits">
       <credit name="MirageC">Initial work of MGN9 version</credit>
       <credit name="DonnerPlays">Modification to fit HD12/MGN12</credit>
@@ -236,6 +283,10 @@ Smaller changes that may not fit into the bigger mods in the main [XY Gantry](#x
         CAD File
       </item-button>
     </buttons>
+    <tags slot="tags">
+      <item-tag>Rapido UHF</item-tag>
+      <item-tag>Spacer</item-tag>
+    </tags>
     <credits slot="credits">
       <credit name="MirageC">Initial work of MGN9 version</credit>
       <credit name="DonnerPlays">Modification to fit HD12/MGN12</credit>
@@ -258,6 +309,12 @@ Smaller changes that may not fit into the bigger mods in the main [XY Gantry](#x
                    url="https://hevort-mods.donnerplays.de/cad/MGN12_HD12_Rapido_Fan_Shroud_40mm.step">CAD File
       </item-button>
     </buttons>
+    <tags slot="tags">
+      <item-tag>Rapido</item-tag>
+      <item-tag>40mm fan</item-tag>
+      <item-tag>MGN12H</item-tag>
+      <item-tag>HD12</item-tag>
+    </tags>
     <credits slot="credits">
       <credit name="MirageC">Initial work on version for Rapido with 25mm fan</credit>
       <credit name="DonnerPlays">Modification to allow 40mm fan to be used</credit>
@@ -272,6 +329,11 @@ Smaller changes that may not fit into the bigger mods in the main [XY Gantry](#x
     <buttons slot="buttons">
       <item-button url="https://hevort-mods.donnerplays.de/#/pages/mods/cpap_7040_solution.md">GitHub Page</item-button>
     </buttons>
+    <tags slot="tags">
+      <item-tag>CPAP</item-tag>
+      <item-tag>Mount</item-tag>
+      <item-tag>Spacer</item-tag>
+    </tags>
   </item>
 </grid>
 
@@ -286,6 +348,8 @@ Smaller changes that may not fit into the bigger mods in the main [XY Gantry](#x
     <buttons slot="buttons">
       <item-button url="#/pages/mods/spy-eye.md">SpEye page</item-button>
     </buttons>
+    <tags slot="tags">
+    </tags>
     <credits slot="credits">
       <credit name="MirageC"/>
     </credits>
@@ -303,6 +367,10 @@ Smaller changes that may not fit into the bigger mods in the main [XY Gantry](#x
         File
       </item-button>
     </buttons>
+    <tags slot="tags">
+      <item-tag>40mm fan</item-tag>
+      <item-tag>ADXL345</item-tag>
+    </tags>
     <credits slot="credits">
       <credit name="DonnerPlays"/>
     </credits>
@@ -330,6 +398,10 @@ Smaller changes that may not fit into the bigger mods in the main [XY Gantry](#x
       <item-button url="https://www.thingiverse.com/thing:5197675">Thingiverse</item-button>
       <item-button url="https://a360.co/3lwUEMv">CAD File</item-button>
     </buttons>
+    <tags slot="tags">
+      <item-tag>Fume extractor</item-tag>
+      <item-tag>Fume filter</item-tag>
+    </tags>
     <credits slot="credits">
       <credit name="Hans Hanson"/>
     </credits>
