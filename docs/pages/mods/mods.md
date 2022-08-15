@@ -119,7 +119,7 @@ Smaller changes that may not fit into the bigger mods in the main [XY Gantry](#x
       <br>Recommended: Misumi 1515 extrusion
     </description>
     <buttons slot="buttons">
-      <item-button url="files/Mods/rockzo_xyht_1515_extrusion_mod.step">CAD File</item-button>
+      <item-button url="files/Mods/Step/rockzo_xyht_1515_extrusion_mod.step">CAD File</item-button>
     </buttons>
     <tags slot="tags">
       <item-tag>6mm belt</item-tag>
@@ -347,9 +347,10 @@ Smaller changes that may not fit into the bigger mods in the main [XY Gantry](#x
       - Requires 2x M3x22mm screws to secure.<br>
     </description>
     <buttons slot="buttons">
-      <item-button icon="fa fa-download" url="files/Mods/guitartoys_hextrudort_dragon_berd_air.step">CAD File</item-button>
+      <item-button icon="fa fa-download" url="files/Mods/Step/guitartoys_hextrudort_dragon_berd_air.step">CAD File</item-button>
       <!-- <item-button url="https://a360.co/3QL8yIR">CAD-File</item-button> --><!-- Commented out as download not possible -->
       <item-button url="https://www.thingiverse.com/thing:5463656">Thingiverse</item-button>
+      <item-button url="files/Mods/Stl/guitartoys_hextrudort_dragon_berd_air.stl">STL</item-button>
     </buttons>
     <credits slot="credits">
       <credit name="guitartoys"/>
