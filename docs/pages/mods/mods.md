@@ -350,7 +350,7 @@ Smaller changes that may not fit into the bigger mods in the main [XY Gantry](#x
       <item-button icon="fa fa-download" url="files/Mods/Step/guitartoys_hextrudort_dragon_berd_air.step">CAD File</item-button>
       <!-- <item-button url="https://a360.co/3QL8yIR">CAD-File</item-button> --><!-- Commented out as download not possible -->
       <item-button url="https://www.thingiverse.com/thing:5463656">Thingiverse</item-button>
-      <item-button url="files/Mods/Stl/guitartoys_hextrudort_dragon_berd_air.stl">STL</item-button>
+      <item-button icon="fa fa-download" url="files/Mods/Stl/guitartoys_hextrudort_dragon_berd_air.stl">STL</item-button>
     </buttons>
     <credits slot="credits">
       <credit name="guitartoys"/>
