@@ -119,7 +119,7 @@ Smaller changes that may not fit into the bigger mods in the main [XY Gantry](#x
       <br>Recommended: Misumi 1515 extrusion
     </description>
     <buttons slot="buttons">
-      <item-button url="files/Mods/rockzo_xyht_1515_extrusion_mod.step">CAD File</item-button>
+      <item-button url="files/Mods/Step/rockzo_xyht_1515_extrusion_mod.step">CAD File</item-button>
     </buttons>
     <tags slot="tags">
       <item-tag>6mm belt</item-tag>
@@ -329,10 +329,35 @@ Smaller changes that may not fit into the bigger mods in the main [XY Gantry](#x
     <buttons slot="buttons">
       <item-button url="https://hevort-mods.donnerplays.de/#/pages/mods/cpap_7040_solution.md">GitHub Page</item-button>
     </buttons>
+    <credits slot="credits">
+      <credit name="DonnerPlays"/>
+    </credits>
     <tags slot="tags">
       <item-tag>CPAP</item-tag>
       <item-tag>Mount</item-tag>
       <item-tag>Spacer</item-tag>
+    </tags>
+  </item>
+  <item title="HexTrudORT Dragon Berd Air Mount" image="docs/assets/images/mods/guitartoys_hextrudort_dragon_berd_air.jpg">
+    <description slot="description">
+      Berd Air Nozzle for HextrudORT/Dragon combo that can be printed on an FDM/FFF printer<br><br>
+      Print standing on end (big tube opening facing up)<br>
+      - I used a thicker silicone tube than the aquarium hose normally used, to allow for higher airflow.<br>
+      - I used a little nylon 90" bend on the back.<br>
+      - Requires 2x M3x22mm screws to secure.<br>
+    </description>
+    <buttons slot="buttons">
+      <item-button icon="fa fa-download" url="files/Mods/Step/guitartoys_hextrudort_dragon_berd_air.step">CAD File</item-button>
+      <!-- <item-button url="https://a360.co/3QL8yIR">CAD-File</item-button> --><!-- Commented out as download not possible -->
+      <item-button url="https://www.thingiverse.com/thing:5463656">Thingiverse</item-button>
+      <item-button icon="fa fa-download" url="files/Mods/Stl/guitartoys_hextrudort_dragon_berd_air.stl">STL</item-button>
+    </buttons>
+    <credits slot="credits">
+      <credit name="guitartoys"/>
+    </credits>
+    <tags slot="tags">
+      <item-tag>Berd-Air</item-tag>
+      <item-tag>MGN12H</item-tag>
     </tags>
   </item>
 </grid>
