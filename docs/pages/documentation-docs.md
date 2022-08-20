@@ -89,8 +89,8 @@ To have a unified way of showing a large amount of related parts we use the grid
     - **REQUIRED**
     - Any text (html supported)
   - image
-    - **REQUIRED**
-    - default: placeholder image
+    - **REQUIRED**|**OPTIONAL** (if **images** component is defined and contains at least one **item-image** component)
+    - Gets replaced/ignored if an **images** component is defined containing **item-image** components
     - Should be link/path to image file
   - status
     - **OPTIONAL**
@@ -101,10 +101,23 @@ To have a unified way of showing a large amount of related parts we use the grid
   - content
     - Any text (html supported)
   - slot="description" required. Don't remove!
+- images
+  - **OPTIONAL** (if **image** attribute on **item** component is defined)
+  - content
+    - ``<item-image>`` components
+  - slot="images" required. Don't remove!
+  - If multiple ``<item-image>`` components are defined, arrows will show up on the left & right of the image. 
+    Allowing to click through all images.
+  - Replaces **image** attribute on **item** component
+- item-image
+  - url
+    - any link/path to an image file (file, website, ...)
+  - Because of an unknown issue. The closing tag ``</item-image>`` is required or only the first image will show up.
+    No ``<item-image />`` shorthand allowed
 - buttons
   - **OPTIONAL**
   - content
-    - ``<item-button>`` elements
+    - ``<item-button>`` components
   - slot="buttons" required. Don't remove!
   - Single button will use full width
   - More than one button will be use a grid with 2 columns
@@ -129,7 +142,7 @@ To have a unified way of showing a large amount of related parts we use the grid
 - credits
   - **OPTIONAL**
   - content
-    - ``<credit>`` elements
+    - ``<credit>`` components
   - slot="buttons" required. Don't remove!
 - credit
   - name
