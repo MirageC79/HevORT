@@ -141,14 +141,26 @@ If a component below does not mention any **Attributes** or **Content** point, t
       - **REQUIRED**
   - content
     - Any text (html supported)
+- tags
+  - **OPTIONAL**
+  - attributes
+    - slot="tags"
+      - **REQUIRED**
+  - content
+    - ``item-tag``
+- item-tag
+  - **OPTIONAL**
+  - content
+    - Any text
+  Allows easy searching using the searchbar
 - images
   - **OPTIONAL** (if **image** attribute on **item** component is defined)
   - attributes
     - slot="images"
       - **REQUIRED**
   - content
-    - ``<item-image>`` components
-  - If multiple ``<item-image>`` components are defined, arrows will show up on the left & right of the image. 
+    - ``item-image`` components
+  - If multiple ``item-image`` components are defined, arrows will show up on the left & right of the image. 
     Allowing to click through all images.
   - Replaces **image** attribute on **item** component
 - item-image
@@ -164,7 +176,7 @@ If a component below does not mention any **Attributes** or **Content** point, t
     - slot="buttons"
       - **REQUIRED**
   - content
-    - ``<item-button>`` components
+    - ``item-button`` components
   - Single button will use full width
   - More than one button will use a grid with 2 columns
 - item-button
