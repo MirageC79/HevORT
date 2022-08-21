@@ -396,6 +396,9 @@ Smaller changes that may not fit into the bigger mods in the main [XY Gantry](#x
       <item-image url="docs\assets\images\mods\guitartoys\duet3_mounting_bracket\4.jpg"></item-image>
       <item-image url="docs\assets\images\mods\guitartoys\duet3_mounting_bracket\5.jpg"></item-image>
     </images>
+    <credits slot="credits">
+      <credit name="guitartoys"/>
+    </credits>
   </item>
 </grid>
 
