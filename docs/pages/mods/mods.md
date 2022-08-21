@@ -548,4 +548,24 @@ Smaller changes that may not fit into the bigger mods in the main [XY Gantry](#x
       <credit name="guitartoys"/>
     </credits>
   </item>
+  <item title="Logitech C920 Camera Door Mount" image="docs\assets\images\mods\guitartoys\logitech_c920_camera_door_mount\1.jpg">
+    <description slot="description">
+      Mounts the C920 Camera to the front door.<br><br>
+      Be careful, depending on how/where you mount it, the print-head might collide with the camera.<br>
+      To use this you will have to remove the original c920 mount piece and replace it with the bracket.<br><br>
+      Disassembly instructions: <a href="https://www.ifixit.com/Guide/Logitech+C920+Webcam+Disassembly/115077">iFixit</a>
+    </description>
+    <buttons slot="buttons">
+      <item-button icon="fa fa-download" url="files/Mods/Step/guitartoys/logitech_c920_camera_door_mount/logitech_c920_camera_door_mount.step">CAD File</item-button>
+      <item-button icon="fa fa-download" url="files/Mods/Stl/guitartoys/logitech_c920_camera_door_mount/logitech_c920_camera_door_mount.stl">STL</item-button>
+      <item-button url="https://www.thingiverse.com/thing:5466815">Thingiverse</item-button>
+    </buttons>
+    <tags slot="tags">
+      <item-tag>Camera</item-tag>
+      <item-tag>Door</item-tag>
+    </tags>
+    <credits slot="credits">
+      <credit name="guitartoys"/>
+    </credits>
+  </item>
 </grid>
