@@ -338,7 +338,7 @@ Smaller changes that may not fit into the bigger mods in the main [XY Gantry](#x
       <item-tag>Spacer</item-tag>
     </tags>
   </item>
-  <item title="HexTrudORT Dragon Berd Air Mount">
+  <item title="HextrudORT Dragon Berd Air Mount">
     <description slot="description">
       Berd Air Nozzle for HextrudORT/Dragon combo that can be printed on an FDM/FFF printer<br><br>
       Print standing on end (big tube opening facing up)<br>
