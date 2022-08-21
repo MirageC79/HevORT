@@ -338,7 +338,7 @@ Smaller changes that may not fit into the bigger mods in the main [XY Gantry](#x
       <item-tag>Spacer</item-tag>
     </tags>
   </item>
-  <item title="HexTrudORT Dragon Berd Air Mount" image="docs/assets/images/mods/guitartoys/hextrudort_dragon_berd_air/guitartoys_hextrudort_dragon_berd_air.jpg">
+  <item title="HexTrudORT Dragon Berd Air Mount">
     <description slot="description">
       Berd Air Nozzle for HextrudORT/Dragon combo that can be printed on an FDM/FFF printer<br><br>
       Print standing on end (big tube opening facing up)<br>
@@ -346,6 +346,13 @@ Smaller changes that may not fit into the bigger mods in the main [XY Gantry](#x
       - I used a little nylon 90" bend on the back.<br>
       - Requires 2x M3x22mm screws to secure.<br>
     </description>
+    <images slot="images">
+      <item-image url="docs\assets\images\mods\guitartoys\hextrudort_dragon_berd_air\1.jpg"></item-image>
+      <item-image url="docs\assets\images\mods\guitartoys\hextrudort_dragon_berd_air\2.jpg"></item-image>
+      <item-image url="docs\assets\images\mods\guitartoys\hextrudort_dragon_berd_air\3.jpg"></item-image>
+      <item-image url="docs\assets\images\mods\guitartoys\hextrudort_dragon_berd_air\4.jpg"></item-image>
+      <item-image url="docs\assets\images\mods\guitartoys\hextrudort_dragon_berd_air\5.jpg"></item-image>
+    </images>
     <buttons slot="buttons">
       <item-button icon="fa fa-download" url="files/Mods/Step/guitartoys/hextrudort_dragon_berd_air/guitartoys_hextrudort_dragon_berd_air.step">CAD File</item-button>
       <!-- <item-button url="https://a360.co/3QL8yIR">CAD-File</item-button> --><!-- Commented out as download not possible -->
