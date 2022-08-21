@@ -409,8 +409,8 @@ Smaller changes that may not fit into the bigger mods in the main [XY Gantry](#x
     <description slot="description">
       This is a Duet 3 Mounting bracket, which includes Three 40mm cooling fans.<br>
       My understanding is that the Duet needs it cooling to be on the backside of the board.<br>
-      There’s wide flat strip between the fans and the board, so if you want to use some self-adhesive wire tie mounts, you can do that there.<br>
-      It’s to be mounted to a flat surface for proper air flow.
+      There's wide flat strip between the fans and the board, so if you want to use some self-adhesive wire tie mounts, you can do that there.<br>
+      It's to be mounted to a flat surface for proper air flow.
     </description>
     <buttons slot="buttons">
       <item-button url="https://www.thingiverse.com/thing:4906487">Thingiverse</item-button>
@@ -502,6 +502,33 @@ Smaller changes that may not fit into the bigger mods in the main [XY Gantry](#x
     </tags>
     <credits slot="credits">
       <credit name="Hans Hanson"/>
+    </credits>
+  </item>
+  <item title="Berd Air Pump Mount">
+    <description slot="description">
+      This is my take on an anti-vibration mount for the Berd Air Pump.<br><br>
+      The main upper and lower brackets are the same,<br> and can be done in PLA, although I did mine in PETG<br>
+      The little insert for the bottom I did in PetG,<br> as I suspect it will get hot with the motor running.<br>
+      For the anti-vibration ring, 4mm seems to be about right.<br><br>
+      It stays plenty cool with the heatsink alone (and in fact you could probably eliminate the heatsink)
+    </description>
+    <buttons slot="buttons">
+      <item-button url="https://github.com/MirageC79/HevORT/tree/master/files/Mods/Stl/guitartoys/berd_air_pump_mount/">STLs</item-button>
+      <item-button icon="fa fa-download" url="files/Mods/Step/guitartoys/berd_air_pump_mount/berd_air_pump_mount.step">CAD File</item-button>
+      <item-button url="https://www.thingiverse.com/thing:4918308">Thingiverse</item-button>
+    </buttons>
+    <tags slot="tags">
+      <item-tag>Berd-Air</item-tag>
+      <item-tag>Cooling</item-tag>
+    </tags>
+    <images slot="images">
+      <item-image url="docs\assets\images\mods\guitartoys\berd_air_pump_mount\1.jpg"></item-image>
+      <item-image url="docs\assets\images\mods\guitartoys\berd_air_pump_mount\2.jpg"></item-image>
+      <item-image url="docs\assets\images\mods\guitartoys\berd_air_pump_mount\3.jpg"></item-image>
+      <item-image url="docs\assets\images\mods\guitartoys\berd_air_pump_mount\4.jpg"></item-image>
+    </images>
+    <credits slot="credits">
+      <credit name="guitartoys"/>
     </credits>
   </item>
 </grid>
