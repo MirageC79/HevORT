@@ -369,6 +369,36 @@ Smaller changes that may not fit into the bigger mods in the main [XY Gantry](#x
   </item>
 </grid>
 
+## Electronics
+
+<grid>
+  <item title="Duet 3 Mounting Bracket">
+    <description slot="description">
+      This is a Duet 3 Mounting bracket, which includes Three 40mm cooling fans.<br>
+      My understanding is that the Duet needs it cooling to be on the backside of the board.<br>
+      There’s wide flat strip between the fans and the board, so if you want to use some self-adhesive wire tie mounts, you can do that there.<br>
+      It’s to be mounted to a flat surface for proper air flow.
+    </description>
+    <buttons slot="buttons">
+      <item-button url="https://www.thingiverse.com/thing:4906487">Thingiverse</item-button>
+      <item-button url="https://github.com/MirageC79/HevORT/tree/master/files/Mods/Stl/guitartoys/duet3_mounting_bracket/">STLs</item-button>
+      <item-button icon="fa fa-download" url="files/Mods/Step/guitartoys/duet3_mounting_bracket/duet3_Bracket_with_fans.step">CAD File</item-button>
+    </buttons>
+    <tags slot="tags">
+      <item-tag>Duet</item-tag>
+      <item-tag>Controller</item-tag>
+      <item-tag>Spacer</item-tag>
+    </tags>
+    <images slot="images">
+      <item-image url="docs\assets\images\mods\guitartoys\duet3_mounting_bracket\1.jpg"></item-image>
+      <item-image url="docs\assets\images\mods\guitartoys\duet3_mounting_bracket\2.jpg"></item-image>
+      <item-image url="docs\assets\images\mods\guitartoys\duet3_mounting_bracket\3.jpg"></item-image>
+      <item-image url="docs\assets\images\mods\guitartoys\duet3_mounting_bracket\4.jpg"></item-image>
+      <item-image url="docs\assets\images\mods\guitartoys\duet3_mounting_bracket\5.jpg"></item-image>
+    </images>
+  </item>
+</grid>
+
 ## Other
 
 <grid>
