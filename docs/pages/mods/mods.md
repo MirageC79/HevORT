@@ -365,7 +365,40 @@ Smaller changes that may not fit into the bigger mods in the main [XY Gantry](#x
     <tags slot="tags">
       <item-tag>Berd-Air</item-tag>
       <item-tag>MGN12H</item-tag>
+      <item-tag>HextrudORT</item-tag>
+      <item-tag>Dragon</item-tag>
     </tags>
+  </item>
+  <item title="Hemera Berd-Air Nozzle">
+    <description slot="description">
+      Berd Air Nozzle for HevORT Hemera that can be printed on an FDM/FFF printer<br><br>
+      Both a V6 and Volcano version are provided<br><br>
+      Print standing on end (big tube opening facing up)<br>
+      - I used a thicker silicone tube than the aquarium hose normally used, to allow for higher airflow.<br>
+      - I used a little nylon 90" bend on the back.<br>
+      - Requires 1x M3x10mm & 1x M3x14mm screw to secure.<br>
+    </description>
+    <buttons slot="buttons">
+      <item-button icon="fa fa-download" url="files/Mods/Step/guitartoys/hemera_berd_air_nozzle/hemera_v6_berd_air_nozzle.stl">V6 STL</item-button>
+      <item-button icon="fa fa-download" url="files/Mods/Step/guitartoys/hemera_berd_air_nozzle/hemera_volcano_berd_air_nozzle.stl">Volcano STL</item-button>
+      <item-button icon="fa fa-download" url="files/Mods/Step/guitartoys/hemera_berd_air_nozzle/hemera_v6_berd_air_nozzle.step">V6 CAD File</item-button>
+      <item-button icon="fa fa-download" url="files/Mods/Step/guitartoys/hemera_berd_air_nozzle/hemera_volcano_berd_air_nozzle.step">Volcano CAD File</item-button>
+      <item-button url="https://www.thingiverse.com/thing:4919574">Thingiverse</item-button>
+    </buttons>
+    <tags slot="tags">
+      <item-tag>Berd-Air</item-tag>
+      <item-tag>MGN12H</item-tag>
+      <item-tag>Hemera</item-tag>
+    </tags>
+    <images slot="images">
+      <item-image url="docs\assets\images\mods\guitartoys\hemera_berd_air_nozzle\1.jpg"></item-image>
+      <item-image url="docs\assets\images\mods\guitartoys\hemera_berd_air_nozzle\2.jpg"></item-image>
+      <item-image url="docs\assets\images\mods\guitartoys\hemera_berd_air_nozzle\3.jpg"></item-image>
+      <item-image url="docs\assets\images\mods\guitartoys\hemera_berd_air_nozzle\4.jpg"></item-image>
+    </images>
+    <credits slot="credits">
+      <credit name="guitartoys"/>
+    </credits>
   </item>
 </grid>
 
