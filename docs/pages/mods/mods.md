@@ -508,7 +508,7 @@ Smaller changes that may not fit into the bigger mods in the main [XY Gantry](#x
     <description slot="description">
       This is my take on an anti-vibration mount for the Berd Air Pump.<br><br>
       The main upper and lower brackets are the same,<br> and can be done in PLA, although I did mine in PETG<br>
-      The little insert for the bottom I did in PetG,<br> as I suspect it will get hot with the motor running.<br>
+      The little insert for the bottom I did in PETG,<br> as I suspect it will get hot with the motor running.<br>
       For the anti-vibration ring, 4mm seems to be about right.<br><br>
       It stays plenty cool with the heatsink alone (and in fact you could probably eliminate the heatsink)
     </description>
