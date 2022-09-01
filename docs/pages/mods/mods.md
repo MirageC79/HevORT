@@ -533,11 +533,10 @@ Smaller changes that may not fit into the bigger mods in the main [XY Gantry](#x
   </item>
   <item title="Belt Cover" image="docs\assets\images\mods\guitartoys\belt_cover\1.jpg">
     <description slot="description">
-      Belt covers designed initially designed for a 415x415 setup.
+      Belt covers initially designed for a 415x415 HevORT.
     </description>
     <buttons slot="buttons">
-      <item-button icon="fa fa-download" url="files/Mods/Step/guitartoys/belt_cover/belt_cover_left.step">Left CAD File</item-button>
-      <item-button icon="fa fa-download" url="files/Mods/Step/guitartoys/belt_cover/belt_cover_right.step">Right CAD File</item-button>
+      <item-button icon="fa fa-download" url="files/Mods/Step/guitartoys/belt_cover/belt_cover.step">CAD File</item-button>
       <item-button url="https://www.thingiverse.com/thing:5464303">Thingiverse</item-button>
     </buttons>
     <tags slot="tags">
