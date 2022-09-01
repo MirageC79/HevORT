@@ -338,7 +338,7 @@ Smaller changes that may not fit into the bigger mods in the main [XY Gantry](#x
       <item-tag>Spacer</item-tag>
     </tags>
   </item>
-  <item title="HexTrudORT Dragon Berd Air Mount" image="docs/assets/images/mods/guitartoys_hextrudort_dragon_berd_air.jpg">
+  <item title="HextrudORT Dragon Berd Air Mount">
     <description slot="description">
       Berd Air Nozzle for HextrudORT/Dragon combo that can be printed on an FDM/FFF printer<br><br>
       Print standing on end (big tube opening facing up)<br>
@@ -346,11 +346,18 @@ Smaller changes that may not fit into the bigger mods in the main [XY Gantry](#x
       - I used a little nylon 90" bend on the back.<br>
       - Requires 2x M3x22mm screws to secure.<br>
     </description>
+    <images slot="images">
+      <item-image url="docs\assets\images\mods\guitartoys\hextrudort_dragon_berd_air\1.jpg"></item-image>
+      <item-image url="docs\assets\images\mods\guitartoys\hextrudort_dragon_berd_air\2.jpg"></item-image>
+      <item-image url="docs\assets\images\mods\guitartoys\hextrudort_dragon_berd_air\3.jpg"></item-image>
+      <item-image url="docs\assets\images\mods\guitartoys\hextrudort_dragon_berd_air\4.jpg"></item-image>
+      <item-image url="docs\assets\images\mods\guitartoys\hextrudort_dragon_berd_air\5.jpg"></item-image>
+    </images>
     <buttons slot="buttons">
-      <item-button icon="fa fa-download" url="files/Mods/Step/guitartoys_hextrudort_dragon_berd_air.step">CAD File</item-button>
+      <item-button icon="fa fa-download" url="files/Mods/Step/guitartoys/hextrudort_dragon_berd_air/guitartoys_hextrudort_dragon_berd_air.step">CAD File</item-button>
       <!-- <item-button url="https://a360.co/3QL8yIR">CAD-File</item-button> --><!-- Commented out as download not possible -->
       <item-button url="https://www.thingiverse.com/thing:5463656">Thingiverse</item-button>
-      <item-button icon="fa fa-download" url="files/Mods/Stl/guitartoys_hextrudort_dragon_berd_air.stl">STL</item-button>
+      <item-button icon="fa fa-download" url="files/Mods/Stl/guitartoys/hextrudort_dragon_berd_air/guitartoys_hextrudort_dragon_berd_air.stl">STL</item-button>
     </buttons>
     <credits slot="credits">
       <credit name="guitartoys"/>
@@ -358,7 +365,73 @@ Smaller changes that may not fit into the bigger mods in the main [XY Gantry](#x
     <tags slot="tags">
       <item-tag>Berd-Air</item-tag>
       <item-tag>MGN12H</item-tag>
+      <item-tag>HextrudORT</item-tag>
+      <item-tag>Dragon</item-tag>
     </tags>
+  </item>
+  <item title="Hemera Berd-Air Nozzle">
+    <description slot="description">
+      Berd Air Nozzle for HevORT Hemera that can be printed on an FDM/FFF printer<br><br>
+      Both a V6 and Volcano version are provided<br><br>
+      Print standing on end (big tube opening facing up)<br>
+      - I used a thicker silicone tube than the aquarium hose normally used, to allow for higher airflow.<br>
+      - I used a little nylon 90" bend on the back.<br>
+      - Requires 1x M3x10mm & 1x M3x14mm screw to secure.<br>
+    </description>
+    <buttons slot="buttons">
+      <item-button icon="fa fa-download" url="files/Mods/Step/guitartoys/hemera_berd_air_nozzle/hemera_v6_berd_air_nozzle.stl">V6 STL</item-button>
+      <item-button icon="fa fa-download" url="files/Mods/Step/guitartoys/hemera_berd_air_nozzle/hemera_volcano_berd_air_nozzle.stl">Volcano STL</item-button>
+      <item-button icon="fa fa-download" url="files/Mods/Step/guitartoys/hemera_berd_air_nozzle/hemera_v6_berd_air_nozzle.step">V6 CAD File</item-button>
+      <item-button icon="fa fa-download" url="files/Mods/Step/guitartoys/hemera_berd_air_nozzle/hemera_volcano_berd_air_nozzle.step">Volcano CAD File</item-button>
+      <item-button url="https://www.thingiverse.com/thing:4919574">Thingiverse</item-button>
+    </buttons>
+    <tags slot="tags">
+      <item-tag>Berd-Air</item-tag>
+      <item-tag>MGN12H</item-tag>
+      <item-tag>Hemera</item-tag>
+    </tags>
+    <images slot="images">
+      <item-image url="docs\assets\images\mods\guitartoys\hemera_berd_air_nozzle\1.jpg"></item-image>
+      <item-image url="docs\assets\images\mods\guitartoys\hemera_berd_air_nozzle\2.jpg"></item-image>
+      <item-image url="docs\assets\images\mods\guitartoys\hemera_berd_air_nozzle\3.jpg"></item-image>
+      <item-image url="docs\assets\images\mods\guitartoys\hemera_berd_air_nozzle\4.jpg"></item-image>
+    </images>
+    <credits slot="credits">
+      <credit name="guitartoys"/>
+    </credits>
+  </item>
+</grid>
+
+## Electronics
+
+<grid>
+  <item title="Duet 3 Mounting Bracket">
+    <description slot="description">
+      This is a Duet 3 Mounting bracket, which includes Three 40mm cooling fans.<br>
+      My understanding is that the Duet needs it cooling to be on the backside of the board.<br>
+      There's wide flat strip between the fans and the board, so if you want to use some self-adhesive wire tie mounts, you can do that there.<br>
+      It's to be mounted to a flat surface for proper air flow.
+    </description>
+    <buttons slot="buttons">
+      <item-button url="https://www.thingiverse.com/thing:4906487">Thingiverse</item-button>
+      <item-button url="https://github.com/MirageC79/HevORT/tree/master/files/Mods/Stl/guitartoys/duet3_mounting_bracket/">STLs</item-button>
+      <item-button icon="fa fa-download" url="files/Mods/Step/guitartoys/duet3_mounting_bracket/duet3_Bracket_with_fans.step">CAD File</item-button>
+    </buttons>
+    <tags slot="tags">
+      <item-tag>Duet</item-tag>
+      <item-tag>Controller</item-tag>
+      <item-tag>Spacer</item-tag>
+    </tags>
+    <images slot="images">
+      <item-image url="docs\assets\images\mods\guitartoys\duet3_mounting_bracket\1.jpg"></item-image>
+      <item-image url="docs\assets\images\mods\guitartoys\duet3_mounting_bracket\2.jpg"></item-image>
+      <item-image url="docs\assets\images\mods\guitartoys\duet3_mounting_bracket\3.jpg"></item-image>
+      <item-image url="docs\assets\images\mods\guitartoys\duet3_mounting_bracket\4.jpg"></item-image>
+      <item-image url="docs\assets\images\mods\guitartoys\duet3_mounting_bracket\5.jpg"></item-image>
+    </images>
+    <credits slot="credits">
+      <credit name="guitartoys"/>
+    </credits>
   </item>
 </grid>
 
@@ -429,6 +502,69 @@ Smaller changes that may not fit into the bigger mods in the main [XY Gantry](#x
     </tags>
     <credits slot="credits">
       <credit name="Hans Hanson"/>
+    </credits>
+  </item>
+  <item title="Berd Air Pump Mount">
+    <description slot="description">
+      This is my take on an anti-vibration mount for the Berd Air Pump.<br><br>
+      The main upper and lower brackets are the same,<br> and can be done in PLA, although I did mine in PETG<br>
+      The little insert for the bottom I did in PETG,<br> as I suspect it will get hot with the motor running.<br>
+      For the anti-vibration ring, 4mm seems to be about right.<br><br>
+      It stays plenty cool with the heatsink alone (and in fact you could probably eliminate the heatsink)
+    </description>
+    <buttons slot="buttons">
+      <item-button url="https://github.com/MirageC79/HevORT/tree/master/files/Mods/Stl/guitartoys/berd_air_pump_mount/">STLs</item-button>
+      <item-button icon="fa fa-download" url="files/Mods/Step/guitartoys/berd_air_pump_mount/berd_air_pump_mount.step">CAD File</item-button>
+      <item-button url="https://www.thingiverse.com/thing:4918308">Thingiverse</item-button>
+    </buttons>
+    <tags slot="tags">
+      <item-tag>Berd-Air</item-tag>
+      <item-tag>Cooling</item-tag>
+    </tags>
+    <images slot="images">
+      <item-image url="docs\assets\images\mods\guitartoys\berd_air_pump_mount\1.jpg"></item-image>
+      <item-image url="docs\assets\images\mods\guitartoys\berd_air_pump_mount\2.jpg"></item-image>
+      <item-image url="docs\assets\images\mods\guitartoys\berd_air_pump_mount\3.jpg"></item-image>
+      <item-image url="docs\assets\images\mods\guitartoys\berd_air_pump_mount\4.jpg"></item-image>
+    </images>
+    <credits slot="credits">
+      <credit name="guitartoys"/>
+    </credits>
+  </item>
+  <item title="Belt Cover" image="docs\assets\images\mods\guitartoys\belt_cover\1.jpg">
+    <description slot="description">
+      Belt covers initially designed for a 415x415 HevORT.
+    </description>
+    <buttons slot="buttons">
+      <item-button icon="fa fa-download" url="files/Mods/Step/guitartoys/belt_cover/belt_cover.step">CAD File</item-button>
+      <item-button url="https://www.thingiverse.com/thing:5464303">Thingiverse</item-button>
+    </buttons>
+    <tags slot="tags">
+      <item-tag>Belt</item-tag>
+      <item-tag>HD12</item-tag>
+    </tags>
+    <credits slot="credits">
+      <credit name="guitartoys"/>
+    </credits>
+  </item>
+  <item title="Logitech C920 Camera Door Mount" image="docs\assets\images\mods\guitartoys\logitech_c920_camera_door_mount\1.jpg">
+    <description slot="description">
+      Mounts the C920 Camera to the front door.<br><br>
+      Be careful, depending on how/where you mount it, the print-head might collide with the camera.<br>
+      To use this you will have to remove the original c920 mount piece and replace it with the bracket.<br><br>
+      Disassembly instructions: <a href="https://www.ifixit.com/Guide/Logitech+C920+Webcam+Disassembly/115077">iFixit</a>
+    </description>
+    <buttons slot="buttons">
+      <item-button icon="fa fa-download" url="files/Mods/Step/guitartoys/logitech_c920_camera_door_mount/logitech_c920_camera_door_mount.step">CAD File</item-button>
+      <item-button icon="fa fa-download" url="files/Mods/Stl/guitartoys/logitech_c920_camera_door_mount/logitech_c920_camera_door_mount.stl">STL</item-button>
+      <item-button url="https://www.thingiverse.com/thing:5466815">Thingiverse</item-button>
+    </buttons>
+    <tags slot="tags">
+      <item-tag>Camera</item-tag>
+      <item-tag>Door</item-tag>
+    </tags>
+    <credits slot="credits">
+      <credit name="guitartoys"/>
     </credits>
   </item>
 </grid>
