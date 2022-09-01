@@ -192,6 +192,38 @@ Smaller changes that may not fit into the bigger mods in the main [XY Gantry](#x
       <credit name="M3NT8L"/>
     </credits>
   </item>
+  <item title="Wobble Rings SFU1204<br>Mellow Metal Middle Ring">
+    <description slot="description">
+      Modification of EvoMoto's Wobble Rings to allow the usage of the Mellow metal middle rings
+      <br><a href="https://www.aliexpress.com/item/1005004227149356.html?">Mellow AliExpress</a>
+      <br>
+      <br>Designed for the SFU1204 ballscrews & 6mm balls.
+      <br>
+      <br>Printing in resin (ideally high temp) recommended/required for best results
+      <br>Example resins:
+      <br>- <a href="https://siraya.tech/products/sculpt-resin-high-temperature-resistant-resin?variant=40152192483437">Siraya Tech Sculpt</a>
+      <br>- <a href="https://siraya.tech/products/sculpt-resin-high-temperature-resistant-resin?variant=40152192581741">Siraya Tech Sculpt Ultra White</a>
+      <br>- <a href="https://phrozen3d.com/products/phrozen-tr300-ultra-high-temp-resin">Phrozen TR300</a>
+    </description>
+    <buttons slot="buttons">
+      <item-button url="https://github.com/MirageC79/HevORT/tree/master/files/Mods/Stl/vvega/wobble_ring_mellow_metal_center/">STLs</item-button>
+    </buttons>
+    <images slot="images">
+      <item-image url="docs\assets\images\mods\vvega\wobble_ring_mellow_metal_center\1.jpg"></item-image>
+      <item-image url="docs\assets\images\mods\vvega\wobble_ring_mellow_metal_center\2.jpg"></item-image>
+      <item-image url="docs\assets\images\mods\vvega\wobble_ring_mellow_metal_center\3.jpg"></item-image>
+      <item-image url="docs\assets\images\mods\vvega\wobble_ring_mellow_metal_center\4.jpg"></item-image>
+    </images>
+    <tags slot="tags">
+      <item-tag>SFU1204</item-tag>
+      <item-tag>Wobble prevention</item-tag>
+      <item-tag>Metal</item-tag>
+    </tags>
+    <credits slot="credits">
+      <credit name="EvoMoto">Initial work/version</credit>
+      <credit name="Vvega">Modification for Mellow metal middle rings</credit>
+    </credits>
+  </item>
 </grid>
 
 
