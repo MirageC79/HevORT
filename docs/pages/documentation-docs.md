@@ -61,6 +61,11 @@ To have a unified way of showing a large amount of related parts we use the grid
     <description slot="description">
       Full html support description text
     </description>
+    <images slot="images">
+      <item-image url="https://via.placeholder.com/400.png/FF0000/000000?text=Placeholder+Image+300px+red"></item-image>
+      <item-image url="https://via.placeholder.com/600.png/0000FF/000000?text=Placeholder+Image+400px+blue"></item-image>
+      <item-image url="https://via.placeholder.com/300.png/00FF00/000000?text=Placeholder+Image+200px+green"></item-image>
+    </images>
     <buttons slot="buttons">
       <item-button url="<link/path to open when clicked>">Link button</item-button>
       <item-button icon="fa fa-download" url="<link/path to open when clicked>">Download button</item-button>
@@ -74,77 +79,17 @@ To have a unified way of showing a large amount of related parts we use the grid
 </grid>
 ````
 
-### Explanation
-
-- grid
-  - v-bind:config="{}"
-    - **OPTIONAL**
-    - configuration for this grid item goes in between the ``{}``
-    - default: {gridTemplateColumns: '1fr 1fr 1fr'}
-    - options:
-      - gridTemplateColumns
-        - example: {gridTemplateColumns: '1fr 1fr'} = results in a 2 column grid
-- item
-  - title
-    - **REQUIRED**
-    - Any text (html supported)
-  - image
-    - **REQUIRED**
-    - default: placeholder image
-    - Should be link/path to image file
-  - status
-    - **OPTIONAL**
-    - default: empty (not shown)
-    - Any text (avoid to long text)
-- description
-  - **OPTIONAL**
-  - content
-    - Any text (html supported)
-  - slot="description" required. Don't remove!
-- buttons
-  - **OPTIONAL**
-  - content
-    - ``<item-button>`` elements
-  - slot="buttons" required. Don't remove!
-  - Single button will use full width
-  - More than one button will be use a grid with 2 columns
-- item-button
-  - url
-    - **REQUIRED**
-    - any link/path to a resource (file, website, ...)
-  - content
-    - **REQUIRED**
-    - Is used as the button title
-  - icon
-    - **OPTIONAL**
-    - css class added to ``<i>`` element. See [FontAwesome](https://fontawesome.com/icons)
-  - hint
-    - **OPTIONAL**
-    - a small hint text displayed at the bottom left of the button (placed on the border)
-    - some hint texts are automatically generated. These can be overridden by manually defining the **hint** prop
-      - setting it to the text "null" will hide it.
-      - Automatically generated hints are:
-        - **url** starts with `https://a360.` results in ``f360`` text
-        - **url** ends with `.step` results in ``step`` text
-- credits
-  - **OPTIONAL**
-  - content
-    - ``<credit>`` elements
-  - slot="buttons" required. Don't remove!
-- credit
-  - name
-    - **REQUIRED**
-    - Any text
-  - content
-    - **OPTIONAL**
-    - Shown below name
 ### Result
-
 <grid v-bind:config="{gridTemplateColumns: '1fr 1fr 1fr'}">
   <item title="Item title" image="https://via.placeholder.com/400.png/FF0000/000000?text=Placeholder+Image" status="I'm active">
     <description slot="description">
       Full html support description text
     </description>
+    <images slot="images">
+      <item-image url="https://via.placeholder.com/400.png/FF0000/000000?text=Placeholder+Image+300px+red"></item-image>
+      <item-image url="https://via.placeholder.com/600.png/0000FF/000000?text=Placeholder+Image+400px+blue"></item-image>
+      <item-image url="https://via.placeholder.com/300.png/00FF00/000000?text=Placeholder+Image+200px+green"></item-image>
+    </images>
     <buttons slot="buttons">
       <item-button url="<link/path to open when clicked>">Link button</item-button>
       <item-button icon="fa fa-download" url="<link/path to open when clicked>">Download button</item-button>
@@ -156,6 +101,118 @@ To have a unified way of showing a large amount of related parts we use the grid
     </credits>
   </item>
 </grid>
+
+### Explanation
+
+**Components** are elements you define like html elements ex.: ``<item></item>``.  
+**Attributes** is data you define on a **Component** like ``title="Hello"`` ex.: ``<item title="Hello"></item>``.  
+**Content** is what goes in between a **Component** like ``I'm a text`` ex.: ``<item-button>I'm a text</item-button>``.  
+
+If a component below does not mention any **Attributes** or **Content** point, there are none for this **Component**
+
+- grid
+  - **REQUIRED**
+  - attributes
+    - v-bind:config="{}"
+      - **OPTIONAL**
+      - configuration for this grid item goes in between the ``{}``
+      - default: {gridTemplateColumns: '1fr 1fr 1fr'}
+      - options:
+        - gridTemplateColumns
+          - example: {gridTemplateColumns: '1fr 1fr'} = results in a 2 column grid
+- item
+  - attributes
+    - title
+      - **REQUIRED**
+      - Any text (html supported)
+    - image
+      - **REQUIRED**
+      - **OPTIONAL** (if **images** component is defined and contains at least one **item-image** component)
+      - Gets replaced/ignored if an **images** component is defined containing **item-image** components
+      - Should be link/path to image file
+    - status
+      - **OPTIONAL**
+      - default: empty (not shown)
+      - Any text (avoid too long text)
+- description
+  - **OPTIONAL** (recommended)
+  - attributes
+    - slot="description"
+      - **REQUIRED**
+  - content
+    - Any text (html supported)
+- tags
+  - **OPTIONAL**
+  - attributes
+    - slot="tags"
+      - **REQUIRED**
+  - content
+    - ``item-tag``
+- item-tag
+  - **OPTIONAL**
+  - content
+    - Any text
+  Allows easy searching using the searchbar
+- images
+  - **OPTIONAL** (if **image** attribute on **item** component is defined)
+  - attributes
+    - slot="images"
+      - **REQUIRED**
+  - content
+    - ``item-image`` components
+  - If multiple ``item-image`` components are defined, arrows will show up on the left & right of the image. 
+    Allowing to click through all images.
+  - Replaces **image** attribute on **item** component
+- item-image
+  - attributes
+    - url
+      - **REQUIRED**
+      - any link/path to an image file (file, website, ...)
+  - Because of an unknown issue. The closing tag ``</item-image>`` is required or only the first image will show up.
+    No ``<item-image />`` shorthand allowed
+- buttons
+  - **OPTIONAL**
+  - attributes
+    - slot="buttons"
+      - **REQUIRED**
+  - content
+    - ``item-button`` components
+  - Single button will use full width
+  - More than one button will use a grid with 2 columns
+- item-button
+  - attributes
+    - url
+      - **REQUIRED**
+      - any link/path to a resource (file, website, ...)
+    - icon
+      - **OPTIONAL**
+      - css class added to ``<i>`` element. See [FontAwesome](https://fontawesome.com/icons)
+    - hint
+      - **OPTIONAL**
+      - a small hint text displayed at the bottom left of the button (placed on the border)
+      - some hint texts are automatically generated. These can be overridden by manually defining the **hint** prop
+        - setting it to the text "null" will hide it.
+        - Automatically generated hints are:
+          - **url** starts with `https://a360.` results in ``f360`` text
+          - **url** ends with `.step` results in ``step`` text
+  - content
+    - **REQUIRED**
+    - Used as the button title
+- credits
+  - **OPTIONAL**
+  - attributes
+    - slot="buttons"
+      - **REQUIRED**
+  - content
+    - ``<credit>`` components
+- credit
+  - attributes
+    - name
+      - **REQUIRED**
+      - Any text
+  - content
+    - **OPTIONAL**
+    - Shown below name
 
 ## Plugins
 

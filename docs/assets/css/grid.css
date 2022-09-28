@@ -23,7 +23,7 @@
     outline-color: var(--primary-color) !important;
 }
 
-.grid-search-input:focus, input:focus{
+.grid-search-input:focus, input:focus {
     outline: solid 1px var(--primary-color);
 }
 
@@ -52,9 +52,95 @@
 }
 
 .grid-item-image {
+    width: 100%;
+}
+
+.grid-item-image-container {
+    display: flex;
+}
+
+.grid-item-images {
+    position: relative;
+    user-select: none;
     border: 1px solid var(--primary-color) !important;
     border-bottom: 0 !important;
     border-radius: 1rem 1rem 0 0;
+    overflow: hidden;
+}
+
+.grid-item-image.inactive {
+    visibility: hidden;
+}
+
+.grid-item-images-control-container {
+    color: var(--primary-color);
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.grid-item-images-control > i {
+    font-size: 2rem;
+}
+
+.grid-item-images-control-zoom > i {
+    font-size: 5rem;
+}
+
+.grid-item-images-control {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0);
+    transition: background-color 0.4s ease;
+    padding: 1rem;
+}
+
+.grid-item-images-control:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: background-color 0.4s ease;
+}
+
+.grid-item-images-control.grid-item-images-control-zoom:hover {
+    opacity: 1;
+    transition: opacity 0.4s ease;
+}
+
+.grid-item-image-zoomed > .grid-item-images-control-container {
+    display: none;
+}
+
+
+
+.grid-item-image-zoomed {
+
+}
+
+.grid-item-images-control.grid-item-images-control-zoom {
+    display: none; <!-- Todo: Implement -->
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+.grid-item-images-control-previous {
+    border-top-left-radius: 1rem;
+    left: 0;
+}
+
+.grid-item-images-control-next {
+    border-top-right-radius: 1rem;
+    right: 0;
 }
 
 .grid-item-custom-content {
@@ -121,6 +207,7 @@
 }
 
 .grid-item-description {
+    padding-right: 0.5rem;
     transition: all 0.2s ease-in-out;
     opacity: 0;
     height: auto;
@@ -199,6 +286,7 @@
     border: unset !important;
 
 }
+
 .link-selected-anchor:after {
     content: '';
     position: absolute;

@@ -162,12 +162,17 @@
             tags.push(gridItemTagElement.innerText);
           })
 
+          let images = [];
+          element.querySelectorAll(".grid-item-container > .grid-item-images > .grid-item-image-container > img").forEach((imageElement) => {
+            images.push(imageElement.src);
+          });
+
           return {
             id: elementId,
             title: titleWrapper.querySelector(".grid-item-title").innerHTML,
             link: titleWrapper.querySelector(".grid-item-title").href,
             state: titleWrapper.querySelector(".grid-item-state")?.innerHTML ?? "active",
-            image:  element.querySelector(".grid-item-container > img").src,
+            images:  images,
             description:  element.querySelector(".grid-item-container > .grid-item-description-container > .grid-item-description").innerHTML,
             tag: tags,
             buttons: buttons,
@@ -185,7 +190,7 @@
             <input class="grid-search-input" placeholder="Start typing to search..." @input="(e) => filterGridItems(e.target.value)" />
             <span class="grid-search-info" v-html="getAvailableFiltersInfoText()" />
           </span>
-          <span ref="emptySearchItem" class="grid-data-container-empty-search" style="display: none"><i class="hevort-color fa-regular fa-face-frown hevort"></i> looks like there is nothing here <i class="hevort-color fa-regular fa-face-frown hevort"></span>
+          <span ref="emptySearchItem" class="grid-data-container-empty-search" style="display: none"><i class="hevort-color fa-regular fa-face-frown hevort"></i> looks like there is nothing here <i class="hevort-color fa-regular fa-face-frown hevort"/></span>
           <div ref="gridDataContainer" class="grid-data-container">
             <slot></slot>
           </div>
@@ -375,15 +380,6 @@
           }
         }
       },
-      'item-image': {
-        props: {
-          url: String,
-        },
-
-        template: `
-
-        `
-      },
       'credits': {
         template: `
           <div class="grid-item-credits">
@@ -572,6 +568,67 @@
           },
         },
       },
+      'images': {
+        data: () => {
+          return {
+            imageContainer: null,
+            imageElements: [],
+            descriptionElement: null,
+          }
+        },
+        mounted: function () {
+          this.imageContainer = this.$el.querySelector(".grid-item-image-container");
+          this.imageElements = this.imageContainer.querySelectorAll("img");
+          this.imageElements.forEach((imageElement, index) => {
+            if (imageElement !== this.imageContainer.firstElementChild) {
+              imageElement.classList.add("inactive");
+            }
+          });
+
+          this.descriptionElement = this.$el.parentElement.querySelector(".grid-item-description-container");
+        },
+        computed: {
+          descriptionElmExists: function () {
+            return this.descriptionElement !== null;
+          },
+          multipleImagesExist: function () {
+            return this.imageElements.length > 1;
+          }
+        },
+        methods: {
+          onZoom: function () {
+            //Todo: Implement in future version
+          },
+          onPrevious: function () {
+            this.imageContainer.insertBefore(this.imageContainer.lastElementChild, this.imageContainer.firstElementChild);
+            this.imageContainer.firstElementChild.classList.remove("inactive");
+            this.imageContainer.firstElementChild.nextElementSibling.classList.add("inactive");
+          },
+          onNext: function () {
+            this.imageContainer.insertBefore(this.imageContainer.firstElementChild, this.imageContainer.lastElementChild.nextElementSibling);
+            this.imageContainer.firstElementChild.classList.remove("inactive");
+            this.imageContainer.lastElementChild.classList.add("inactive");
+          },
+        },
+        template: `<div class="grid-item-images" :style="[descriptionElmExists ? {} :{'border': '1px solid var(--primary-color) !important', 'borderRadius': '1rem'}]">
+        <div class="grid-item-images-control-container">
+          <span v-if="multipleImagesExist" class="grid-item-images-control grid-item-images-control-previous" @click="onPrevious"><i class="fa-solid fa-angle-left"></i></span>
+          <span class="grid-item-images-control grid-item-images-control-zoom" @click="onZoom"><i class="fa-solid fa-magnifying-glass"></i></span>
+          <span v-if="multipleImagesExist" class="grid-item-images-control grid-item-images-control-next" @click="onNext"><i class="fa-solid fa-angle-right"></i></span>
+        </div>
+        <div class="grid-item-image-container">
+                  <slot>
+                    images
+                  </slot>
+                </div>
+            </div>`
+      },
+      'item-image': {
+        props: {
+          url: String
+        },
+        template: `<img alt="IMAGE" class="grid-item-image" :src=url />`
+      },
       'item': {
         props: {
           title: String,
@@ -581,21 +638,7 @@
           },
           status: String,
           image: {
-            type: String,
-            default: () => "https://via.placeholder.com/400.png/FF0000/000000?text=Placeholder+Image"
-          },
-        },
-        data: () => {
-          return {
-            descriptionElement: null,
-          }
-        },
-        mounted: function () {
-          this.descriptionElement = this.$refs?.image?.parentNode.querySelector(".grid-item-description-container");
-        },
-        computed: {
-          descriptionElmExists: function () {
-            return this.descriptionElement !== null;
+            type: String
           },
         },
         methods: {
@@ -655,7 +698,11 @@
                 </span>
                 <div class="grid-item-container">
                   <slot name="tags"></slot>
-                  <img v-if="image" alt="IMAGE" ref="image" :style="[descriptionElmExists ? {} :{'border': '1px solid var(--primary-color) !important', 'borderRadius': '1rem'}]" class="grid-item-image" :src=image />
+                  <slot name="images">
+                    <images slot="images">
+                      <item-image v-if="image" :url="image"></item-image>
+                    </images>
+                  </slot>
                   <slot name="description"><span style="margin-bottom: 1rem"></span></slot>
                   <slot name="credits"><div style="margin-top: auto"></div></slot>
                   <slot name="buttons"></slot>
