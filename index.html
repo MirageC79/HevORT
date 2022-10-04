@@ -184,16 +184,17 @@
     vueComponents: {
       'grid': {
         template: `
-          <div class="grid" :style="[config.gridTemplateColumns ? {'gridTemplateColumns': config.gridTemplateColumns} : {'gridTemplateColumns': '1fr 1fr 1fr'}]">
+          <div class="grid">
           <span class="grid-search">
             <label class="grid-search-label">Search component</label>
             <input class="grid-search-input" placeholder="Start typing to search..." @input="(e) => filterGridItems(e.target.value)" />
             <span class="grid-search-info" v-html="getAvailableFiltersInfoText()" />
           </span>
           <span ref="emptySearchItem" class="grid-data-container-empty-search" style="display: none"><i class="hevort-color fa-regular fa-face-frown hevort"></i> looks like there is nothing here <i class="hevort-color fa-regular fa-face-frown hevort"/></span>
-          <div ref="gridDataContainer" class="grid-data-container">
+          <div class="grid-data-container" :style="[columns ? {'gridTemplateColumns': columns} : {'gridTemplateColumns': '1fr 1fr 1fr'}]">
             <slot></slot>
           </div>
+          <span class="grid-pagination" ref="gridPagination" v-html="getPaginationControls"></span>
           </div>
         `,
         data: () => {
@@ -205,14 +206,88 @@
                     "tag",
                     "state"
             ],
-            gridItems: []
+            gridItems: [],
+            currentPage: 0,
+            emptySearchItem: null,
+            gridPaginationElm: null,
+            paginatedGridItems: [],
           }
         },
         mounted: function () {
-          this.gridItems = this.$refs?.gridDataContainer?.children;
+          this.items_per_page = parseInt(this.items_per_page, 10);
+          this.gridItems = this.$children;
           this.emptySearchItem = this.$refs?.emptySearchItem;
+          this.gridPaginationElm = this.$refs?.gridPagination;
+          let pageCounter = 0;
+          let paginationCounter = 0;
+
+          this.gridItems.forEach((item) => {
+            if (!this.paginatedGridItems[pageCounter]) {
+              this.paginatedGridItems[pageCounter] = [];
+            }
+            if (pageCounter !== 0) {
+              item.$el.classList.add("grid-pagination-item-hidden");
+            }
+            this.paginatedGridItems[pageCounter].push(item);
+
+            paginationCounter++;
+            if (paginationCounter >= this.items_per_page) {
+              paginationCounter = 0;
+              pageCounter++;
+            }
+          });
+        },
+        computed: {
+          getPaginationControls: function (el) {
+            if (this.gridItems.length === 0) {
+              return "";
+            }
+
+            let paginationGridItemsArray = Object.keys(this.paginatedGridItems);
+
+            if (paginationGridItemsArray.length === 1) {
+              return;
+            }
+
+            paginationGridItemsArray.forEach((pageIndex) => {
+              pageIndex = parseInt(pageIndex, 10);
+              let buttonElement = document.createElement("button");
+              buttonElement.className = "grid-pagination-page-button";
+              buttonElement.innerText = (pageIndex + 1).toString(10);
+              if (pageIndex === 0) {
+                buttonElement.classList.add("grid-pagination-page-button-selected");
+              }
+              buttonElement.addEventListener("click", () => this.switchPage(pageIndex, buttonElement))
+              this.gridPaginationElm.append(buttonElement);
+            });
+          },
         },
         methods: {
+          switchPage: function (newPageIndex, clickedButtonElm) {
+            let previouslySelectedButton = this.gridPaginationElm.querySelector("button.grid-pagination-page-button-selected");
+
+            if (previouslySelectedButton === clickedButtonElm) {
+              return;
+            }
+
+            clickedButtonElm.classList.add("grid-pagination-page-button-selected");
+            if (!previouslySelectedButton) {
+              return;
+            }
+            previouslySelectedButton.classList.remove("grid-pagination-page-button-selected");
+
+            Object.keys(this.paginatedGridItems).forEach((pageIndex) => {
+              pageIndex = parseInt(pageIndex, 10);
+              let paginatedGridItems = this.paginatedGridItems[pageIndex];
+              paginatedGridItems.forEach((item) => {
+                if (newPageIndex === pageIndex) {
+                  item.$el.classList.remove("grid-pagination-item-hidden");
+                } else {
+                  item.$el.classList.add("grid-pagination-item-hidden");
+                }
+              });
+            })
+          },
           getAvailableFiltersInfoText: function () {
             let text = "Available filters: ";
             this.availableFilters.forEach((availableFilter, index) => {
@@ -259,7 +334,7 @@
             let advancedFilterData = this.getAdvancedFilterData(text);
             let gridItemsData = [];
             Array.from(this.gridItems).forEach((gridItem) => {
-              gridItemsData.push(this.$root.getGridItemData(gridItem.id));
+              gridItemsData.push(this.$root.getGridItemData(gridItem.$el.id));
             })
 
             if (!this.isAnyAdvancedFilter(text)) {
@@ -272,7 +347,7 @@
           {
             let gridItemsData = [];
             Array.from(this.gridItems).forEach((gridItem) => {
-              gridItemsData.push(this.$root.getGridItemData(gridItem.id));
+              gridItemsData.push(this.$root.getGridItemData(gridItem.$el.id));
             })
             return gridItemsData;
           },
@@ -299,7 +374,7 @@
               });
             });
 
-            this.handleItemVisibility(itemsToShow, gridItemsData.filter(x => !itemsToShow.includes(x)));
+            this.handleItemVisibility(itemsToShow, gridItemsData.filter(x => !itemsToShow.includes(x)), text === "");
           },
           handleFilterItemsAdvanced: function (advancedFilterData, text) {
             let indexesToRemove = [];
@@ -347,17 +422,24 @@
               }
             });
 
-            this.handleItemVisibility(itemsToShow, gridItemsData.filter(x => !itemsToShow.includes(x)))
+            this.handleItemVisibility(itemsToShow, gridItemsData.filter(x => !itemsToShow.includes(x)), text === "")
           },
-          handleItemVisibility: function (itemsToShow, itemsToHide) {
+          handleItemVisibility: function (itemsToShow, itemsToHide, searchInputEmpty) {
             if (itemsToShow.length === 0) {
               this.emptySearchItem.style.removeProperty("display");
             }
-
+            
             itemsToShow.forEach((matchedItem) => {
               let element = document.querySelector(`#${matchedItem.id}`);
               if (element) {
-                element.style.removeProperty("display");
+                if (element.classList.contains("grid-pagination-item-hidden")) {
+                  element.style.setProperty("display", "flex", "important");
+
+                  if (searchInputEmpty) {
+                    element.style.removeProperty("display");
+                  }
+                }
+                element.classList.remove("grid-search-item-hidden");
                 if (this.emptySearchItem.style.display !== "none") {
                   this.emptySearchItem.style.display = "none";
                 }
@@ -366,17 +448,22 @@
             itemsToHide.forEach((matchedItem) => {
               let element = document.querySelector(`#${matchedItem.id}`);
               if (element) {
-                element.style.display = "none";
+                element.classList.add("grid-search-item-hidden");
+                if (element.classList.contains("grid-pagination-item-hidden")) {
+                  element.style.removeProperty("display");
+                }
               }
             });
           },
         },
         props: {
-          config: {
-            type: Object,
-            default: () => {
-              return {gridTemplateColumns: '1fr 1fr 1fr'}
-            }
+          items_per_page: {
+            type: Number,
+            default: () => 6
+          },
+          columns: {
+            type: String,
+            default: () => "1fr 1fr 1fr"
           }
         }
       },
@@ -686,6 +773,9 @@
             });
             this.$el.classList.add("link-selected-anchor");
             this.$el.scrollIntoView({behavior: "smooth"});
+          },
+          setVisible: function (visible = true) {
+            this.$el.style.display = visible ? "flex" : "none";
           }
         },
         template: `

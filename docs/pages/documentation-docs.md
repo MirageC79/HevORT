@@ -56,7 +56,7 @@ To have a unified way of showing a large amount of related parts we use the grid
 
 ### Usage
 ````vue
-<grid v-bind:config="{gridTemplateColumns: '1fr 1fr 1fr'}">
+<grid columns="1fr 1fr 1fr">
   <item title="Item title" image="https://via.placeholder.com/400.png/FF0000/000000?text=Placeholder+Image" status="I'm active">
     <description slot="description">
       Full html support description text
@@ -80,7 +80,7 @@ To have a unified way of showing a large amount of related parts we use the grid
 ````
 
 ### Result
-<grid v-bind:config="{gridTemplateColumns: '1fr 1fr 1fr'}">
+<grid columns="1fr 1fr 1fr">
   <item title="Item title" image="https://via.placeholder.com/400.png/FF0000/000000?text=Placeholder+Image" status="I'm active">
     <description slot="description">
       Full html support description text
@@ -113,13 +113,14 @@ If a component below does not mention any **Attributes** or **Content** point, t
 - grid
   - **REQUIRED**
   - attributes
-    - v-bind:config="{}"
+    - columns
       - **OPTIONAL**
-      - configuration for this grid item goes in between the ``{}``
-      - default: {gridTemplateColumns: '1fr 1fr 1fr'}
-      - options:
-        - gridTemplateColumns
-          - example: {gridTemplateColumns: '1fr 1fr'} = results in a 2 column grid
+      - default: "1fr 1fr 1fr"
+      - example: "1fr 1fr" = results in a 2 column grid
+    - items_per_page
+      - **OPTIONAL**
+      - default: 6
+      - example: 3 = results in 3 items visible per page. With 12 total items that will result in 4 pages ( 12 / 3 = 4)
 - item
   - attributes
     - title
