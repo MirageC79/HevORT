@@ -5,7 +5,7 @@ The HevORT project has been designed to be modular. This means you can select fr
 ## 1. Frame/Enclosure
 This is the base of the HevORT
 
-<grid v-bind:config="{gridTemplateColumns: '1fr 1fr'}">
+<grid columns="1fr 1fr">
 <item title="Frame" image="docs/assets/images/components/FrameThumb.png">
   <description slot="description">
     The bare base frame with a side electronics bay
@@ -301,7 +301,7 @@ Supported print heads include (as of now):
 * E3D V6 (+Volcano)
 * Rapido (+UHF setup)
 
-<grid v-bind:config="{gridTemplateColumns: '1fr 1fr'}">
+<grid columns="1fr 1fr">
 <item title="HextrudORT" image="docs/assets/images/components/HextrudORT_CoverThumb.jpg">
   <description slot="description">
     Collection of multiple print heads based on the HextrudORT (Extruder + Hotend) carriage
