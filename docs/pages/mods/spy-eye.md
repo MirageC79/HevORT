@@ -1,6 +1,6 @@
 # The SpEye Filament and Jam Detector
 
-![SpyEye Banner](docs/assets/images/mods/spy-eye/spybanner.png)
+![SpyEye Banner](files/mods/miragec/spy-eye/spybanner.png)
 
 Not only will this unit pause your print when you are out of filament, but it will also do the same if you have a spool jam.  
 Sensitivity can be adjusted to adapt to your setup.
@@ -33,7 +33,7 @@ I also use it as a pause button :)
 > 
 > The Case needs to print standing up as shown below
 
-![SpyEye Cura](../../assets/images/mods/spy-eye/speyecura.png)
+![SpyEye Cura](files/mods/miragec/spy-eye/speyecura.png)
 
 | Setting         | Value                                                                                                                     |
 |-----------------|---------------------------------------------------------------------------------------------------------------------------|
@@ -54,7 +54,7 @@ _These instructions assume you are using a Duet2 (Wi-Fi or ethernet) controller 
 |         S (Signal)         |               E0 STOP               |
 |          V (VCC)           |                +3.3V                |
 
-![SpyEye Duet Connection](docs/assets/images/mods/spy-eye/duetwifi_speye.png)
+![SpyEye Duet Connection](files/mods/miragec/spy-eye/duetwifi_speye.png)
 
 2. Place the following line of code within your config.g file from your Duet.  
 ```reprap config.g

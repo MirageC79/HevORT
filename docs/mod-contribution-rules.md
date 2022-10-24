@@ -2,12 +2,10 @@ If you want to have your **mod** added to this site it needs to conform to some 
 that are supposed to keep **everything clean & organized**.
 
 1. Every contribution is required to have an image clearly showing the mod.
-  - Ideally this image should be saved inside the **/docs/assets/images/mods** folder
+  - All images (if hosted locally through GitHub) should be stored in **/files/mods/<your-username>/<your-mods-name>** folder
     in this repository to improve loading speed.
   - Externally hosted image is allowed but needs to stay available.
     A mod without an image will be **removed** until the image is restored.
-  - If multiple images are required for your mod,
-    these should the saved in a separate folder inside **/docs/assets/images/mods/[your mod folder]**.
   - When multiple images are used your mod should also be hosted on a separate page.
     Take the [SpEye](pages/mods/spy-eye.md) as an example
     The panel shown on this site should then redirect to that side. Example: [Other](#other) => SpEye.
