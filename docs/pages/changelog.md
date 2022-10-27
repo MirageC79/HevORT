@@ -4,6 +4,8 @@ This pages lists all recent changes starting from the 15.08.2022 as of now.
 
 * From newest to oldest
 
+## 24.10.2022 - Restructure Mods file location
+
 ## 21.08.2022 - Mods added
 - Added **guitartoys**'s c920 camera door mount
   [>>Mod page<<](https://docs.hevort.com/#/pages/mods/mods?id=a-logitech-c920-camera-door-mount)
