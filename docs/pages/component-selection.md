@@ -186,7 +186,7 @@ HevORT uses triple Z system to leverage the self levelling function from your fi
 	than the poor half lip of a thread the SFU1204 usually offers.
   </description>
   <buttons slot="buttons">
-    <item-button url="https://www.thingiverse.com/thing:5733608">Thingiverse</item-button>
+    <item-button url="https://github.com/MirageC79/HevORT/tree/master/files/STL/ZR_V2.6">STLs GitHub</item-button>
     <item-button url="https://a360.co/3PMtKih">CAD File</item-button>
     <item-button url="bom/BOM_ZR_V2.6.htm">BOM - Web</item-button>
     <item-button icon="fa fa-download" url="bom/BOM_ZR_V2.6.xlsx">BOM<br>Download</item-button>
