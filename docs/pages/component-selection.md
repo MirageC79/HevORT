@@ -168,25 +168,57 @@ Alternative version/improvements to the above Gantry parts (like Carbon fibre)
 </grid>
 
 ## 3. Z Axis and Build Plate
-Choose your weapon wisely ;)
+HevORT uses triple Z system to leverage the self levelling function from your firmware.  <br>Choose your weapon wisely ;)
 
 <grid>
-<item title="ZR" image="docs/assets/images/components/ZRThumb.png" status="Retired">
+<item title="ZR V2.6 (WobbleX)" image="docs/assets/images/components/ZR_V2.6_Thumb.jpg" status="** NEW **">
   <description slot="description">
-    This initial version of the Self Leveling Z axis on MGN rails from the HevORT
-    <br>works just fine if you are using quality Ball screws with excellent frame alignment as well as perfect
-    tolerances printed parts...
-    <br>Sounds impossible to get?
-    <br><br>look at V2 below :)
+    Making use of the awesome design from <i>EvoMoto</i>, ZR V2.6 will digest all the wobble you can imagine!
+	<br>Using all other goodies from ZR V2.5, this version has been revised to simplify printing while increasing overall rigidity. A little bit of oomph was also added to the looks ;).
+    <br><br><u>Two options are available:</u><br>1- This better option uses the WobbleX metal isolators.
+	Equivalent to wobble rings, these isolators are made from aluminum and can support very large and heavy build plates.
+    <br><br>2- The second option is to print wobble rings yourself. They should work fine but I invite you to make them out of a very rigid material 
+	with limited creep. ABS-CF would be a good pick.
+	<br><br><u>Carried over from ZR_V2.5:</u>
+	<br>- Double row angular contact bearing for better axial load support to
+    the ball screw.
+    <br>- Quality shaft collar from Ruland is providing a better resting shoulder to the thrust bearing
+	than the poor half lip of a thread the SFU1204 usually offers.
   </description>
   <buttons slot="buttons">
-    <item-button url="https://www.thingiverse.com/thing:4184059">Thingiverse</item-button>
-    <item-button url="https://a360.co/3gweJiw">CAD File</item-button>
+    <item-button url="https://www.thingiverse.com/thing:5733608">Thingiverse</item-button>
+    <item-button url="https://a360.co/3PMtKih">CAD File</item-button>
+    <item-button url="bom/BOM_ZR_V2.6.htm">BOM - Web</item-button>
+    <item-button icon="fa fa-download" url="bom/BOM_ZR_V2.6.xlsx">BOM<br>Download</item-button>
   </buttons>
   <tags slot="tags">
+  <item-tag>WobbleX</item-tag>
+  <item-tag>12mm Ball Screw</item-tag>
+  <item-tag>Wobble Rings</item-tag>
+  <item-tag>NEMA17</item-tag>
   </tags>
 </item>
-<item title="ZR V2 (Wobble wings)" image="docs/assets/images/components/ZRV2Thumb.png">
+<item title="ZR V2.5" image="docs/assets/images/components/ZR_V2.5_Thumb.jpg" status="Retired">
+  <description slot="description">
+    Using the same Z wobble management as V2, this new version integrates
+    <br><br>2 new features:<br>First, A double row angular contact bearing is now offering better axial load support to
+    the ball screw.
+    <br><br>Second, a quality shaft collar from Ruland is providing a better resting shoulder to the thrust bearing
+    <br>than the poor half lip of a thread the SFU1204 usually offers.
+  </description>
+  <buttons slot="buttons">
+    <item-button url="https://www.thingiverse.com/thing:4723500">Thingiverse</item-button>
+    <item-button url="https://a360.co/3bSwQzF">CAD File</item-button>
+    <item-button url="bom/BOM_ZR_V2.5.htm">BOM - Web</item-button>
+    <item-button icon="fa fa-download" url="bom/BOM_ZR_V2.5.xlsx">BOM<br>Download</item-button>
+  </buttons>
+  <tags slot="tags">
+  <item-tag>12mm Ball Screw</item-tag>
+  <item-tag>Wobble Wings</item-tag>
+  <item-tag>NEMA17</item-tag>
+  </tags>
+</item>
+<item title="ZR V2 (Wobble wings)" image="docs/assets/images/components/ZRV2Thumb.png" status="Retired">
   <description slot="description">
     Some may say, get proper alignment, get quality parts, go back to lead screw... Well
     <br><br>The size of the bed on that printer makes it quite heavy.
@@ -202,32 +234,24 @@ Choose your weapon wisely ;)
     <item-button icon="fa fa-download" url="bom/BOM_ZR_V2.xlsx">BOM<br>Download</item-button>
   </buttons>
   <tags slot="tags">
+  <item-tag>12mm Ball Screw</item-tag>
+  <item-tag>NEMA17</item-tag>
   </tags>
 </item>
-<item title="ZR V2.5" image="docs/assets/images/components/ZR_V2.5_Thumb.jpg">
+<item title="ZR" image="docs/assets/images/components/ZRThumb.png" status="Retired">
   <description slot="description">
-    Using the same Z wobble management as V2, this new version integrates
-    <br><br>2 new features:<br>First, A double row angular contact bearing is now offering better axial load support to
-    the ball screw.
-    <br><br>Second, a quality shaft collar from Ruland is providing a better resting shoulder to the thrust bearing
-    <br>than the poor half lip of a thread the SFU1204 usually offers.
+    This initial version of the Self Leveling Z axis on MGN rails from the HevORT
+    <br>works just fine if you are using quality Ball screws with excellent frame alignment as well as perfect
+    tolerances printed parts...
+    <br>Sounds impossible to get?
+    <br><br>look at V2 below :)
   </description>
   <buttons slot="buttons">
-    <item-button url="https://www.thingiverse.com/thing:4723500">Thingiverse</item-button>
-    <item-button url="https://a360.co/3bSwQzF">CAD File</item-button>
-    <item-button url="bom/BOM_ZR_V2.5.htm">BOM - Web</item-button>
-    <item-button icon="fa fa-download" url="bom/BOM_ZR_V2.5.xlsx">BOM<br>Download</item-button>
+    <item-button url="https://www.thingiverse.com/thing:4184059">Thingiverse</item-button>
+    <item-button url="https://a360.co/3gweJiw">CAD File</item-button>
   </buttons>
   <tags slot="tags">
   </tags>
-</item>
-<item title="HyperCube Evolution Z Adapters" image="" status="TBD">
-  <description slot="description">
-    - Upcoming -
-    <br>This option will let you use standard <a href="https://www.thingiverse.com/thing:2254103">Hypercube Evolution
-    from SCOTT_3D</a>
-    <br>Z installation to your HevORT printer.
-  </description>
 </item>
 </grid>
 
