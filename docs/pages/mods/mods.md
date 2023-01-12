@@ -30,7 +30,7 @@ If you need help, the best place to ask is the Discord server
 ## Enclosure
 
 <grid>
-  <item title="Serbitar AcidBee Enclosure extras" image="files/mods/serbitar/serbitar-acidbee-enclosure-extras.webp">
+  <item title="Serbitar AcidBee Enclosure extras" image="files/Mods/serbitar/serbitar-acidbee-enclosure-extras.webp">
     <description slot="description">
       A collection of different modifications (extras) for the <a href="#/pages/component-selection?id=a-enclosure">AcidBee Enclosure</a>.
     </description>
@@ -49,7 +49,7 @@ If you need help, the best place to ask is the Discord server
 ## XY Gantry
 
 <grid>
-  <item title="EvoMoto HD12 AWD" image="files/mods/evomoto/evomoto_awd_hd12.png">
+  <item title="EvoMoto HD12 AWD" image="files/Mods/evomoto/evomoto_awd_hd12.png">
     <description slot="description">
       This mod adds two more steppers to the HevORT.
       <br>They replace the pulley mounts on the front for even more power.
@@ -70,7 +70,7 @@ If you need help, the best place to ask is the Discord server
       <credit name="EvoMoto"/>
     </credits>
   </item>
-  <item title="EvoMoto STD/HT AWD" image="files/mods/evomoto/evomoto_awd_std-ht.png">
+  <item title="EvoMoto STD/HT AWD" image="files/Mods/evomoto/evomoto_awd_std-ht.png">
     <description slot="description">
       This mod adds two more steppers to the HevORT.
       <br>They replace the pulley mounts on the front for even more power.
@@ -89,7 +89,7 @@ If you need help, the best place to ask is the Discord server
       <credit name="EvoMoto"/>
     </credits>
   </item>
-  <item title="Hans Hanson HD12 AWD" image="files/mods/hans-hanson/hans-hanson_awd_hd12.jpg">
+  <item title="Hans Hanson HD12 AWD" image="files/Mods/hans-hanson/hans-hanson_awd_hd12.jpg">
     <description slot="description">
       Almost the same number and length of shafts are required as with the opposite Motor Mount and Pulley mount
       <br><br>(except for the two Dowel Pin 5x40mm for the belt binder).
@@ -113,13 +113,13 @@ If you need help, the best place to ask is the Discord server
 Smaller changes that may not fit into the bigger mods in the main [XY Gantry](#xy-gantry) section.
 
 <grid>
-  <item title="XYHT v2.5 1515 extrusions" image="files/mods/rockzo/rockzo_xyht_1515_extrusion_mod/rockzo_xyht_1515_extrusion_mod.png">
+  <item title="XYHT v2.5 1515 extrusions" image="files/Mods/rockzo/rockzo_xyht_1515_extrusion_mod/rockzo_xyht_1515_extrusion_mod.png">
     <description slot="description">
       A simple mod for 1515 extrusion for the XYHT v2.5.
       <br>Recommended: Misumi 1515 extrusion
     </description>
     <buttons slot="buttons">
-      <item-button url="files/mods/rockzo/rockzo_xyht_1515_extrusion_mod/rockzo_xyht_1515_extrusion_mod.step">CAD File</item-button>
+      <item-button url="files/Mods/rockzo/rockzo_xyht_1515_extrusion_mod/rockzo_xyht_1515_extrusion_mod.step">CAD File</item-button>
     </buttons>
     <tags slot="tags">
       <item-tag>6mm belt</item-tag>
@@ -133,7 +133,7 @@ Smaller changes that may not fit into the bigger mods in the main [XY Gantry](#x
 ## Z-Axis
 
 <grid>
-  <item title="Wobble Rings for SFU1204" image="files/mods/evomoto/evomoto_sfu1204_wobble_rings.jpg">
+  <item title="Wobble Rings for SFU1204" image="files/Mods/evomoto/evomoto_sfu1204_wobble_rings.jpg">
     <description slot="description">
       Alternative version of the original Wobble Rings for the ZR V2.5
       <br>These do a better job at eliminating bad quality ballscrews
@@ -151,7 +151,7 @@ Smaller changes that may not fit into the bigger mods in the main [XY Gantry](#x
       <credit name="EvoMoto"/>
     </credits>
   </item>
-  <item title="Wobble Rings for SFU1604" image="files/mods/evomoto/evomoto_sfu1604_wobble_rings.png">
+  <item title="Wobble Rings for SFU1604" image="files/Mods/evomoto/evomoto_sfu1604_wobble_rings.png">
     <description slot="description">
       Same as the SFU1204 version but for SFU1604
     </description>
@@ -166,7 +166,7 @@ Smaller changes that may not fit into the bigger mods in the main [XY Gantry](#x
       <credit name="EvoMoto"/>
     </credits>
   </item>
-  <item title="Z-Axis 2:1 reduction" image="files/mods/m3nt8l/m3nt8l_z-axis_reduction.jpg">
+  <item title="Z-Axis 2:1 reduction" image="files/Mods/m3nt8l/m3nt8l_z-axis_reduction.jpg">
     <description slot="description">
       2:1 reduction for the HevORT's ZR V2.5 Z-Axis
       <br>This mod increases holding torque.
@@ -206,13 +206,13 @@ Smaller changes that may not fit into the bigger mods in the main [XY Gantry](#x
       <br>- <a href="https://phrozen3d.com/products/phrozen-tr300-ultra-high-temp-resin">Phrozen TR300</a>
     </description>
     <buttons slot="buttons">
-      <item-button url="https://github.com/MirageC79/HevORT/tree/master/files/mods/stl/vvega/wobble_ring_mellow_metal_center/">STLs</item-button>
+      <item-button url="https://github.com/MirageC79/HevORT/tree/master/files/Mods/stl/vvega/wobble_ring_mellow_metal_center/">STLs</item-button>
     </buttons>
     <images slot="images">
-      <item-image url="files/mods/vvega/wobble_ring_mellow_metal_center/1.jpg"></item-image>
-      <item-image url="files/mods/vvega/wobble_ring_mellow_metal_center/2.jpg"></item-image>
-      <item-image url="files/mods/vvega/wobble_ring_mellow_metal_center/3.jpg"></item-image>
-      <item-image url="files/mods/vvega/wobble_ring_mellow_metal_center/4.jpg"></item-image>
+      <item-image url="files/Mods/vvega/wobble_ring_mellow_metal_center/1.jpg"></item-image>
+      <item-image url="files/Mods/vvega/wobble_ring_mellow_metal_center/2.jpg"></item-image>
+      <item-image url="files/Mods/vvega/wobble_ring_mellow_metal_center/3.jpg"></item-image>
+      <item-image url="files/Mods/vvega/wobble_ring_mellow_metal_center/4.jpg"></item-image>
     </images>
     <tags slot="tags">
       <item-tag>SFU1204</item-tag>
@@ -257,7 +257,7 @@ Smaller changes that may not fit into the bigger mods in the main [XY Gantry](#x
     </credits>
   </item>
   <item title="LGX Lite HextrudORT Carriage Mount (HD12/MGN9)"
-        image="files/mods/serbitar/serbitar_lgx-lite_hextrudort_carriage.webp">
+        image="files/Mods/serbitar/serbitar_lgx-lite_hextrudort_carriage.webp">
     <description slot="description">
       Mounts an LGX Lite and Dragon hotend to the HevORT HextrudORT HD12/MGN9 carriage.
     </description>
@@ -359,7 +359,7 @@ Smaller changes that may not fit into the bigger mods in the main [XY Gantry](#x
       Also adds ability to change inlet direction using servo
     </description>
     <buttons slot="buttons">
-      <item-button url="https://hevort-mods.donnerplays.de/#/pages/mods/cpap_7040_solution.md">GitHub Page</item-button>
+      <item-button url="https://hevort-mods.donnerplays.de/#/pages/Mods/cpap_7040_solution.md">GitHub Page</item-button>
     </buttons>
     <credits slot="credits">
       <credit name="DonnerPlays"/>
@@ -379,17 +379,17 @@ Smaller changes that may not fit into the bigger mods in the main [XY Gantry](#x
       - Requires 2x M3x22mm screws to secure.<br>
     </description>
     <images slot="images">
-      <item-image url="files/mods/guitartoys/hextrudort_dragon_berd_air/1.jpg"></item-image>
-      <item-image url="files/mods/guitartoys/hextrudort_dragon_berd_air/2.jpg"></item-image>
-      <item-image url="files/mods/guitartoys/hextrudort_dragon_berd_air/3.jpg"></item-image>
-      <item-image url="files/mods/guitartoys/hextrudort_dragon_berd_air/4.jpg"></item-image>
-      <item-image url="files/mods/guitartoys/hextrudort_dragon_berd_air/5.jpg"></item-image>
+      <item-image url="files/Mods/guitartoys/hextrudort_dragon_berd_air/1.jpg"></item-image>
+      <item-image url="files/Mods/guitartoys/hextrudort_dragon_berd_air/2.jpg"></item-image>
+      <item-image url="files/Mods/guitartoys/hextrudort_dragon_berd_air/3.jpg"></item-image>
+      <item-image url="files/Mods/guitartoys/hextrudort_dragon_berd_air/4.jpg"></item-image>
+      <item-image url="files/Mods/guitartoys/hextrudort_dragon_berd_air/5.jpg"></item-image>
     </images>
     <buttons slot="buttons">
-      <item-button icon="fa fa-download" url="files/mods/guitartoys/hextrudort_dragon_berd_air/guitartoys_hextrudort_dragon_berd_air.step">CAD File</item-button>
+      <item-button icon="fa fa-download" url="files/Mods/guitartoys/hextrudort_dragon_berd_air/guitartoys_hextrudort_dragon_berd_air.step">CAD File</item-button>
       <!-- <item-button url="https://a360.co/3QL8yIR">CAD-File</item-button> --><!-- Commented out as download not possible -->
       <item-button url="https://www.thingiverse.com/thing:5463656">Thingiverse</item-button>
-      <item-button icon="fa fa-download" url="files/mods/stl/guitartoys/hextrudort_dragon_berd_air/guitartoys_hextrudort_dragon_berd_air.stl">STL</item-button>
+      <item-button icon="fa fa-download" url="files/Mods/stl/guitartoys/hextrudort_dragon_berd_air/guitartoys_hextrudort_dragon_berd_air.stl">STL</item-button>
     </buttons>
     <credits slot="credits">
       <credit name="guitartoys"/>
@@ -411,10 +411,10 @@ Smaller changes that may not fit into the bigger mods in the main [XY Gantry](#x
       - Requires 1x M3x10mm & 1x M3x14mm screw to secure.<br>
     </description>
     <buttons slot="buttons">
-      <item-button icon="fa fa-download" url="files/mods/guitartoys/hemera_berd_air_nozzle/hemera_v6_berd_air_nozzle.stl">V6 STL</item-button>
-      <item-button icon="fa fa-download" url="files/mods/guitartoys/hemera_berd_air_nozzle/hemera_volcano_berd_air_nozzle.stl">Volcano STL</item-button>
-      <item-button icon="fa fa-download" url="files/mods/guitartoys/hemera_berd_air_nozzle/hemera_v6_berd_air_nozzle.step">V6 CAD File</item-button>
-      <item-button icon="fa fa-download" url="files/mods/guitartoys/hemera_berd_air_nozzle/hemera_volcano_berd_air_nozzle.step">Volcano CAD File</item-button>
+      <item-button icon="fa fa-download" url="files/Mods/guitartoys/hemera_berd_air_nozzle/hemera_v6_berd_air_nozzle.stl">V6 STL</item-button>
+      <item-button icon="fa fa-download" url="files/Mods/guitartoys/hemera_berd_air_nozzle/hemera_volcano_berd_air_nozzle.stl">Volcano STL</item-button>
+      <item-button icon="fa fa-download" url="files/Mods/guitartoys/hemera_berd_air_nozzle/hemera_v6_berd_air_nozzle.step">V6 CAD File</item-button>
+      <item-button icon="fa fa-download" url="files/Mods/guitartoys/hemera_berd_air_nozzle/hemera_volcano_berd_air_nozzle.step">Volcano CAD File</item-button>
       <item-button url="https://www.thingiverse.com/thing:4919574">Thingiverse</item-button>
     </buttons>
     <tags slot="tags">
@@ -423,10 +423,10 @@ Smaller changes that may not fit into the bigger mods in the main [XY Gantry](#x
       <item-tag>Hemera</item-tag>
     </tags>
     <images slot="images">
-      <item-image url="files/mods/guitartoys/hemera_berd_air_nozzle/1.jpg"></item-image>
-      <item-image url="files/mods/guitartoys/hemera_berd_air_nozzle/2.jpg"></item-image>
-      <item-image url="files/mods/guitartoys/hemera_berd_air_nozzle/3.jpg"></item-image>
-      <item-image url="files/mods/guitartoys/hemera_berd_air_nozzle/4.jpg"></item-image>
+      <item-image url="files/Mods/guitartoys/hemera_berd_air_nozzle/1.jpg"></item-image>
+      <item-image url="files/Mods/guitartoys/hemera_berd_air_nozzle/2.jpg"></item-image>
+      <item-image url="files/Mods/guitartoys/hemera_berd_air_nozzle/3.jpg"></item-image>
+      <item-image url="files/Mods/guitartoys/hemera_berd_air_nozzle/4.jpg"></item-image>
     </images>
     <credits slot="credits">
       <credit name="guitartoys"/>
@@ -446,8 +446,8 @@ Smaller changes that may not fit into the bigger mods in the main [XY Gantry](#x
     </description>
     <buttons slot="buttons">
       <item-button url="https://www.thingiverse.com/thing:4906487">Thingiverse</item-button>
-      <item-button url="https://github.com/MirageC79/HevORT/tree/master/files/mods/stl/guitartoys/duet3_mounting_bracket/">STLs</item-button>
-      <item-button icon="fa fa-download" url="files/mods/guitartoys/duet3_mounting_bracket/duet3_Bracket_with_fans.step">CAD File</item-button>
+      <item-button url="https://github.com/MirageC79/HevORT/tree/master/files/Mods/stl/guitartoys/duet3_mounting_bracket/">STLs</item-button>
+      <item-button icon="fa fa-download" url="files/Mods/guitartoys/duet3_mounting_bracket/duet3_Bracket_with_fans.step">CAD File</item-button>
     </buttons>
     <tags slot="tags">
       <item-tag>Duet</item-tag>
@@ -455,11 +455,11 @@ Smaller changes that may not fit into the bigger mods in the main [XY Gantry](#x
       <item-tag>Spacer</item-tag>
     </tags>
     <images slot="images">
-      <item-image url="files/mods/guitartoys/duet3_mounting_bracket/1.jpg"></item-image>
-      <item-image url="files/mods/guitartoys/duet3_mounting_bracket/2.jpg"></item-image>
-      <item-image url="files/mods/guitartoys/duet3_mounting_bracket/3.jpg"></item-image>
-      <item-image url="files/mods/guitartoys/duet3_mounting_bracket/4.jpg"></item-image>
-      <item-image url="files/mods/guitartoys/duet3_mounting_bracket/5.jpg"></item-image>
+      <item-image url="files/Mods/guitartoys/duet3_mounting_bracket/1.jpg"></item-image>
+      <item-image url="files/Mods/guitartoys/duet3_mounting_bracket/2.jpg"></item-image>
+      <item-image url="files/Mods/guitartoys/duet3_mounting_bracket/3.jpg"></item-image>
+      <item-image url="files/Mods/guitartoys/duet3_mounting_bracket/4.jpg"></item-image>
+      <item-image url="files/Mods/guitartoys/duet3_mounting_bracket/5.jpg"></item-image>
     </images>
     <credits slot="credits">
       <credit name="guitartoys"/>
@@ -470,13 +470,13 @@ Smaller changes that may not fit into the bigger mods in the main [XY Gantry](#x
 ## Other
 
 <grid>
-  <item title="SpEye" image="files/mods/miragec/spy-eye/spy-eye-printed.jpg">
+  <item title="SpEye" image="files/Mods/miragec/spy-eye/spy-eye-printed.jpg">
     <description slot="description">
       Not only an empty filament detector.
       <br>The SpEye can detect a spool jam and pause your print.
     </description>
     <buttons slot="buttons">
-      <item-button url="#/pages/mods/spy-eye.md">SpEye page</item-button>
+      <item-button url="#/pages/Mods/spy-eye.md">SpEye page</item-button>
     </buttons>
     <tags slot="tags">
     </tags>
@@ -505,7 +505,7 @@ Smaller changes that may not fit into the bigger mods in the main [XY Gantry](#x
       <credit name="DonnerPlays"/>
     </credits>
   </item>
-  <item title="Hans Hanson FumesORT" image="files/mods/hans-hanson/hans-hanson_fumes-ort.jpg">
+  <item title="Hans Hanson FumesORT" image="files/Mods/hans-hanson/hans-hanson_fumes-ort.jpg">
     <description slot="description">
       Fume filter mounted under the HevORT's print bed.
       <br><br>Filter basket volume is approx. 313ml.
@@ -545,8 +545,8 @@ Smaller changes that may not fit into the bigger mods in the main [XY Gantry](#x
       It stays plenty cool with the heatsink alone (and in fact you could probably eliminate the heatsink)
     </description>
     <buttons slot="buttons">
-      <item-button url="https://github.com/MirageC79/HevORT/tree/master/files/mods/stl/guitartoys/berd_air_pump_mount/">STLs</item-button>
-      <item-button icon="fa fa-download" url="files/mods/guitartoys/berd_air_pump_mount/berd_air_pump_mount.step">CAD File</item-button>
+      <item-button url="https://github.com/MirageC79/HevORT/tree/master/files/Mods/stl/guitartoys/berd_air_pump_mount/">STLs</item-button>
+      <item-button icon="fa fa-download" url="files/Mods/guitartoys/berd_air_pump_mount/berd_air_pump_mount.step">CAD File</item-button>
       <item-button url="https://www.thingiverse.com/thing:4918308">Thingiverse</item-button>
     </buttons>
     <tags slot="tags">
@@ -554,21 +554,21 @@ Smaller changes that may not fit into the bigger mods in the main [XY Gantry](#x
       <item-tag>Cooling</item-tag>
     </tags>
     <images slot="images">
-      <item-image url="files/mods/guitartoys/berd_air_pump_mount/1.jpg"></item-image>
-      <item-image url="files/mods/guitartoys/berd_air_pump_mount/2.jpg"></item-image>
-      <item-image url="files/mods/guitartoys/berd_air_pump_mount/3.jpg"></item-image>
-      <item-image url="files/mods/guitartoys/berd_air_pump_mount/4.jpg"></item-image>
+      <item-image url="files/Mods/guitartoys/berd_air_pump_mount/1.jpg"></item-image>
+      <item-image url="files/Mods/guitartoys/berd_air_pump_mount/2.jpg"></item-image>
+      <item-image url="files/Mods/guitartoys/berd_air_pump_mount/3.jpg"></item-image>
+      <item-image url="files/Mods/guitartoys/berd_air_pump_mount/4.jpg"></item-image>
     </images>
     <credits slot="credits">
       <credit name="guitartoys"/>
     </credits>
   </item>
-  <item title="Belt Cover" image="files/mods/guitartoys/belt_cover/1.jpg">
+  <item title="Belt Cover" image="files/Mods/guitartoys/belt_cover/1.jpg">
     <description slot="description">
       Belt covers initially designed for a 415x415 HevORT.
     </description>
     <buttons slot="buttons">
-      <item-button icon="fa fa-download" url="files/mods/guitartoys/belt_cover/belt_cover.step">CAD File</item-button>
+      <item-button icon="fa fa-download" url="files/Mods/guitartoys/belt_cover/belt_cover.step">CAD File</item-button>
       <item-button url="https://www.thingiverse.com/thing:5464303">Thingiverse</item-button>
     </buttons>
     <tags slot="tags">
@@ -579,7 +579,7 @@ Smaller changes that may not fit into the bigger mods in the main [XY Gantry](#x
       <credit name="guitartoys"/>
     </credits>
   </item>
-  <item title="Logitech C920 Camera Door Mount" image="files/mods/guitartoys/logitech_c920_camera_door_mount/1.jpg">
+  <item title="Logitech C920 Camera Door Mount" image="files/Mods/guitartoys/logitech_c920_camera_door_mount/1.jpg">
     <description slot="description">
       Mounts the C920 Camera to the front door.<br><br>
       Be careful, depending on how/where you mount it, the print-head might collide with the camera.<br>
@@ -587,8 +587,8 @@ Smaller changes that may not fit into the bigger mods in the main [XY Gantry](#x
       Disassembly instructions: <a href="https://www.ifixit.com/Guide/Logitech+C920+Webcam+Disassembly/115077">iFixit</a>
     </description>
     <buttons slot="buttons">
-      <item-button icon="fa fa-download" url="files/mods/guitartoys/logitech_c920_camera_door_mount/logitech_c920_camera_door_mount.step">CAD File</item-button>
-      <item-button icon="fa fa-download" url="files/mods/stl/guitartoys/logitech_c920_camera_door_mount/logitech_c920_camera_door_mount.stl">STL</item-button>
+      <item-button icon="fa fa-download" url="files/Mods/guitartoys/logitech_c920_camera_door_mount/logitech_c920_camera_door_mount.step">CAD File</item-button>
+      <item-button icon="fa fa-download" url="files/Mods/stl/guitartoys/logitech_c920_camera_door_mount/logitech_c920_camera_door_mount.stl">STL</item-button>
       <item-button url="https://www.thingiverse.com/thing:5466815">Thingiverse</item-button>
     </buttons>
     <tags slot="tags">
