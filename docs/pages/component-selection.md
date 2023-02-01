@@ -12,7 +12,7 @@ This is the base of the HevORT
   </description>
   <buttons slot="buttons">
     <item-button url="https://a360.co/3dCjsfY">Frame Hardware Map</item-button>
-    <item-button url="https://a360.co/2xUD9B9">CAD File</item-button>
+    <item-button url="https://a360.co/3LKTHLL">CAD File</item-button>
     <item-button url="bom/BOM_Frame_ElecExt.htm">BOM - Web</item-button>
     <item-button icon="fa fa-download" url="bom/BOM_Frame_ElecExt.xlsx">BOM<br>Download</item-button>
   </buttons>
@@ -25,7 +25,7 @@ This is the base of the HevORT
   </description>
   <buttons slot="buttons">
     <item-button url="https://www.thingiverse.com/thing:5188673">Thingiverse</item-button>
-    <item-button url="https://a360.co/3HD6rlY">CAD File</item-button>
+    <item-button url="https://a360.co/3HOJCyF">CAD File</item-button>
     <item-button url="bom/BOM_Enclosure_AcidBee.htm">BOM - Web</item-button>
     <item-button icon="fa fa-download" url="bom/BOM_Enclosure_AcidBee.xlsx">BOM<br>Download</item-button>
   </buttons>
