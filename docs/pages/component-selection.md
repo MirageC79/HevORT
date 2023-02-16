@@ -119,7 +119,7 @@ You will find below the various configuration for XY Gantry.  Select one in func
 </item>
 </grid>
 
-### Further options
+### X Axis Options
 Alternative version/improvements to the above Gantry parts (like Carbon fibre)
 
 <grid>
@@ -135,6 +135,8 @@ Alternative version/improvements to the above Gantry parts (like Carbon fibre)
   </buttons>
   <tags slot="tags">
     <item-tag>6mm belt</item-tag>
+	<item-tag>Carbon Fiber</item-tag>
+	<item-tag>MGN9</item-tag>
   </tags>
 </item>
 <item title="(HD9) MGN9 Carbon Fiber X-Axis" image="docs/assets/images/components/OPTION_HD9_CFX_MGN9_Thumb.jpg">
@@ -149,6 +151,26 @@ Alternative version/improvements to the above Gantry parts (like Carbon fibre)
   </buttons>
   <tags slot="tags">
     <item-tag>9mm belt</item-tag>
+	<item-tag>Carbon Fiber</item-tag>
+	<item-tag>MGN9</item-tag>
+  </tags>
+</item>
+<item title="(HD9) MGN9 Top Rail Carbon Fiber X-Axis" image="docs/assets/images/components/XYHD9_CFx_MGN9_TopRail_Thumb.jpg" status="** NEW **">
+  <description slot="description">
+    A 2020 Carbon Fiber Tube is replacing X extrusion for huge weight saving.
+	The MGN9 linear rail is mounted on the top of the Carbon Fiber Tube to facilitate the installation of longer hotends and extruders like the Vz-HextrudORT Low.
+  </description>
+  <buttons slot="buttons">
+    <item-button url="https://github.com/MirageC79/HevORT/tree/master/files/STL/HD9/Option_HD9_CFx_TopRail">STLs</item-button>
+    <item-button url="https://a360.co/3YuR1c5">CAD File</item-button>
+    <item-button url="bom/Option_HD9_CFx_TopRail_MGN9.htm">BOM - Web</item-button>
+    <item-button icon="fa fa-download" url="bom/Option_HD9_CFx_TopRail_MGN9.xlsx">BOM<br>Download</item-button>
+  </buttons>
+  <tags slot="tags">
+    <item-tag>9mm belt</item-tag>
+	<item-tag>Carbon Fiber</item-tag>
+	<item-tag>MGN9</item-tag>
+	<item-tag>Top Rail</item-tag>
   </tags>
 </item>
 <item title="(HD12) MGN9 Carbon Fiber X-Axis" image="docs/assets/images/components/OPTION_HD12_CFX_MGN9_Thumb.jpg">
@@ -163,6 +185,26 @@ Alternative version/improvements to the above Gantry parts (like Carbon fibre)
   </buttons>
   <tags slot="tags">
     <item-tag>12mm belt</item-tag>
+	<item-tag>Carbon Fiber</item-tag>
+	<item-tag>MGN9</item-tag>
+  </tags>
+</item>
+<item title="(HD12) MGN9 Top Rail Carbon Fiber X-Axis" image="docs/assets/images/components/XYHD12_CFx_MGN9_TopRail_Thumb.jpg" status="** NEW **">
+  <description slot="description">
+    A 2020 Carbon Fiber Tube is replacing X extrusion for huge weight saving.
+	The MGN9 linear rail is mounted on the top of the Carbon Fiber Tube to facilitate the installation of longer hotends and extruders like the Vz-HextrudORT Low.
+  </description>
+  <buttons slot="buttons">
+    <item-button url="https://github.com/MirageC79/HevORT/tree/master/files/STL/HD12/OPTION%20HD12CFx_TopRail">STLs</item-button>
+    <item-button url="https://a360.co/3YTyTso">CAD File</item-button>
+    <item-button url="bom/Option_HD12_CFx_TopRail_MGN9.htm">BOM - Web</item-button>
+    <item-button icon="fa fa-download" url="bom/Option_HD12_CFx_TopRail_MGN9.xlsx">BOM<br>Download</item-button>
+  </buttons>
+  <tags slot="tags">
+    <item-tag>12mm belt</item-tag>
+	<item-tag>Carbon Fiber</item-tag>
+	<item-tag>MGN9</item-tag>
+	<item-tag>Top Rail</item-tag>
   </tags>
 </item>
 </grid>
