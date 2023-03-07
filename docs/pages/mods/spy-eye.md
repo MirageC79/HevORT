@@ -1,6 +1,6 @@
 # The SpEye Filament and Jam Detector
 
-![SpyEye Banner](files/mods/miragec/spy-eye/spybanner.png)
+![SpyEye Banner](files/Mods/miragec/spy-eye/spybanner.png)
 
 Not only will this unit pause your print when you are out of filament, but it will also do the same if you have a spool jam.  
 Sensitivity can be adjusted to adapt to your setup.
@@ -33,7 +33,7 @@ I also use it as a pause button :)
 > 
 > The Case needs to print standing up as shown below
 
-![SpyEye Cura](files/mods/miragec/spy-eye/speyecura.png)
+![SpyEye Cura](files/Mods/miragec/spy-eye/speyecura.png)
 
 | Setting         | Value                                                                                                                     |
 |-----------------|---------------------------------------------------------------------------------------------------------------------------|
