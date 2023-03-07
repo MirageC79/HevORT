@@ -476,7 +476,7 @@ Smaller changes that may not fit into the bigger mods in the main [XY Gantry](#x
       <br>The SpEye can detect a spool jam and pause your print.
     </description>
     <buttons slot="buttons">
-      <item-button url="#/pages/Mods/spy-eye.md">SpEye page</item-button>
+      <item-button url="#/pages/mods/spy-eye.md">SpEye page</item-button>
     </buttons>
     <tags slot="tags">
     </tags>
