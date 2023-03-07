@@ -2,7 +2,7 @@ If you want to have your **mod** added to this site it needs to conform to some 
 that are supposed to keep **everything clean & organized**.
 
 1. Every contribution is required to have an image clearly showing the mod.
-  - All images (if hosted locally through GitHub) should be stored in **/files/mods/<your-username>/<your-mods-name>** folder
+  - All images (if hosted locally through GitHub) should be stored in **/files/Mods/<your-username>/<your-mods-name>** folder
     in this repository to improve loading speed.
   - Externally hosted image is allowed but needs to stay available.
     A mod without an image will be **removed** until the image is restored.
