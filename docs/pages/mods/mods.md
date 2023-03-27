@@ -359,7 +359,7 @@ Smaller changes that may not fit into the bigger mods in the main [XY Gantry](#x
       Also adds ability to change inlet direction using servo
     </description>
     <buttons slot="buttons">
-      <item-button url="https://hevort-mods.donnerplays.de/#/pages/Mods/cpap_7040_solution.md">GitHub Page</item-button>
+      <item-button url="https://hevort-mods.donnerplays.de/#/pages/mods/cpap_7040_solution.md">GitHub Page</item-button>
     </buttons>
     <credits slot="credits">
       <credit name="DonnerPlays"/>
@@ -476,7 +476,7 @@ Smaller changes that may not fit into the bigger mods in the main [XY Gantry](#x
       <br>The SpEye can detect a spool jam and pause your print.
     </description>
     <buttons slot="buttons">
-      <item-button url="#/pages/Mods/spy-eye.md">SpEye page</item-button>
+      <item-button url="#/pages/mods/spy-eye.md">SpEye page</item-button>
     </buttons>
     <tags slot="tags">
     </tags>

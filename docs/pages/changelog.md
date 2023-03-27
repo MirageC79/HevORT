@@ -4,6 +4,9 @@ This pages lists all recent changes starting from the 15.08.2022 as of now.
 
 * From newest to oldest
 
+## 03.03.2023 - Documentation
+- Added missing **printer-calibration** previously placed under ``/printercalibration.md``
+
 ## 24.10.2022 - Restructure Mods file location
 
 ## 21.08.2022 - Mods added
