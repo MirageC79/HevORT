@@ -229,7 +229,7 @@ HevORT uses triple Z system to leverage the self levelling function from your fi
   </description>
   <buttons slot="buttons">
     <item-button url="https://github.com/MirageC79/HevORT/tree/master/files/STL/ZR_V2.6">STLs GitHub</item-button>
-    <item-button url="https://a360.co/3PMtKih">CAD File</item-button>
+    <item-button url="https://a360.co/40QC5G5">CAD File</item-button>
     <item-button url="bom/BOM_ZR_V2.6.htm">BOM - Web</item-button>
     <item-button icon="fa fa-download" url="bom/BOM_ZR_V2.6.xlsx">BOM<br>Download</item-button>
   </buttons>
