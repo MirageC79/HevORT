@@ -94,6 +94,29 @@ You will find below the various configuration for XY Gantry.  Select one in func
     <item-tag>Servo</item-tag>
   </tags>
 </item>
+<item title="(SPAWD HD9/10) Short Path All Wheel Drive HD9/10" image="docs/assets/images/components/SPAWD9Thumb.png" status="** NEW **">
+  <description slot="description">
+    This HD family XY Gantry provides the opportunity to add two additional stepper motors to your printer.
+    <br> We call this AWD version Shorth Path due to the diagonal arrangement of the motors.  This reduces the belt distance between motor and print head.
+    <br>The XYHD gantry are meant for very large printers or for the ones with very high performance in mind.
+    <br><br>Featuring:
+    <br>9mm 2GT Belt,
+    <br>Center Pulley Bore 5mm Dowell Pins,
+    </description>
+  <buttons slot="buttons">
+    <item-button url="https://github.com/MirageC79/HevORT/tree/master/files/STL/HD9_10_SPAWD">STLs GitHub</item-button>
+    <item-button url="https://a360.co/3PYzaaK">CAD File</item-button>
+    <item-button url="bom/BOM_XY_HD9_10_SPAWD.htm">BOM - Web</item-button>
+    <item-button icon="fa fa-download" url="bom/BOM_XY_HD9_10_SPAWD.xlsx">BOM<br>Download</item-button>
+  </buttons>
+  <tags slot="tags">
+    <item-tag>9mm or 10mm belt</item-tag>
+    <item-tag>Nema17</item-tag>
+    <item-tag>Nema23</item-tag>
+    <item-tag>Servo</item-tag>
+    <item-tag>AWD</item-tag>
+  </tags>
+</item>
 <item title="(HD12) XY Heavy Duty 12mm" image="docs/assets/images/components/XYHD12Thumb.png">
   <description slot="description">
     This XY Gantry will fit on the same frame as the Standard and HT version of the XY Gantry.
