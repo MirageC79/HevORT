@@ -5,7 +5,7 @@ The HevORT project has been designed to be modular. This means you can select fr
 ## 1. Frame/Enclosure
 This is the base of the HevORT
 
-<grid columns="1fr 1fr">
+<grid>
 <item title="Frame" image="docs/assets/images/components/FrameThumb.png">
   <description slot="description">
     The bare base frame with a side electronics bay
