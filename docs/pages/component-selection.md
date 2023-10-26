@@ -148,6 +148,7 @@ You will find below the various configuration for XY Gantry.  Select one in func
     <item-tag>Nema23</item-tag>
     <item-tag>Servo</item-tag>
   </tags>
+</item>
 <item title="(SPAWD HD12) Short Path All Wheel Drive HD12" image="docs/assets/images/components/SPAWD12Thumb.png" status="** NEW **">
   <description slot="description">
     This HD family XY Gantry provides the opportunity to add two additional stepper motors to your printer.
@@ -170,7 +171,6 @@ You will find below the various configuration for XY Gantry.  Select one in func
     <item-tag>Servo</item-tag>
     <item-tag>AWD</item-tag>
   </tags>
-</item>
 </item>
 </grid>
 
