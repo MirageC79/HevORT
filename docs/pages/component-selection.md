@@ -19,6 +19,16 @@ This is the base of the HevORT
   <tags slot="tags">
   </tags>
 </item>
+<item title="HevORT Printer View" image="docs/assets/images/components/HevORT_EntirePrinter.png">
+  <description slot="description">
+    This is a complete view of the HevORT Printer.
+  </description>
+  <buttons slot="buttons">
+    <item-button url="https://a360.co/3PfIsOW">CAD</item-button>
+  </buttons>
+  <tags slot="tags">
+  </tags>
+</item>
 <item title="Enclosure" image="docs/assets/images/components/AcidBeeThumb.png">
   <description slot="description">
     The Acid Bee Enclosure
