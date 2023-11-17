@@ -6,10 +6,8 @@
 * [Electronics Selection](pages/electronics-selection.md)
 * [How to print the Parts](pages/how-to-print-parts.md)
 * Firmware Configuration
-  * [RepRapFirmware](pages/firmware-configuration/repRapFirmware.md)
   * [Klipper](pages/firmware-configuration/klipper.md)
 * [Mods](pages/mods/mods.md)
-* [Changelog](pages/changelog.md)
 * Useful stuff
   * [Links](pages/useful-stuff/links.md)
   * [Tools](pages/useful-stuff/tools.md)
