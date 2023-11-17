@@ -1,12 +1,12 @@
-# Component Selection
+# **Component Selection**
 
 The HevORT project has been designed to be modular. This means you can select from multiple components configuration and assemble the one that will suit your needs.
 
-## 1. Frame/Enclosure
-This is the base of the HevORT
+## 1. FRAME & ENCLOSURE
+Get started with the foundations of your HevORT.
 
 <grid>
-<item title="Frame" image="docs/assets/images/components/FrameThumb.png">
+<item title="Frame" image="docs/assets/images/components/FrameThumb.jpg">
   <description slot="description">
     The bare base frame with a side electronics bay
   </description>
@@ -19,17 +19,7 @@ This is the base of the HevORT
   <tags slot="tags">
   </tags>
 </item>
-<item title="HevORT Printer View" image="docs/assets/images/components/HevORT_EntirePrinter.png">
-  <description slot="description">
-    This is a complete view of the HevORT Printer.
-  </description>
-  <buttons slot="buttons">
-    <item-button url="https://a360.co/3PfIsOW">CAD</item-button>
-  </buttons>
-  <tags slot="tags">
-  </tags>
-</item>
-<item title="Enclosure" image="docs/assets/images/components/AcidBeeThumb.png">
+<item title="Acid Bee Enclosure" image="docs/assets/images/components/AcidBeeThumb.png">
   <description slot="description">
     The Acid Bee Enclosure
   </description>
@@ -42,9 +32,34 @@ This is the base of the HevORT
   <tags slot="tags">
   </tags>
 </item>
+<item title="Water Cooling Bay" image="docs/assets/images/components/WatercoolingbayThumb.jpg">
+  <description slot="description">
+    An appendix to the printer so you can keep the water out of reach to the electronics. 
+	<br>This setup proposes a nice display with integrated LEDs that will shine through your print aera back panel.
+  </description>
+  <buttons slot="buttons">
+    <item-button url="https://github.com/MirageC79/HevORT/tree/master/files/STL/Enclosure/WaterCooling_Bay">STLs GitHub</item-button>
+    <item-button url="https://a360.co/3ZyMiYh">CAD File</item-button>
+    <item-button url="bom/BOM_WaterCooling_Bay.htm">BOM - Web</item-button>
+    <item-button icon="fa fa-download" url="bom/BOM_WaterCooling_Bay.xlsx">BOM<br>Download</item-button>
+  </buttons>
+  <tags slot="tags">
+  <item-tag>Water Cooling</item-tag>
+  </tags>
+</item>
+<item title="HevORT Printer View" image="docs/assets/images/components/HevORT_EntirePrinter.png">
+  <description slot="description">
+    This is a complete view of the HevORT Printer.
+  </description>
+  <buttons slot="buttons">
+    <item-button url="https://a360.co/3PfIsOW">CAD</item-button>
+  </buttons>
+  <tags slot="tags">
+  </tags>
+</item>
 </grid>
 
-## 2. XY Gantry
+## 2. XY GANTRY
 You will find below the various configuration for XY Gantry.  Select one in function of your needs:
 
 <grid>
@@ -174,7 +189,7 @@ You will find below the various configuration for XY Gantry.  Select one in func
 </item>
 </grid>
 
-### X Axis Options
+## 2.1. X Axis Options
 Alternative version/improvements to the above Gantry parts (like Carbon fibre)
 
 <grid>
@@ -264,7 +279,7 @@ Alternative version/improvements to the above Gantry parts (like Carbon fibre)
 </item>
 </grid>
 
-## 3. Z Axis and Build Plate
+## 3. Z AXIS AND BUILD PLATE
 HevORT uses triple Z system to leverage the self levelling function from your firmware.  <br>Choose your weapon wisely ;)
 
 <grid>
@@ -352,14 +367,36 @@ HevORT uses triple Z system to leverage the self levelling function from your fi
 </item>
 </grid>
 
-## 4. Print Head
+## 4. PRINT HEAD
 Several versions are already published, but a lot more are being created by the community.
 Search for HevORT on [Thingiverse](https://www.thingiverse.com/) to find the latest.
 This list will capture the ones I created plus the ones from members of the [FB community](https://www.facebook.com/groups/hevort/) that wish to have their work posted here.
 All configuration here below include the [BLtouch from Antclabs](https://www.antclabs.com/bltouch) as a Z probe.
 
 <grid>
-<item title="E3D Hemera" image="docs/assets/images/components/HemeraThumb.png">
+<item title="Vez Metal Print Head & Goliath Short" image="docs/assets/images/components/VZPinthead_GoliathShortThumb.jpg" status="**NEW**">
+  <description slot="description">
+	All metal, all flow, all rigidity! <br><br>
+	The Vez Metal Print Head for HevORT offers maximum rigidity and light weight in a very compact form factor.  <br><br>
+	Coupled to the mighty Goliath Hotend and the Vz-HextrudORT Metal, this print head becomes the perfect weapon for all print conditions. <br><br> 
+	Thank you Vez!<br><br>
+	To run this config you'll need:<br>
+	- XY Gantry from any HD config: HD9, HD12, SPAWD9/10, SPAWD 12<br>
+	- X axis with MGN9 rail mounted to the top of cross beam<br>			
+	- Water Cooling System<br>
+	- CPAP compressor system<br>		
+  </description>
+  <buttons slot="buttons">
+    <item-button url="https://github.com/MirageC79/HevORT/tree/master/files/STL/PrintHead/VezMetalPrintHead_HDx">Thingiverse</item-button>
+    <item-button url="https://a360.co/47wpYBq">CAD File</item-button>
+    <item-button url="bom/BOM_VezMetalPrintHead_GoliathShort_VZHextrudORT_WC.htm">BOM - Web</item-button>
+    <item-button icon="fa fa-download" url="bom/BOM_VezMetalPrintHead_GoliathShort_VZHextrudORT_WC.xlsx">BOM<br>Download</item-button>
+  </buttons>
+  <tags slot="tags">
+  <item-tag>Water Cooling</item-tag>
+  </tags>
+</item>
+<item title="E3D Hemera" image="docs/assets/images/components/HemeraThumb.png" status="Retired">
   <description slot="description">
     Including configuration for E3D V6,
     <br>Volcano
@@ -376,7 +413,7 @@ All configuration here below include the [BLtouch from Antclabs](https://www.ant
   <tags slot="tags">
   </tags>
 </item>
-<item title="BMG/Titan Aqua" image="docs/assets/images/components/BMGAquaThumb.png">
+<item title="BMG/Titan Aqua" image="docs/assets/images/components/BMGAquaThumb.png" status="Retired">
   <description slot="description">
     This is the all metal BMG (Right Hand) paired with a Titan Aqua cooling plate,
     <br>E3D Volcano
@@ -393,7 +430,7 @@ All configuration here below include the [BLtouch from Antclabs](https://www.ant
     <item-tag>water cooled</item-tag>
   </tags>
 </item>
-<item title="E3D Hemera Top Mounted and SuperVolcano" image="docs/assets/images/components/HemeraTopMountThumb.png">
+<item title="E3D Hemera Top Mounted and SuperVolcano" image="docs/assets/images/components/HemeraTopMountThumb.png" status="Retired">
   <description slot="description">
     This print head requires the use of E3D Super Volcano.
     <br><br>Part cooling is achieved by BerdAir system.
@@ -411,7 +448,7 @@ All configuration here below include the [BLtouch from Antclabs](https://www.ant
 </item>
 </grid>
 
-### HextrudORT
+## 4.1 HevORT HextrudORT (Printed)
 
 The HextrudORT is a special print head because it is not just one print head but multiple.
 It starts with a generic carriage and allows different Print heads to be mounted to that carriage.
@@ -435,12 +472,13 @@ Supported print heads include (as of now):
 </item>
 </grid>
 
-## 4. Electronics
+## 5. ELECTRONIC
 
 <grid v-bind:config="{gridTemplateColumns: '1fr 1fr'}">
-<item title="Electronics" image="docs/assets/images/components/ElectronicsThumb.jpg">
+<item title="Electronics" image="docs/assets/images/components/ElectronicsThumb.jpg" >
   <description slot="description">
-    Electronics List of material for Power Management and Control Board
+    Electronics List of material for Power Management and Control Board<br><br>
+	** The information contained in this item is obsolete, use with caution.
   </description>
   <buttons slot="buttons">
     <item-button url="https://www.thingiverse.com/thing:3953165">Electronics Island proposal</item-button>
