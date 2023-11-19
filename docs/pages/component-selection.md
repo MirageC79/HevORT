@@ -374,7 +374,30 @@ This list will capture the ones I created plus the ones from members of the [FB 
 All configuration here below include the [BLtouch from Antclabs](https://www.antclabs.com/bltouch) as a Z probe.
 
 <grid>
-<item title="Vez Metal Print Head & Goliath Short" image="docs/assets/images/components/VZPinthead_GoliathShortThumb.jpg" status="**NEW**">
+<item title="Vez Metal Print Head & Goliath SHORT" image="docs/assets/images/components/VZPinthead_GoliathShortThumb.jpg" status="**NEW**">
+  <description slot="description">
+	All metal, all flow, all rigidity! <br><br>
+	The Vez Metal Print Head for HevORT offers maximum rigidity and light weight in a very compact form factor.  <br><br>
+	Coupled to the mighty Goliath Hotend and the Vz-HextrudORT Metal, this print head becomes the perfect weapon for all print conditions. <br><br> 
+	Thank you Vez!<br><br>
+	To run this config you'll need:<br>
+	- XY Gantry from any HD config: HD9, HD12, SPAWD9/10, SPAWD 12<br>
+	- X axis with MGN9 rail mounted to the top of cross beam<br>			
+	- ZR2.6 High Reach mod so the bed can get to this short Hotend
+	- Water Cooling System<br>
+	- CPAP compressor system<br>		
+  </description>
+  <buttons slot="buttons">
+    <item-button url="https://github.com/MirageC79/HevORT/tree/master/files/STL/PrintHead/VezMetalPrintHead_HDx">STLs GitHub</item-button>
+    <item-button url="https://a360.co/47wpYBq">CAD File</item-button>
+    <item-button url="bom/BOM_VezMetalPrintHead_GoliathShort_VZHextrudORT_WC.htm">BOM - Web</item-button>
+    <item-button icon="fa fa-download" url="bom/BOM_VezMetalPrintHead_GoliathShort_VZHextrudORT_WC.xlsx">BOM<br>Download</item-button>
+  </buttons>
+  <tags slot="tags">
+  <item-tag>Water Cooling</item-tag>
+  </tags>
+</item>
+<item title="Vez Metal Print Head & Goliath LONG" image="docs/assets/images/components/VZPinthead_GoliathLongThumb.jpg" status="**NEW**">
   <description slot="description">
 	All metal, all flow, all rigidity! <br><br>
 	The Vez Metal Print Head for HevORT offers maximum rigidity and light weight in a very compact form factor.  <br><br>
@@ -389,8 +412,8 @@ All configuration here below include the [BLtouch from Antclabs](https://www.ant
   <buttons slot="buttons">
     <item-button url="https://github.com/MirageC79/HevORT/tree/master/files/STL/PrintHead/VezMetalPrintHead_HDx">STLs GitHub</item-button>
     <item-button url="https://a360.co/47wpYBq">CAD File</item-button>
-    <item-button url="bom/BOM_VezMetalPrintHead_GoliathShort_VZHextrudORT_WC.htm">BOM - Web</item-button>
-    <item-button icon="fa fa-download" url="bom/BOM_VezMetalPrintHead_GoliathShort_VZHextrudORT_WC.xlsx">BOM<br>Download</item-button>
+    <item-button url="bom/BOM_VezMetalPrintHead_GoliathLong_VZHextrudORT.htm">BOM - Web</item-button>
+    <item-button icon="fa fa-download" url="bom/BOM_VezMetalPrintHead_GoliathLong_VZHextrudORT.xlsx">BOM<br>Download</item-button>
   </buttons>
   <tags slot="tags">
   <item-tag>Water Cooling</item-tag>
