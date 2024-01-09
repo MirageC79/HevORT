@@ -63,7 +63,7 @@ Get started with the foundations of your HevORT.
 You will find below the various configuration for XY Gantry.  Select one in function of your needs:
 
 <grid>
-<item title="Standard XY" image="docs/assets/images/components/XYThumb.png">
+<item title="Standard XY" image="docs/assets/images/components/XYThumb.jpg">
   <description slot="description">
     This version is suited for the commonly available GT2 pulleys.
     <br>These pulleys available from China and other location are 9mm thick and have wider flanges(lips).
@@ -419,7 +419,7 @@ All configuration here below include the [BLtouch from Antclabs](https://www.ant
   <item-tag>Water Cooling</item-tag>
   </tags>
 </item>
-<item title="E3D Hemera" image="docs/assets/images/components/HemeraThumb.png" status="Retired">
+<item title="E3D Hemera" image="docs/assets/images/components/HemeraThumb.jpg" status="Retired">
   <description slot="description">
     Including configuration for E3D V6,
     <br>Volcano
