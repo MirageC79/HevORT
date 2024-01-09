@@ -419,7 +419,7 @@ All configuration here below include the [BLtouch from Antclabs](https://www.ant
   <item-tag>Water Cooling</item-tag>
   </tags>
 </item>
-<item title="E3D Hemera" image="docs/assets/images/components/HemeraThumb.png" status="Retired">
+<item title="E3D Hemera" image="docs/assets/images/components/HemeraThumb.jpg" status="Retired">
   <description slot="description">
     Including configuration for E3D V6,
     <br>Volcano
