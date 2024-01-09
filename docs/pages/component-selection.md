@@ -63,7 +63,7 @@ Get started with the foundations of your HevORT.
 You will find below the various configuration for XY Gantry.  Select one in function of your needs:
 
 <grid>
-<item title="Standard XY" image="docs/assets/images/components/XYThumb.png">
+<item title="Standard XY" image="docs/assets/images/components/XYThumb.jpg">
   <description slot="description">
     This version is suited for the commonly available GT2 pulleys.
     <br>These pulleys available from China and other location are 9mm thick and have wider flanges(lips).
