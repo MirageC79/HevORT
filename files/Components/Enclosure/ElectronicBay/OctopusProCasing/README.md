@@ -1,4 +1,4 @@
-![alt text](https://github.com/MirageC79/HevORT/blob/master/files/Components/ElectronicBay/OctopusProCasing/images/Octopus_casing_acidbee_render.jpg?raw=true)
+![alt text](https://github.com/MirageC79/HevORT/blob/master/files/Components/Enclosure/ElectronicBay/OctopusProCasing/images/Octopus_casing_acidbee_render.jpg?raw=true)
 
 **STLs:**
 https://github.com/.../AcidBee_Enclosure/OctopusProCasing
