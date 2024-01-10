@@ -38,7 +38,7 @@ Get started with the foundations of your HevORT.
 	<br>This setup proposes a nice display with integrated LEDs that will shine through your print aera back panel.
   </description>
   <buttons slot="buttons">
-    <item-button url="https://github.com/MirageC79/HevORT/tree/master/files/STL/Enclosure/WaterCooling_Bay">STLs GitHub</item-button>
+    <item-button url="https://github.com/MirageC79/HevORT/tree/master/files/Components/Enclosure/WaterCooling_Bay">STLs GitHub</item-button>
     <item-button url="https://a360.co/3ZyMiYh">CAD File</item-button>
     <item-button url="bom/BOM_WaterCooling_Bay.htm">BOM - Web</item-button>
     <item-button icon="fa fa-download" url="bom/BOM_WaterCooling_Bay.xlsx">BOM<br>Download</item-button>
@@ -129,7 +129,7 @@ You will find below the various configuration for XY Gantry.  Select one in func
     <br>Center Pulley Bore 5mm Dowell Pins,
     </description>
   <buttons slot="buttons">
-    <item-button url="https://github.com/MirageC79/HevORT/tree/master/files/STL/HD9_10_SPAWD">STLs GitHub</item-button>
+    <item-button url="https://github.com/MirageC79/HevORT/tree/master/files/Components/HD9_10_SPAWD">STLs GitHub</item-button>
     <item-button url="https://a360.co/3PYzaaK">CAD File</item-button>
     <item-button url="bom/BOM_XY_HD9_10_SPAWD.htm">BOM - Web</item-button>
     <item-button icon="fa fa-download" url="bom/BOM_XY_HD9_10_SPAWD.xlsx">BOM<br>Download</item-button>
@@ -174,7 +174,7 @@ You will find below the various configuration for XY Gantry.  Select one in func
     <br>Center Pulley Bore 5mm Dowell Pins,
     </description>
   <buttons slot="buttons">
-    <item-button url="https://github.com/MirageC79/HevORT/tree/master/files/STL/HD12_SPAWD">STLs GitHub</item-button>
+    <item-button url="https://github.com/MirageC79/HevORT/tree/master/files/Components/HD12_SPAWD">STLs GitHub</item-button>
     <item-button url="https://a360.co/494fgUd">CAD File</item-button>
     <item-button url="bom/BOM_XY_HD12_SPAWD.htm">BOM - Web</item-button>
     <item-button icon="fa fa-download" url="bom/BOM_XY_HD12_SPAWD.xlsx">BOM<br>Download</item-button>
@@ -214,7 +214,7 @@ Alternative version/improvements to the above Gantry parts (like Carbon fibre)
     A 2020 Carbon Fiber Tube is replacing X extrusion for huge weight saving.
   </description>
   <buttons slot="buttons">
-    <item-button url="https://github.com/MirageC79/HevORT/tree/master/files/STL/HD9/Option_HD9_CFx">STLs</item-button>
+    <item-button url="https://github.com/MirageC79/HevORT/tree/master/files/Components/HD9/Option_HD9_CFx">STLs</item-button>
     <item-button url="https://a360.co/3ttC8sp">CAD File</item-button>
     <item-button url="bom/Option_HD9_CFx_MGN9.htm">BOM - Web</item-button>
     <item-button icon="fa fa-download" url="bom/Option_HD9_CFx_MGN9.xlsx">BOM<br>Download</item-button>
@@ -231,7 +231,7 @@ Alternative version/improvements to the above Gantry parts (like Carbon fibre)
 	The MGN9 linear rail is mounted on the top of the Carbon Fiber Tube to facilitate the installation of longer hotends and extruders like the Vz-HextrudORT Low.
   </description>
   <buttons slot="buttons">
-    <item-button url="https://github.com/MirageC79/HevORT/tree/master/files/STL/HD9/Option_HD9_CFx_TopRail">STLs</item-button>
+    <item-button url="https://github.com/MirageC79/HevORT/tree/master/files/Components/HD9/Option_HD9_CFx_TopRail">STLs</item-button>
     <item-button url="https://a360.co/3YuR1c5">CAD File</item-button>
     <item-button url="bom/Option_HD9_CFx_TopRail_MGN9.htm">BOM - Web</item-button>
     <item-button icon="fa fa-download" url="bom/Option_HD9_CFx_TopRail_MGN9.xlsx">BOM<br>Download</item-button>
@@ -265,7 +265,7 @@ Alternative version/improvements to the above Gantry parts (like Carbon fibre)
 	The MGN9 linear rail is mounted on the top of the Carbon Fiber Tube to facilitate the installation of longer hotends and extruders like the Vz-HextrudORT Low.
   </description>
   <buttons slot="buttons">
-    <item-button url="https://github.com/MirageC79/HevORT/tree/master/files/STL/HD12/OPTION%20HD12CFx_TopRail">STLs</item-button>
+    <item-button url="https://github.com/MirageC79/HevORT/tree/master/files/Components/HD12/OPTION%20HD12CFx_TopRail">STLs</item-button>
     <item-button url="https://a360.co/3YTyTso">CAD File</item-button>
     <item-button url="bom/Option_HD12_CFx_TopRail_MGN9.htm">BOM - Web</item-button>
     <item-button icon="fa fa-download" url="bom/Option_HD12_CFx_TopRail_MGN9.xlsx">BOM<br>Download</item-button>
@@ -298,7 +298,7 @@ HevORT uses triple Z system to leverage the self levelling function from your fi
 	than the poor half lip of a thread the SFU1204 usually offers.
   </description>
   <buttons slot="buttons">
-    <item-button url="https://github.com/MirageC79/HevORT/tree/master/files/STL/ZR_V2.6">STLs GitHub</item-button>
+    <item-button url="https://github.com/MirageC79/HevORT/tree/master/files/Components/ZR_V2.6">STLs GitHub</item-button>
     <item-button url="https://a360.co/44C6QRo">CAD File</item-button>
     <item-button url="bom/BOM_ZR_V2.6.htm">BOM - Web</item-button>
     <item-button icon="fa fa-download" url="bom/BOM_ZR_V2.6.xlsx">BOM<br>Download</item-button>
@@ -388,7 +388,7 @@ All configuration here below include the [BLtouch from Antclabs](https://www.ant
 	- CPAP compressor system<br>		
   </description>
   <buttons slot="buttons">
-    <item-button url="https://github.com/MirageC79/HevORT/tree/master/files/STL/PrintHead/VezMetalPrintHead_HDx">STLs GitHub</item-button>
+    <item-button url="https://github.com/MirageC79/HevORT/tree/master/files/Components/PrintHead/VezMetalPrintHead_HDx">STLs GitHub</item-button>
     <item-button url="https://a360.co/47wpYBq">CAD File</item-button>
     <item-button url="bom/BOM_VezMetalPrintHead_GoliathShort_VZHextrudORT_WC.htm">BOM - Web</item-button>
     <item-button icon="fa fa-download" url="bom/BOM_VezMetalPrintHead_GoliathShort_VZHextrudORT_WC.xlsx">BOM<br>Download</item-button>
@@ -410,7 +410,7 @@ All configuration here below include the [BLtouch from Antclabs](https://www.ant
 	- CPAP compressor system<br>		
   </description>
   <buttons slot="buttons">
-    <item-button url="https://github.com/MirageC79/HevORT/tree/master/files/STL/PrintHead/VezMetalPrintHead_HDx">STLs GitHub</item-button>
+    <item-button url="https://github.com/MirageC79/HevORT/tree/master/files/Components/PrintHead/VezMetalPrintHead_HDx">STLs GitHub</item-button>
     <item-button url="https://a360.co/46kIhZh">CAD File</item-button>
     <item-button url="bom/BOM_VezMetalPrintHead_GoliathLong_VZHextrudORT.htm">BOM - Web</item-button>
     <item-button icon="fa fa-download" url="bom/BOM_VezMetalPrintHead_GoliathLong_VZHextrudORT.xlsx">BOM<br>Download</item-button>
