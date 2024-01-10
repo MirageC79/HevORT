@@ -23,11 +23,6 @@ Get started with the foundations of your HevORT.
   <description slot="description">
     The Acid Bee Enclosure
   </description>
-    <images slot="images">
-    <item-image url="https://raw.githubusercontent.com/MirageC79/HevORT/master/files/Components/Enclosure/AcidBee_Enclosure/images/3030 Extrusion Slot covers v2.png"></item-image>
-    <item-image url="https://raw.githubusercontent.com/MirageC79/HevORT/master/files/Components/Enclosure/AcidBee_Enclosure/images/Enclosure_HD12 20v93.png"></item-image>
-    <item-image url="https://raw.githubusercontent.com/MirageC79/HevORT/master/files/Components/Enclosure/AcidBee_Enclosure/images/AcidBee_Enclosure_Release1_with Logo.jpg"></item-image>
-  </images>
   <buttons slot="buttons">
     <item-button url="https://www.thingiverse.com/thing:5188673">Thingiverse</item-button>
     <item-button url="https://a360.co/3HOJCyF">CAD File</item-button>
