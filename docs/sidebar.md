@@ -1,13 +1,15 @@
 * [Home](pages/home.md)
 * [Intro](pages/intro.md)
+* **PLAN YOUR BUILD**
 * [Printer Size](pages/printer-size.md)
 * [Frame Calculation](pages/frame-calculation.md)
-* [Component Selection](pages/component-selection.md)
-* [Electronics Selection](pages/electronics-selection.md)
-* [How to print the Parts](pages/how-to-print-parts.md)
-* Firmware Configuration
-  * [Klipper](pages/firmware-configuration/klipper.md)
+* [Select Configuration](pages/component-selection.md)
+* [Select Electronics](pages/electronics-selection.md)
+* **MAKE IT HAPPEN**
+* [Printing the Parts](pages/how-to-print-parts.md)
+* [Firmware Configuration](pages/firmware-configuration/klipper.md)
 * [Mods](pages/mods/mods.md)
+* **OTHERS**
 * Useful stuff
   * [Links](pages/useful-stuff/links.md)
   * [Tools](pages/useful-stuff/tools.md)
@@ -22,7 +24,6 @@
       <a class="social-btn" href="https://www.youtube.com/c/MirageC" target="_blank" rel="noopener"><i class="social-btn-icon fa-brands fa-youtube"></i></a>
       <a class="social-btn" href="https://www.facebook.com/groups/hevort" target="_blank" rel="noopener"><i class="social-btn-icon fa-brands fa-facebook"></i></a>
       <a class="social-btn" href="https://discord.gg/nCYRQAZPWV" target="_blank" rel="noopener"><i class="social-btn-icon fa-brands fa-discord"></i></a>
-      <a class="social-btn" href="https://forums.hevort.com/index.php" target="_blank" rel="noopener"><i class="social-btn-icon fa-brands fa-php"></i></a>
     </div>
 </div>
 

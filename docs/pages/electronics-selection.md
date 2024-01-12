@@ -1,5 +1,9 @@
 # Choosing Electronic Components
 
+|WARNING|
+The information on this page is obsolete.  Use for reference only.  Updated recommendations to come.
+|WARNING| 
+
 ## 1. The Control Board
 3D printer electronics have come a long way since the popular RAMP boards.  
 32bit control boards are now the standard and more stepper motor drivers are being added to allow for all sorts of capabilities tool changer, multiple material extruder and even Triple Z Motor Self Leveling :)
@@ -21,6 +25,10 @@ At this point as I only have experience with one specific control board, the doc
 Considered by many as the Cadillac of control boards,  
 this open source device has many advantages over the majority of current available boards.   
 A bit more expensive, but nobody ever regretted... At least that I know of...
+
+|WARNING|
+The information on this page is obsolete.  Use for reference only.  Updated recommendations to come.
+|WARNING| 
 
 #### What makes it so special?  a few things;
 
@@ -57,6 +65,10 @@ __Walk to the shop:__
 * Walk away and keep looking at my web cam once in a while using my phone.
   _In case of failure, I will use my phone to log on the DWC and stop the printer_
 * Come back, pick up the part and play!
+
+|WARNING|
+The information on this page is obsolete.  Use for reference only.  Updated recommendations to come.
+|WARNING| 
 
 ## Which Duet to buy?
 Two possible configurations of Duet can currently serve your HevORT: _Remember, you need at least 6 stepper drivers to use the ZR Self Leveling._\

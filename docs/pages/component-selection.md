@@ -1,8 +1,8 @@
-# **Component Selection**
+# **Configuration Selection**
 
 The HevORT project has been designed to be modular. This means you can select from multiple components configuration and assemble the one that will suit your needs.
 
-## 1. FRAME & ENCLOSURE
+## Frame & Enclosure
 Get started with the foundations of your HevORT.
 
 <grid>
@@ -59,7 +59,7 @@ Get started with the foundations of your HevORT.
 </item>
 </grid>
 
-## 2. XY GANTRY
+## XY Gantry
 You will find below the various configuration for XY Gantry.  Select one in function of your needs:
 
 <grid>
@@ -189,7 +189,7 @@ You will find below the various configuration for XY Gantry.  Select one in func
 </item>
 </grid>
 
-## 2.1. X Axis Options
+### - X Axis Options
 Alternative version/improvements to the above Gantry parts (like Carbon fibre)
 
 <grid>
@@ -279,7 +279,7 @@ Alternative version/improvements to the above Gantry parts (like Carbon fibre)
 </item>
 </grid>
 
-## 3. Z AXIS AND BUILD PLATE
+## Z Axis & Build Plate
 HevORT uses triple Z system to leverage the self levelling function from your firmware.  <br>Choose your weapon wisely ;)
 
 <grid>
@@ -367,7 +367,7 @@ HevORT uses triple Z system to leverage the self levelling function from your fi
 </item>
 </grid>
 
-## 4. PRINT HEAD
+## Print Head
 Several versions are already published, but a lot more are being created by the community.
 Search for HevORT on [Thingiverse](https://www.thingiverse.com/) to find the latest.
 This list will capture the ones I created plus the ones from members of the [FB community](https://www.facebook.com/groups/hevort/) that wish to have their work posted here.
@@ -471,7 +471,7 @@ All configuration here below include the [BLtouch from Antclabs](https://www.ant
 </item>
 </grid>
 
-## 4.1 HevORT HextrudORT (Printed)
+### - HextrudORT
 
 The HextrudORT is a special print head because it is not just one print head but multiple.
 It starts with a generic carriage and allows different Print heads to be mounted to that carriage.
@@ -495,7 +495,7 @@ Supported print heads include (as of now):
 </item>
 </grid>
 
-## 5. ELECTRONIC
+## Electronics
 
 <grid v-bind:config="{gridTemplateColumns: '1fr 1fr'}">
 <item title="Electronics" image="docs/assets/images/components/ElectronicsThumb.jpg" >
@@ -507,6 +507,19 @@ Supported print heads include (as of now):
     <item-button url="https://www.thingiverse.com/thing:3953165">Electronics Island proposal</item-button>
     <item-button url="bom/BOM_Electronics.htm">BOM - Web</item-button>
     <item-button icon="fa fa-download" url="bom/BOM_Electronics.xlsx">BOM<br>Download</item-button>
+  </buttons>
+  <tags slot="tags">
+  </tags>
+</item>
+<item title="Electronics" image="docs/assets/images/components/OctopusCasingThumb.jpg" >
+  <description slot="description">
+    A ventilated enclosure for the<br>  
+     - Octopus<br>
+     - Octopus Pro<br> from BigTreeTech
+  </description>
+  <buttons slot="buttons">
+    <item-button url="https://github.com/MirageC79/HevORT/tree/master/files/Components/Enclosure/ElectronicBay/OctopusProCasing">STLs GitHub</item-button>
+    <item-button url="https://biqu.equipment/collections/control-board/products/bigtreetech-octopus-pro-v1-0-chip-f446">Buy Octopus Board</item-button>
   </buttons>
   <tags slot="tags">
   </tags>

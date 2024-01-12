@@ -3,7 +3,7 @@
 Big print area sounds better and something important you need. But lets figure out what size you actually need.
 Here are the pros and cons about big printers that are to be considered.  When I a mean big print area i am talking about 450mm and + cubic printer.
 
-## GO Big? or not...?
+## Go BIG? or not...?
 
 ### PRO's
 - You can print big parts in one shot.
@@ -19,9 +19,10 @@ Here are the pros and cons about big printers that are to be considered.  When I
 - More energy required.  Even when printing small parts as the entire bed will need to be warmed up.
 - Takes more space
 - More belt ringing due to longer unsupported belt lengths
-
+- Higher risk of uneven bed surface
+- Heat chamber may distort the frame and the X cross member due to thermal expansion of longer extrusion pieces
+---
 ### So what size do you need?
-
 My personal answer to this is 2 printers:
 - One smaller with heated chamber for quality prints, high speed and technical material
 - And a bigger one for big batches or big parts

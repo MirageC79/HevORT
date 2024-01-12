@@ -1,15 +1,9 @@
-# Welcome to the HevORT project!
-
 ![Cover Image Flat](docs/assets/images/cover-flat.png)
+# Welcome to the **HevORT** project !
 
-## What is the HevORT?
-
-In a nutshell, the HevORT is a DIY 3D printer that is meant to push the boundaries of FDM printing  
-in terms of speed, repeatability & maintainability.  
-
-
+The HevORT is a DIY 3D printer that is meant to push the boundaries of FDM printing in terms of speed, repeatability & maintainability.  
 Quality will be the same as any well calibrated FDM only the HevORT prints to that quality level faster... much faster! :)   
-
+<br>
 
 <a class="hevort-message hevort-btn" target="_blank" href="https://discord.gg/nCYRQAZPWV" rel="noopener"><span class="hevort-btn-text">Click here and join the Discord to get in touch with even more people actively discussing the next big thing</span><img alt="Discord Logo" src="docs/assets/images/discord-logo.png" /></a>
 <a class="hevort-message hevort-btn" target="_blank" href="https://www.facebook.com/groups/hevort" rel="noopener"><span class="hevort-btn-text">Click here and join the Facebook group</span><img alt="Facebook Logo" src="docs/assets/images/facebook-logo.png" /></a>
