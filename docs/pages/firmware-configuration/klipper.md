@@ -1,4 +1,4 @@
-# KLIPPER CONFIGURATION
+# **KLIPPER CONFIGURATION**
 
 ## What is Klipper?
 

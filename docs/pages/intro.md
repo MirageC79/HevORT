@@ -1,4 +1,4 @@
-# Intro
+# **INTRO**
 
 ## Why the HevORT?
 I got into 3D printing by building a CoreXY [Hypercube Evolution 300X300X300 (HEVO)](https://www.thingiverse.com/thing:2254103).  

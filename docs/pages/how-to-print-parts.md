@@ -1,4 +1,4 @@
-# How to print the HevORT parts?
+# **HOW TO PRINT TH HEVORT PARTS?**
 
 ![Print Banner](docs/assets/images/how-to-print-parts/printbanner.png)
 

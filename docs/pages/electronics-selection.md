@@ -1,4 +1,4 @@
-# Choosing Electronic Components
+# **CHOOSING ELECTRONIC COMPONENTS**
 
 |WARNING|
 The information on this page is obsolete.  Use for reference only.  Updated recommendations to come.

@@ -1,4 +1,4 @@
-# Defining the size of your HevORT
+# **DEFINING THE SIZE OF YOUR HEVORT**
 
 Big print area sounds better and something important you need. But lets figure out what size you actually need.
 Here are the pros and cons about big printers that are to be considered.  When I a mean big print area i am talking about 450mm and + cubic printer.
