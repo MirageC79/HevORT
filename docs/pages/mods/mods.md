@@ -1,4 +1,4 @@
-# Mods
+# **Mods**
 
 > This is the section for the community
 >
