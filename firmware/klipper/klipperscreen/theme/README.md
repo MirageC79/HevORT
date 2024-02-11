@@ -8,5 +8,6 @@
 `sudo service KlipperScreen restart`
 
 3 - Select HevORT theme from the KlipperScreen menu.
-![image](https://github.com/MirageC79/HevORT/assets/29920140/5184c7db-e621-4cd5-9e2a-f2ec74bcd66d)
+![image](https://github.com/MirageC79/HevORT/assets/29920140/c9e53b99-a657-4fdc-8927-23dd0f2a6a27)
+
 
