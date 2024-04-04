@@ -413,6 +413,7 @@ All configuration here below include the [BLtouch from Antclabs](https://www.ant
   <buttons slot="buttons">
     <item-button url="https://github.com/MirageC79/HevORT/tree/master/files/Components/PrintHead/VezMetalPrintHead_HDx">STLs GitHub</item-button>
     <item-button url="https://a360.co/46kIhZh">CAD File</item-button>
+    <item-button url="https://github.com/MirageC79/HevORT/blob/master/files/Components/PrintHead/VezMetalPrintHead_HDx/VZ_MetalPrintHead%20Hardware%20Map.pdf">Hardware Map</item-button>
     <item-button url="bom/BOM_VezMetalPrintHead_GoliathLong_VZHextrudORT.htm">BOM - Web</item-button>
     <item-button icon="fa fa-download" url="bom/BOM_VezMetalPrintHead_GoliathLong_VZHextrudORT.xlsx">BOM<br>Download</item-button>
   </buttons>
